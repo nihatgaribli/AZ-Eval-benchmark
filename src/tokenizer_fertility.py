@@ -33,7 +33,7 @@ import json
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Sequence
+from typing import Any, Callable, Sequence
 
 DEFAULT_MODELS = (
     "Qwen/Qwen3-1.7B",
@@ -77,7 +77,18 @@ def measure(model: str, az: Sequence[str], en: Sequence[str]) -> Fertility:
     return Fertility(model, counts[0], counts[1])
 
 
-def build_table(results: Sequence[Fertility]) -> str:
+def build_table(
+    results: Sequence[Fertility],
+    measure: Callable[[str, str], tuple[int, int] | None] | None = None,
+) -> str:
+    """Hesabat mətni. `measure` verilməsə əsl tokenizatorlar yüklənir.
+
+    `measure` NİYƏ İNYEKSİYA EDİLİR. Bu modulun testləri öz sənədində
+    "model YÜKLƏMİR" yazır, amma `build_table` cüt bölməsini qurarkən
+    `added_tokens` vasitəsilə tokenizator çəkirdi. Testlər yalnız keş
+    sayəsində keçirdi: altı test dörd dəqiqə çəkirdi və `transformers`
+    quraşdırılmamış təmiz mühitdə cədvəlin yarısı itirdi.
+    """
     lines = [
         "# Tokenizator məhsuldarlığı",
         "",
@@ -104,7 +115,7 @@ def build_table(results: Sequence[Fertility]) -> str:
         "iddiası DEYİL, izahedici kontekstdir.",
         "",
     ]
-    lines += pair_vocabulary_section()
+    lines += pair_vocabulary_section(measure)
     return "\n".join(lines)
 
 
@@ -125,10 +136,18 @@ def _declared_pairs() -> tuple[tuple[str, str, str], ...]:
 
 
 def _vocabulary(model: str) -> set[str] | None:
-    """Modelin lüğəti (token sətirləri), yüklənməsə `None`."""
-    from transformers import AutoTokenizer
+    """Modelin lüğəti (token sətirləri), yüklənməsə `None`.
 
+    İMPORT `try` BLOKUNUN İÇİNDƏDİR, kənarda yox. `transformers` bu layihədə
+    OPSİONALDIR: `requirements.txt` yalnız `numpy` və `pytest` tələb edir və
+    açıq yazır ki, opsional paketlər olmadan da bütün testlər işləməlidir.
+    İmport kənarda qalanda `ModuleNotFoundError` yuxarı qalxırdı və təmiz
+    mühitdə (CI) beş test çökürdü, halbuki funksiyanın müqaviləsi elə budur:
+    yüklənməsə `None` qaytar. Paketin olmaması da "yüklənmədi" halıdır.
+    """
     try:
+        from transformers import AutoTokenizer
+
         tokenizer = AutoTokenizer.from_pretrained(model, trust_remote_code=True)
     except Exception:
         return None
@@ -171,7 +190,9 @@ def is_control_token(token: str) -> bool:
     )
 
 
-def pair_vocabulary_section() -> list[str]:
+def pair_vocabulary_section(
+    measure: Callable[[str, str], tuple[int, int] | None] | None = None,
+) -> list[str]:
     """Cüt daxilində tokenizator EYNİDİRMİ — iddia edilmir, ÖLÇÜLÜR.
 
     NİYƏ YENİDƏN YAZILDI. Əvvəl burada ümumi qayda yazılmışdı: "fine-tune
@@ -193,11 +214,14 @@ def pair_vocabulary_section() -> list[str]:
         "| Cüt | Əlavə söz | Əlavə xüsusi token | Nəzarət qurulur? |",
         "|---|---|---|---|",
     ]
+    measure = measure or added_tokens
     broken: list[str] = []
     clean: list[str] = []
+    unmeasured: list[str] = []
     for label, base, tuned in _declared_pairs():
-        counts = added_tokens(base, tuned)
+        counts = measure(base, tuned)
         if counts is None:
+            unmeasured.append(label)
             lines.append(f"| {label} | ? | ? | ölçülmədi |")
             continue
         words, special = counts
@@ -211,6 +235,17 @@ def pair_vocabulary_section() -> list[str]:
         )
 
     lines += [""]
+    if unmeasured and not clean and not broken:
+        # Heç bir cüt ölçülməyibsə, bunu AÇIQ yaz. Səssizcə izah paraqrafını
+        # buraxsaydıq, cədvəl sırf "?" sətirlərindən ibarət olub nə demək
+        # istədiyini deməzdi və oxucu bunu boş nəticə kimi oxuya bilərdi.
+        lines += [
+            "HEÇ BİR CÜT ÖLÇÜLMƏDİ. Tokenizatorlar yüklənmədi, yəni bu cədvəl",
+            "nəzarətin qurulub-qurulmadığı barədə HEÇ NƏ demir. Səbəb adətən",
+            "`transformers` paketinin olmamasıdır (`requirements.txt`-də",
+            "opsionaldır) və ya şəbəkənin olmamasıdır.",
+            "",
+        ]
     if clean:
         lines += [
             f"NƏZARƏT QURULAN CÜTLƏR: {', '.join(f'**{c}**' for c in clean)}.",
