@@ -1,0 +1,18 @@
+{
+  "model": "openai:openai/gpt-4o",
+  "provider": "openai",
+  "requested_model": "openai/gpt-4o",
+  "resolved_model": "openai/gpt-4o",
+  "max_tokens": 32,
+  "thinking": "disabled via OpenRouter `reasoning.effort=none`",
+  "determinism": "seeded (temperature=0, seed set) - best-effort",
+  "base_url": "https://openrouter.ai/api/v1",
+  "usage": {
+    "calls": 1006,
+    "input_tokens": 100398,
+    "output_tokens": 3633,
+    "failures": 0,
+    "cost_usd": null
+  },
+  "leaked_internal_tags": 0
+}

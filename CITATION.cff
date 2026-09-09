@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "AZ-Eval: a parallel Azerbaijani-English benchmark"
+message: "If you use this benchmark, please cite it as below."
+type: dataset
+authors:
+  - family-names: Garibli
+    given-names: Nihat
+    email: qaribli.nihat.nemat@bsu.edu.az
+    affiliation: Baku State University
+repository-code: "https://github.com/nihatgaribli/AZ-Eval-benchmark"
+abstract: >-
+  An open parallel Azerbaijani-English benchmark of 1006 human-verified
+  short-answer items, 708 of them a control stratum whose subject matter is
+  universal by construction, with an evaluation pipeline that separates
+  knowledge from orthography through a chain of nested normalizations.
+  Used to show that what fine-tuning on a neighbouring language costs
+  Azerbaijani is predicted by the script of the adaptation target and not by
+  its relatedness. Across nine measured pairs, relatedness splits exactly
+  evenly; every Latin-script target leaves Azerbaijani intact, and four of
+  five Cyrillic-script targets damage it by 8 to 11 points beyond general
+  forgetting. Turkish, the closest relative, costs nothing; Russian, entirely
+  unrelated, costs 8 to 10 points.
+keywords:
+  - low-resource evaluation
+  - Azerbaijani
+  - cross-lingual transfer
+  - Turkic languages
+  - writing systems
+  - large language models
+license: CC-BY-4.0
+date-released: "2026-08-07"

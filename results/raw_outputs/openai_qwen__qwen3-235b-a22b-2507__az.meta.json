@@ -1,0 +1,18 @@
+{
+  "model": "openai:qwen/qwen3-235b-a22b-2507",
+  "provider": "openai",
+  "requested_model": "qwen/qwen3-235b-a22b-2507",
+  "resolved_model": "qwen/qwen3-235b-a22b-2507",
+  "max_tokens": 32,
+  "thinking": "disabled via OpenRouter `reasoning.effort=none`",
+  "determinism": "seeded (temperature=0, seed set) - best-effort",
+  "base_url": "https://openrouter.ai/api/v1",
+  "usage": {
+    "calls": 1006,
+    "input_tokens": 113988,
+    "output_tokens": 7030,
+    "failures": 0,
+    "cost_usd": null
+  },
+  "leaked_internal_tags": 0
+}

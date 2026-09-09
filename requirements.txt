@@ -1,0 +1,13 @@
+numpy>=1.24
+pytest>=7.0
+
+# API backend-i (`--backend api`) üçün - OPSİONALDIR.
+#
+# Hər provayder öz adapterinin İÇİNDƏ import olunur, ona görə yalnız işlədəcəyin
+# provayderi quraşdırmaq kifayətdir. Heç biri quraşdırılmasa, lokal qaçışlar və
+# bütün testlər yenə işləyir (testlər saxta adapterlə işləyir, real SDK tələb
+# etmir).
+#
+#   pip install anthropic          # --model anthropic:claude-opus-5
+#   pip install openai             # --model openai:gpt-5
+#   pip install google-genai       # --model google:gemini-...

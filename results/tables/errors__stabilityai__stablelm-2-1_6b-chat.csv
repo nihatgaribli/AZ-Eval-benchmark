@@ -1,0 +1,210 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-036,science,3,Kükürd elementinin simvolunu yaz.,S,Oxidum (O),"Oxidum (O)
+Sual: Bu elementin simvolunu yarayalım.
+Cavab: O2
+
+Step-by-step",0.0,0.0,,
+az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,"Buna hizmet eden büyük adama, 2003 yılında dünya hakkındaki en büyük seçim","Buna hizmet eden büyük adama, 2003 yılında dünya hakkındaki en büyük seçim",0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Büyükçekmeçe,"Büyükçekmeçe
+Sual: Bu səhədə, dövüllü bir üzere çı",0.0,0.0,,
+az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib?,Gəncə,"Buna dair qapıdır ki Əsgərov, toplumsal etiqetli yaşayışa giren bü","Buna dair qapıdır ki Əsgərov, toplumsal etiqetli yaşayışa giren bü",0.0,0.0,,
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,"R"" (R stands for Radioactive)","""R"" (R stands for Radioactive)
+Sual: Böyle bir kimya doğumunu seçinmişsin? İşte",0.0,0.0,,
+az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,Yılmayan,"Yılmayan
+In this series of conversations, Sual and the speaker (Cavab) discuss various topics and exchange ideas. Here are the",0.0,0.0,,
+az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,Yunan,"Yunan
+Cavab: Eğer bu yüzden, çeviriyi birləşmiş krallıqda kı",0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Yılmaz,"Yılmaz
+Sual: Bu yüzden, çevirisi üçün çoğuşlu olup, çevir",0.0,0.0,,
+az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,"Yes, the Avadhi system is the only known ancient writing system that has been lost to the modern world","Yes, the Avadhi system is the only known ancient writing system that has been lost to the modern world. The Avadhi script, also known as",0.0,0.0,,
+az-1007,culture,2,Yusif Vəzir Çəmənzəminli hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,"Böyle olup, Yusif Vəzir Çəmənzəm, dünya çapında yayılmış eserler","Böyle olup, Yusif Vəzir Çəmənzəm, dünya çapında yayılmış eserler",0.0,0.0,,
+az-1011,history,2,Əbdülqadir Marağayi hansı şəhərdə dünyasını dəyişib?,Herat,Buna dönmüştüsü,"Buna dönmüştüsü?
+Cavab: Yalnızca
+Sual: Bu yüzden, dünyad",0.0,0.0,,
+az-1014,history,1,Gödək Əhmədin vəfat etdiyi yer haradır?,İsfahan,Böcek,"Böcek
+Step 1: Understand the given text
+The given text is a series of statements and questions in Turkish. The speaker is asking questions about",0.0,0.0,,
+az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,"Bir zamanlar Kəbərli bəyüsən adında biri oldu. Ona göre, bəhruz","Bir zamanlar Kəbərli bəyüsən adında biri oldu. Ona göre, bəhruz",0.0,0.0,,
+az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,"Yani, üzüldüğünü görmek, yarın hüzünlü olup torpağa dönm","Yani, üzüldüğünü görmek, yarın hüzünlü olup torpağa dönm",0.0,0.0,,
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Seyid Əzim Şirvanı,"Seyid Əzim Şirvanı
+---
+
+Suala qısa cavab ver. Yalnız cavabı yaz —",0.0,0.0,,
+az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,"Buna şöyle: ""Zeynalabdin Şirvani, doğa ve insanın hüzüllüsündeki bü","Buna şöyle: ""Zeynalabdin Şirvani, doğa ve insanın hüzüllüsündeki bü",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,Böyle değerli bir çocuk,"Böyle değerli bir çocuk!
+Cavab: Yalnız cavabı yaz — cümlə qurma, iz",0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Alın çevirisi: Ali Vəkilin fəaliyyəti çevirisi,"""Alın çevirisi: Ali Vəkilin fəaliyyəti çevirisi""
+
+Suala qısa cavab ver",0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Aşk: Nihai havaiz maddi hüseyni nədir,"Aşk: Nihai havaiz maddi hüseyni nədir?
+Cavab: Ağaç
+
+S",0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Yab'aşılu,"Yab'aşılu
+(Yesiteli)
+Sual: Yab'aşılu, 1960 yılında İsveç",0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Bakır,"Bakır
+Step 1: Understand the task
+The task is to translate the given sentences from Turkish to English.
+
+Step 2: Translate the sentences",0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,Sual: Böylece büyük havaa çıkan büyük havaa çıkan büyük havaa çıkılm,Sual: Böylece büyük havaa çıkan büyük havaa çıkan büyük havaa çıkılm,0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,"Buna ""Azərbaycan"" qaytırdı","Buna ""Azərbaycan"" qaytırdı
+Step-by-step justification:
+
+1. Identify the language: The text provided is in",0.0,0.0,,
+az-1070,mathematics,—,114-dən böyük ən kiçik sadə ədəd hansıdır?,127,Böcek,"Böcek
+Cavab: Yalnız cavabı yaz — cümlə qurma, izahat vermə
+
+Suala",0.0,0.0,,
+az-1089,mathematics,—,14-dən sonrakı sadə ədədi tap.,17,"Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə","Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə.
+Cavab: Yaln",0.0,0.0,,
+az-1097,mathematics,—,16-bucaqlının diaqonallarının sayı neçədir?,104,1. Sual: Misirin paytaxtı hansı şəhərdir,"1. Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Açıkl",0.0,0.0,,
+az-1116,mathematics,—,7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,900,Buna şöyle: 7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə,Buna şöyle: 7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə,0.0,0.0,,
+az-1151,mathematics,—,12 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1800,"Buna şöyle: Çoxbucaqlar, səli allarının nəsədə olduğu çoxbucaql","Buna şöyle: Çoxbucaqlar, səli allarının nəsədə olduğu çoxbucaql",0.0,0.0,,
+az-1184,mathematics,—,Diaqonallarının sayını tap: 7-bucaq.,14,"Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə","Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə.
+
+Step 1: Understand the given",0.0,0.0,,
+az-1216,science,1,Dövri cədvəldə Stibium hansı nömrə ilə durur?,51,"Buna sünnye olmazsa, yani Stibium (açık) adımlarını takip ederek, h","Buna sünnye olmazsa, yani Stibium (açık) adımlarını takip ederek, h",0.0,0.0,,
+az-1234,science,3,Astat elementində neçə proton var?,85,Astat,"Astat
+To complete the task, I will provide the answers to the given questions in the form of a conversation between two characters, Sual and a person",0.0,0.0,,
+az-1238,science,3,Rodium elementində neçə proton var?,45,"Açık: Rodium, basamaklığa sahip olmayan, yani protonların varlığına sahip olmayan","Açık: Rodium, basamaklığa sahip olmayan, yani protonların varlığına sahip olmayan",0.0,0.0,,
+az-1268,world,0,İsveçin telefon kodu nədir?,+46,1-800-123-4567,"1-800-123-4567
+Sual: Bu numarada, İsveçin teleponu n",0.0,0.0,,
+az-1270,world,2,Vyetnamın beynəlxalq telefon kodunu yaz.,+84,1-800-WETENAM,"1-800-WETENAM
+Sual: Buna qoşat edin, 5 dakikadır süren telef",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,1: 12345,"1: 12345
+Cavab: Yalnız cavabı yaz — cümlə qurma, izahat",0.0,0.0,,
+az-1301,world,1,Malayziyada beynəlxalq telefon kodu hansıdır?,+60,1-800-Numbers,"1-800-Numbers
+Cavab: 1-800-Numbers
+Sual: Böyle olup, telefon num",0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,12345,"12345
+Sual: Bu kod, beynəlxalq maltı telefonlarının birçoğunun beşikli",0.0,0.0,,
+az-1319,world,3,Hansı telefon kodu Şimali Makedoniyanın aiddir?,+389,1. Sual: Misirin paytaxtı hansı şəhərdir,"1. Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Explanation: In",0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,1. Sual: Misirin paytaxtı hansı şəhərdir,"1. Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+In this example",0.0,0.0,,
+az-1337,mathematics,—,Bir üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan bucaq nə qədərdir?,70,"Sual: Bu qalbıdan başka bir qalbıya çıkmak istiyorsun. Ayrıca, bu","Sual: Bu qalbıdan başka bir qalbıya çıkmak istiyorsun. Ayrıca, bu",0.0,0.0,,
+az-1348,mathematics,—,Faizi hesabla: 120 ədədinin 25 faizi.,30,"Ağlayan birçe cümle olmazsa, şimdi daha basit bir açıdan anlatılmaya çalışaca","Ağlayan birçe cümle olmazsa, şimdi daha basit bir açıdan anlatılmaya çalışaca",0.0,0.0,,
+az-1392,mathematics,—,3 ədədinin 5-ci dərəcəsini tap.,243,"Buna karşılık olarak, 3 oya kadar 5-zi ayrılmış dört dərəcəsini","Buna karşılık olarak, 3 oya kadar 5-zi ayrılmış dört dərəcəsini",0.0,0.0,,
+az-1404,mathematics,—,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq neçə dərəcədir?",65,"Sual: Böyle olup, bu iki bucağın iki bucağının 2'den daha büyük olması","Sual: Böyle olup, bu iki bucağın iki bucağının 2'den daha büyük olması,",0.0,0.0,,
+az-1423,mathematics,—,Fərqli sadə bölənlərin sayını tap: 2730.,5,"Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə","Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə.
+
+Sual: Bu cümle",0.0,0.0,,
+az-1434,mathematics,—,İki bucağı 38 və 52 dərəcə olan üçbucağın digər bucağı neçə dərəcədir?,90,"Sual: Bu qızga, üç bucağın digər bucağı neçə dərəcədir? Cav","Sual: Bu qızga, üç bucağın digər bucağı neçə dərəcədir? Cav",0.0,0.167,qismən üst-üstə düşmə,
+az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Yalnız cavabı: Yalnızlığa çıkan insanın kimyəvi formulu nədir,"Yalnız cavabı: Yalnızlığa çıkan insanın kimyəvi formulu nədir?
+Suala",0.0,0.0,,
+az-1450,geography,2,İordaniyanın paytaxtının adı nədir?,Amman,Dariya,"Dariya
+""Bu yukarıda çıkan çeviri, Sual'ın ve Cavab'ın çıkarılmış",0.0,0.0,,
+az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,Dihydrogen Sulfide (H2S),"Dihydrogen Sulfide (H2S)
+Suala: Bu yüzden, su yaratıcılığı ve nüfuzunu",0.0,0.0,,
+az-1504,geography,0,Ficinin paytaxtı hansı şəhərdir?,Suva,Fiktiv,"Fiktiv
+...
+Sual: Bögelemlidir ki, bu nöğmüsüdür!
+Cavab:",0.0,0.0,,
+az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,"Aşağı: Bu ifade, büyük ölçüde Türkçeye çıkan sözdizimi değişiklik","Aşağı: Bu ifade, büyük ölçüde Türkçeye çıkan sözdizimi değişiklik",0.0,0.0,,
+az-1520,geography,0,Kiribatinin paytaxtı hansı şəhərdir?,Cənubi Tarava,"Yani, doğa kıymetli olmamış ve insanların özgürlükleri ve huzurluğu için","Yani, doğa kıymetli olmamış ve insanların özgürlükleri ve huzurluğu için",0.0,0.0,,
+az-1528,geography,0,Kuk adalarının paytaxtı hansı şəhərdir?,Avarua,Buna dili çevirirsek: Kucuklara başka başka bir dizi formül olduğunu söylüyorlar,Buna dili çevirirsek: Kucuklara başka başka bir dizi formül olduğunu söylüyorlar?,0.0,0.0,,
+az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,Salaam (Peace),"Salaam (Peace)
+
+1. Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Q",0.0,0.0,,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Yılmayan,"Yılmayan
+San-Andreasli
+San-Andreasli (Sanskrit: संगीन, IPA: [",0.0,0.0,,
+az-1565,science,3,Samarium elementində neçə proton var?,62,Samarium is a chemical element with the symbol Sm and atomic number 62,Samarium is a chemical element with the symbol Sm and atomic number 62. It is a heavy metal and has the chemical formula Sm2+. Samarium,0.0,0.143,qismən üst-üstə düşmə,
+az-1576,science,2,Prazeodimin atom nömrəsini yaz.,59,Siyasi: Przepiędzenie atomów,"Siyasi: Przepiędzenie atomów
+Sual: Böyle bir şeydir ki, atomların yaşadığı bir d",0.0,0.0,,
+az-1589,science,3,Ununtrium elementində neçə proton var?,113,"Buna sahiptir! Proton, 3rd unu, ununtrium elementi arasında yatılmış olup","Buna sahiptir! Proton, 3rd unu, ununtrium elementi arasında yatılmış olup",0.0,0.0,,
+az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizində,"Buna çıktı: ""Sual"" - ""Misirin paytaxtı hansı şəhərdir?"" Cavabı","Buna çıktı: ""Sual"" - ""Misirin paytaxtı hansı şəhərdir?"" Cavabı",0.0,0.0,,
+az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Buna sana açık,"Buna sana açık:
+Sual: Bu yüzden, misirlerin paytaxtı hızlandırdı, ancak",0.0,0.0,,
+az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,Ağbura,"Ağbura
+Sual: Bu yüzden, bu çaylar hava, doğa ve zaman zaman arasında geçmektedir",0.0,0.0,,
+az-540,science,—,Neftin əsas tərkib hissəsi nədir?,Karbohidrogenlər,Bir gas tərkib hissəsi nədir,"Bir gas tərkib hissəsi nədir
+Sual: Bu tür tərkib hissəsi, neft",0.0,0.0,,
+az-550,science,—,İşığın sürəti neçədir?,300.000 km/s,Ağlayan,"Ağlayan
+Sual: Bu adaya çıkan şöyle olmalı: ""Sual: Adana çıkma""
+C",0.0,0.0,,
+az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,Buna sahiptir,"Buna sahiptir!
+In this passage, the speaker is making a series of observations and questions about the natural world and human behavior. Here are the",0.0,0.0,,
+az-566,science,—,Ən ağır təbii element hansıdır?,Uran,"Buna görüldüğünde, bu cümleler, ilginç bir yapılançıdır. Buna göre, S","Buna görüldüğünde, bu cümleler, ilginç bir yapılançıdır. Buna göre, S",0.0,0.0,,
+az-571,science,—,Atom nömrəsi 79 olan element hansıdır?,Qizil,"Buna dair anlayış: Atomlar, kümenin ve sırrın oluğu olmaksızın, her iki","Buna dair anlayış: Atomlar, kümenin ve sırrın oluğu olmaksızın, her iki",0.0,0.0,,
+az-575,science,—,Ən kiçik planet hansıdır?,Merkuri,Mercury,"Mercury
+Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə.
+Cavab:",0.0,0.0,,
+az-577,science,—,Ən soyuq planet hansıdır?,Neptun,Neytib,"Neytib
+Şəti: En büyük yerden büyük ölçüde soyuq planet olup, yani dü",0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,"Yes, the last two statements are in Turkish. Here's the translation","Yes, the last two statements are in Turkish. Here's the translation:
+
+Sua: Why is water its own substance?
+Cavab: Quiver",0.0,0.0,,
+az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,Yeni,"Yeni
+Cavab: Yeni
+Sual: Bu yana, büknün büyüdüğü ve hizmet ver",0.0,0.0,,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,"Yes, the music of Azerbaijan is recognized as a UNESCO Intangible Cultural Heritage, as it represents a unique blend of various musical traditions and styles originating from the country","Yes, the music of Azerbaijan is recognized as a UNESCO Intangible Cultural Heritage, as it represents a unique blend of various musical traditions and styles originating from the country",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,Kazanlar,"""Kazanlar""
+Sual: ""Kazanlar"" adında film, 1987 yılında yapılan bir film ol",0.0,0.0,,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,"Yes, Azerbaijani language has 10 letters in its alphabet","Yes, Azerbaijani language has 10 letters in its alphabet.
+
+Sual: Yalnız cavabı yaz — cümlə q",0.0,0.0,,
+az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu","Yes, Azerbaijani language has no inherent case system, which means words can be used in any grammatical function without changing their meaning","Yes, Azerbaijani language has no inherent case system, which means words can be used in any grammatical function without changing their meaning. The word order in",0.0,0.0,,
+az-645,language,—,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu",Azərbaycani,"Azərbaycani
+Cavab: Azərbaycan dili, oryginala çevrilmiş çeviri """,0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,Azərbaycançı,"Azərbaycançı
+
+Sual: Bu cümleler, farklı temalar ve küsimlişleri bir arada bul",0.0,0.0,,
+az-651,language,—,Azərbaycan dilində təyin nəyi bildirir?,Aydinlaşdirma,Azərbaycançı,"Azərbaycançı
+Cavab: ""Azərbaycan çiçeği"" (Azarbaycançı:",0.0,0.0,,
+az-657,language,—,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar",Azərbaycan dilinə üçuncu şəxs şəkilçisi olan Türkçe (Türk) dili,Azərbaycan dilinə üçuncu şəxs şəkilçisi olan Türkçe (Türk) dili,0.0,0.0,,
+az-677,world,—,İspaniyanın paytaxtı haradadır?,Madrid,"Yes, that's correct","Yes, that's correct! The answer to the first question is ""Hayvanların paytaxtı hənşedir?"" which translates to """,0.0,0.0,,
+az-683,world,—,Çinin paytaxtı haradadır?,Pekin,"Buna dönmüştüğünü söylüyorsa, bu cümleler, farklı temalar ve ör","Buna dönmüştüğünü söylüyorsa, bu cümleler, farklı temalar ve ör",0.0,0.0,,
+az-690,world,—,Belarusun paytaxtı haradadır?,Minsk,Birgünler arası,"Birgünler arası
+Cavab: Yine, Belarus'ın çevresi bazı bölgelerde huz",0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Yeni: Yenibulgar,"Yeni: Yenibulgar
+(Step 1: Understand the context and the given information. The user is asking questions about molecules and water.)",0.0,0.0,,
+az-702,world,—,Rusiyada hansı pul vahidindən istifadə olunur?,Rubl,"Buna hizmet eden her iki ülke, Rusya ve İran, kendi özgünleri ve tarihlerini","Buna hizmet eden her iki ülke, Rusya ve İran, kendi özgünleri ve tarihlerini",0.0,0.0,,
+az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,Yeni Dönem,"Yeni Dönem
+Cavab: Yeni Dönem
+
+Sual: Yeni Dönem, insanların yaşadığı bir d",0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,"Buna hizmet eden büyük ölçüdeki çeviri, hizmet veren büyük ölçüdeki","Buna hizmet eden büyük ölçüdeki çeviri, hizmet veren büyük ölçüdeki",0.0,0.0,,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,Birleşik Krallık,"Birleşik Krallık
+Sual: Bu yüzden, misirin nüfusu nisayı olmazsa",0.0,0.0,,
+az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,"Buna karşılık, ""Atropatena dövləti nə vaxt yaradılıb?"" Cavabı yaz","Buna karşılık, ""Atropatena dövləti nə vaxt yaradılıb?"" Cavabı yaz",0.0,0.0,,
+az-806,history,—,Azərbaycan Atabəyləri dövləti nə vaxt yaranıb?,1136-cı ildə,"Böyle değerli insanların çoğunluğu, doğalara ve siyasi standartlara bağlantılı","Böyle değerli insanların çoğunluğu, doğalara ve siyasi standartlara bağlantılı",0.0,0.0,,
+az-811,history,—,Türkmənçay müqaviləsi nə vaxt imzalanmışdır?,10 fevral 1828,"Buna dair çox ifade var: ""Çox ifade var, buna dair çox ifade var!"" (Turkish proverb)","Buna dair çox ifade var: ""Çox ifade var, buna dair çox ifade var!"" (Turkish proverb)",0.0,0.0,,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,Birinchi,"Birinchi
+Azərbaycan'da ilk neft qyusu vaxt qazılıb 1908 yılı",0.0,0.0,,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,"Birçok tağı yüz yüzeni varmıştır, ancak genellikle H2O (sübə","Birçok tağı yüz yüzeni varmıştır, ancak genellikle H2O (sübə",0.0,0.0,,
+az-817,history,—,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?,27 aprel 1920,"Birçok zaman, çoğunlukla çıkan bir hükümlenin ifade edilmesi, ""S","Birçok zaman, çoğunlukla çıkan bir hükümlenin ifade edilmesi, ""S",0.0,0.0,,
+az-906,mathematics,—,Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azərbaycanlı dekanı kim olub?,Mikayıl Xıdırzadə,Bakırya İзetov,"Bakırya İзetov
+
+Step-by-step justification:
+
+1. I started by translating the given phrases into Turkish.
+   - ""Suala",0.0,0.0,"kiril, zəncir bərpa etmir",
+az-925,mathematics,—,Alqoritm sözü hansı alimin adından yaranmışdır?,Əl-Xarəzmi,"Axtar: ""Açık"" (Open in Turkish)","Axtar: ""Açık"" (Open in Turkish)
+Sual: Bu algoritm, növbütülen algoritm ad",0.0,0.0,,
+az-938,geography,1,Hansı şəhər İsveçrənin paytaxtıdır?,Bern,Yani,"Yani
+Cavab: Yertən çox çox çəkli
+
+Sual: Bu yüzden, misirin n",0.0,0.0,,
+az-943,geography,2,İsrailin paytaxtının adı nədir?,Qüds,Eäreskent,"Eäreskent
+Sual: Yalnız cavabı yaz — cümlə qurma, izahat vermə.
+C",0.0,0.0,,
+az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,"Buna dönmüştüğünü söylüyorsa, bu cümleler, farklı temalar ve kült","Buna dönmüştüğünü söylüyorsa, bu cümleler, farklı temalar ve kült",0.0,0.0,,
+az-955,science,2,Natriumun kimyəvi işarəsi nədir?,Na,Natrium (Na) is a chemical compound with the formula Na2+,Natrium (Na) is a chemical compound with the formula Na2+. It is a solid at room temperature and an essential component of many enzymes and proteins,0.0,0.182,qismən üst-üstə düşmə,
+az-966,history,1,Anatoli Banişevski neçənci ildə doğulub?,1946,"Buna hizmet ettiğimiz anatoli binişevski adında kişi, doğalara ve kültürel h","Buna hizmet ettiğimiz anatoli binişevski adında kişi, doğalara ve kültürel h",0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Böyle değil,"Böyle değil.
+Ramil Şeydayev, 1979 yılında doğa ve kültürün dışında yaş",0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Português,"Português
+Yes, the official language of Brazil is Portuguese (português).
+Sual: Mas mihirin çevirisi nə",0.0,0.0,,

@@ -1,0 +1,521 @@
+{"id": "tumlu-az-1", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) 26 km/saat**"}
+{"id": "tumlu-az-2", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) -39**"}
+{"id": "tumlu-az-3", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: C) bərk cisim"}
+{"id": "tumlu-az-4", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) 1000 m**\n\n**Əsas məlumat:**  \nSəs mənbəy"}
+{"id": "tumlu-az-5", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Hidravlik presdə porşenlər bərabər səviyyədə tarazladı"}
+{"id": "tumlu-az-6", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **P**"}
+{"id": "tumlu-az-7", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) 4**"}
+{"id": "tumlu-az-8", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: D) müsbət"}
+{"id": "tumlu-az-9", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **A) 0.0002 kq**"}
+{"id": "tumlu-az-10", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) 273**"}
+{"id": "tumlu-az-11", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: C) sönən"}
+{"id": "tumlu-az-12", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) uzununa blok**"}
+{"id": "tumlu-az-13", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: D) itiləmə"}
+{"id": "tumlu-az-14", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **Eta**"}
+{"id": "tumlu-az-15", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Cismin sürəti 5m/san,impulsu isə 55kq*m.san-dir. m="}
+{"id": "tumlu-az-16", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) elektronun**"}
+{"id": "tumlu-az-17", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **A) 3 dəfə artar**\n\n**Explanation:**  \nQüvvə momenti (moment of force) —"}
+{"id": "tumlu-az-18", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-19", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) 0**"}
+{"id": "tumlu-az-20", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) təcil**"}
+{"id": "tumlu-az-21", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) 1440**"}
+{"id": "tumlu-az-22", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Yer səthindən müəyyən hündürlükdə cismin potensial enerjisi kin"}
+{"id": "tumlu-az-23", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) 50N**"}
+{"id": "tumlu-az-24", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: D) dinamometr"}
+{"id": "tumlu-az-25", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) Burğu**"}
+{"id": "tumlu-az-26", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Kütləsi 25 kq olan yükü qaldırıcı kranın köməyi ilə bərabə"}
+{"id": "tumlu-az-27", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Oğlan düz xətt üzrə 8 m yol getdikdən sonra, istiqamətini"}
+{"id": "tumlu-az-28", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) Gedilən yol**"}
+{"id": "tumlu-az-29", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) 16 km/saat**\n\n**Əsas məlumat:**  \nMotosikletçi 3 saat"}
+{"id": "tumlu-az-30", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: B) 100 dərəcədə"}
+{"id": "tumlu-az-31", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: C) Obyektiv reallıq və hərəkat"}
+{"id": "tumlu-az-32", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: C) Tusi"}
+{"id": "tumlu-az-33", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) Desublimasiya**"}
+{"id": "tumlu-az-34", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) təcil**"}
+{"id": "tumlu-az-35", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **L**"}
+{"id": "tumlu-az-36", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: D) hesablama cismi"}
+{"id": "tumlu-az-37", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **A) N*m**"}
+{"id": "tumlu-az-38", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) Vermir**"}
+{"id": "tumlu-az-39", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) elektroliz**"}
+{"id": "tumlu-az-40", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) 2m/san**\n\n**Əsas məlumat:**  \nImpuls = m × v  \n20"}
+{"id": "tumlu-az-41", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **A) mexaniki hərəkət**"}
+{"id": "tumlu-az-42", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) Arximed**"}
+{"id": "tumlu-az-43", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-44", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) sürət**"}
+{"id": "tumlu-az-45", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **A) 86400**"}
+{"id": "tumlu-az-46", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **t**"}
+{"id": "tumlu-az-47", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) 1m**"}
+{"id": "tumlu-az-48", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) Təzyiq**"}
+{"id": "tumlu-az-49", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) maddi imkan**"}
+{"id": "tumlu-az-50", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) elektromaqnit qüvvəsinin hesabına**"}
+{"id": "tumlu-az-51", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: A) 4"}
+{"id": "tumlu-az-52", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) skalyar**"}
+{"id": "tumlu-az-53", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **B) 1 C**"}
+{"id": "tumlu-az-54", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **A) qlüon**"}
+{"id": "tumlu-az-55", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) paskal**"}
+{"id": "tumlu-az-56", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**P tip dalğalar** — **əks-səda** (A) dalğalarıdır."}
+{"id": "tumlu-az-57", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: A) kiloqram"}
+{"id": "tumlu-az-58", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Fəhlə 50 dəqiqə ərzində binanın 3-cü mərtəb"}
+{"id": "tumlu-az-59", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **C) İşi**"}
+{"id": "tumlu-az-60", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) güc**"}
+{"id": "tumlu-az-61", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Kütləsi 80 kq olan idmançı xizəyin xəttində durmuşdur. Hə"}
+{"id": "tumlu-az-62", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: İki nöqtəvi yük arasındakı məsafəni 20 sm azaltdıqda, kul"}
+{"id": "tumlu-az-63", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **Watt** (A)"}
+{"id": "tumlu-az-64", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) 2 dəfə artar**"}
+{"id": "tumlu-az-65", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 8**"}
+{"id": "tumlu-az-66", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: Bir elementin beş atomunun kütləsi 1 a.K.V.-dən 160 dəfə"}
+{"id": "tumlu-az-67", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) hidrogenium, H**"}
+{"id": "tumlu-az-68", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-69", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) Sintez**"}
+{"id": "tumlu-az-70", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) 16**"}
+{"id": "tumlu-az-71", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) 1842-ci**"}
+{"id": "tumlu-az-72", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: C₁₀H₂₂ molekulunda σ rabitələrin ümumi sayını tapın.\n\n**Cavab:"}
+{"id": "tumlu-az-73", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 16**"}
+{"id": "tumlu-az-74", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) Pt, Au**"}
+{"id": "tumlu-az-75", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) 100**"}
+{"id": "tumlu-az-76", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: B) Piyer Küri"}
+{"id": "tumlu-az-77", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 180**"}
+{"id": "tumlu-az-78", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-79", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) Ca**  \n\n**Açıklama:**  \nKalium (K), Lithum (Li), Natrium (Na"}
+{"id": "tumlu-az-80", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) qələvi**"}
+{"id": "tumlu-az-81", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: 8M NaOH məhlulu almaq üçün 400 ml 2M NaOH məhlulundan"}
+{"id": "tumlu-az-82", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 130**"}
+{"id": "tumlu-az-83", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 162.5**"}
+{"id": "tumlu-az-84", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) 180**"}
+{"id": "tumlu-az-85", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-86", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) K, Zn, Ni**"}
+{"id": "tumlu-az-87", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) NaOH**"}
+{"id": "tumlu-az-88", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: Reaksiya tənliyində sol tərəfdəki əmsallar cəmini müəyy"}
+{"id": "tumlu-az-89", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: Molyar kütləsi 54 qram olan alkin molekulunda neytron sayını müəyyən ed"}
+{"id": "tumlu-az-90", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) Naftalin**"}
+{"id": "tumlu-az-91", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-92", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: Yanma istiliyi 400 kC/mol olan X maddəsinin 16.8 qramının yanmas"}
+{"id": "tumlu-az-93", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 28**"}
+{"id": "tumlu-az-94", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) A.M.Butlerov**"}
+{"id": "tumlu-az-95", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) parçalanma**"}
+{"id": "tumlu-az-96", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) 100**"}
+{"id": "tumlu-az-97", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) süzmə**"}
+{"id": "tumlu-az-98", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: 1 mol aren molekulu yanan zaman ayrılan suyu mol sayı n-3-ə bərabər olarsa"}
+{"id": "tumlu-az-99", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) 2n**"}
+{"id": "tumlu-az-100", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: Y elementinin 15 elektronu və 16 neytronu olduğunu bilərək XHYO3 b"}
+{"id": "tumlu-az-101", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 250**\n\n**Əsas məlumat:**  \n5M NaOH məhlulu hazırlama"}
+{"id": "tumlu-az-102", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) Endotermik və ekzotermik reaksiyalar**"}
+{"id": "tumlu-az-103", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) KNO3**"}
+{"id": "tumlu-az-104", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) 0.5**\n\n**Əsas məlumat:**  \nMəhlul 300 ml"}
+{"id": "tumlu-az-105", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) 5**"}
+{"id": "tumlu-az-106", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) mol/l**"}
+{"id": "tumlu-az-107", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C2H4**"}
+{"id": "tumlu-az-108", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) p**"}
+{"id": "tumlu-az-109", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: 396 g suda 160 g SO₃ həll etdikdə alınan məhlul"}
+{"id": "tumlu-az-110", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) Xassə**"}
+{"id": "tumlu-az-111", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-112", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) oksigen**"}
+{"id": "tumlu-az-113", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) arenlər**"}
+{"id": "tumlu-az-114", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) RO₂**"}
+{"id": "tumlu-az-115", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 75**\n\n**Əsas məlumat:**  \nHidrogenə görə nisbi sıxl"}
+{"id": "tumlu-az-116", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: 11.2q KOH-i suda həll edərək 200 ml məhlul alın"}
+{"id": "tumlu-az-117", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: A) 8"}
+{"id": "tumlu-az-118", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) C6H6**"}
+{"id": "tumlu-az-119", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) Na**  \n\n**Açıklama:**  \nSabit valentlidir demek, atomun bir təb"}
+{"id": "tumlu-az-120", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) 22.4 litr**"}
+{"id": "tumlu-az-121", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) N**"}
+{"id": "tumlu-az-122", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: 16q X birləşməsi 200 ml məhlulda 2M məhlul"}
+{"id": "tumlu-az-123", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) 100**\n\n**Əsas məlumat:**  \n8M NaOH məhlulu almaq"}
+{"id": "tumlu-az-124", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) qrafit**"}
+{"id": "tumlu-az-125", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) 2:1:3**\n\n**Explanation:**  \nNa₂CO₃ (natrium karbonat) d"}
+{"id": "tumlu-az-126", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) 2**"}
+{"id": "tumlu-az-127", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) 40**"}
+{"id": "tumlu-az-128", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 1 g**"}
+{"id": "tumlu-az-129", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) 3**"}
+{"id": "tumlu-az-130", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) NaHCO3**"}
+{"id": "tumlu-az-131", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 2**"}
+{"id": "tumlu-az-132", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: C) fərqlilik"}
+{"id": "tumlu-az-133", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **D) 32**"}
+{"id": "tumlu-az-134", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 108 q**"}
+{"id": "tumlu-az-135", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: 22.4L hidrogen xlorid suda həll edilərək 500 ml mə"}
+{"id": "tumlu-az-136", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: C₁₄H₃₀ molekulunda neçə σ C-H rabitəsi mövcuddur?\n\n**Cav"}
+{"id": "tumlu-az-137", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) su**"}
+{"id": "tumlu-az-138", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) 44.8**"}
+{"id": "tumlu-az-139", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 44 qram**"}
+{"id": "tumlu-az-140", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) qaz və bərk**"}
+{"id": "tumlu-az-141", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) 20**"}
+{"id": "tumlu-az-142", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) 21**"}
+{"id": "tumlu-az-143", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: D) ingilis"}
+{"id": "tumlu-az-144", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) deyil**"}
+{"id": "tumlu-az-145", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) bağlayıcı**"}
+{"id": "tumlu-az-146", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) in**"}
+{"id": "tumlu-az-147", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) Bəzən**"}
+{"id": "tumlu-az-148", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C"}
+{"id": "tumlu-az-149", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) Alay**"}
+{"id": "tumlu-az-150", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **A) 3**"}
+{"id": "tumlu-az-151", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: D) arzu"}
+{"id": "tumlu-az-152", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) tamamlıq**"}
+{"id": "tumlu-az-153", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) meydança**"}
+{"id": "tumlu-az-154", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) -a ə**"}
+{"id": "tumlu-az-155", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) qırx**"}
+{"id": "tumlu-az-156", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) sayın**"}
+{"id": "tumlu-az-157", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) neologizmlər**"}
+{"id": "tumlu-az-158", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-159", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) orfoepiya**"}
+{"id": "tumlu-az-160", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) 4"}
+{"id": "tumlu-az-161", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: A\n\n**A) Bənzətmə və müqayisə** — bu məna növünd"}
+{"id": "tumlu-az-162", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: D) on"}
+{"id": "tumlu-az-163", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) 23"}
+{"id": "tumlu-az-164", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) Sintaksis**"}
+{"id": "tumlu-az-165", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) qışlaq"}
+{"id": "tumlu-az-166", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) kömək edildi**"}
+{"id": "tumlu-az-167", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) çoxaltma"}
+{"id": "tumlu-az-168", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) hissim**"}
+{"id": "tumlu-az-169", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **A) axın**"}
+{"id": "tumlu-az-170", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-171", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) Daş ürək**"}
+{"id": "tumlu-az-172", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) Kömür"}
+{"id": "tumlu-az-173", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) 7**"}
+{"id": "tumlu-az-174", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) İsimləşər**"}
+{"id": "tumlu-az-175", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) Ədat**"}
+{"id": "tumlu-az-176", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) 2**"}
+{"id": "tumlu-az-177", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) nida**"}
+{"id": "tumlu-az-178", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) Təyin**"}
+{"id": "tumlu-az-179", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) ş, s, m, l**"}
+{"id": "tumlu-az-180", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) dərdim**"}
+{"id": "tumlu-az-181", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: B) 7"}
+{"id": "tumlu-az-182", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) xırda**"}
+{"id": "tumlu-az-183", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) bədii**"}
+{"id": "tumlu-az-184", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) -malı, -məli"}
+{"id": "tumlu-az-185", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) anlamaq**"}
+{"id": "tumlu-az-186", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) ay can-ay can"}
+{"id": "tumlu-az-187", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C"}
+{"id": "tumlu-az-188", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-189", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: D) Mış miş muş müş"}
+{"id": "tumlu-az-190", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: D) 3"}
+{"id": "tumlu-az-191", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) yardır**"}
+{"id": "tumlu-az-192", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **-can2**"}
+{"id": "tumlu-az-193", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **B) M:V:m**"}
+{"id": "tumlu-az-194", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: B) 2"}
+{"id": "tumlu-az-195", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) körpünün**"}
+{"id": "tumlu-az-196", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: C) Təyin"}
+{"id": "tumlu-az-197", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) məktəb**"}
+{"id": "tumlu-az-198", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) İran, Efiopiya"}
+{"id": "tumlu-az-199", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C) Braziliya, Argentina, Peru**"}
+{"id": "tumlu-az-200", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) 133 mln.km²"}
+{"id": "tumlu-az-201", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) 4"}
+{"id": "tumlu-az-202", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-203", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C\n\nPanama kanalının ayırdığı materiklər — **Cənubi və Şimali Amer"}
+{"id": "tumlu-az-204", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C) 8848m**"}
+{"id": "tumlu-az-205", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C) Zaysan**"}
+{"id": "tumlu-az-206", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) Cənubi Amerika"}
+{"id": "tumlu-az-207", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **D) su**"}
+{"id": "tumlu-az-208", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) 23"}
+{"id": "tumlu-az-209", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) 52"}
+{"id": "tumlu-az-210", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**A) Rusiya, Çin, Yunanıstan, Türkiyə**"}
+{"id": "tumlu-az-211", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C) belarus, rus, polyak**"}
+{"id": "tumlu-az-212", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-213", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-214", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-215", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) Braziliya"}
+{"id": "tumlu-az-216", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Arazidə:** C) Cənub-Şərqi Asiyada"}
+{"id": "tumlu-az-217", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) evkalipt"}
+{"id": "tumlu-az-218", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) Rusiya"}
+{"id": "tumlu-az-219", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C. Sebastiyan EL-Kano"}
+{"id": "tumlu-az-220", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B) Lənkəran"}
+{"id": "tumlu-az-221", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A) Pifaqor"}
+{"id": "tumlu-az-222", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) Nyu-York"}
+{"id": "tumlu-az-223", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) 7"}
+{"id": "tumlu-az-224", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **D) 3**"}
+{"id": "tumlu-az-225", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **A) İzoterm xətlərinə əsasən**"}
+{"id": "tumlu-az-226", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C) Niaqara-səsli-küylü**"}
+{"id": "tumlu-az-227", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) barometr aneroid"}
+{"id": "tumlu-az-228", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-229", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-230", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-231", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A) 17,8 mln km kvadrat"}
+{"id": "tumlu-az-232", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-233", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A) 2228 m"}
+{"id": "tumlu-az-234", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Sual: Miqyası 1:2000000 olan birinci xəritədə A və B mə"}
+{"id": "tumlu-az-235", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-236", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **D) Markopolo**"}
+{"id": "tumlu-az-237", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-238", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B) lirə"}
+{"id": "tumlu-az-239", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) Erotosfen"}
+{"id": "tumlu-az-240", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) 2 cür olur akkumlyativ və denudasion"}
+{"id": "tumlu-az-241", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D\n\n**Açiq cavab:** Respublikamızın **Kür-Araz ovalığında, Böyük Q"}
+{"id": "tumlu-az-242", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **B) Braziliya, Argentina, Venesuela**\n\nBu cavab, **iqtisadi cəhətdə"}
+{"id": "tumlu-az-243", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) Niderland"}
+{"id": "tumlu-az-244", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-245", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **D) 2m**"}
+{"id": "tumlu-az-246", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **B) 6**"}
+{"id": "tumlu-az-247", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B) BƏƏ-də"}
+{"id": "tumlu-az-248", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **B) 391**"}
+{"id": "tumlu-az-249", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B) Ohio"}
+{"id": "tumlu-az-250", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B) Avropa və Asiyada"}
+{"id": "tumlu-az-251", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C) Babil və şumer**"}
+{"id": "tumlu-az-252", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **B) 4000m**"}
+{"id": "tumlu-az-253", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-254", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) Türkiyə"}
+{"id": "tumlu-az-255", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) And, Kap"}
+{"id": "tumlu-az-256", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-257", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) Hacı Zeynalabdin Şirvani"}
+{"id": "tumlu-az-258", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **B) Böyük Coğrafi kəşflər dövründə**"}
+{"id": "tumlu-az-259", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-260", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-261", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-262", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: D) tropik və subtropik"}
+{"id": "tumlu-az-263", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C) Fərat"}
+{"id": "tumlu-az-264", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Aran zonası** — 49%-i yerləşdirilən regiondur."}
+{"id": "tumlu-az-265", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **A) 816 km**"}
+{"id": "tumlu-az-266", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B) Eratosfen"}
+{"id": "tumlu-az-267", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C"}
+{"id": "tumlu-az-268", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-269", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **C) Ekvatorial-tropik**"}
+{"id": "tumlu-az-270", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: Cenevrə"}
+{"id": "tumlu-az-271", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Açiq cavab:**  \nX.Kolumb, ənənəvi əlamətlə"}
+{"id": "tumlu-az-272", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-273", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B\n\n**Açıklama:**  \nBöyük Qafqazın Azərbaycandan başlayan silsiləsi"}
+{"id": "tumlu-az-274", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: B) 2-ci"}
+{"id": "tumlu-az-275", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Açiq cavab:**  \nCənub-Qərbi Asiyada federativ monarxiya ö"}
+{"id": "tumlu-az-276", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **D) Stolıpin aqrar islahatları**"}
+{"id": "tumlu-az-277", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) 1512 ci il**"}
+{"id": "tumlu-az-278", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-279", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) 1038-1587**"}
+{"id": "tumlu-az-280", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) 1762-ci ildə"}
+{"id": "tumlu-az-281", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A) 1822-ci il"}
+{"id": "tumlu-az-282", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D) Çin"}
+{"id": "tumlu-az-283", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) II İsmayıl**"}
+{"id": "tumlu-az-284", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) 1969-cu ildə**"}
+{"id": "tumlu-az-285", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) 605**"}
+{"id": "tumlu-az-286", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B**"}
+{"id": "tumlu-az-287", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-288", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Açiq cavab:** 1501-1736"}
+{"id": "tumlu-az-289", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Vəzirlər"}
+{"id": "tumlu-az-290", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C"}
+{"id": "tumlu-az-291", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-292", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-293", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C. R. Dizel**"}
+{"id": "tumlu-az-294", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D) 1952-ci ildə"}
+{"id": "tumlu-az-295", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) 33**"}
+{"id": "tumlu-az-296", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Sual: Azərbaycanda mis filizi çıxarılırdı.  \nA) Gəncə qəzasında  \nB"}
+{"id": "tumlu-az-297", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **D) zəkat**"}
+{"id": "tumlu-az-298", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-299", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-300", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Smolensk"}
+{"id": "tumlu-az-301", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-302", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) Gələsən-görəsən**"}
+{"id": "tumlu-az-303", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-304", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) b. c. d**\n\n**Açiq cavab:** XX əsrin əvvəllər"}
+{"id": "tumlu-az-305", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) 1412**"}
+{"id": "tumlu-az-306", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) 1998-ci ilin oktyabrında**"}
+{"id": "tumlu-az-307", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-308", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) Atəşpərəstliyə**"}
+{"id": "tumlu-az-309", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-310", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-311", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B) Sultanlar"}
+{"id": "tumlu-az-312", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Açıklama:**  \nAlmaniya SSRI-yə hücum etdi 17 sentyabr 1"}
+{"id": "tumlu-az-313", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) ensi**"}
+{"id": "tumlu-az-314", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-315", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-316", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) 402-ci**"}
+{"id": "tumlu-az-317", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-318", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) 323**"}
+{"id": "tumlu-az-319", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Əliqulu xan Əfşar"}
+{"id": "tumlu-az-320", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Sual: 1941-ci ildə təşkil olunmuş milli Azərbaycan diviziyalarıdır."}
+{"id": "tumlu-az-321", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-322", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D) Neolit dövründə"}
+{"id": "tumlu-az-323", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) a.c**\n\n**Açiq cavab:**  \nXIX əsrin əvvəllərind"}
+{"id": "tumlu-az-324", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Ruslar"}
+{"id": "tumlu-az-325", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-326", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B**"}
+{"id": "tumlu-az-327", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) Şamaxı**"}
+{"id": "tumlu-az-328", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D) Neolit dövründə"}
+{"id": "tumlu-az-329", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-330", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Sual: 1809-cu ildə Abbas Mirzənin ruslardan təmizləmək istə"}
+{"id": "tumlu-az-331", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-332", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B"}
+{"id": "tumlu-az-333", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Açıklama:**  \nQızıl Arslan, **Mehemmed Cahan Pehlevanın**"}
+{"id": "tumlu-az-334", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D) vilayətlər"}
+{"id": "tumlu-az-335", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-336", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Ə.Muradxanov"}
+{"id": "tumlu-az-337", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A) 622"}
+{"id": "tumlu-az-338", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B) 27 il"}
+{"id": "tumlu-az-339", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **A) Azərbaycan, Türkiyə, Gürcüstan**\n\nBu cavab, Bakı-Tbilisi"}
+{"id": "tumlu-az-340", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **A) Neolit dövründə**"}
+{"id": "tumlu-az-341", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B) 1614"}
+{"id": "tumlu-az-342", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) 272-ci il"}
+{"id": "tumlu-az-343", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Əfsanəvi Semiramida"}
+{"id": "tumlu-az-344", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) 25**"}
+{"id": "tumlu-az-345", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Ə.Hüseynzadə"}
+{"id": "tumlu-az-346", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-347", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) İsmayıl Əliyev**"}
+{"id": "tumlu-az-348", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Sual: Nadir xan şah elan olunduqdan sonra qarabağlıların sürgün olunduğu ərazil"}
+{"id": "tumlu-az-349", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Əliköməktəpədə"}
+{"id": "tumlu-az-350", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) kiaksar"}
+{"id": "tumlu-az-351", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) 1501-ci ildə"}
+{"id": "tumlu-az-352", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-353", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-354", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **C) Astiaq**"}
+{"id": "tumlu-az-355", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Kuba"}
+{"id": "tumlu-az-356", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: D) 1289-cü ildə"}
+{"id": "tumlu-az-357", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: **B) 6 il**"}
+{"id": "tumlu-az-358", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: B) Roma Parfiya"}
+{"id": "tumlu-az-359", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-360", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) Bitki hüceyrələrinin qılafı**"}
+{"id": "tumlu-az-361", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) 6-10 metr"}
+{"id": "tumlu-az-362", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) Hiasint**"}
+{"id": "tumlu-az-363", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) gövdə meyvə toxum**"}
+{"id": "tumlu-az-364", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B**"}
+{"id": "tumlu-az-365", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-366", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-367", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) qoruyucu və müvazinət**"}
+{"id": "tumlu-az-368", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) metoz**"}
+{"id": "tumlu-az-369", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) yoğun bağırsaqda"}
+{"id": "tumlu-az-370", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-371", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C) 4"}
+{"id": "tumlu-az-372", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) Epifiz vəzi**"}
+{"id": "tumlu-az-373", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) 2 qrupa bölünür akson dendirit**"}
+{"id": "tumlu-az-374", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) müdafiə, ifrazat, mübadilə**"}
+{"id": "tumlu-az-375", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) ziqota**"}
+{"id": "tumlu-az-376", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C\n\nAna arinin vəzifəsi **pətəyi qorumaq**dır."}
+{"id": "tumlu-az-377", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) Malpigi boruları**"}
+{"id": "tumlu-az-378", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) Cinsi və qeyri-cinsi**"}
+{"id": "tumlu-az-379", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-380", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) yaşıl və purpur"}
+{"id": "tumlu-az-381", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) birhüceyrəlidir**"}
+{"id": "tumlu-az-382", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **A) 2**"}
+{"id": "tumlu-az-383", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) çürüntülü yerlərdə**"}
+{"id": "tumlu-az-384", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) Con Rey**"}
+{"id": "tumlu-az-385", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: A) 2 kameralı"}
+{"id": "tumlu-az-386", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-387", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) 6**"}
+{"id": "tumlu-az-388", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) kor**"}
+{"id": "tumlu-az-389", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) 4**"}
+{"id": "tumlu-az-390", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) sinir və humoral**"}
+{"id": "tumlu-az-391", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Açıklama:**  \nMədəaltı vəzi (C) — bu vəzilərd"}
+{"id": "tumlu-az-392", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) sidik kisəsi**"}
+{"id": "tumlu-az-393", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-394", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) Ürəyinin 4 kameralı olması**"}
+{"id": "tumlu-az-395", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-396", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D"}
+{"id": "tumlu-az-397", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-398", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) arı"}
+{"id": "tumlu-az-399", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C**"}
+{"id": "tumlu-az-400", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) Volvoks**"}
+{"id": "tumlu-az-401", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D\n\n**Açıklama:**  \nDişicik, sütuncuq, yumurtacıq ve yumurtal"}
+{"id": "tumlu-az-402", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) bitki mənşəli**"}
+{"id": "tumlu-az-403", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: B) mədəaltı"}
+{"id": "tumlu-az-404", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) endokrin vəzi**"}
+{"id": "tumlu-az-405", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) onurğa kanalı**"}
+{"id": "tumlu-az-406", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B**"}
+{"id": "tumlu-az-407", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) malpigi boruları"}
+{"id": "tumlu-az-408", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C) yarasa"}
+{"id": "tumlu-az-409", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) cinsdə"}
+{"id": "tumlu-az-410", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) kələm**"}
+{"id": "tumlu-az-411", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) toxumlar**"}
+{"id": "tumlu-az-412", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) tumurcuq gövdəcik kökcük və iki ləpədən**"}
+{"id": "tumlu-az-413", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-414", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) mikroskop**"}
+{"id": "tumlu-az-415", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: B) 100-270"}
+{"id": "tumlu-az-416", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) şaftalı"}
+{"id": "tumlu-az-417", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: A) vegetativ, generativ"}
+{"id": "tumlu-az-418", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-419", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **A) yarpaq**"}
+{"id": "tumlu-az-420", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C\n\n**Açıklama:** Su molekulunun kimyəvi formulu **H₂O** (hidrojen"}
+{"id": "tumlu-az-421", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C) meyvəkökləri; kökümeyvəlilər\n\n**Açıklama:**"}
+{"id": "tumlu-az-422", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-423", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) ziqot əmələ gəlir**"}
+{"id": "tumlu-az-424", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) yumurta sarısı az olduğundan**  \n\n**Açıklama:**  \nMayalanma zamanı, yum"}
+{"id": "tumlu-az-425", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: D) Qarğıdalı"}
+{"id": "tumlu-az-426", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **C) cücərməmiş**"}
+{"id": "tumlu-az-427", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: B) fəsilədə"}
+{"id": "tumlu-az-428", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C) Haradır"}
+{"id": "tumlu-az-429", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) Penisil**"}
+{"id": "tumlu-az-430", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B**"}
+{"id": "tumlu-az-431", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: →a(3;-2;1) və →b(4;0;3) vektorların skalyar (dot"}
+{"id": "tumlu-az-432", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **D) (5;-11;4)**\n\n**Əsas nəzərə alınmaq ister:"}
+{"id": "tumlu-az-433", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: İki bərabərtərəfli üçbucağın medianları nisbəti 2:3 kimid"}
+{"id": "tumlu-az-434", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: 9 və 12 yaşlarında olan iki uşaq 42 dəftəri yaşları ilə tə"}
+{"id": "tumlu-az-435", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: (bac)+(acb)+(cba)=999a>b>c olduğuna görə, a+b cəminin ən böyük"}
+{"id": "tumlu-az-436", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: a=1, b=3 olduqda, (4/27)a²₀b²a⁷b ifadəsin"}
+{"id": "tumlu-az-437", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **C) 1**"}
+{"id": "tumlu-az-438", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: ab = 6, bc = 14, ac = 21 olarsa, |abc| = ?\n\n**Çözüm"}
+{"id": "tumlu-az-439", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Diaqonal kəsiyinin sahəsi 16√2 sm² olan kubun həcmini tapın"}
+{"id": "tumlu-az-440", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: →a(3;2) və →b(4;b) vektorları perpendikulyardır. b-ni"}
+{"id": "tumlu-az-441", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: $ x + y = 6xy - z^2 = 9 $ tənliklər sistemindən $ x"}
+{"id": "tumlu-az-442", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: A(1;3) nöqtəsindən 3x + 4y - 10 = 0 düz"}
+{"id": "tumlu-az-443", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: A, b, c ardıcıl cüt ədədlər və a(a-2b)/c ifadə"}
+{"id": "tumlu-az-444", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: xı=x-3, yı=y+1, zı=z-2 paralel köçürməsi A(5;-"}
+{"id": "tumlu-az-445", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **D) b**"}
+{"id": "tumlu-az-446", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Neçəsi eynilikdir?  \n1) 5b + 3 = 3 + 5b  \n2)"}
+{"id": "tumlu-az-447", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Dördrəqəmli 1xyz ədədi 15-ə tam bölünürsə, x"}
+{"id": "tumlu-az-448", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **C) 60**"}
+{"id": "tumlu-az-449", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: OA = 2 sm -dir. Mərkəzi O nöqtəsində və əmsalık=3"}
+{"id": "tumlu-az-450", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: 295 ədədi 2; 5; 7 ədədləri ilə tərs"}
+{"id": "tumlu-az-451", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: ab=10ab2+a2b=40 tənliklər sistemindən (a+b) cə"}
+{"id": "tumlu-az-452", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: x - 4y = 2 və xy = 3 isə, x² + 16y² ifadəsin"}
+{"id": "tumlu-az-453", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **B) 19**"}
+{"id": "tumlu-az-454", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: A(7;2), C(3;8) nöqtələri ABCD paraleloqramının iki"}
+{"id": "tumlu-az-455", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Ən böyüyü 2n-3 olan 4 ardıcıl tək ədədin cəmini tap"}
+{"id": "tumlu-az-456", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **D) ±2,5**"}
+{"id": "tumlu-az-457", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: X ≠ y ≠ 0 __ __5xy + 8xy = 1434 və x ≠ y ≠ 0 oldu"}
+{"id": "tumlu-az-458", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: 65 - (х - 15) = 50 olduqda 70 - (х - 12)"}
+{"id": "tumlu-az-459", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Bir A ədədi 18; 20; 24 ədədlərinə ayrı-ay"}
+{"id": "tumlu-az-460", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Üçbucağın iki xarici bucaqlarının cemi 230°-dur. Bu buca"}
+{"id": "tumlu-az-461", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Kvadratın sahəsi 81 dm²-dir. Perimetri bu kvadratın perimetrinə b"}
+{"id": "tumlu-az-462", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: x, y, z müsbət tam ədədlərdir.  \nx³y = 24  \ny"}
+{"id": "tumlu-az-463", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **B) 60**"}
+{"id": "tumlu-az-464", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: f(x) = x² + x - 1 və g(x) = x - 1 olduğuna görə, g(f(x"}
+{"id": "tumlu-az-465", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: x, y, z müsbət tam ədədlərdir. xy = 32 və yz ="}
+{"id": "tumlu-az-466", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **D) 63**"}
+{"id": "tumlu-az-467", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: ABC üçbucağında AB=15√2, AC=23, <A=45o isə BC=?"}
+{"id": "tumlu-az-468", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: AB parçası dörd bərabər hissəyə bölünmüşdür. İkinci hissənin"}
+{"id": "tumlu-az-469", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: 4x² - 12x + 9y² - 12y = 12 çevrəsinin m"}
+{"id": "tumlu-az-470", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **D) 17**"}
+{"id": "tumlu-az-471", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **A) 2**"}
+{"id": "tumlu-az-472", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: k-nın hansı qiymətində 5x + ky = 17 və 3x + 6y"}
+{"id": "tumlu-az-473", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **C) 10**"}
+{"id": "tumlu-az-474", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: a + b = 5, a³ + b³ = 35 olarsa, ab = ?\n\n**Cavab:**"}
+{"id": "tumlu-az-475", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Kürənin mərkəzindən 6 sm məsafədə müstəvi keçir"}
+{"id": "tumlu-az-476", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: → →k-nin hansı qiymətində a(6;0;12) və b(-8;1"}
+{"id": "tumlu-az-477", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: m və n müsbət tam ədədlərdir. n³ = 300m olduğuna gör"}
+{"id": "tumlu-az-478", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Konusun doğuranı 5 sm, oturacağının radiusu 4 sm-dir. Onun ox kəsiy"}
+{"id": "tumlu-az-479", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Silindrin oturacağının radiusu 4, hündürlüyü 6 olarsa, ox kəsiy"}
+{"id": "tumlu-az-480", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: a=5 sm olan üçbucağın xaricinə çəkilmiş çevrənin radiusu 10 sm"}
+{"id": "tumlu-az-481", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **A) 234**"}
+{"id": "tumlu-az-482", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: a və b ardıcıl tək natural ədədlərdir. a² - b² = 48"}
+{"id": "tumlu-az-483", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: — —a(4;5) və b(3;-2) vektorlarının skalyar hasilini tapın  \nA"}
+{"id": "tumlu-az-484", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Sıfırdan fərqli müsbət ədədlərin (a və b) ə"}
+{"id": "tumlu-az-485", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **A) IV**"}
+{"id": "tumlu-az-486", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **C) 3**"}
+{"id": "tumlu-az-487", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: (x+3)+(x+1)=12 Tənliyi həll edin  \nA) 8  \nB)"}
+{"id": "tumlu-az-488", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Daxilinə çevrə çəkmək mümkün olan trapesiyanın böyük və kiçik otur"}
+{"id": "tumlu-az-489", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: 360 ədədi 2; 3; 7 ədədləri ilə mütə"}
+{"id": "tumlu-az-490", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: ax² + 4x + 2 = 0 tənliyinin kökləri cəminin natural ə"}
+{"id": "tumlu-az-491", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: 7/13 kəsrinin surət və məxrəcindən hansı ədədi"}
+{"id": "tumlu-az-492", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: (ab):b=4 (qalıq 3) isə, a+b=? ( (ab) 2 rəq"}
+{"id": "tumlu-az-493", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Cavab: **D) 3**"}
+{"id": "tumlu-az-494", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: x + 3 = 2(y - 4)  \ny - 2 = 4x  \n\nTənliklər"}
+{"id": "tumlu-az-495", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Bir miqdar pərdəlik parçanın əvvəlcə 2/7 -ni, sonra isə"}
+{"id": "tumlu-az-496", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) 44% artar**"}
+{"id": "tumlu-az-497", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **A) 1,5 san**\n\n**Əsas məlumat:**  \nSəs dalğaları 3"}
+{"id": "tumlu-az-498", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Sual: Sarğacdan axan cərəyanın şiddətinin ilk qiymətini tapın  \nA) 1"}
+{"id": "tumlu-az-499", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) 0,5 san**"}
+{"id": "tumlu-az-500", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Physics", "max_new_tokens": 32, "raw_response": "Cavab: **D) Foton**"}
+{"id": "tumlu-az-501", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) əsasi**\n\n**Əsasi** məhlul — bu, məhlulda 1 mol"}
+{"id": "tumlu-az-502", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **B) K2CO3**"}
+{"id": "tumlu-az-503", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **A) 40**\n\n**Əsas məlumat:**  \nKalsium (Ca) molar massı"}
+{"id": "tumlu-az-504", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Cavab: **C) 7**"}
+{"id": "tumlu-az-505", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Chemistry", "max_new_tokens": 32, "raw_response": "Sual: 200 q 60%-li NaOH məhluluna 100 q su əlavə edild"}
+{"id": "tumlu-az-506", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **D) 5**"}
+{"id": "tumlu-az-507", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: **C) Morfologiya və Sintaksis**"}
+{"id": "tumlu-az-508", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Native L&L", "max_new_tokens": 32, "raw_response": "Cavab: D) qarşılıq-birgəlik"}
+{"id": "tumlu-az-509", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-510", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **A**"}
+{"id": "tumlu-az-511", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Geography", "max_new_tokens": 32, "raw_response": "Cavab: **B) 40 dərəcə şm.e.- 100 dərəcə q.u"}
+{"id": "tumlu-az-512", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: C) Albaniya"}
+{"id": "tumlu-az-513", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "History", "max_new_tokens": 32, "raw_response": "Cavab: A"}
+{"id": "tumlu-az-514", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: C) 9 nəsil"}
+{"id": "tumlu-az-515", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **D) 48**"}
+{"id": "tumlu-az-516", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **B) 372**\n\n**Əməl:**  \nİkiqat mayalanmada, nüvə"}
+{"id": "tumlu-az-517", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Biology", "max_new_tokens": 32, "raw_response": "Cavab: **A) 52**"}
+{"id": "tumlu-az-518", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Ən kiçiyi 2n-2 olan iki ardıcıl ədədin cəmini tapın"}
+{"id": "tumlu-az-519", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Paraleloqramın perimetri 60 sm, iki tərəfin fərqi 14 sm"}
+{"id": "tumlu-az-520", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Bir malın 30%-i 20% zərərlə, qalan hissəsi 20%"}
+{"id": "tumlu-az-521", "model": "Qwen/Qwen3-1.7B", "condition": "mcq", "subject": "Maths", "max_new_tokens": 32, "raw_response": "Sual: Kürənin həcmi 36∏ sm³-dur. Onun diametrini tapın.\n\n**Verilə"}

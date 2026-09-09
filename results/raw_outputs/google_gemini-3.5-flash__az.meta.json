@@ -1,0 +1,17 @@
+{
+  "model": "google:gemini-3.5-flash",
+  "provider": "google",
+  "requested_model": "gemini-3.5-flash",
+  "resolved_model": "gemini-3.5-flash",
+  "max_tokens": 32,
+  "thinking": "disabled",
+  "determinism": "best-effort",
+  "usage": {
+    "calls": 5,
+    "input_tokens": 483,
+    "output_tokens": 12,
+    "failures": 0,
+    "cost_usd": null
+  },
+  "leaked_internal_tags": 0
+}

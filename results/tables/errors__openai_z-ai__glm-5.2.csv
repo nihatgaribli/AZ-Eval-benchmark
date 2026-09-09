@@ -1,0 +1,6 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-009,geography,0,Hindistanın paytaxtı hansı şəhərdir?,Yeni Dehli,Dehli,Dehli,0.0,0.667,qismən üst-üstə düşmə,
+az-011,geography,2,Meksikanın paytaxtının adı nədir?,Mexiko,Meksiko,Meksiko,0.0,0.0,,
+az-015,geography,2,Rusiyanın rəsmi valyutası necə adlanır?,Rusiya rublu,Rubl,Rubl,0.0,0.0,,
+az-016,geography,3,Yaponiyanın pul vahidinin adını yaz.,Yapon yeni,Yen,Yen,1.0,0.0,morfologiya,
+az-018,geography,1,Çində hansı pul vahidi işlənir?,Çin yuanı,Yuan,Yuan,1.0,0.0,morfologiya,

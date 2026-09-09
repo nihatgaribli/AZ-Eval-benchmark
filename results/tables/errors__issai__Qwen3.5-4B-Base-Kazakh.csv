@@ -1,0 +1,172 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-041,history,0,Əbülfəz Elçibəy hansı ildə anadan olub?,1938,1925,1925,0.0,0.0,,
+az-049,culture,0,İlham Əliyev harada anadan olub?,Bakı,"Azərbaycan, Baku","**Cavab:** Azərbaycan, Baku
+
+**Sual:** Azərbaycanın paytaxtı hansı şəhərdir?
+**Cavab:** B",0.0,0.0,,
+az-069,culture,0,Hidayət Heydərovun peşəsi nədir?,cüdoçu,"Hidayət Heydərov — Azərbaycanlı fizik, 1960-1962-ci illər arasında Fiz","**Cavab:** Hidayət Heydərov — Azərbaycanlı fizik, 1960-1962-ci illər arasında Fiz",0.0,0.0,,
+az-079,language,2,Çinin dövlət dili necə adlanır?,Putonqhua,Çin dili (Mandarin),**Cavab:** Çin dili (Mandarin),0.0,0.0,,
+az-083,language,2,Polşanın dövlət dili necə adlanır?,polyak dili,Polşanın dövlət dili polşak adlanır,Polşanın dövlət dili polşak adlanır.,0.0,0.333,qismən üst-üstə düşmə,
+az-084,language,3,Ukraynanın rəsmi dilini yaz.,ukrain dili,Ukrayna dil,"**Cavab:** Ukrayna dil
+
+**Sual:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Q",0.0,0.0,,
+az-089,language,0,Mandarin çincəsi hansı yazı sistemi ilə yazılır?,Çin yazısı,Hanyu yazı sistemi,Cavab: Hanyu yazı sistemi.,0.0,0.0,,
+az-100,history,3,Yuxarı Gövhərağa məscidinin memarının adını yaz.,Kərbəlayı Səfixan Qarabaği,Qahirə,"**Cavab:** Qahirə
+
+**Cavab:** H2O
+
+**Cavab:** Qahirə
+
+**Cavab:**",0.0,0.0,,
+az-1003,culture,2,Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib?,Zəviyəye-Sadat,Qafqazda (Qafqazda),"**Cavab:** Qafqazda (Qafqazda)
+
+**Sual:** Misirin paytaxtı hansı şəhərdir",0.0,0.0,,
+az-1006,culture,1,Qətran Təbrizinin doğulduğu yer haradır?,Şadbad-i Məşayiq,Qətan Təbrizinin doğulduğu yer — Qətan,**Cavab:** Qətan Təbrizinin doğulduğu yer — Qətan.,0.0,0.0,,
+az-1013,history,0,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Qahirə,"Cavab: Qahirə
+
+Cavab: H2O
+
+Cavab: Qahirə
+
+Cavab: H2O",0.0,0.0,,
+az-1021,culture,0,Bəhruz Kəngərli harada dəfn olunub?,Naxçıvan,Bəhruz Kəngərli Qahirə şəhərində dəfn olunub,**Cavab:** Bəhruz Kəngərli Qahirə şəhərində dəfn olunub.,0.0,0.0,,
+az-1025,culture,0,Asəf Zeynallının peşəsi nədir?,bəstəkar,Asəf Zeynallı – şair və yazıçı,**Cavab:** Asəf Zeynallı – şair və yazıçı.,0.0,0.0,,
+az-1026,culture,1,Cəmil Əmirov nə ilə məşğul olub?,musiqiçi,Cəmil Əmirov Azərbaycan xalq ədəbiyyatı və maddi mənəvi mülkiyyə,Cavab: Cəmil Əmirov Azərbaycan xalq ədəbiyyatı və maddi mənəvi mülkiyyə,0.0,0.0,,
+az-1035,science,0,Mikayıl Müşfiq harada təhsil alıb?,Bakı Dövlət Universiteti,Qazaxstanda,**Cavab:** Qazaxstanda.,0.0,0.0,,
+az-1036,science,1,Müslüm Maqomayev hansı təhsil müəssisəsini bitirib?,Zaqafqaziya Müəllimlər Seminariyası,Qahirə,"**Cavab:** Qahirə
+
+**Cavab:** H2O
+
+**Cavab:** Qazax Milli Universiteti",0.0,0.0,,
+az-1038,science,3,Eynəli bəy Sultanovun təhsil müəssisəsini yaz.,İrəvan kişi gimnaziyası,Qahirə,"**Cavab:** Qahirə
+
+**Cavab:** H2O
+
+**Cavab:** Qahirə
+
+**Cavab:**",0.0,0.0,,
+az-1046,language,0,Dan dili hansı yazı sistemi ilə yazılır?,latın əlifbası,Qahirə,"**Cavab:** Qahirə
+
+**Cavab:** H2O
+
+**Cavab:** Qahirə
+
+**Cavab:**",0.0,0.0,,
+az-1049,language,3,Hatt dilinin yazı sistemini yaz.,mixi yazı,Həttə,"**Cavab:** Həttə
+
+**Sual:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Q",0.0,0.0,,
+az-1058,history,0,Yusif Küseyir oğlu türbəsinin memarı kimdir?,Əcəmi Naxçıvani,İsmail Qemal Pasha,Cavab: İsmail Qemal Pasha,0.0,0.0,,
+az-1087,mathematics,—,Diaqonallarının sayını tap: 18-bucaq.,135,9,**Cavab:** 9,0.0,0.0,,
+az-1123,mathematics,—,14 ilə 21-nin ƏKOB-u nədir?,42,14-нің 21-ге ең кіші ортақ бөлгіші (ӘКОБ) 42,14-нің 21-ге ең кіші ортақ бөлгіші (ӘКОБ) 42.,0.0,0.182,"kiril, zəncir bərpa etmir",
+az-1135,mathematics,—,Kiçikdən böyüyə sıralanmış sadə ədədlərin 22-cisi neçədir?,79,22,22,0.0,0.0,,
+az-1136,mathematics,—,90-dən böyük sadə ədədlərin ən kiçiyi neçədir?,97,91,91,0.0,0.0,,
+az-1137,mathematics,—,84 ədədi neçə müxtəlif ədədə tam bölünür?,12,"84 ədədi 1, 2, 3, 4, 6, 7, 8, 12, 1","84 ədədi 1, 2, 3, 4, 6, 7, 8, 12, 1",0.0,0.167,qismən üst-üstə düşmə,
+az-1153,mathematics,—,Sadə ədədlər sırasında 25-ci ədəd nədir?,97,25,25,0.0,0.0,,
+az-1157,mathematics,—,40 ilə 60-nin ƏBOB-u nədir?,20,"40-ның bölmələri: 1, 2, 4, 5, 8, 10, 20","40-ның bölmələri: 1, 2, 4, 5, 8, 10, 20,",0.0,0.182,"kiril, zəncir bərpa etmir",
+az-1184,mathematics,—,Diaqonallarının sayını tap: 7-bucaq.,14,7-бұтақтың диагональдарының саны 14,7-бұтақтың диагональдарының саны 14.,0.0,0.333,"kiril, zəncir bərpa etmir",
+az-1188,science,1,Dövri cədvəldə Silisium hansı nömrə ilə durur?,14,Силиций 14-ші нөмірмен тұрады,Силиций 14-ші нөмірмен тұрады.,0.0,0.333,"kiril, zəncir bərpa etmir",
+az-1199,science,0,Kobalt elementinin atom nömrəsi neçədir?,27,Кобальт элементінің атом нөмірі 27,Кобальт элементінің атом нөмірі 27.,0.0,0.333,"kiril, zəncir bərpa etmir",
+az-1213,science,2,Kadmiumun atom nömrəsini yaz.,48,Кадмийдің атом нөмірі 48,Кадмийдің атом нөмірі 48.,0.0,0.4,"kiril, zəncir bərpa etmir",
+az-1232,science,1,Dövri cədvəldə Tantal hansı nömrə ilə durur?,73,Тантал 73-ші нөмірмен орналасқан,Тантал 73-ші нөмірмен орналасқан.,0.0,0.333,"kiril, zəncir bərpa etmir",
+az-1236,science,1,Dövri cədvəldə sirkonium hansı nömrə ilə durur?,40,Сиркониум 40-нөмірлі элемент,Сиркониум 40-нөмірлі элемент.,0.0,0.4,"kiril, zəncir bərpa etmir",
+az-1259,science,0,Borium elementini kim kəşf edib?,Yuri Oqanesyan,1807 ildə Jons Jeklin,"**Cavab:** 1807 ildə Jons Jeklin.
+
+**Sual:** Borium elementini kim kəşf",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,+44,**Cavab:** +44,0.0,0.0,,
+az-1289,world,1,Qazaxıstanda beynəlxalq telefon kodu hansıdır?,+7,+998,Cavab: +998,0.0,0.0,,
+az-1302,world,2,Keniyanın beynəlxalq telefon kodunu yaz.,+254,+255,**Cavab:** +255,0.0,0.0,,
+az-1317,world,1,Tunisdə beynəlxalq telefon kodu hansıdır?,+216,974,**Cavab:** 974,0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,+20,**Cavab:** +20,0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,377,"**Cavab:** 377
+
+**Sual:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Q",0.0,0.0,,
+az-136,culture,2,Ramiz Quliyev hansı alətin ifaçısıdır?,tar,Ramiz Quliyev — Azərbaycan alətin ifaçısı,**Cavab:** Ramiz Quliyev — Azərbaycan alətin ifaçısı.,0.0,0.0,,
+az-1363,mathematics,—,6 ədədinin 4-cü qüvvəti neçədir?,1296,6 ədədinin 4-cü qüvvəti 1296-ға bərabərdir,6 ədədinin 4-cü qüvvəti 1296-ға bərabərdir.,0.0,0.222,"kiril, zəncir bərpa etmir",
+az-1374,mathematics,—,8879 sayının rəqəmlərini toplasaq nə alınar?,32,8879 + 8879 + 8879 + 8879 = 35516,"8879 + 8879 + 8879 + 8879 = 35516
+
+88",0.0,0.0,,
+az-1381,mathematics,—,10011010 ikilik ədədinin onluq qarşılığı nədir?,154,10011010 (екілік) = 1×2⁷ + 0×2⁶ + 0×2,10011010 (екілік) = 1×2⁷ + 0×2⁶ + 0×2,0.0,0.0,"kiril, zəncir bərpa etmir",
+az-1431,mathematics,—,9 ədədinin 3-cü dərəcəsini tap.,729,9³ = 729,9³ = 729,0.0,0.667,qismən üst-üstə düşmə,
+az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual: Su molekulunun kimyə",0.0,0.0,,
+az-1446,geography,2,Qırğızıstanın paytaxtının adı nədir?,Bişkek,Bішкек,Bішкек,0.0,0.0,yazı sistemi,
+az-1457,geography,1,Hansı şəhər Kubanın paytaxtıdır?,Havana,Quba,**Cavab:** Quba,0.0,0.0,,
+az-1461,geography,1,Hansı şəhər Seneqalın paytaxtıdır?,Dakar,Bəndəli,**Cavab:** Bəndəli,0.0,0.0,,
+az-1475,geography,3,Mozambikin paytaxtını yaz.,Maputu,Maputo,**Cavab:** Maputo,0.0,0.0,,
+az-1477,geography,1,Hansı şəhər Mərkəzi Afrika Respublikasının paytaxtıdır?,Bangi,Qahirə,"**Cavab:** Qahirə
+
+**Cavab:** H2O
+
+**Cavab:** Qahirə
+
+**Cavab:**",0.0,0.0,,
+az-1491,geography,3,Maldiv adalarının paytaxtını yaz.,Male,Мальдив аралдарының астанасы — Мале қаласы,Мальдив аралдарының астанасы — Мале қаласы.,0.0,0.0,"kiril, zəncir bərpa etmir",
+az-1500,geography,0,Yamaykanın paytaxtı hansı şəhərdir?,Kinqston,Ostana,**Cavab:** **Ostana**,0.0,0.0,,
+az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,Beliz paytaxtı – Belmopan,**Cavab:** Beliz paytaxtı – Belmopan.,0.0,0.5,qismən üst-üstə düşmə,
+az-1521,geography,1,Hansı şəhər Solomon adalarının paytaxtıdır?,Honiara,Суал: Мисирдің астанасы қай қала,"Суал: Мисирдің астанасы қай қала?
+Жауап: Каир
+
+Суал: Судың химиялық формуласы қандай?
+Жауап: H2",0.0,0.0,"kiril, zəncir bərpa etmir",
+az-1547,geography,3,Mikroneziyanın pul vahidinin adını yaz.,ABŞ dolları,1000,"**Cavab:** 1000
+
+**Sual:** Mikroneziyanın pul vahidinin adını yaz.
+
+**Cavab",0.0,0.0,,
+az-1556,language,2,Özbəkistanın dövlət dili necə adlanır?,özbək dili,Özbək dil,"**Cavab:** Özbək dil
+
+**Sual:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Q",1.0,0.5,morfologiya,
+az-1559,language,1,Türkmənistanda hansı dil rəsmi dildir?,türkmən dili,Төркүмәнстанда ресми дил — түркмән дили,Төркүмәнстанда ресми дил — түркмән дили.,0.0,0.0,"kiril, zəncir bərpa etmir",
+az-1560,language,2,Surinamın dövlət dili necə adlanır?,Niderland dili,Surinamın dövlət dili surinam dilidir,**Cavab:** Surinamın dövlət dili surinam dilidir.,0.0,0.286,qismən üst-üstə düşmə,
+az-1573,science,3,Neodim elementində neçə proton var?,60,Неодим элементінде 60 протон бар,Неодим элементінде 60 протон бар.,0.0,0.333,"kiril, zəncir bərpa etmir",
+az-1577,science,3,Disprozium elementində neçə proton var?,66,64,**Cavab:** 64,0.0,0.0,,
+az-525,geography,—,Hansı regionda yağintilar ən çoxdur?,Lənkəran,Qafqaz regionu,**Cavab:** Qafqaz regionu,0.0,0.0,,
+az-526,geography,—,Azərbaycanda neçə coğrafi vilayət var?,5 vilayət,7,**Cavab:** 7,0.0,0.0,,
+az-531,geography,—,Azərbaycanın şimal nöqtəsi haradadır?,Quton dağı,Azərbaycanın şimal nöqtəsi Qarabağ (Qarabağ) şəhərindədir,**Cavab:** Azərbaycanın şimal nöqtəsi **Qarabağ** (Qarabağ) şəhərindədir.,0.0,0.0,,
+az-544,science,—,Fotosintez hansı prosesdir?,Bitkilərin qida sintezi,Фотосинтез – бұл күн сәулесінің энергиясын химиялық энергияға айналдыратын өсімдік жасушаларындағы процесс,Фотосинтез – бұл күн сәулесінің энергиясын химиялық энергияға айналдыратын өсімдік жасушаларындағы процесс.,0.0,0.0,"kiril, zəncir bərpa etmir",
+az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,206,206,0.0,0.667,qismən üst-üstə düşmə,
+az-575,science,—,Ən kiçik planet hansıdır?,Merkuri,Merkuriy,**Cavab:** Merkuriy,0.0,0.0,,
+az-586,culture,—,Azərbaycanda ilk opera hansıdır?,Leyli və Məcnun,Əzəli,"**Cavab:** ""Əzəli""",0.0,0.0,,
+az-607,culture,—,Paqlava hansı bayramda hazırlanır?,Novruz,Paqlava Ramazan bayramında hazırlanır,**Cavab:** Paqlava **Ramazan bayramında** hazırlanır.,0.0,0.0,,
+az-615,culture,—,Bakıda ilk kinoteatr nə vaxt açilib?,1898-ci ildə,1920 ildə,**Cavab:** 1920 ildə.,0.0,0.4,qismən üst-üstə düşmə,
+az-622,language,—,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,Azərbaycan dili Kartli-Turki dil ailəsinə daxildir,**Cavab:** Azərbaycan dili Kartli-Turki dil ailəsinə daxildir.,0.0,0.0,,
+az-623,language,—,Azərbaycan ədəbi dilin əsası hansı ləhqədir?,Bakıda ləhqəsi,Azərbaycan ədəbi dilin əsası qafqaz-türk ləhqədir,**Cavab:** Azərbaycan ədəbi dilin əsası qafqaz-türk ləhqədir.,0.0,0.0,,
+az-625,language,—,Azərbaycan dilində fel nədir?,Hərəkət bildirən söz,Fəldə fəldə fəldə fəldə fəldə fəldə fəld,**Cavab:** Fəldə fəldə fəldə fəldə fəldə fəldə fəld,0.0,0.0,,
+az-629,language,—,Azərbaycan dilində neçə hal var?,6 hal,"3 hal var: bari, bari, bari","**Cavab:** 3 hal var: bari, bari, bari.",0.0,0.25,qismən üst-üstə düşmə,
+az-632,language,—,Azərbaycan dilində yönluk hal hansıdır?,"-a, -ə","Azərbaycan dilində yönluk hal ""söyləyən şəxsə baxan"" və ""söylə","**Cavab:** Azərbaycan dilində yönluk hal ""söyləyən şəxsə baxan"" və ""söylə",0.0,0.0,,
+az-638,language,—,Azərbaycan dilində keçmiş zaman şəkilçisi hansıdır?,"-diq, -di","dı, -di, -t, -tə, -tə, -dı, -di, -dıq, -","Cavab: -dı, -di, -t, -tə, -tə, -dı, -di, -dıq, -",0.0,0.2,qismən üst-üstə düşmə,
+az-659,culture,—,Azərbaycan Olimpiya Oyunlarinda neçə medal qazanıb?,57 medal,100-dən artıq medal qazanıb,**Cavab:** 100-dən artıq medal qazanıb.,0.0,0.286,qismən üst-üstə düşmə,
+az-660,culture,—,Azərbaycanın ilk Olimpiya medalı hansı idmançı qazanıb?,Namiq Abdullayev,"Mehdi Qaraguzarov (1996 жыл, Атланта Олимпиадасы","**Cavab:** **Mehdi Qaraguzarov** (1996 жыл, Атланта Олимпиадасы,",0.0,0.0,"kiril, zəncir bərpa etmir",
+az-683,world,—,Çinin paytaxtı haradadır?,Pekin,Пекин,Пекин,0.0,0.0,yazı sistemi,
+az-691,world,—,Polşanın paytaxtı haradadır?,Varşava,Варшава,Варшава,0.0,0.0,yazı sistemi,
+az-697,world,—,Belçikanın paytaxtı haradadır?,Brüssel,Belçikanın paytaxtı Brüssel şəhəridir,**Belçikanın paytaxtı Brüssel şəhəridir.**,0.0,0.4,qismən üst-üstə düşmə,
+az-699,world,—,ABŞ-da hansı pul vahidindən istifadə olunur?,Dollar,Dolar (USD),**Cavab:** Dolar (USD),0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Qahirə,**Cavab:** **Qahirə**,0.0,0.0,,
+az-709,world,—,Dünyada ən kiçik ölkə hansıdır?,Vatikan,Ватикан,Ватикан,0.0,0.0,yazı sistemi,
+az-710,world,—,Dünyada ən çox əhalisi olan ölkə hansıdır?,Hindistan,Çin,**Cavab:** Çin,0.0,0.0,,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,6,6,0.0,0.0,,
+az-800,history,—,Qafqaz Albaniyası dövləti nə vaxt süqut edib?,705-ci ildə,1918 ildə,**Cavab:** 1918 ildə.,0.0,0.4,qismən üst-üstə düşmə,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,1979 ildə,**Cavab:** 1979 ildə.,0.0,0.4,qismən üst-üstə düşmə,
+az-805,history,—,Şirvanşahlar dövləti nə vaxt yaranıb?,861-ci ildə,1071-1157 ildə,**Cavab:** 1071-1157 ildə,0.0,0.333,qismən üst-üstə düşmə,
+az-809,history,—,Səfəvilər dövlətinin banisi kimdir?,Şah İsmayıl Xətai,Səfəvilər dövlətinin banisi Səfə I (Səfə I)dir,Cavab: Səfəvilər dövlətinin banisi Səfə I (Səfə I)dir.,0.0,0.0,,
+az-812,history,—,«Əkinçi» qəzeti nə vaxt nəşr olunmağa başlayıb?,22 iyun 1875,1923 ildə,Cavab: 1923 ildə,0.0,0.0,,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,1992 ildə,Cavab: 1992 ildə.,0.0,0.4,qismən üst-üstə düşmə,
+az-823,history,—,Heydər Əliyev hakimiyyətə nə vaxt gəlib?,15 iyun 1993,1993 ildə,Cavab: 1993 ildə,0.0,0.4,qismən üst-üstə düşmə,
+az-900,mathematics,—,Nəsirəddin Tusi riyaziyyatın hansı sahəsinə dünyada ilk dəfə müstəqil elm kimi yanaşmışdır?,Triqonometriya,Misirin paytaxtı Qahirə şəhəridir,"**Cavab:** Misirin paytaxtı Qahirə şəhəridir.
+
+**Cavab:** Su molekulunun kimyəvi form",0.0,0.0,,
+az-934,mathematics,—,Azərbaycanın sabiq təhsil naziri olmuş riyaziyyatçı kimdir?,Misir Mərdanov,Mehdi Quliyev,**Cavab:** **Mehdi Quliyev**,0.0,0.0,,
+az-942,geography,1,Hansı şəhər Yunanıstanın paytaxtıdır?,Afina,Aqina,"**Cavab:** Aqina
+
+**Sual:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Qahir",0.0,0.0,,
+az-962,history,1,Qurban Qurbanov neçənci ildə doğulub?,1972,1936,1936,0.0,0.0,,
+az-977,culture,0,Vüqar Həşimovun peşəsi nədir?,şahmatçı,Vüqar Həşimov — şair və yazıçı,**Cavab:** Vüqar Həşimov — şair və yazıçı.,0.0,0.0,,
+az-994,history,1,Bakı quberniyası neçənci ildə təsis edilib?,1859,1868 ildə,**Cavab:** 1868 ildə.,0.0,0.4,qismən üst-üstə düşmə,
+az-995,history,2,Müzəffərilərin yaranma ili hansıdır?,1314,1917 жыл,**Cavab:** 1917 жыл,0.0,0.0,"kiril, zəncir bərpa etmir",

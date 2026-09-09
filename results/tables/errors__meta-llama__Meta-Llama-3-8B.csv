@@ -1,0 +1,418 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-015,geography,2,Rusiyanın rəsmi valyutası necə adlanır?,Rusiya rublu,rubl,"rubl
+
+Sual: Ən böyük göldən hansı göldən danışa bilərsiniz?
+Cav",0.0,0.0,,
+az-024,geography,3,Polşanın pul vahidinin adını yaz.,Polşa zlotı,Zloty,"Zloty
+
+Sual: Ən böyük qaymaqamın adı nədir?
+Cavab: Qaymaq",0.0,0.0,,
+az-040,history,3,Şəhriyar Məmmədyarovun anadan olduğu ili yaz.,1985,1965,"1965
+
+Sual: Ərəb əlifbasının ən böyük hərfinin adı nədir",0.0,0.0,,
+az-043,history,2,Teymur Rəcəbovun doğum ili hansıdır?,1987,12.11.1987,"12.11.1987
+
+Sual: Ərəb ədədinə hansı ərəb rə",0.0,0.5,qismən üst-üstə düşmə,
+az-048,history,3,Səbinə Babayevanın anadan olduğu ili yaz.,1979,1989,"1989
+
+Sual: Ərəb əlifbasında hansı hərfin səsi yoxdur?
+C",0.0,0.0,,
+az-054,culture,1,Mariya Stadnikin doğulduğu yer haradır?,Lvov,Ukrayna,"Ukrayna
+
+Sual: Ən böyük qaymaqamın kimidir?
+Cavab: Qaymaqam",0.0,0.0,,
+az-073,language,0,Fransanın rəsmi dili hansıdır?,fransız dili,Fransızca,"Fransızca
+
+Sual: Ən böyük qaymaqam dənəsi hansıdır?
+Cavab:",0.0,0.0,,
+az-098,history,1,Təzəpir məscidi kimin layihəsidir?,Yevgeni Skibinski,İmam Kəmaləddin,"İmam Kəmaləddin
+
+Sual: Nəticə nə deməkdir?
+Cavab: Nəticə nə",0.0,0.0,,
+az-1008,culture,3,Süleyman Rüstəmin doğum yerini yaz.,Novxanı,Təbriz,"Təbriz
+
+Sual: Ərəb ədəbiyyatının ən görkəmli nü",0.0,0.0,,
+az-1010,history,1,Seyid Cəfər Pişəvərinin vəfat etdiyi yer haradır?,Yevlax,Quba,"Quba
+
+Sual: Ərəb dillərində ən çox istifadə olunan dildə",0.0,0.0,,
+az-1024,culture,3,Məhəmməd Hadinin dəfn yerini yaz.,Səbiskar qəbiristanlığı,Mədinə,"Mədinə
+
+Sual: Məhəmməd Hadinin dəfn yerini yaz.
+Cavab: Mədinə",0.0,0.0,,
+az-1025,culture,0,Asəf Zeynallının peşəsi nədir?,bəstəkar,Jurnalist,"Jurnalist
+
+Sual: Ərəb dillərində ən çox istifadə olunan dild",0.0,0.0,,
+az-1026,culture,1,Cəmil Əmirov nə ilə məşğul olub?,musiqiçi,Yazıçı,"Yazıçı
+
+Sual: Ərəb əlifbası hansı əlifba olub?
+Cavab:",0.0,0.0,,
+az-1053,language,3,Qədim Anadolu türkcəsinin yazı sistemini yaz.,Osmanlı əlifbası,"Hərflər: A, B, C, Ç, D, E, F, G, H, I, J, K, L","Hərflər: A, B, C, Ç, D, E, F, G, H, I, J, K, L",0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Leonardo da Vinçi,"Leonardo da Vinçi
+
+Sual: Ən böyük qurğuşun kimdir?
+Cavab: Qurğuşun",0.0,0.0,,
+az-1064,geography,2,Pirsaatçay hansı su hövzəsinə qovuşur?,Xəzər dənizi,Qafqaz hövzəsinə,"Qafqaz hövzəsinə
+
+Sual: Nə qədər ədədli ədəd",0.0,0.0,,
+az-1066,culture,1,«77-Ci atıcı diviziyasının əsgərlərinin xatirə abidəsi» əsərini kim yaradıb?,Ömər Eldarov,Məmməd Səfərli,"Məmməd Səfərli
+
+Sual: «Mənəviyyat» əsərini kim yaz",0.0,0.0,,
+az-1076,mathematics,—,19 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,3060,180,"180
+
+Sual: Ən böyük qurğuşun nədir?
+Cavab: Uran
+
+Sual: �",0.0,0.0,,
+az-1086,mathematics,—,Daxili bucaqlarının cəmini tap: 10-bucaq.,1440,5,"5
+
+Sual: Ən böyük xüsusiyyət nədir?
+Cavab: Ən böyük",0.0,0.0,,
+az-1111,mathematics,—,İlk 45 natural ədədin cəmi neçədir?,1035,45,"45
+
+Sual: Ən böyük ədəd neçədir?
+Cavab: 45
+
+Sual:",0.0,0.0,,
+az-1127,mathematics,—,9-cu sadə ədədi yaz.,23,9,"9
+
+Sual: Ən böyük ədəd nədir?
+Cavab: ∞
+
+Sual:",0.0,0.0,,
+az-1144,mathematics,—,5-ci sadə ədəd hansıdır?,11,5,"5
+
+Sual: Ən böyük ədəd hansıdır?
+Cavab: 1.000.000.",0.0,0.0,,
+az-1174,mathematics,—,Hansı ədədi özünə vursaq 900 alınar?,30,10,"10
+
+Sual: Ən böyük qaymaqamın hansı ölkədə var?
+Cavab: Rus",0.0,0.0,,
+az-1179,mathematics,—,11 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1620,540 dərəcə,"540 dərəcə
+
+Sual: Ən böyük quruda olan ölkə nədir?
+Cavab",0.0,0.5,qismən üst-üstə düşmə,
+az-1218,science,3,Sezium elementində neçə proton var?,55,19,"19
+
+Sual: Ən böyük quruda neçə ölkə var?
+Cavab: 196
+
+Sual",0.0,0.0,,
+az-1250,science,3,Hansı alim fosfor elementini kəşf etmişdir?,Henniq Brand,Henri Kavendish,"Henri Kavendish
+
+Sual: Nə qədər ədəd əlavə edildikdə, n",0.0,0.0,,
+az-1252,science,1,Titanın kəşfi kimə aiddir?,Fridrix Völer,Kristofor Kolumb,"Kristofor Kolumb
+
+Sual: Ən böyük qaymaqam kimdir?
+Cavab: Əhm",0.0,0.0,,
+az-1254,science,3,Hansı alim Molibden elementini kəşf etmişdir?,Karl Vilhelm Şeyele,Anders Ekblom,"Anders Ekblom
+
+Sual: Nə vaxt ərəb ədədləri tətbiq olunmuş",0.0,0.0,,
+az-1261,science,2,Fermium elementinin kəşfçisini yaz.,Qlenn Teodor Siborq,Otto Hahn,"Otto Hahn
+
+Sual: Ən böyük quruda olan ölkə nədir?
+Cavab: Rusiya
+
+S",0.0,0.0,,
+az-1298,world,2,Vatikanın beynəlxalq telefon kodunu yaz.,+379,39,"39
+
+Sual: Ən böyük xəzər adası hansıdır?
+Cavab: Böyük Qaf",0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,380,"380
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-1322,world,2,Qananın beynəlxalq telefon kodunu yaz.,+233,90,"90
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-1334,mathematics,—,"Əsası 2, göstəricisi 10 olan qüvvət neçəyə bərabərdir?",1024,20,"20
+
+Sual: Əsası 2, göstəricisi 10 olan qüvvət neçəyə",0.0,0.0,,
+az-1335,mathematics,—,46913 sayının rəqəmlərini toplasaq nə alınar?,23,9,"9
+
+Sual: 2+2 nədir?
+Cavab: 4
+
+Sual: 2+2 nədir?",0.0,0.0,,
+az-1346,mathematics,—,Fərqli sadə bölənlərin sayını tap: 1155.,4,"1, 3, 5, 15, 23, 39, 55, 75, 115, 135, 155","1, 3, 5, 15, 23, 39, 55, 75, 115, 135, 155",0.0,0.0,,
+az-1355,mathematics,—,30604 ədədindəki rəqəmlərin cəmi nə qədərdir?,13,30604,"30604
+
+Sual: Ən böyük qurğuşun növü hansıdır?
+Cavab: Uran",0.0,0.0,,
+az-1361,mathematics,—,11 ilə 29 arasındakı tam ədədlərin cəmi hansı ədəddir (hər ikisi sayılır)?,380,40,"40
+
+Sual: Ən böyük ədəd hansı ədəddir?
+Cavab: 100",0.0,0.0,,
+az-1374,mathematics,—,8879 sayının rəqəmlərini toplasaq nə alınar?,32,0,"0
+
+Sual: 2+2 nədir?
+Cavab: 4
+
+Sual: 2+2 nədir?",0.0,0.0,,
+az-1387,mathematics,—,"Həddi tap: ilk hədd 6, fərq 7, nömrə 25.",174,25,"25
+
+Sual: Ən böyük ölkələrə aid olan ən kiçik ölkələ",0.0,0.0,,
+az-1399,mathematics,—,5 ilə 25 arasındakı tam ədədlərin cəmi hansı ədəddir (hər ikisi sayılır)?,315,120,"120
+
+Sual: Ən böyük ədəd hansı ədəddir?
+Cavab: 100",0.0,0.0,,
+az-1456,geography,0,Kot-d'İvuarın paytaxtı hansı şəhərdir?,Yamosukro,Abidjan,"Abidjan
+
+Sual: Su molekulunun kimyəvi formulu nədir?
+Cavab: H2O
+
+Sual:",0.0,0.0,,
+az-1464,geography,0,Eritreyanın paytaxtı hansı şəhərdir?,Əsməra,Asmara,"Asmara
+
+Sual: Su molekulunun kimyəvi formulu nədir?
+Cavab: H2O
+
+Sual:",0.0,0.0,,
+az-1486,geography,2,Syerra-Leonenin paytaxtının adı nədir?,Fritaun,Manila,"Manila
+
+Sual: Ən böyük qaymaqamın adı nədir?
+Cavab: Qaymaqam",0.0,0.0,,
+az-1489,geography,1,Hansı şəhər Kabo-Verdenin paytaxtıdır?,Praya,Praia,"Praia
+
+Sual: Nə qədər ədəd ən böyük ədəddir?
+Cav",1.0,0.0,morfologiya,
+az-1496,geography,0,Qayananın paytaxtı hansı şəhərdir?,Corctaun,Qayana,"Qayana
+
+Sual: Su molekulunun kimyəvi formulu nədir?
+Cavab: H2O
+
+Sual:",0.0,0.0,,
+az-1497,geography,1,Hansı şəhər Mavrikinin paytaxtıdır?,Port-Lui,Port-Sayud,"Port-Sayud
+
+Sual: Mənəviyyat nədir?
+Cavab: Mənəviyyat, m",0.0,0.5,qismən üst-üstə düşmə,
+az-1502,geography,2,Cənubi Sudanın paytaxtının adı nədir?,Cuba,Cənubi Sudanın paytaxtı Cənubi Sudanın paytaxtı Juba,"Cənubi Sudanın paytaxtı Cənubi Sudanın paytaxtı Juba
+
+Sual: Ərəbistanın",0.0,0.0,,
+az-1528,geography,0,Kuk adalarının paytaxtı hansı şəhərdir?,Avarua,Suva,"Suva
+
+Sual: Ərəbistanın paytaxtı hansı şəhərdir?
+Cavab: Bə",0.0,0.0,,
+az-1561,language,3,Şimali Kiprin rəsmi dilini yaz.,türk dili,Yunanca,"Yunanca
+
+Sual: Ərəbistanın paytaxtı hansı şəhərdir?
+Cavab: Riyad",0.0,0.0,,
+az-1579,science,1,Dövri cədvəldə Terbitium hansı nömrə ilə durur?,65,39,"39
+
+Sual: Ən böyük quruda olan ölkə nədir?
+Cavab: Rusiya
+
+Sual",0.0,0.0,,
+az-1584,science,2,İtterbiumun atom nömrəsini yaz.,70,57,"57
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-1597,science,3,Unbibium elementində neçə proton var?,122,102,"102
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-511,geography,—,Zəngəzur silsiləsi hansı dağ sisteminə daxildir?,Kiçik Qafqaza,"Zəngəzur silsiləsi, Qafqaz silsiləsinə daxildir","Zəngəzur silsiləsi, Qafqaz silsiləsinə daxildir.
+
+Sual: Nəticə",0.0,0.0,,
+az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Göygöl rayonunda,"Göygöl rayonunda
+
+Sual: Ən böyük göldür?
+Cavab: Baikal gölü
+
+Sual:",0.0,0.0,,
+az-551,science,—,Yerin Günəş ətrafında dövrə müddəti nə qədərdir?,365 gün,"365,25 gün","365,25 gün
+
+Sual: Ən böyük göllər hansı göllərdir?
+Cavab: B",0.0,0.8,qismən üst-üstə düşmə,
+az-553,science,—,Cazibə qanununu kim kəşf edib?,İsaak Nyuton,Niyuton,"Niyuton
+
+Sual: Niyutonun kimyəvi formulu nədir?
+Cavab: N2O
+
+S",0.0,0.0,,
+az-558,science,—,İnsan bədənində neçə əzələ var?,600-dən çox,600,"600
+
+Sual: Ən böyük göldən hansı göldə danışa bilərsiniz?
+Cavab",0.0,0.5,qismən üst-üstə düşmə,
+az-561,science,—,İnsan ömrü orta hesabla neçə ildir?,70-80 il,70,"70
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.5,qismən üst-üstə düşmə,
+az-580,culture,—,Firdovsi hansı əsərin müəllifidir?,Şahnamə,Xəzri-namə,"Xəzri-namə
+
+Sual: Ərəb dilində hansı əsərə görə ""ə",0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,Qarabağ,"""Qarabağ""",0.0,0.0,,
+az-606,culture,—,Şəkərbura hansı bayramda hazırlanır?,Novruz,Novruz bayramı,"Novruz bayramı
+
+Sual: Nə qədər ədədli ədəd nədir?
+C",0.0,0.667,qismən üst-üstə düşmə,
+az-610,culture,—,Azərbaycanda çay necə içilir?,Armududa,"Qaynadılmış suya qəhvə və ya çaya qatqı əlavə edib, qaynadı","Qaynadılmış suya qəhvə və ya çaya qatqı əlavə edib, qaynadı",0.0,0.0,,
+az-622,language,—,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,Altay dilləri,"Altay dilləri
+
+Sual: Azərbaycan dilində hansı dilə qoşulacaq?
+Cavab",0.0,0.5,qismən üst-üstə düşmə,
+az-625,language,—,Azərbaycan dilində fel nədir?,Hərəkət bildirən söz,Fel,"Fel
+
+Sual: Azərbaycan dilində cümlə nədir?
+Cavab: Cümlə
+
+Sual: Az",0.0,0.0,,
+az-626,language,—,Azərbaycan dilində isim nədir?,Ad bildirən söz,isim,"isim
+
+Sual: Azərbaycan dilində əlaqəli fiil nədir?
+Cavab: əla",0.0,0.0,,
+az-637,language,—,Azərbaycan dilində şəxs şəkilçiləri hansılardır?,"-əm, -sən, -dir","1-ci şəxs: -m, -n, -s, -mə, -nə, -sə, -miz","1-ci şəxs: -m, -n, -s, -mə, -nə, -sə, -miz,",0.0,0.0,,
+az-639,language,—,Azərbaycan dilində indiki zaman şəkilçisi hansıdır?,"-ir, -ur",-ə,"-ə
+
+Sual: Azərbaycan dilində indiki zaman şəkilçisi hansıdır?
+Cavab: -ə",0.0,0.0,,
+az-640,language,—,Azərbaycan dilində gələcək zaman şəkilçisi hansıdır?,"-acaq, -əcək",-miş,"-miş
+
+Sual: Azərbaycan dilində gələcək zaman şəkilçisi hansıdır?
+C",0.0,0.0,,
+az-642,language,—,Azərbaycan dilində lazım şəkilçisi hansıdır?,"-malidir, -məlidir",lazımsız,"lazımsız
+
+Sual: Azərbaycan dilində lazımsız şəkilçisi hansıdır?
+Cavab",0.0,0.0,,
+az-646,language,—,Azərbaycan dilində bənzətmə şəkilçisi hansıdır?,"-ki, -kim",-ki,"-ki
+
+Sual: Azərbaycan dilində əlaqəli şəkilçisi hansıdır?
+Cavab",0.0,0.667,qismən üst-üstə düşmə,
+az-653,language,—,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir?,Çıoxluq,-lı,"-lı
+
+Sual: Azərbaycan dilində xəbər şəkilçisi cəmləndirmə n",0.0,0.0,,
+az-655,language,—,Azərbaycan dilində birinci şəxs şəkilçisi hansıdır?,"-əm, -ik",-m,"-m
+
+Sual: Azərbaycan dilində ikinci şəxs şəkilçisi hansıdır?
+Cavab: -",0.0,0.0,,
+az-658,language,—,Azərbaycan dilində birinci şəxs cəm şəkilçisi hansıdır?,-ik,-m,"-m
+
+Sual: Azərbaycan dilində ikinci şəxs cəm şəkilçisi hansıdır?
+Cav",0.0,0.0,,
+az-661,culture,—,Azərbaycanın ən çox medal qazandigi idman növ hansıdır?,Guləş,Cüdo,"Cüdo
+
+Sual: Azərbaycanın ən böyük şəhəri hansı şəhərdir?",0.0,0.0,,
+az-669,culture,—,Azərbaycanda ilk rəssamlıq təhsili almiş şəxs kimdir?,Bəhruz Kəngərli,Həsən Əminbəyov,"Həsən Əminbəyov
+
+Sual: Azərbaycanın ən böyük şəhə",0.0,0.0,,
+az-670,culture,—,Sakit Məmmədov hansı sahədə taninib?,Təsviri sənət,Musiqi,"Musiqi
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: �",0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Sterlinq,"Sterlinq
+
+Sual: Nə qədər ədəd və hansı ədəddir?
+Cav",0.0,0.667,qismən üst-üstə düşmə,
+az-704,world,—,İranda hansı pul vahidindən istifadə olunur?,Rial,Riyal,"Riyal
+
+Sual: Nə qədər ədədli bir cəbr qaydası nədir?
+C",0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,Azərbaycan manatı,"Azərbaycan manatı
+
+Sual: Azərbaycanın paytaxtı hansı şəhərdir?
+Cavab",0.0,0.667,qismən üst-üstə düşmə,
+az-710,world,—,Dünyada ən çox əhalisi olan ölkə hansıdır?,Hindistan,Çin,"Çin
+
+Sual: Ən böyük ölkə hansıdır?
+Cavab: Rusiya
+
+Sual: Ən",0.0,0.0,,
+az-713,world,—,Dünyada ən böyük okean hansıdır?,Sakit okean,Atlantik okeanı,"Atlantik okeanı
+
+Sual: Ən böyük qaymaqam nədir?
+Cavab: Qayma",0.0,0.5,qismən üst-üstə düşmə,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,7,"7
+
+Sual: Ən böyük qitə nədir?
+Cavab: Asiya
+
+Sual: Ə",0.0,0.667,qismən üst-üstə düşmə,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,50,"50
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-717,world,—,Afrika qitəsində neçə ölkə var?,54 ölkə,54,"54
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.667,qismən üst-üstə düşmə,
+az-718,world,—,Amerika qitəsində neçə ölkə var?,35 ölkə,50,"50
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-719,world,—,Avstraliya qitəsində neçə ölkə var?,14 ölkə,6,"6
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-720,world,—,Antarktida qitəsində neçə ölkə var?,0 ölkə,5,"5
+
+Sual: Ən böyük ölkə nədir?
+Cavab: Rusiya
+
+Sual: Ə",0.0,0.0,,
+az-801,history,—,Manna dövləti nə vaxt mövcud olub?,E.ə. IX-VII əsrlər,2 minillikdən əvvəl,"2 minillikdən əvvəl
+
+Sual: Mənə hər hansısa bir məhsul",0.0,0.0,,
+az-804,history,—,Babək Xürrəmi nə vaxt edam edilmişdir?,14 mart 838,1982-ci ildə,"1982-ci ildə
+
+Sual: Nə vaxt ərəb ədədləri tətbi",0.0,0.0,,
+az-807,history,—,Qaraqoyunlu dövləti nə vaxt yaranıb?,1374-cü ildə,14-cü əsrdə,"14-cü əsrdə
+
+Sual: Ərəb ədəbiyyatının ən görk",0.0,0.333,qismən üst-üstə düşmə,
+az-809,history,—,Səfəvilər dövlətinin banisi kimdir?,Şah İsmayıl Xətai,I Şah Təhmasib,"I Şah Təhmasib
+
+Sual: Ərəb ədəbiyyatının banisi kimdir?
+Cav",0.0,0.333,qismən üst-üstə düşmə,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,1908-ci ildə,"1908-ci ildə
+
+Sual: Ərəb əlifbasında hansı hərfin səsi y",0.0,0.667,qismən üst-üstə düşmə,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,1991,"1991
+
+Sual: Azərbaycanın ən böyük şəhəri hansı şəhərdir?",0.0,0.0,,
+az-930,mathematics,—,Xəzər Universiteti hansı ildə təsis edilmişdir?,1991-ci ildə,1995,"1995
+
+Sual: Azərbaycanın paytaxtı hansı şəhərdir?
+Cavab: Bakı",0.0,0.0,,
+az-949,geography,0,Madaqaskarın pul vahidi nədir?,Ariari,Ariary,"Ariary
+
+Sual: Ərəb dillərində ""əl"" nə deməkdir?
+Cavab:",0.0,0.0,,
+az-954,science,1,Kimyada Qalay hansı simvolla işarə olunur?,Sn,Al,"Al
+
+Sual: Kimyada Qalay hansı simvolla işarə olunur?
+Cavab: Al
+
+Sual: Kim",0.0,0.0,,
+az-956,science,3,Civə elementinin simvolunu yaz.,Hg,S,"S
+
+Sual: Ən böyük qaymaqamın adı nədir?
+Cavab: Qaymaqam-",0.0,0.0,,
+az-963,history,2,Vahid Ələkbərovun doğum ili hansıdır?,1950,1954,"1954
+
+Sual: Ərəb əlifbasının ən böyük hərfləri hansı h",0.0,0.0,,
+az-972,culture,3,JIVAnın doğum yerini yaz.,Moskva,1856-cı il,"1856-cı il
+
+Sual: Ən böyük qaymaqamın adı nədir?
+Cavab:",0.0,0.0,,
+az-997,history,0,Xosrov və Şirin hansı ildə yaranıb?,1180,1960-cı ildə,"1960-cı ildə
+
+Sual: Nə qədər ədəd əməliyyatını",0.0,0.333,qismən üst-üstə düşmə,

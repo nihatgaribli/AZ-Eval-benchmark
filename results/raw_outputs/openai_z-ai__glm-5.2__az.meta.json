@@ -1,0 +1,18 @@
+{
+  "model": "openai:z-ai/glm-5.2",
+  "provider": "openai",
+  "requested_model": "z-ai/glm-5.2",
+  "resolved_model": null,
+  "max_tokens": 256,
+  "thinking": "not-controlled (no standard toggle in OpenAI-compatible API)",
+  "determinism": "seeded (temperature=0, seed set) — best-effort",
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "usage": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "failures": 4,
+    "cost_usd": null
+  },
+  "leaked_internal_tags": 0
+}

@@ -1,0 +1,521 @@
+{"id": "tumlu-az-1", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "A) 23km/saat"}
+{"id": "tumlu-az-2", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-3", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-4", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-5", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-6", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-7", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-8", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-9", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "Cavab: A"}
+{"id": "tumlu-az-10", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-11", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-12", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-13", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "A"}
+{"id": "tumlu-az-14", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-15", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-16", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "D"}
+{"id": "tumlu-az-17", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "Cavab: A"}
+{"id": "tumlu-az-18", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-19", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-20", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-21", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-22", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-23", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-24", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "D"}
+{"id": "tumlu-az-25", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-26", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-27", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-28", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "D"}
+{"id": "tumlu-az-29", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-30", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-31", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-32", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-33", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-34", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-35", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-36", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-37", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "A"}
+{"id": "tumlu-az-38", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-39", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-40", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-41", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-42", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-43", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-44", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-45", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-46", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-47", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-48", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-49", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "A) мәдді нөтə  \nB) мәдді имкан  \nC) мәдді сөз"}
+{"id": "tumlu-az-50", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-51", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-52", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "D"}
+{"id": "tumlu-az-53", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-54", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-55", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-56", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-57", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "A"}
+{"id": "tumlu-az-58", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-59", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-60", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-61", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-62", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "Cavab: D"}
+{"id": "tumlu-az-63", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-64", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "Cavab: D"}
+{"id": "tumlu-az-65", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-66", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-67", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-68", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-69", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "A"}
+{"id": "tumlu-az-70", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: D"}
+{"id": "tumlu-az-71", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: A"}
+{"id": "tumlu-az-72", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C10H22 molekülündə σ (sigma) байланыстарының санын есепте"}
+{"id": "tumlu-az-73", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-74", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-75", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-76", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "D"}
+{"id": "tumlu-az-77", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-78", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-79", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-80", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-81", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-82", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-83", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-84", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-85", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-86", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-87", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "A"}
+{"id": "tumlu-az-88", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-89", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-90", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-91", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-92", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-93", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-94", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-95", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "D"}
+{"id": "tumlu-az-96", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-97", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-98", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-99", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-100", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: D"}
+{"id": "tumlu-az-101", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-102", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-103", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-104", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: D"}
+{"id": "tumlu-az-105", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-106", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-107", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-108", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-109", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-110", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-111", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-112", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-113", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-114", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-115", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-116", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-117", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-118", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-119", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-120", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "D"}
+{"id": "tumlu-az-121", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-122", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-123", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-124", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-125", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-126", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-127", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-128", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-129", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-130", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-131", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-132", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-133", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: A"}
+{"id": "tumlu-az-134", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-135", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-136", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C14H30 molekülunda σ C-H bайланыстарының санын есептеу"}
+{"id": "tumlu-az-137", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-138", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-139", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-140", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-141", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-142", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-143", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-144", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-145", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-146", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-147", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-148", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-149", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-150", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-151", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-152", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-153", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-154", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-155", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-156", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-157", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-158", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-159", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-160", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-161", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-162", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-163", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-164", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-165", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-166", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-167", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-168", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-169", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-170", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-171", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-172", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-173", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-174", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-175", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-176", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-177", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-178", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-179", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-180", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-181", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-182", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-183", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-184", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-185", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-186", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-187", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-188", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-189", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-190", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-191", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-192", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-193", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-194", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-195", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-196", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-197", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-198", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-199", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-200", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-201", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-202", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-203", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-204", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-205", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-206", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-207", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-208", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-209", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-210", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-211", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-212", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-213", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "A) Сейсмология"}
+{"id": "tumlu-az-214", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-215", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-216", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-217", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-218", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-219", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C) Sebastiyan EL-Kano"}
+{"id": "tumlu-az-220", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-221", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-222", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-223", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-224", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-225", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-226", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-227", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-228", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "Cavab: D"}
+{"id": "tumlu-az-229", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-230", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-231", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-232", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "D"}
+{"id": "tumlu-az-233", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-234", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-235", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-236", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-237", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-238", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-239", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-240", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-241", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-242", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-243", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-244", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-245", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-246", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-247", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-248", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-249", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-250", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-251", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-252", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-253", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-254", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-255", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-256", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-257", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "A"}
+{"id": "tumlu-az-258", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-259", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-260", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-261", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-262", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-263", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-264", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-265", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-266", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-267", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-268", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "D"}
+{"id": "tumlu-az-269", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-270", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-271", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-272", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-273", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-274", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-275", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-276", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-277", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-278", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-279", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-280", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-281", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-282", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-283", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-284", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-285", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-286", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-287", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-288", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-289", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-290", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-291", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-292", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-293", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-294", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-295", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-296", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-297", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "D"}
+{"id": "tumlu-az-298", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-299", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-300", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-301", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-302", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-303", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-304", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-305", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-306", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-307", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-308", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-309", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-310", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-311", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-312", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-313", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-314", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-315", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-316", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-317", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-318", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-319", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-320", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-321", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "A) бірлікмәлімілірі мен өз араларындағы и"}
+{"id": "tumlu-az-322", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-323", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-324", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-325", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-326", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-327", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-328", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-329", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-330", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-331", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-332", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-333", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-334", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-335", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-336", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-337", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-338", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-339", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-340", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-341", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-342", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-343", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-344", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-345", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-346", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-347", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-348", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-349", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-350", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-351", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-352", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-353", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-354", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-355", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-356", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-357", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-358", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-359", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-360", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "D"}
+{"id": "tumlu-az-361", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-362", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-363", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-364", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-365", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-366", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-367", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-368", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-369", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-370", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-371", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-372", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-373", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-374", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-375", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-376", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-377", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-378", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-379", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-380", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-381", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-382", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-383", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-384", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-385", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-386", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-387", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-388", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-389", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-390", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-391", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-392", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-393", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-394", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-395", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-396", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-397", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "A"}
+{"id": "tumlu-az-398", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-399", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-400", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "A"}
+{"id": "tumlu-az-401", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-402", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-403", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-404", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-405", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-406", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-407", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-408", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-409", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-410", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-411", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-412", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-413", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-414", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-415", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-416", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-417", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "A) vegetativ, generativ"}
+{"id": "tumlu-az-418", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-419", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-420", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-421", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "A"}
+{"id": "tumlu-az-422", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-423", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "C"}
+{"id": "tumlu-az-424", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-425", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-426", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-427", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-428", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-429", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-430", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-431", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-432", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-433", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "A) 4:9"}
+{"id": "tumlu-az-434", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-435", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-436", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-437", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-438", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-439", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-440", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-441", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-442", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-443", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-444", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-445", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: A"}
+{"id": "tumlu-az-446", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-447", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-448", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-449", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-450", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-451", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-452", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-453", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-454", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-455", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-456", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "D"}
+{"id": "tumlu-az-457", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-458", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-459", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-460", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-461", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-462", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-463", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-464", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-465", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-466", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-467", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: B"}
+{"id": "tumlu-az-468", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-469", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-470", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-471", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-472", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-473", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-474", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-475", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-476", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-477", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-478", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-479", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-480", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-481", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-482", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-483", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-484", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-485", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-486", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-487", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-488", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-489", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-490", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-491", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-492", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-493", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "C"}
+{"id": "tumlu-az-494", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-495", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-496", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-497", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-498", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "B"}
+{"id": "tumlu-az-499", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "Cavab: D"}
+{"id": "tumlu-az-500", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Physics", "raw_response": "C"}
+{"id": "tumlu-az-501", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "C"}
+{"id": "tumlu-az-502", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-503", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-504", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-505", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Chemistry", "raw_response": "B"}
+{"id": "tumlu-az-506", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "B"}
+{"id": "tumlu-az-507", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-508", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Native L&L", "raw_response": "C"}
+{"id": "tumlu-az-509", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "A) Əhalinin və təsərrüfatın ərazi təşkili prinsipləri"}
+{"id": "tumlu-az-510", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "B"}
+{"id": "tumlu-az-511", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Geography", "raw_response": "C"}
+{"id": "tumlu-az-512", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "C"}
+{"id": "tumlu-az-513", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "History", "raw_response": "B"}
+{"id": "tumlu-az-514", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-515", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-516", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "Cavab: C"}
+{"id": "tumlu-az-517", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Biology", "raw_response": "B"}
+{"id": "tumlu-az-518", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-519", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "A) 9;11"}
+{"id": "tumlu-az-520", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "B"}
+{"id": "tumlu-az-521", "model": "issai/Qolda-AVL-5B", "condition": "mcq", "subject": "Maths", "raw_response": "Cavab: C"}

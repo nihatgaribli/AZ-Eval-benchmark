@@ -1,0 +1,312 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-041,history,0,Əbülfəz Elçibəy hansı ildə anadan olub?,1938,1961 ilinde,"Cavab: 1961 ilinde.
+
+
+(Not: Bu sorular için daha ayrıntılı cevaplar da verilebilir, ancak istenen",0.0,0.0,,
+az-044,history,3,Ayaz Mütəllibovun anadan olduğu ili yaz.,1938,Azerbaycan,"Azerbaycan
+
+(Not: Bu cevaplar verilen soruların doğrudan ve öz yanıtlarıdır.)",0.0,0.0,,
+az-045,history,0,Aygün Kazımova hansı ildə anadan olub?,1971,1975,"Cavab: 1975.
+
+(Not: Bu cevaplar verilen sorulara kısa ve doğrudan yanıtlar sunmaktadır.)",0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Bakı (Bakü),Bakı (Bakü),0.0,0.0,,
+az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Yazı ve şiir yazarlığı,"Cavab: Yazı ve şiir yazarlığı.
+
+Samirə Əfəndi, Azerbaycan'ın önde gelen şair ve yazarlarından biridir ve",0.0,0.0,,
+az-070,culture,1,Elnur Məmmədli hansı peşə ilə tanınır?,cüdoçu,- Misirin paytaxtı hansı şəhərdir,"- **Misirin paytaxtı hansı şəhərdir?**
+   Cavab: Bakı (Baku)
+
+- **Su",0.0,0.0,,
+az-072,culture,3,Zemfira Meftahətdinovanın peşəsini yaz.,atıcı,Zemfira Meftahətdinova,"Cavab: Zemfira Meftahətdinova.
+
+
+Her bir soru için sadece istenen cevabı veriyorum:",0.0,0.0,,
+az-075,language,2,Rusiyanın dövlət dili necə adlanır?,rus dili,Rusiyanın dövlət dili Rusça'dır,Rusiyanın dövlət dili Rusça'dır.,0.0,0.333,qismən üst-üstə düşmə,
+az-076,language,3,Yaponiyanın rəsmi dilini yaz.,yapon dili,Japonca,Japonca.,0.0,0.0,,
+az-079,language,2,Çinin dövlət dili necə adlanır?,Putonqhua,Çinin dövlət dili Çincedir,Çinin dövlət dili Çincedir.,0.0,0.0,,
+az-089,language,0,Mandarin çincəsi hansı yazı sistemi ilə yazılır?,Çin yazısı,Hanzi (Çince karakterleri),"Hanzi (Çince karakterleri)
+
+
+İşte sorulara kısa cevaplar:
+
+* **Misirin paytaxtı hansı ş",0.0,0.0,,
+az-096,language,3,Qədim türk dilinin yazı sistemini yaz.,Orxon əlifbası,Orhun Abecesi,"Orhun Abecesi
+
+(Not: Orhun Abecesi, eski Türk dilinin ve kültürünün önemli bir parçası olan ve 8. yüzyılda",0.0,0.0,,
+az-1000,history,3,Gəncə quberniyasının yarandığı ili yaz.,1867,Azerbaycan,"Azerbaycan
+
+(Not: Bu cevaplar verilen soruların doğrudan ve öz yanıtlarıdır.)",0.0,0.0,,
+az-1003,culture,2,Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib?,Zəviyəye-Sadat,Sual: Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib,Sual: Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib,0.0,0.0,,
+az-1013,history,0,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Evet,"Evet.
+
+(Not: Bu sorular için daha ayrıntılı cevaplar da verilebilir, ancak istenen format kısa ve doğrudan olduğu için sadece ev",0.0,0.0,,
+az-1017,culture,0,Mirvarid Dilbazi harada dəfn olunub?,Yasamal qəbiristanlığı,Evlə,"Cavab: Evlə. (Ya da ""Hayır"", eğer soru ""Mirvarid Dilbazi hala hayatta mı?"" anlamına geliyorsa",0.0,0.0,,
+az-1025,culture,0,Asəf Zeynallının peşəsi nədir?,bəstəkar,Sanat,Cavab: Sanat. (Not: Asəf Zeynalli bir Azerbaycanlı ressamdır ve sanatı onun peşesinde veya odak noktasıdır.),0.0,0.0,,
+az-1037,science,2,Kəramət Böyükçölün təhsil aldığı yer haradır?,BDU Filologiya fakültəsi,Afrika,"Cavab: Afrika.
+
+Kəramət Böyükçöl, Afrika kıtasının kuzeydoğu kısmında yer alan bir çölüdür.",0.0,0.0,,
+az-1038,science,3,Eynəli bəy Sultanovun təhsil müəssisəsini yaz.,İrəvan kişi gimnaziyası,- Misirin paytaxtı hansı şəhərdir,"- **Misirin paytaxtı hansı şəhərdir?**
+  Cavab: Qahirə
+
+- **Su molekülünin",0.0,0.0,,
+az-1040,science,1,Altay Yusifoğlu hansı təhsil müəssisəsini bitirib?,Gəncə Dövlət Universiteti,Baku Devlet Üniversitesi,"Cavab: Baku Devlet Üniversitesi.
+
+(Lütfen unutmayın ki bu cevaplar verilen sorulara kısa ve doğrudan yanıtlar sunmaktadır",0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,El yazısı ve resmî yazı sistemlerini içeren bir alfabe sistemidir,El yazısı ve resmî yazı sistemlerini içeren bir alfabe sistemidir. Arapçanın kullandığı Arap alfabesi temel alınarak geliştirilmiştir.,0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,- Sual: Misirin paytaxtı hansı şəhərdir,"- Sual: Misirin paytaxtı hansı şəhərdir?
+  Cavab: Qahirə
+
+- Sual:",0.0,0.0,,
+az-1071,mathematics,—,İlk 20 natural ədədin cəmi neçədir?,210,1. 2,"1. 2
+2. 3
+3. 5
+4. 7
+5. 11
+6. 13",0.0,0.0,,
+az-1134,mathematics,—,15-bucaqlının diaqonallarının sayı neçədir?,90,8,"Cavab: 8
+
+15-bucalı bir şeklin diagonallerının sayısı 8'dir. Bu, her bir köşeden diğerine geçen",0.0,0.0,,
+az-1140,mathematics,—,"Həm 24-ə, həm 36-ə bölünən ən kiçik ədəd hansıdır?",72,12,"Cavab: 12.
+
+Bu sorularda, sorulara doğrudan ve özlü bir şekilde cevap veriyorum. İlk soru,",0.0,0.0,,
+az-1143,mathematics,—,19-bucağın neçə diaqonalı var?,152,38,"Cavab: 38.
+
+19. bucanın (19^2) kare kökünü alarsak, sonuç 38'd",0.0,0.0,,
+az-1144,mathematics,—,5-ci sadə ədəd hansıdır?,11,125,"Cavab: 125
+
+
+(5'inci sadaka 125'dir.)",0.0,0.0,,
+az-1152,mathematics,—,13 tərəfi olan çoxbucaqlıda neçə diaqonal çəkmək olar?,65,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Qahirə",0.0,0.0,,
+az-1176,mathematics,—,6-bucağın neçə diaqonalı var?,9,30 cm,"Cavab: 30 cm.
+
+(Not: Bu cevaplar verilen sorulara kısa ve doğrudan yanıtlar sunmaktadır.)",0.0,0.0,,
+az-1177,mathematics,—,8-ci sadə ədəd hansıdır?,19,81 (8 × 11 = 81),Cavab: 81 (8 × 11 = 81),0.0,0.0,,
+az-1179,mathematics,—,11 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1620,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı
+
+**S",0.0,0.0,,
+az-1187,science,0,Maqnezium elementinin atom nömrəsi neçədir?,12,13,"13
+
+Sual: Dünya nəyden dönləyir?
+Cavab: Güneş etrafında.
+
+Sual: İnsan",0.0,0.0,,
+az-1195,science,0,Arqon elementinin atom nömrəsi neçədir?,18,26,"26
+
+Sual: Dünya nəyden dönləyir?
+Cavab: Güneş həkimiyyati ilə",0.0,0.0,,
+az-1233,science,2,Íttriumun atom nömrəsini yaz.,39,3,"Cavab: 3
+
+
+İttriumun atom numarası 3'dür.",0.0,0.0,,
+az-1235,science,0,Texnesium elementinin atom nömrəsi neçədir?,43,106,106,0.0,0.0,,
+az-1261,science,2,Fermium elementinin kəşfçisini yaz.,Qlenn Teodor Siborq,Otto Hahn və Lise Meitner,"Cavab: Otto Hahn və Lise Meitner.
+
+Fermium, 1925 yılında Otto Hahn ve Lise Meitner tarafından keşfedilen",0.0,0.0,,
+az-1298,world,2,Vatikanın beynəlxalq telefon kodunu yaz.,+379,Vatikan'ın uluslararası telefon kodu +379'dur,Vatikan'ın uluslararası telefon kodu +379'dur.,0.0,0.25,qismən üst-üstə düşmə,
+az-1306,world,2,Mərakeşin beynəlxalq telefon kodunu yaz.,+212,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Baku)",0.0,0.0,,
+az-1310,world,2,Sinqapurun beynəlxalq telefon kodunu yaz.,+65,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Baku)",0.0,0.0,,
+az-1312,world,0,Konqo Demokratik Respublikasının telefon kodu nədir?,+243,+251,"Cavab: +251
+
+Sual: Dünya nın en uzun nehri hangisidir?
+Cavab: Nil Nehri
+
+Sual",0.0,0.0,,
+az-1321,world,1,Kipr Respublikasında beynəlxalq telefon kodu hansıdır?,+357,+994,"+994
+
+Sual: Güneş sistemimizin en büyük gezegeni hangisidir?
+Cavab: Jüpiter
+
+Sual",0.0,0.0,,
+az-135,culture,1,Habil Əliyevin ifa etdiyi alət hansıdır?,kamança,Kavas,"Kavas.
+
+
+İşte sorularınızın kısa cevapları:
+
+* **Misirin paytaxtı hansı şəhərd",0.0,0.0,,
+az-1362,mathematics,—,999 ədədini 31 ədədinə böldükdə qalıq neçə olur?,7,63,"63
+
+
+İşte sorulara kısa cevaplar:
+
+* **Misirin paytaxtı hansı şəhərdir?**",0.0,0.0,,
+az-1367,mathematics,—,500 ədədinin 12 faizi neçədir?,60,600,"Cavab: 600
+
+
+(500 * 12/100 = 60)",0.0,0.0,,
+az-1412,mathematics,—,70706 sayının rəqəmlərini toplasaq nə alınar?,20,70706 + 70706 = 141412,70706 + 70706 = 141412,0.0,0.0,,
+az-1413,mathematics,—,630 sayının fərqli sadə vuruqlarının sayı neçədir?,4,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Baku)",0.0,0.0,,
+az-1466,geography,2,Bəhreynin paytaxtının adı nədir?,Manama,Bahreyn'in başkenti Manama'dır,"Bahreyn'in başkenti Manama'dır.
+
+Su molekülünün kimyəvi formülü H2O'dur.
+
+Bə",0.0,0.333,qismən üst-üstə düşmə,
+az-1468,geography,0,Mavritaniyanın paytaxtı hansı şəhərdir?,Nuakşot,Madrid,"Cavab: Madrid.
+
+Su molekülünün kimyəvi formülü H2O'dur.
+
+Mavritanya'nın başkenti Madrid",0.0,0.0,,
+az-1475,geography,3,Mozambikin paytaxtını yaz.,Maputu,Maputo,Maputo,0.0,0.0,,
+az-1482,geography,2,Malavinin paytaxtının adı nədir?,Lilonqve,Kaşmir,"Cavab: Kaşmir.
+
+Su molekülünün kimyəvi formülü: H2O.
+
+Malavinin paytaxtının",0.0,0.0,,
+az-1489,geography,1,Hansı şəhər Kabo-Verdenin paytaxtıdır?,Praya,Rio de Janeiro,"Cavab: Rio de Janeiro.
+
+Su molekülünün kimyəvi formülü: H2O.
+
+Kabo-Verdenin (",0.0,0.0,,
+az-1503,geography,3,Lesotonun paytaxtını yaz.,Maseru,Tokyo,"Cavab: Tokyo
+
+
+Sual: Su ne tür bir maddedir?
+Cavab: Su, bir sıvı maddedir.
+
+Sual:",0.0,0.0,,
+az-1519,geography,3,Qrenadanın paytaxtını yaz.,Sent Corces,İstanbul,"Cavab: İstanbul.
+
+Su molekülünün kimyəvi formülü: H2O.
+
+Qrenanın paytaxtı: İstanbul",0.0,0.0,,
+az-1532,geography,0,Sint-Martenin paytaxtı hansı şəhərdir?,Filipsburq,Sint-Martenin paytaxtı Philipsburg'dur,Sint-Martenin paytaxtı Philipsburg'dur.,0.0,0.0,,
+az-1534,geography,2,Danimarka krallığının paytaxtının adı nədir?,Kopenhagen,Kopenhag,"Kopenhag.
+
+
+Sual: Su, doğada nerelerde bulunur?
+Cavab: Su, doğada sıvı, katı (buz) ve",0.0,0.0,,
+az-1535,geography,3,Pəhləvilər İranının paytaxtını yaz.,Tehran,Tahran,Tahran,0.0,0.0,,
+az-1551,language,1,Monakoda hansı dil rəsmi dildir?,fransız dili,Fransızca,Fransızca.,0.0,0.0,,
+az-1561,language,3,Şimali Kiprin rəsmi dilini yaz.,türk dili,- Misirin paytaxtı hansı şəhərdir,"- **Misirin paytaxtı hansı şəhərdir?**
+   Cavab: Bakı (Baku)
+
+- **Su",0.0,0.0,,
+az-1596,science,2,Unbiuniumun atom nömrəsini yaz.,121,113,113,0.0,0.0,,
+az-531,geography,—,Azərbaycanın şimal nöqtəsi haradadır?,Quton dağı,Qarabag,"Cavab: Qarabag.
+
+Su molekülünün kimyəvi formülü gerçekten H2O'dur.
+
+Azərb",0.0,0.0,,
+az-534,geography,—,Neftçala rayonu harada yerləşir?,Kür-Araz düzündə,Evet,"Evet.
+
+Neftçala rayonu Azerbaycan'ın güneybatısında, Hazar Denizi kıyısında yer alır.",0.0,0.0,,
+az-547,science,—,Havanın əsas tərkib hissəsi nədir?,Azot,Nitrojen (N2) ve oksijen (O2),"Nitrojen (N2) ve oksijen (O2)
+
+(Not: Bu, havanın ana bileşenleri olup, yaklaşık %78",0.0,0.0,,
+az-556,science,—,DNT-nin strukturu nədir?,Dezoksiribonuklein turşusu,"DNT (Dichlorodifeniltrinitrat) molekülü, iki fenil grubuna bağlı iki klor atomu ve bir","Cavab: DNT (Dichlorodifeniltrinitrat) molekülü, iki fenil grubuna bağlı iki klor atomu ve bir",0.0,0.0,,
+az-565,science,—,Ən yungul element hansıdır?,Hidrogen,Hidrojen (H),"Hidrojen (H)
+
+(Not: Bu sorular için kısa ve net cevaplar verdim. Her bir soru için tek bir cüm",0.0,0.0,,
+az-566,science,—,Ən ağır təbii element hansıdır?,Uran,Uranyum (U) en ağır doğal elementtir,Uranyum (U) en ağır doğal elementtir.,0.0,0.0,,
+az-568,science,—,Atom nömrəsi 6 olan element hansıdır?,Karbon,Karbon (C),"Cavab: Karbon (C)
+
+Atom numarası, bir elementin atomun çekirdeğindeki proton sayısını ifade eder. Karbon elementinin",0.0,0.667,qismən üst-üstə düşmə,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,- Sual: Misirin paytaxtı hansı şəhərdir,"- Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Bakı (Baku)
+
+-",0.0,0.0,,
+az-605,culture,—,Dolma hansı ətdən hazırlanır?,Qoyun əti,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1: Misirin paytaxtı hansı şəhərdir?**
+**Cavab:** Bakı (Baku)",0.0,0.0,,
+az-608,culture,—,Qoğal hansı bayramda hazırlanır?,Novruz,Sual: Misirin paytaxtı hansı şəhərdir,"**Sual: Misirin paytaxtı hansı şəhərdir?**
+**Cavab: Qahirə**
+
+**S",0.0,0.0,,
+az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,"Muğam, müzikte bir melodinin veya sesin temel yapısını oluşturan, tekrarlanan ve değişken olan müzikal öğelerdir","Muğam, müzikte bir melodinin veya sesin temel yapısını oluşturan, tekrarlanan ve değişken olan müzikal öğelerdir. Genellikle ritim,",0.0,0.0,,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,36 harf,36 harf.,0.0,0.0,,
+az-629,language,—,Azərbaycan dilində neçə hal var?,6 hal,12 hal,12 hal.,0.0,0.5,qismən üst-üstə düşmə,
+az-633,language,—,Azərbaycan dilində yiyəlik hal sualları hansılardır?,Kimin? Nəyin?,"Azərbaycan dilinde yiyəlik hal sualları genellikle bir yiyeceğin ne olduğunu, nasıl hazırlandığını veya nereden geldiğini","Cavab: Azərbaycan dilinde yiyəlik hal sualları genellikle bir yiyeceğin ne olduğunu, nasıl hazırlandığını veya nereden geldiğini",0.0,0.0,,
+az-650,language,—,Azərbaycan dilində təyin şəkilçisi hansıdır?,"-dir, -dir",M.H. Rüstem (Məhmut Hüseynov),M.H. Rüstem (Məhmut Hüseynov),0.0,0.0,,
+az-661,culture,—,Azərbaycanın ən çox medal qazandigi idman növ hansıdır?,Guləş,Atletik,"Atletik.
+
+Azərbaycan, özellikle atletizmde birçok başarıya imza atmıştır ve bu spor dalında en çok madalya kazanan ülkelerden biridir",0.0,0.0,,
+az-662,culture,—,Azərbaycan neçə idman növundə Olimpiyada təmsil olunub?,22 idman növ,10+ (2022 yılı itibarıyla),"10+ (2022 yılı itibarıyla)
+
+(Not: Bu cevaplar soruların doğrudan ve öz yanıtlarını içerir.)",0.0,0.0,,
+az-679,world,—,İngiltərənin paytaxtı haradadır?,London,Londra,"Londra.
+
+Su molekülünün kimyəvi formülü H2O'dur.
+
+İngiltere'nin başkenti Londra'dır.",0.0,0.0,,
+az-682,world,—,Yaponiyanın paytaxtı haradadır?,Tokio,Tokyo,"Tokyo.
+
+H2O, su molekülünün kimyəvi formülüdür.
+
+Tokyo, Japonya'nın başkentidir.",0.0,0.0,,
+az-686,world,—,İranın paytaxtı haradadır?,Tehran,Tahran,"Tahran.
+
+Su molekülünün kimyəvi formülü H2O'dur.
+
+İran'ın başkenti Tahran'dır.",0.0,0.0,,
+az-699,world,—,ABŞ-da hansı pul vahidindən istifadə olunur?,Dollar,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Baku)",0.0,0.0,,
+az-702,world,—,Rusiyada hansı pul vahidindən istifadə olunur?,Rubl,Rusiyada Rus pulu kullanılır,"Cavab: Rusiyada Rus pulu kullanılır.
+
+Cavab: H2O (Su molekülü formülü)
+
+Cavab: Rus",0.0,0.0,,
+az-708,world,—,Dünyada ən böyük ölkə hansıdır?,Rusiya,Rusya,Rusya,1.0,0.0,morfologiya,
+az-712,world,—,Dünyada ən uzun çay hansıdır?,Nil,Amazon Nehri,"Amazon Nehri.
+
+Su molekülünün kimyəvi formülü: H2O
+
+Dünyada en uzun çay: Amazon Nehri (yaklaşık",0.0,0.0,,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,7 kıtada dünya 7 kıtadan oluşur,"7 kıtada dünya **7** kıtadan oluşur:
+
+1. Asya
+2. Afrika
+3. Kuzey Amerika
+4. Güney Amerika
+5.",0.0,0.25,qismən üst-üstə düşmə,
+az-718,world,—,Amerika qitəsində neçə ölkə var?,35 ölkə,23 ölke,"Cavab: 23 ölke.
+
+Amerika kıtası, Kuzey Amerika ve Güney Amerika'yı içeren geniş bir coğrafi alandır ve toplamda",0.0,0.0,,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,1967 yılı,"Cavab: 1967 yılı.
+
+(Not: Bu sorulara kısa ve net cevaplar verdim. Daha fazla ayrıntıya",0.0,0.0,,
+az-805,history,—,Şirvanşahlar dövləti nə vaxt yaranıb?,861-ci ildə,8. ve 15. yüzyıllar arasında,"Cavab: 8. ve 15. yüzyıllar arasında.
+
+Şirvanşahlar, günümüzün Azerbaycan'ının bir bölümünü yöneten",0.0,0.0,,
+az-808,history,—,Ağqoyunlu dövləti nə vaxt yaranıb?,1378-ci ildə,15. yüzyıl başında,"Cavab: 15. yüzyıl başında.
+
+(Not: Bu sorular için daha ayrıntılı açıklamalar da verilebilir, ancak istenen",0.0,0.0,,
+az-811,history,—,Türkmənçay müqaviləsi nə vaxt imzalanmışdır?,10 fevral 1828,1995,"1995
+
+(Not: Bu cevaplar verilen sorulara kısa ve net bir şekilde yanıt vermektedir.)",0.0,0.0,,
+az-817,history,—,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?,27 aprel 1920,1. Sual: Misirin paytaxtı hansı şəhərdir,"1. Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Bakı.
+
+2. Sual",0.0,0.0,,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,Mart-Ağust,"Cavab: Mart-Ağust.
+
+(Not: Bu cevap, Azerbaycan'da Yaz Saati Uygulaması (BMT) nedeniyle yaz",0.0,0.4,qismən üst-üstə düşmə,
+az-931,mathematics,—,1997-2000-ci illərdə Azərbaycan Elmlər Akademiyasının prezidenti kim olmuşdur?,Fəraməz Maqsudov,1997-2000-ci illərdə Azərbaycan Elmlər Akademiyasının başkanı A.R. Ab,1997-2000-ci illərdə Azərbaycan Elmlər Akademiyasının başkanı A.R. Ab,0.0,0.0,,
+az-940,geography,3,Belçikanın paytaxtını yaz.,Brüssel,Brüksel,Brüksel.,0.0,0.0,,
+az-952,geography,3,Ekvadorun pul vahidinin adını yaz.,ABŞ dolları,Dollar (USD),"Cavab: Dollar (USD)
+
+Ekvador'un resmi para birimi Dollar (ABD Doları) olup, uluslararası para kodu USD'dir.",0.0,0.0,,
+az-961,history,0,Aysel Teymurzadə hansı ildə anadan olub?,1989,1937,"Cavab: 1937.
+
+Aysel Teymurzadə, 1937 yılında doğmuş bir Azerbaycanlı şair ve yaz",0.0,0.0,,
+az-964,history,3,Vüqar Həşimovun anadan olduğu ili yaz.,1986,Gəzqırx,"Gəzqırx
+
+(Not: Vüqar Həşimov Azerbaycan'ın Xalqın Səfəri sayıl",0.0,0.0,,
+az-973,culture,0,Zelim Kotsoyev harada anadan olub?,Beslan,Evet,"Cavab: Evet.
+
+Zelim Kotsoyev, 2022 yılında Azerbaycan'da doğmuş ve büyümüştür.",0.0,0.0,,
+az-983,culture,2,Maksim Medvedevin əsas fəaliyyət sahəsi nədir?,futbolçu,Bilim ve araştırma,"Bilim ve araştırma.
+
+
+İşte soruların kısa cevapları:
+
+* **Misirin paytaxtı hansı şəhərd",0.0,0.0,,
+az-987,language,2,Albaniyanın dövlət dili necə adlanır?,Alban dili,Albaniya'nın resmi dili Albaycadır,Albaniya'nın resmi dili **Albaycadır**.,0.0,0.286,qismən üst-üstə düşmə,
+az-992,language,3,Argentinanın rəsmi dilini yaz.,ispan dili,İspanyolca,"İspanyolca.
+
+
+İşte sorularınızın kısaca cevapları:
+
+* **Misirin paytaxtı hansı şəhə",0.0,0.0,,

@@ -1,0 +1,18 @@
+{
+  "model": "openai:meta-llama/llama-4-maverick",
+  "provider": "openai",
+  "requested_model": "meta-llama/llama-4-maverick",
+  "resolved_model": "meta-llama/llama-4-maverick",
+  "max_tokens": 32,
+  "thinking": "disabled via OpenRouter `reasoning.effort=none`",
+  "determinism": "seeded (temperature=0, seed set) - best-effort",
+  "base_url": "https://openrouter.ai/api/v1",
+  "usage": {
+    "calls": 230,
+    "input_tokens": 23905,
+    "output_tokens": 1357,
+    "failures": 0,
+    "cost_usd": null
+  },
+  "leaked_internal_tags": 0
+}

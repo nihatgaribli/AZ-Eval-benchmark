@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# API açarları. `src/backends_api.py` onları YALNIZ mühitdən və bu fayldan
+# oxuyur, heç vaxt koda yazılmır.
+.env
+
+# Qaçış jurnalları: hər qaçışda yenidən yaranır, xam cavablar isə
+# `results/raw_outputs/` altında saxlanılır.
+*.log
+
+# LaTeX qalıqları
+*.aux
+*.idx
+*.out
+*.bbl
+*.blg
+*.nav
+*.snm
+*.toc
+paper/latex/az-eval.pdf
+
+# Naşirin şablon faylları: `clv2025.cls`, `compling.bst` və COLI nümunələri
+# Computational Linguistics jurnalınındır, burada yenidən paylanmır.
+paper/latex/clv2025.cls
+paper/latex/compling.bst
+paper/latex/COLI*
+paper/latex/alocal.sty
+paper/latex/ex.pdf
+paper/latex/compling/
+paper/latex/__MACOSX/
+paper/latex/*.zip
+
+# `paper/latex/figures/` `paper/figures/`-in NÜSXƏSİDİR; `build.sh` onu hər
+# qurmada yeniləyir. Nüsxəni commit etmək onun köhnəlməsinə icazə vermək olardı.
+paper/latex/figures/
+
+# arXiv arxivi `build.sh`-dan sonra qurulur, təlimat isə izlənir.
+paper/arxiv/*
+!paper/arxiv/SUBMIT.md

@@ -1,0 +1,230 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,"Haydar Aliyev, Azerbaycan'ın ilk cumhurbaşkanıdır. Doğumu 1937 yılında gerçekleşmiştir","Haydar Aliyev, Azerbaycan'ın ilk cumhurbaşkanıdır. Doğumu 1937 yılında gerçekleşmiştir.",0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Şehriyar Məmmədyarovun doğum yeri Bakıdır,Şehriyar Məmmədyarovun doğum yeri Bakıdır.,0.0,0.0,,
+az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib?,Gəncə,Sual: Suyun kimyəvi formülü nədir,"Sual: Suyun kimyəvi formülü nədir?
+Cavab: H2O
+
+Sual: Suyun kimy",0.0,0.0,,
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,Sual: Radik İsayevin doğum yerini yaz,"Sual: Radik İsayevin doğum yerini yaz.
+Cevap: İstanbul.",0.0,0.0,,
+az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,"Almanca, Almanya'nın resmî dilidir. Aynı zamanda, Avusturya, Lüksemburg, İsviçre, Liechtenstein ve B","Almanca, Almanya'nın resmî dilidir. Aynı zamanda, Avusturya, Lüksemburg, İsviçre, Liechtenstein ve B",0.0,0.143,qismən üst-üstə düşmə,
+az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cevap: Qahirə
+
+Sual:",0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Sual: Rus dili üçün istifad olunur,"Sual: Rus dili üçün istifad olunur.
+Cevap: Rusça.",0.0,0.0,,
+az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,Sual: Avadhi üçün yazı sistemindən istifadə olunur,"Sual: Avadhi üçün yazı sistemindən istifadə olunur?
+Cevap: Evet, Avadhi",0.0,0.0,,
+az-1007,culture,2,Yusif Vəzir Çəmənzəminli hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,"Yusif Vəzir Çəmənzəminli, 1920-2000 yılları arasında yaşamıştır","Yusif Vəzir Çəmənzəminli, 1920-2000 yılları arasında yaşamıştır.",0.0,0.0,,
+az-1011,history,2,Əbdülqadir Marağayi hansı şəhərdə dünyasını dəyişib?,Herat,Sual: Əbdülqadir Marağaşı hərədən dünyasını dəyişib,"Sual: Əbdülqadir Marağaşı hərədən dünyasını dəyişib?
+Cavab:",0.0,0.0,,
+az-1014,history,1,Gödək Əhmədin vəfat etdiyi yer haradır?,İsfahan,Sual: Gödək Əhməd'in vəfat etdiyi yer haradır,"Sual: Gödək Əhməd'in vəfat etdiyi yer haradır?
+Cevap: Gödə",0.0,0.0,,
+az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,Sual: Bəhruz Kəngərlinin vəfat yerini yaz,"Sual: Bəhruz Kəngərlinin vəfat yerini yaz.
+Cevap: Bəhruz Kə",0.0,0.0,,
+az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,"Sual: Sadıqzadə, torpağa tapşırılıp, yurdunda torpağa tapşırılıp, yurd","Sual: Sadıqzadə, torpağa tapşırılıp, yurdunda torpağa tapşırılıp, yurd",0.0,0.0,,
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,"Seyid Əzim Şirvaninin dəfn yerini yazdıran şəhər, Əlişir oğlu","Seyid Əzim Şirvaninin dəfn yerini yazdıran şəhər, Əlişir oğlu",0.0,0.0,,
+az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,Sual: Zeynalabdin Şirvani'nin torpası ne zaman ve nereden görüldü,"Sual: Zeynalabdin Şirvani'nin torpası ne zaman ve nereden görüldü?
+Cevap: Ze",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,Ömər Qoçulu nə ilə məşğul olub,"Ömər Qoçulu nə ilə məşğul olub?
+Cevap: Ömər Qoç",0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Ali Vəkilin fəaliyyəti: 10.000.000 km/s,"Ali Vəkilin fəaliyyəti: 10.000.000 km/s
+
+Sual: Su",0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Sual: Asoru dilinin yazı sistemi hası şəhərdir,"Sual: Asoru dilinin yazı sistemi hası şəhərdir?
+Cevap: Asoru dilinin yazı sistemi hası ş",0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Xəzər dili üçün istifad olunur yazı sistemindən,"Xəzər dili üçün istifad olunur yazı sistemindən.
+
+Sual: Xəzər d",0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Sual: Müqəddəs Bakirə Mərimənin Məsədəsi kilsəsi kimin layih,Sual: Müqəddəs Bakirə Mərimənin Məsədəsi kilsəsi kimin layih,0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,"Azadlıq Prospekti Metro Stancisi Projesi, 1970-1974 yıllarında Azerbaycan SSC","Azadlıq Prospekti Metro Stancisi Projesi, 1970-1974 yıllarında Azerbaycan SSC",0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,"Azad qadın heykəli, M.C.C.C. (M.C.C.C.C.C.C","Azad qadın heykəli, M.C.C.C. (M.C.C.C.C.C.C",0.0,0.0,,
+az-1070,mathematics,—,114-dən böyük ən kiçik sadə ədəd hansıdır?,127,Sual: 114-dən böyük ən kiçik sadə ədəd hansıdır,"Sual: 114-dən böyük ən kiçik sadə ədəd hansıdır?
+C",0.0,0.0,,
+az-1089,mathematics,—,14-dən sonrakı sadə ədədi tap.,17,14-dən sonrakı sadə ədədi tap,"14-dən sonrakı sadə ədədi tap.
+
+Sual: Əsas mərhəm",0.0,0.0,,
+az-1097,mathematics,—,16-bucaqlının diaqonallarının sayı neçədir?,104,16,"16
+
+Sual: 16-bucaqlının diaqonallarının isimləri nədir?
+Cav",0.0,0.0,,
+az-1116,mathematics,—,7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,900,Cevab: 12.5,"Cevab: 12.5
+
+Sual: Suyun kimyəvi formülü nədir?
+Cevab: H",0.0,0.0,,
+az-1151,mathematics,—,12 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1800,12 tərəfi olan çoxbucaqlının daxili bucaqları 12 x 2 = 24,12 tərəfi olan çoxbucaqlının daxili bucaqları 12 x 2 = 24,0.0,0.0,,
+az-1184,mathematics,—,Diaqonallarının sayını tap: 7-bucaq.,14,7-bucaq,"7-bucaq.
+
+Sual: Suyun kimyəvi formülü nədir?
+Cavab: H2O",0.0,0.0,,
+az-1216,science,1,Dövri cədvəldə Stibium hansı nömrə ilə durur?,51,Sual: Dövri cədvəldə Stibium hansı nömrə ilə durur,"Sual: Dövri cədvəldə Stibium hansı nömrə ilə durur?
+Cevap: Sti",0.0,0.0,,
+az-1234,science,3,Astat elementində neçə proton var?,85,"Astat, 10 protonlu bir elementdir","Astat, 10 protonlu bir elementdir.",0.0,0.0,,
+az-1238,science,3,Rodium elementində neçə proton var?,45,Rodium elementində neçə proton var,"Rodium elementində neçə proton var?
+Cevap: Rodium elementində neçə proton var?
+
+Sual:",0.0,0.0,,
+az-1268,world,0,İsveçin telefon kodu nədir?,+46,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1270,world,2,Vyetnamın beynəlxalq telefon kodunu yaz.,+84,V,"V.
+
+Sual: Suyun kimyəvi formülü nədir?
+Cavab: H2O
+
+Sual:",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,1234567890,"1234567890
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+C",0.0,0.0,,
+az-1301,world,1,Malayziyada beynəlxalq telefon kodu hansıdır?,+60,Malayziyada beynəlxalq telefon kodu 0060'dır,Malayziyada beynəlxalq telefon kodu 0060'dır.,0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,Maltanın beynəlxalq telefon kodunu yaz: 00351,"Maltanın beynəlxalq telefon kodunu yaz: 00351
+
+Sual: Suyun kimyəvi",0.0,0.0,,
+az-1319,world,3,Hansı telefon kodu Şimali Makedoniyanın aiddir?,+389,105,"105
+
+Sual: Şimali Makedoniyanın telefon kodu nədir?
+Cavab: 105",0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,Montenegro'ya aidi olan telefon kodu +385'dir,Montenegro'ya aidi olan telefon kodu +385'dir.,0.0,0.0,,
+az-1337,mathematics,—,Bir üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan bucaq nə qədərdir?,70,Bu üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan buca,Bu üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan buca,0.0,0.167,qismən üst-üstə düşmə,
+az-1348,mathematics,—,Faizi hesabla: 120 ədədinin 25 faizi.,30,Faizi hesabla: 120 ədədinin 25 faizi. Faiz: 25 x 12,Faizi hesabla: 120 ədədinin 25 faizi. Faiz: 25 x 12,0.0,0.0,,
+az-1392,mathematics,—,3 ədədinin 5-ci dərəcəsini tap.,243,Sual: 3 ədədinin 5-ci dərəcəsini tap,"Sual: 3 ədədinin 5-ci dərəcəsini tap.
+Cavab: 5",0.0,0.0,,
+az-1404,mathematics,—,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq neçə dərəcədir?",65,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq","Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq",0.0,0.0,,
+az-1423,mathematics,—,Fərqli sadə bölənlərin sayını tap: 2730.,5,2730 sadə bölənlərə 2730 sadə bölənlərə 2730 sadə,2730 sadə bölənlərə 2730 sadə bölənlərə 2730 sadə,0.0,0.0,,
+az-1434,mathematics,—,İki bucağı 38 və 52 dərəcə olan üçbucağın digər bucağı neçə dərəcədir?,90,Sual: İki bucağı 38 və 52 dərəcə olan üçbucağın digər bu,Sual: İki bucağı 38 və 52 dərəcə olan üçbucağın digər bu,0.0,0.154,qismən üst-üstə düşmə,
+az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Sual: Uruqvayın paytaxtı hansı şəhərdir,"Sual: Uruqvayın paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1450,geography,2,İordaniyanın paytaxtının adı nədir?,Amman,Sual: İordaniyanın paytaxtı şəhərdir,"Sual: İordaniyanın paytaxtı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,"Özbekistanın paytaxtı Qahirədir. Özbekistanın paytaxtı, Qahirədir. Ö","Özbekistanın paytaxtı Qahirədir. Özbekistanın paytaxtı, Qahirədir. Ö",0.0,0.0,,
+az-1504,geography,0,Ficinin paytaxtı hansı şəhərdir?,Suva,Sual: Ficinin paytaxtı hansı şəhərdir,"Sual: Ficinin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,Sual: Belizin paytaxtının adı nədir,"Sual: Belizin paytaxtının adı nədir?
+Cevap: Belizin paytaxtının adı ""H2O""dır",0.0,0.0,,
+az-1520,geography,0,Kiribatinin paytaxtı hansı şəhərdir?,Cənubi Tarava,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1528,geography,0,Kuk adalarının paytaxtı hansı şəhərdir?,Avarua,"Kuk adalarının paytaxtı Hansı şəhərdir. Kuk adalarının paytaxtı, Hokkaidō","Kuk adalarının paytaxtı Hansı şəhərdir. Kuk adalarının paytaxtı, Hokkaidō,",0.0,0.0,,
+az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,Palaun pul vahidinin adı: Palatinus pul,Palaun pul vahidinin adı: Palatinus pul.,0.0,0.0,,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Sual: San-Marinoda hansı dil rəsmi dildir,"Sual: San-Marinoda hansı dil rəsmi dildir?
+Cevap: Sırpça ve Hırvatça",0.0,0.0,,
+az-1560,language,2,Surinamın dövlət dili necə adlanır?,Niderland dili,Suralı dili,Suralı dili.,0.0,0.5,qismən üst-üstə düşmə,
+az-1565,science,3,Samarium elementində neçə proton var?,62,Sual: Suyun kimyəvi formülü nədir,"Sual: Suyun kimyəvi formülü nədir?
+Cavab: H2O
+
+Sual: Suyun kimy",0.0,0.0,,
+az-1576,science,2,Prazeodimin atom nömrəsini yaz.,59,Sual: Suyun kimyasal formülü nedir,"Sual: Suyun kimyasal formülü nedir?
+Cevap: Suyun kimyasal formülü H2O'dur.",0.0,0.0,,
+az-1589,science,3,Ununtrium elementində neçə proton var?,113,Ununtrium elementində neçə proton var,"Ununtrium elementində neçə proton var?
+Cevap: Ununtrium elementində neçə proton var?
+
+S",0.0,0.0,,
+az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizində,"Yarımada, Abşeron yarımadasıdır. Yarımada, denizden yüksekliği 100 metreyi geçen yerlerdir","Yarımada, Abşeron yarımadasıdır. Yarımada, denizden yüksekliği 100 metreyi geçen yerlerdir.",0.0,0.0,,
+az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,"Göygöl gölü, Azerbaycan'da yerləşir. Göygöl gölü, Azerbaycan'da yer","Göygöl gölü, Azerbaycan'da yerləşir. Göygöl gölü, Azerbaycan'da yer",0.0,0.0,,
+az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,Sual: Suyun kimyəvi formülü nədir,"Sual: Suyun kimyəvi formülü nədir?
+Cavab: H2O
+
+Sual: Suyun kimy",0.0,0.0,,
+az-540,science,—,Neftin əsas tərkib hissəsi nədir?,Karbohidrogenlər,Neftin əsas tərkib hissəsi nədir,"Neftin əsas tərkib hissəsi nədir?
+
+Neftin, petrol ve kimyəvi madd",0.0,0.0,,
+az-550,science,—,İşığın sürəti neçədir?,300.000 km/s,1. 108000 km/s,"1. 108000 km/s
+2. 29979.158 km/s
+3.",0.0,0.5,qismən üst-üstə düşmə,
+az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,"Sümük, insan bədənində nədir","Sümük, insan bədənində nədir?
+Sümük, insan bədənində nədir",0.0,0.333,qismən üst-üstə düşmə,
+az-565,science,—,Ən yungul element hansıdır?,Hidrogen,H2O,"H2O
+
+Sual: Suyun kimyəvi formülü nədir?
+Cavab: H2O
+
+Sual",0.0,0.0,,
+az-570,science,—,Atom nömrəsi 26 olan element hansıdır?,Dəmir,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cevap: Qahirə
+
+Sual:",0.0,0.0,,
+az-574,science,—,Ən böyük planet hansıdır?,Yupiter,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-576,science,—,Ən isti planet hansıdır?,Venera,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,"Fikrət Əmirov, 1930-1997 yılları arasında yaşamış olan İranlı şair ve yazar","Fikrət Əmirov, 1930-1997 yılları arasında yaşamış olan İranlı şair ve yazar.",0.0,0.0,,
+az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,"Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed","Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed, Muhammed,",0.0,0.0,,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub,"Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?
+Azərbay",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"Azərbaycanfilm. Film tarixi 1918-1929 yıllarıdır. İlk Azərbaycan filmi ""Az","Azərbaycanfilm. Film tarixi 1918-1929 yıllarıdır. İlk Azərbaycan filmi ""Az",0.0,0.0,,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,Sual: Azərbaycan dilində neçə sait hərf var,"Sual: Azərbaycan dilində neçə sait hərf var?
+Cevap: Azərbaycan d",0.0,0.222,qismən üst-üstə düşmə,
+az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu",Sual: Suyun kimyəvi formülü nədir,"Sual: Suyun kimyəvi formülü nədir?
+Cavab: H2O
+
+Sual: Suyun kimy",0.0,0.0,,
+az-645,language,—,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu","Azərbaycan dili, əsaslıyən Türkçə dilidir. Qafiyyət, qafi","Azərbaycan dili, əsaslıyən Türkçə dilidir. Qafiyyət, qafi",0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,"Azərbaycan dili, Qahirə, Qayrat, Qayrat-Qayrat, Qayrat-Qayrat","Azərbaycan dili, Qahirə, Qayrat, Qayrat-Qayrat, Qayrat-Qayrat",0.0,0.0,,
+az-651,language,—,Azərbaycan dilində təyin nəyi bildirir?,Aydinlaşdirma,"Azərbaycan dili, təyin nəyi bildirir","Azərbaycan dili, təyin nəyi bildirir?
+Azərbaycan dili, təyin nə",0.0,0.0,,
+az-657,language,—,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar",Sual: Azərbaycan dili üçün şəxs şəkilçisi nədir,"Sual: Azərbaycan dili üçün şəxs şəkilçisi nədir?
+Cavab: Qahir",0.0,0.0,,
+az-683,world,—,Çinin paytaxtı haradadır?,Pekin,Hindistan'dır,Hindistan'dır.,0.0,0.0,,
+az-690,world,—,Belarusun paytaxtı haradadır?,Minsk,Sual: Misirin paytaxtı haradadır,"Sual: Misirin paytaxtı haradadır?
+Cavab: Belarusun paytaxtı haradadır.
+
+Sual",0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-702,world,—,Rusiyada hansı pul vahidindən istifadə olunur?,Rubl,Sual: Rusiyada pul vahidindən istifad olunur,"Sual: Rusiyada pul vahidindən istifad olunur?
+Cevap: Rusiyada pul vahid",0.0,0.0,,
+az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,Hindistanda pul vahidindən istifad olunur,"Hindistanda pul vahidindən istifad olunur.
+
+Sual: Suyun kimyəvi formülü nə",0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,"Azərbaycanda, pul istifadə olunur","Azərbaycanda, pul istifadə olunur.
+
+Sual: Suyun kimyəvi formülü nədir",0.0,0.0,,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,Sual: Avropa qitəsində neçə ölkə var,"Sual: Avropa qitəsində neçə ölkə var?
+Cevap: Avropa qitəsində",0.0,0.25,qismən üst-üstə düşmə,
+az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,Atropatena dövləti nə vaxt yaradılıb,"Atropatena dövləti nə vaxt yaradılıb?
+
+Sual: Qahirə məsələ",0.0,0.0,,
+az-806,history,—,Azərbaycan Atabəyləri dövləti nə vaxt yaranıb?,1136-cı ildə,Azərbaycan Atabəyləri dövləti nə vaxt yaranıb,"Azərbaycan Atabəyləri dövləti nə vaxt yaranıb?
+Azərbaycan Atabə",0.0,0.0,,
+az-811,history,—,Türkmənçay müqaviləsi nə vaxt imzalanmışdır?,10 fevral 1828,Türkmənçay müqaviləsi nə vaxt imzalanmışdır,"Türkmənçay müqaviləsi nə vaxt imzalanmışdır?
+
+Cevap: Türkmən",0.0,0.0,,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,Azərbaycanda ilk neft quyusu nəvaqdır,"Azərbaycanda ilk neft quyusu nəvaqdır?
+Cevap: Qayrat
+
+Sual: Q",0.0,0.0,,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,"H.Z. Tağıyev, 1920-1921 yıllarında Türkistan'da öğretmenlik ve müdürlük yapmıştır","H.Z. Tağıyev, 1920-1921 yıllarında Türkistan'da öğretmenlik ve müdürlük yapmıştır",0.0,0.0,,
+az-817,history,—,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?,27 aprel 1920,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub,"11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?
+
+Cevap: 11-",0.0,0.0,,
+az-906,mathematics,—,Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azərbaycanlı dekanı kim olub?,Mikayıl Xıdırzadə,Sual: Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azərbaycan,Sual: Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azərbaycan,0.0,0.0,,
+az-924,mathematics,—,Evklidin ərəbləşdirilmiş adı necədir?,Öqlidis,"Evklid, Yunanca ""ev"" ve ""yön"" kelimelerinin birleşimindən türemiş bir isimdir. Yunanca","Evklid, Yunanca ""ev"" ve ""yön"" kelimelerinin birleşimindən türemiş bir isimdir. Yunanca",0.0,0.0,,
+az-925,mathematics,—,Alqoritm sözü hansı alimin adından yaranmışdır?,Əl-Xarəzmi,Sual: Alqoritm sözü yaranmışdır,"Sual: Alqoritm sözü yaranmışdır?
+Cavab: Alqoritm sözü yaranmışdır.",0.0,0.0,,
+az-938,geography,1,Hansı şəhər İsveçrənin paytaxtıdır?,Bern,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-943,geography,2,İsrailin paytaxtının adı nədir?,Qüds,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cevap: Qahirə
+
+Sual:",0.0,0.0,,
+az-954,science,1,Kimyada Qalay hansı simvolla işarə olunur?,Sn,Qalay simvol: H2O,"Qalay simvol: H2O
+
+Sual: Qalay simvolda nədir?
+Cavab: Qalay",0.0,0.0,,
+az-966,history,1,Anatoli Banişevski neçənci ildə doğulub?,1946,"Anatoli Banişevski, 1920 yılında doğmuştur","Anatoli Banişevski, 1920 yılında doğmuştur.",0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,"Ramil Şeydayev, Azerbaycan'ın tanınmış şairlerinden biridir","Ramil Şeydayev, Azerbaycan'ın tanınmış şairlerinden biridir. Azerbaycan'ın en önemli şairlerinden biri olarak kabul",0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Braziliyada dili rəsmi dildir,"Braziliyada dili rəsmi dildir.
+
+Sual: Qahirə məsələsi var mı",0.0,0.333,qismən üst-üstə düşmə,

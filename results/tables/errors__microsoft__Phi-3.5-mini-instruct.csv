@@ -1,0 +1,166 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-045,history,0,Aygün Kazımova hansı ildə anadan olub?,1971,Hava,Hava,0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Qəzib,"Qəzib
+
+Sual: İnsanların yanımın kimyasal formülü ne t",0.0,0.0,,
+az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib?,Gəncə,Gəlib,"Gəlib
+
+Sual: Hafıza çalışma sırasında yayınlanan enerji",0.0,0.0,,
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,Hava,Hava,0.0,0.0,,
+az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,Rus,"Rus
+
+Sual: Hızla çevirden bir yüce gözünü özgürlük kaz",0.0,0.0,,
+az-079,language,2,Çinin dövlət dili necə adlanır?,Putonqhua,Mandar,Mandar,0.0,0.0,,
+az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,Hindî,Hindî,0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Cyrillik,Cyrillik,0.0,0.0,,
+az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,Latin,Latin,0.0,0.0,,
+az-1007,culture,2,Yusif Vəzir Çəmənzəminli hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,Çəmənzəminli yaşayış,"Çəmənzəminli yaşayış
+
+(Yusif Vəzir Çəmənz",0.0,0.0,,
+az-101,history,0,Azərbaycan Dövlət Kukla Teatrının memarı kimdir?,İosif Ploşko,Həqiqət,"Həqiqət
+
+Sual: Azərbaycan Dövlət Kukla Teatrının memar",0.0,0.0,,
+az-1013,history,0,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Hic,"Hic
+
+Sual: İngilizce'de ""Hello"" nasıl çevirilir?
+Cavab",0.0,0.0,,
+az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,Tor,"Tor
+
+Sual: Hafıza yaratma ve yanıtları çıkarmak için kull",0.0,0.0,,
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Şirvan,"Şirvan
+
+Sual: İnsan yaşamında yaşayan en yayılır kit",0.0,0.0,,
+az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,Tor,"Tor
+
+Sual: Hafıza sözlü kimyasal bir formülü ilk keşf edin.",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,Həqiqatçı,"Həqiqatçı
+
+Sual: Hafızat Qoçulu nə ilə məşğul olub",0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Həqiqat,Həqiqat,0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Latin,Latin,0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Latin,Latin,0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Bakirə Məryəmin Məsum Hamiləliyi kilsəsi: Müqəddəs,Bakirə Məryəmin Məsum Hamiləliyi kilsəsi: Müqəddəs,0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,Təzirçarşanlar,Təzirçarşanlar,0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,Həqiqatkar,"Həqiqatkar
+
+(Cavab ""həqiqatkar"" azad qadın heykəli kim",0.0,0.0,,
+az-1079,mathematics,—,32 ədədindən sonra gələn ilk sadə ədəd nədir?,37,H2O (su molekulu),"H2O (su molekulu)
+
+Sanal: 32 ədədindən sonra gələn",0.0,0.0,,
+az-1087,mathematics,—,Diaqonallarının sayını tap: 18-bucaq.,135,Ocak,Ocak,0.0,0.0,,
+az-1101,mathematics,—,"Birdən 40-ə kimi bütün natural ədədləri toplasaq, neçə alınar?",820,4,"4
+
+Cavab: Birçocuk
+
+(Not: Birds typically lay eggs, not live young. However, if the question",0.0,0.0,,
+az-1114,mathematics,—,9 faktorial neçəyə bərabərdir?,362880,"362,880","362,880",0.0,0.0,,
+az-1119,mathematics,—,68 ədədindən sonra gələn ilk sadə ədəd nədir?,71,Hexaedrə,Hexaedrə,0.0,0.0,,
+az-1143,mathematics,—,19-bucağın neçə diaqonalı var?,152,2,2,0.0,0.0,,
+az-1149,mathematics,—,12 və 18 ədədlərinin ən kiçik ortaq bölünəni neçədir?,36,6,6,0.0,0.0,,
+az-1150,mathematics,—,196 ədədinin kvadrat kökü neçədir?,14,196^2 = 38416,196^2 = 38416,0.0,0.0,,
+az-1183,mathematics,—,Daxili bucaqlarının cəmini tap: 20-bucaq.,3240,Hafizlik,Hafizlik,0.0,0.0,,
+az-1202,science,3,Nikel elementində neçə proton var?,28,29,29,0.0,0.0,,
+az-1209,science,2,Fransiumun atom nömrəsini yaz.,87,Hydrogen (H),Hydrogen (H),0.0,0.0,,
+az-1221,science,2,Bismutun atom nömrəsini yaz.,83,Bi,Bi,0.0,0.0,,
+az-1224,science,1,Dövri cədvəldə plutonium hansı nömrə ilə durur?,94,Puzyr,Puzyr,0.0,0.0,,
+az-1240,science,1,Dövri cədvəldə Torium hansı nömrə ilə durur?,90,"Np (Np, neptunium)","Np (Np, neptunium)
+
+Sual: Hidrojen moleküllü formülü çeşit",0.0,0.0,,
+az-1241,science,2,Neptuniumun atom nömrəsini yaz.,93,Np,Np,0.0,0.0,,
+az-1257,science,2,Torium elementinin kəşfçisini yaz.,Yens Yakov Bertselius,Thorium (Th),Thorium (Th),0.0,0.0,,
+az-1267,world,3,Hansı telefon kodu Portuqaliyanın aiddir?,+351,26,26,0.0,0.0,,
+az-1269,world,1,Danimarkada beynəlxalq telefon kodu hansıdır?,+45,GSM (Global System for Mobile Communications),GSM (Global System for Mobile Communications),0.0,0.0,,
+az-1282,world,2,Estoniyanın beynəlxalq telefon kodunu yaz.,+372,EE,EE,0.0,0.0,,
+az-1289,world,1,Qazaxıstanda beynəlxalq telefon kodu hansıdır?,+7,0110-0110-0101-0110-0101,0110-0110-0101-0110-0101,0.0,0.0,,
+az-1300,world,0,Slovakiyanın telefon kodu nədir?,+421,+370,+370,0.0,0.0,,
+az-1308,world,0,Liviyanın telefon kodu nədir?,+218,7956,7956,0.0,0.0,,
+az-1315,world,3,Hansı telefon kodu Kambocanın aiddir?,+855,+880,+880,0.0,0.0,,
+az-1317,world,1,Tunisdə beynəlxalq telefon kodu hansıdır?,+216,+371,+371,0.0,0.0,,
+az-1322,world,2,Qananın beynəlxalq telefon kodunu yaz.,+233,GSM (Global System for Mobile Communications),GSM (Global System for Mobile Communications),0.0,0.0,,
+az-1332,mathematics,—,İkilik say sistemində yazılmış 110011 ədədi onluq sistemdə neçəyə bərabərdir?,51,5 onlar,5 onlar,0.0,0.0,,
+az-1345,mathematics,—,Rəqəmlərinin cəmini tap: 12345.,15,12345,"12345
+
+(Cavab, çünkü bu sayı cəmini tap edilmiş, y",0.0,0.0,,
+az-1361,mathematics,—,11 ilə 29 arasındakı tam ədədlərin cəmi hansı ədəddir (hər ikisi sayılır)?,380,30,30,0.0,0.0,,
+az-1391,mathematics,—,444 ədədi 7 ədədinə bölünəndə nə qədər qalıq qalır?,3,111 (444 ÷ 44 = 111),111 (444 ÷ 44 = 111),0.0,0.0,,
+az-1421,mathematics,—,"Qüvvəti hesabla: əsas 5, göstərici 4.",625,4.5,4.5,0.0,0.0,,
+az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Hüseyin,Hüseyin,0.0,0.0,,
+az-1450,geography,2,İordaniyanın paytaxtının adı nədir?,Amman,Hidrojen (H),Hidrojen (H),0.0,0.0,,
+az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,Tajik,Tajik,0.0,0.0,,
+az-1504,geography,0,Ficinin paytaxtı hansı şəhərdir?,Suva,Hind,"Hind
+
+Sual: Ficinin atomların sayısı ve elektromotorik oyunu iç",0.0,0.0,,
+az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,Hidrojen (H),Hidrojen (H),0.0,0.0,,
+az-1520,geography,0,Kiribatinin paytaxtı hansı şəhərdir?,Cənubi Tarava,Kiribatinin paytaxtı: Kir,"Kiribatinin paytaxtı: Kir
+
+Sual: Hidrojen atomunun atom numarası nesir et?",0.0,0.0,,
+az-1528,geography,0,Kuk adalarının paytaxtı hansı şəhərdir?,Avarua,Qalqın,Qalqın,0.0,0.0,,
+az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,H2O,H2O,0.0,0.0,,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Lengua di San Marino,Lengua di San Marino,0.0,0.0,,
+az-1572,science,2,Ununoktiumun atom nömrəsini yaz.,118,U-235,U-235,0.0,0.0,,
+az-1578,science,0,Darmştadtium elementinin atom nömrəsi neçədir?,110,105,105,0.0,0.0,,
+az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizində,Qalasadro,Qalasadro,0.0,0.0,,
+az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Hava,Hava,0.0,0.0,,
+az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,Klasik,Klasik,0.0,0.0,,
+az-543,science,—,Sintez prosesi nədir?,Birləşmə reaksiyası,Hidrofilik atomları birleştirmək,Hidrofilik atomları birleştirmək,0.0,0.0,,
+az-555,science,—,Periodik cədvəli kim tərtib edib?,Dmitri Mendeleyev,Hidrojen (H) ve Oksijen (O),Hidrojen (H) ve Oksijen (O),0.0,0.0,,
+az-558,science,—,İnsan bədənində neçə əzələ var?,600-dən çox,Hübnüş,Hübnüş,0.0,0.0,,
+az-568,science,—,Atom nömrəsi 6 olan element hansıdır?,Karbon,Carbon (C),Carbon (C),0.0,0.0,,
+az-571,science,—,Atom nömrəsi 79 olan element hansıdır?,Qizil,Plutonium,Plutonium,0.0,0.0,,
+az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,H2O (su moleküllü formülü),"H2O (su moleküllü formülü)
+
+Muğam neçə əsas şöbəd",0.0,0.0,,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,Gizli,"Gizli
+
+Sual: Hafıza sözlüğü, bir bilgiyi kelimenin kelime-",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,Qafir,"Qafir
+
+Sual: İnsan yaşamında en yaygın atom kimyası nedir",0.0,0.0,,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,29,29,0.0,0.0,,
+az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu",Aya,Aya,0.0,0.0,,
+az-645,language,—,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu",Xoş,"Xoş
+
+Sual: Azərbaycan dilində yaxinlaştırma şəkilçisi hans",0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,Qar,"Qar
+
+Sual: Azərbaycan dilində aidlik şəkilçisi hansıdır, bu ""Q",0.0,0.0,,
+az-651,language,—,Azərbaycan dilində təyin nəyi bildirir?,Aydinlaşdirma,Təyin,"Təyin
+
+Sual: Hafıza sözlüğün özünü söylüyorsunuz",0.0,0.0,,
+az-657,language,—,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar",Üç,Üç,0.0,0.0,,
+az-693,world,—,Norveçin paytaxtı haradadır?,Oslo,R,"R
+
+Sual: Hindistan'daki kuş dövşanın anlamı nedir?
+Cavab:",0.0,0.0,,
+az-696,world,—,Hollandiyanın paytaxtı haradadır?,Amsterdam,Haar,Haar,0.0,0.0,,
+az-698,world,—,Fransada hansı pul vahidindən istifadə olunur?,Avro,Hüqumit,Hüqumit,0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,Hümüş,"Hümüş
+
+Sual: Azərbaycanda hansı pul vahidindən istifadə olunur",0.0,0.0,,
+az-713,world,—,Dünyada ən böyük okean hansıdır?,Sakit okean,Pryanoriya,Pryanoriya,0.0,0.0,,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,Hərbi başçılık,Hərbi başçılık,0.0,0.0,,
+az-805,history,—,Şirvanşahlar dövləti nə vaxt yaranıb?,861-ci ildə,Hava,Hava,0.0,0.0,,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,Sabah,Sabah,0.0,0.0,,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,Şaraf,"Şaraf
+
+Sual: Hidrojen atomunun elektronların sayısı
+Cavab: 1",0.0,0.0,,
+az-903,mathematics,—,Lütfi Zadə hansı kənddə anadan olub?,Novxanıda,Qaradadır,Qaradadır,0.0,0.0,,
+az-938,geography,1,Hansı şəhər İsveçrənin paytaxtıdır?,Bern,Qahir,Qahir,0.0,0.0,,
+az-943,geography,2,İsrailin paytaxtının adı nədir?,Qüds,Hebrafil,Hebrafil,0.0,0.0,,
+az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,Sr,Sr,0.0,0.0,,
+az-961,history,0,Aysel Teymurzadə hansı ildə anadan olub?,1989,Qanat,"Qanat
+
+Sual: Hidroloji sisteminin çatışması nöbet edilir
+C",0.0,0.0,,
+az-967,history,2,Rəşad Sadıqovun doğum ili hansıdır?,1982,Qayyam,"Qayyam
+
+Sual: Hafızatın çarpanı ne tür?
+Cavab: A,",0.0,0.0,,
+az-972,culture,3,JIVAnın doğum yerini yaz.,Moskva,Mezopotans,Mezopotans,0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Qayyas,Qayyas,0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Pert: Portuguuteur,Pert: Portuguuteur,0.0,0.0,,
+az-997,history,0,Xosrov və Şirin hansı ildə yaranıb?,1180,Hava,Hava,0.0,0.0,,
+az-998,history,1,Şirvanşahlar neçənci ildə təsis edilib?,861,Hindostan,"Hindostan
+
+Sual: Hidrojen atomunun atomaya başlı olan elektron sayısı ne k",0.0,0.0,,

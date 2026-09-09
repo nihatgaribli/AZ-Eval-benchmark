@@ -1,0 +1,335 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-045,history,0,Aygün Kazımova hansı ildə anadan olub?,1971,1995-ci il,"1995-ci il
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi form",0.0,0.667,qismən üst-üstə düşmə,
+az-054,culture,1,Mariya Stadnikin doğulduğu yer haradır?,Lvov,Qırğızıstan,"Qırğızıstan
+
+Sual: Qırğızıstanın ən böyük şəhəri hansıdır?",0.0,0.0,,
+az-057,culture,0,Rüstəm Orucov harada anadan olub?,İrkutsk,Bakıda,"Bakıda
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu",0.0,0.0,,
+az-062,culture,1,Əli Hidayət oğlu Əsədov hansı peşə ilə tanınır?,siyasətçi,Azərbaycan Dövlət Neft Akademiyasının professoru,"Azərbaycan Dövlət Neft Akademiyasının professoru
+
+Sual: Əli Hidayət oğlu",0.0,0.0,,
+az-069,culture,0,Hidayət Heydərovun peşəsi nədir?,cüdoçu,Mədəniyyət işçisi,"Mədəniyyət işçisi
+
+Sual: Qərbdən gələn qızıl q",0.0,0.0,,
+az-080,language,3,Avstraliyanın rəsmi dilini yaz.,ingilis dili,İngiliz,"İngiliz
+
+Sual: Qərbdən gələn qızılın kimyəvi formulu nədir?",0.0,0.0,,
+az-085,language,0,İspan dili hansı yazı sistemi ilə yazılır?,latın əlifbası,Alfabetik,"Alfabetik
+
+Sual: İspan dili hansı yazı sistemi ilə yazılır?
+Cavab: Alfabetik
+
+Sual",0.0,0.0,,
+az-092,language,3,Kalmık dilinin yazı sistemini yaz.,kiril əlifbası,Kalmık,"Kalmık
+
+Sual: Qərbdən gələn qəzaların səbəblər",0.0,0.0,,
+az-101,history,0,Azərbaycan Dövlət Kukla Teatrının memarı kimdir?,İosif Ploşko,Məmmədəliyeva Nərmin,"Məmmədəliyeva Nərmin
+
+Sual: Azərbaycan Respublikasının Prezidenti kimdir",0.0,0.0,,
+az-1013,history,0,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Bakıda,"Bakıda
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu",0.0,0.0,,
+az-1021,culture,0,Bəhruz Kəngərli harada dəfn olunub?,Naxçıvan,Qəbələ,"Qəbələ
+
+Sual: Qəbələdə hansı məscid var?
+Cavab: Q",0.0,0.0,,
+az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,Qərbi Azərbaycanda,"Qərbi Azərbaycanda
+
+Sual: Qərbi Azərbaycanın ən böyük ş",0.0,0.0,,
+az-1026,culture,1,Cəmil Əmirov nə ilə məşğul olub?,musiqiçi,Məşğul olub,"Məşğul olub
+
+Sual: Qərbdən gələn qızılın kimyəvi",0.0,0.0,,
+az-1029,culture,0,Zeynalabdin İsgəndərovun peşəsi nədir?,heykəltaraş,Azərbaycan Dövlət Universitetinin professoru,"Azərbaycan Dövlət Universitetinin professoru
+
+Sual: Qərbdən gələn",0.0,0.0,,
+az-1033,language,0,Qətran Təbrizi hansı dildə yazıb?,fars dili,Azərbaycan dilində,"Azərbaycan dilində
+
+Sual: Qətran Təbrizi hansı dildə yazıb?",0.0,0.5,qismən üst-üstə düşmə,
+az-1034,language,1,Vladimir Qafarovun əsərləri hansı dildədir?,rus dili,Azərbaycan,"Azərbaycan
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi",0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Qərb,"Qərb
+
+Sual: Xəzər dili üçün hansı yazı sistemindən istifadə olunur",0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Qurucusu,"Qurucusu
+
+Sual: Qurucusu kimdir?
+Cavab: Qurucusu
+
+Sual: Quruc",0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,İsa Qəmbər,"İsa Qəmbər
+
+Sual: Azərbaycan Respublikasının Prezidenti cənab İlham �",0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,Qərbdən gələn qadın,"Qərbdən gələn qadın
+
+Sual: Qərbdən gələn",0.0,0.0,,
+az-1091,mathematics,—,Cəmi tap: 1 + 2 + ... + 15.,120,1 + 2 + ... + 15,"1 + 2 + ... + 15
+
+Sual: Qərbdən gələn qızılın qiymə",0.0,0.0,,
+az-1097,mathematics,—,16-bucaqlının diaqonallarının sayı neçədir?,104,4,"4
+
+Sual: Qərbdən şimal-şərqə doğru olan dərinlikdən qə",0.0,0.0,,
+az-1108,mathematics,—,13-cü sadə ədəd hansıdır?,41,H2O,"H2O
+
+Sual: Qərbdən axan qərbə doğru hərəkət edə",0.0,0.0,,
+az-1113,mathematics,—,40 və 60 ədədlərinin ən kiçik ortaq bölünəni neçədir?,120,1/2,"1/2
+
+Sual: Qərbdən şimal-şərqə doğru olan dərinlikdən",0.0,0.0,,
+az-1154,mathematics,—,24 ədədindən sonra gələn ilk sadə ədəd nədir?,29,H2O,"H2O
+
+Sual: H2O nədir?
+Cavab: H2O2
+
+Sual: H2O2",0.0,0.0,,
+az-1164,mathematics,—,Bölənlərinin sayını tap: 144.,15,1,"1
+
+Sual: Qədim dövrlərdə insanlar nə üçün qədim dövrlə",0.0,0.0,,
+az-1172,mathematics,—,14 və 21 hansı ən böyük ədədə tam bölünür?,7,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,",0.0,0.118,qismən üst-üstə düşmə,
+az-1188,science,1,Dövri cədvəldə Silisium hansı nömrə ilə durur?,14,S2,"S2
+
+Sual: Dövri cədvəldə NaOH hansı nömrə ilə durur?
+Cav",0.0,0.0,,
+az-1202,science,3,Nikel elementində neçə proton var?,28,2,"2
+
+Sual: Neçə atomdan ibarətdir?
+Cavab: 2
+
+Sual: Neçə atomdan",0.0,0.0,,
+az-1218,science,3,Sezium elementində neçə proton var?,55,2,"2
+
+Sual: Neçə atomdan ibarətdir?
+Cavab: 2
+
+Sual: Neçə atomdan",0.0,0.0,,
+az-1240,science,1,Dövri cədvəldə Torium hansı nömrə ilə durur?,90,T,"T
+
+Sual: Qərbdən gələn qazın kimyəvi formulu nədir?",0.0,0.0,,
+az-1251,science,0,Xlor elementini kim kəşf edib?,Karl Vilhelm Şeyele,Xlor,"Xlor
+
+Sual: Xlor atomunun kimyəvi formulu nədir?
+Cavab: Xlor
+
+Sual:",0.0,0.0,,
+az-1260,science,1,Amerisiumun kəşfi kimə aiddir?,Qlenn Teodor Siborq,İrəvan,"İrəvan
+
+Sual: Qərbdən gələn qızılın kimyəvi formulu n",0.0,0.0,,
+az-1267,world,3,Hansı telefon kodu Portuqaliyanın aiddir?,+351,0000,"0000
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu n",0.0,0.0,,
+az-1275,world,3,Hansı telefon kodu Bolqarıstanın aiddir?,+359,+374,"+374
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,00,"00
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu nə",0.0,0.0,,
+az-1297,world,1,Bosniya və Herseqovinada beynəlxalq telefon kodu hansıdır?,+387,+385,"+385
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu",0.0,0.0,,
+az-1312,world,0,Konqo Demokratik Respublikasının telefon kodu nədir?,+243,+234,"+234
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu",0.0,0.0,,
+az-1317,world,1,Tunisdə beynəlxalq telefon kodu hansıdır?,+216,+229,"+229
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu",0.0,0.0,,
+az-1320,world,0,Somalinin telefon kodu nədir?,+252,001,"001
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu n",0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,00,"00
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi formulu nə",0.0,0.0,,
+az-1329,mathematics,—,"İlk həddi 2, fərqi 9 olan arifmetik silsilənin 12-ci həddi neçədir?",101,12,"12
+
+Sual: Qərbdən gələn qərbə doğru gedən yolun uzunluğu n",0.0,0.0,,
+az-1336,mathematics,—,210 sayının fərqli sadə vuruqlarının sayı neçədir?,4,2,"2
+
+Sual: Qərbdən gələn qərbə doğru gedən yolun uzunluğu ne",0.0,0.0,,
+az-1338,mathematics,—,250 sayının 16 faizi nə qədər edir?,40,1.5,"1.5
+
+Sual: Qərbdən gələn qəhvənin kimyəvi formulu",0.0,0.0,,
+az-1347,mathematics,—,Üçbucağın üçüncü bucağını tap: 32 dərəcə və 88 dərəcə.,60,32 dərəcə,"32 dərəcə
+
+Sual: Qərbdən axan şimal-qərbə doğru olan d",0.0,0.5,qismən üst-üstə düşmə,
+az-1383,mathematics,—,Rəqəmlərinin cəmini tap: 6042.,12,1,"1.
+
+Sual: Qədim dövrlərdə insanlar nə üçün qədim dövrl",0.0,0.0,,
+az-1390,mathematics,—,Onluq sistemə çevir: ikilik 11100011.,227,ikilik,"ikilik
+
+Sual: Qərbdən şimal-şərqə doğru olan dərəcədə",0.0,0.0,,
+az-1395,mathematics,—,İki bucağı 36 və 94 dərəcə olan üçbucağın digər bucağı neçə dərəcədir?,50,36 dərəcə,"36 dərəcə
+
+Sual: İki bucağı 36 və 94 dərəcə olan üçbucağ",0.0,0.5,qismən üst-üstə düşmə,
+az-1422,mathematics,—,Rəqəmlərinin cəmini tap: 9315.,18,3,"3
+
+Sual: Qədim dövrlərdə insanlar nə üçün qadınlara qarşı daha ç",0.0,0.0,,
+az-1449,geography,1,Hansı şəhər Namibiyanın paytaxtıdır?,Vindhuk,Namibiyada,"Namibiyada
+
+Sual: Qərbdən şimal-şərqə doğru olan dərənin adı",0.0,0.0,,
+az-1464,geography,0,Eritreyanın paytaxtı hansı şəhərdir?,Əsməra,Eritreya,"Eritreya
+
+Sual: Qərbdən gələn qızılın kimyəvi formulu nə",0.0,0.0,,
+az-1468,geography,0,Mavritaniyanın paytaxtı hansı şəhərdir?,Nuakşot,Mavritaniya,"Mavritaniya
+
+Sual: Qərbdən gələn qızılın kimyəvi formulu",0.0,0.0,,
+az-1480,geography,0,Türkmənistanın paytaxtı hansı şəhərdir?,Aşqabad,Şərur,"Şərur
+
+Sual: Türkiyənin paytaxtı hansı şəhərdir?
+Cavab: An",0.0,0.0,,
+az-1482,geography,2,Malavinin paytaxtının adı nədir?,Lilonqve,Qəbələ,"Qəbələ
+
+Sual: Qərbdən gələn qızılın kimyəvi form",0.0,0.0,,
+az-1495,geography,3,Papua-Yeni Qvineyanın paytaxtını yaz.,Port Morsbi,Papua-Yeni Qvineya,"Papua-Yeni Qvineya
+
+Sual: Qərbdən gələn qızılın kimyəvi",0.0,0.0,,
+az-1502,geography,2,Cənubi Sudanın paytaxtının adı nədir?,Cuba,Bərəkət,"Bərəkət
+
+Sual: Qərbdən Şimali Koreyaya qədər olan d",0.0,0.0,,
+az-1509,geography,1,Hansı şəhər Barbadosun paytaxtıdır?,Brictaun,Barbados,"Barbados
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual",0.0,0.0,,
+az-1521,geography,1,Hansı şəhər Solomon adalarının paytaxtıdır?,Honiara,Solomon,"Solomon
+
+Sual: Qərbdən şimal-şərqə doğru olan dəmir yolunun uzunluğu nə",0.0,0.0,,
+az-1547,geography,3,Mikroneziyanın pul vahidinin adını yaz.,ABŞ dolları,Mikroneziya pul vahidi,"Mikroneziya pul vahidi
+
+Sual: Qərbdən gələn qazın kimyəvi form",0.0,0.0,,
+az-1550,language,0,Anqolanın rəsmi dili hansıdır?,portuqal dili,Qırğız,"Qırğız
+
+Sual: Qırğızı hansı ölkə adlandırırsınız?
+Cavab: Qırğı",0.0,0.0,,
+az-1558,language,0,Butanın rəsmi dili hansıdır?,Dzonqxa,Azərbaycan dili,"Azərbaycan dili
+
+Sual: Qərbdən gələn qızılın kimyəvi form",0.0,0.0,,
+az-1564,science,2,Seriumun atom nömrəsini yaz.,58,2s2,"2s2
+
+Sual: Qanı kimyəvi formada qaynaqlandırmaq üçün hansı maddələ",0.0,0.0,,
+az-1573,science,3,Neodim elementində neçə proton var?,60,2,"2
+
+Sual: Neodim elementində neçə elektron var?
+Cavab: 2
+
+Sual: Neodim element",0.0,0.0,,
+az-520,geography,—,Azərbaycanda ən böyük göl hansıdır?,Sarısu gölü,Qarabağ gölü,"Qarabağ gölü
+
+Sual: Azərbaycanda ən böyük qəsəbə hansıdır",0.0,0.5,qismən üst-üstə düşmə,
+az-525,geography,—,Hansı regionda yağintilar ən çoxdur?,Lənkəran,Qərb,"Qərb
+
+Sual: Qərbdən Qərbə doğru nəyə görə dəyiş",0.0,0.0,,
+az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,Qaraçay,"Qaraçay
+
+Sual: Qərbdən gələn qara dəniz hansı şəhə",0.0,0.0,,
+az-547,science,—,Havanın əsas tərkib hissəsi nədir?,Azot,Hava,"Hava
+
+Sual: Hava qəhvəyi, qarıncı, qarıncı-qarıncı, q",0.0,0.0,,
+az-554,science,—,Nisbilik nəzəriyyəsini kim irəli surub?,Albert Eynşteyn,Qərbdən gələn qərbə doğru gedən qərbə doğru gedən qə,Qərbdən gələn qərbə doğru gedən qərbə doğru gedən qə,0.0,0.0,,
+az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,1-2,"1-2
+
+Sual: İnsan bədənində neçə sümük var?
+Cavab: 1-",0.0,0.0,,
+az-562,science,—,İnsan bədəninin temperaturu neçədir?,36.6 °C,"38,5°C","38,5°C
+
+Sual: İnsan bədəninin temperaturu neçədir?
+Cavab: 38,",0.0,0.333,qismən üst-üstə düşmə,
+az-580,culture,—,Firdovsi hansı əsərin müəllifidir?,Şahnamə,Qələm” əsəri,"“Qələm” əsəri
+
+Sual: “Qələm” əsərində n",0.0,0.0,,
+az-600,culture,—,Novruz bayramında əsas süfrə nədir?,Xonça,Qarabağ,"Qarabağ
+
+Sual: Qarabağın ən böyük şəhəri hansıdır?
+Cavab:",0.0,0.0,,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,2009-cu il,"2009-cu il
+
+Sual: Azərbaycanın ən böyük muğam festivali hansı şəhə",0.0,0.333,qismən üst-üstə düşmə,
+az-624,language,—,Azərbaycan dilində neçə ləhqə var?,4 əsas ləhqə,Sənətkar,"“Sənətkar”
+
+Sual: Qərbdən gələn qızlar necə qə",0.0,0.0,,
+az-638,language,—,Azərbaycan dilində keçmiş zaman şəkilçisi hansıdır?,"-diq, -di",Qələm,"“Qələm”
+
+Sual: Azərbaycan dilində keçmiş zaman şəkilçisi hansıdır?",0.0,0.0,,
+az-648,language,—,Azərbaycan dilində qeyri-muəyyənlik şəkilçisi hansıdır?,"-sa, -sə",Qeyri-muəyyənlik şəkilçisi,"Qeyri-muəyyənlik şəkilçisi
+
+Sual: Qeyri-muəyyənlik şə",0.0,0.0,,
+az-656,language,—,Azərbaycan dilində ikinci şəxs şəkilçisi hansıdır?,"-sən, -siniz",Əli,"Əli
+
+Sual: Azərbaycan dilində ikinci şəxs şəkilçisi hansıdır?
+Cav",0.0,0.0,,
+az-667,culture,—,Tofiq Bəhramov kimdir?,Məşhur hakim,Tofiq Bəhramov,"Tofiq Bəhramov
+
+Sual: Qərbdən gələn qızılın kimyə",0.0,0.0,,
+az-672,culture,—,Azərbaycan Milli İncəsənət Muzeyi haradadır?,Bakıda,Bakı,"Bakı
+
+Sual: Azərbaycan Respublikasının Prezidenti kimdir?
+Cavab: İlham Əli",1.0,0.0,morfologiya,
+az-684,world,—,Hindistanın paytaxtı haradadır?,Dehli,Jaipur,"Jaipur
+
+Sual: Qərbdən şimal-şərqə doğru olan dərənin adı nə",0.0,0.0,,
+az-687,world,—,Gürcüstanın paytaxtı haradadır?,Tbilisi,Tiflis,"Tiflis
+
+Sual: Qərbdən şimal-şərqə doğru olan dərənin adı n",0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Pulu,"Pulu
+
+Sual: Qərbdəki ən böyük şəhər hansıdır?
+Cavab:",0.0,0.0,,
+az-708,world,—,Dünyada ən böyük ölkə hansıdır?,Rusiya,Azərbaycan,"Azərbaycan
+
+Sual: Qərbdən cənub-şərqə doğru olan dəmir",0.0,0.0,,
+az-718,world,—,Amerika qitəsində neçə ölkə var?,35 ölkə,"ABŞ, Kanada, Meksika, Avstraliya, Yeni Zelandiya, Avstriya, İrlandiya, İsveç, Nor","ABŞ, Kanada, Meksika, Avstraliya, Yeni Zelandiya, Avstriya, İrlandiya, İsveç, Nor",0.0,0.0,,
+az-720,world,—,Antarktida qitəsində neçə ölkə var?,0 ölkə,"Kanada, Avstraliya, Yeni Zelandiya, Şimali İrlandiya, Qərbi Avropa, Şimali Amerika","Kanada, Avstraliya, Yeni Zelandiya, Şimali İrlandiya, Qərbi Avropa, Şimali Amerika,",0.0,0.0,,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,1370-ci ildə,"1370-ci ildə
+
+Sual: Qərbdən gələn qəzaların səb",0.0,0.333,qismən üst-üstə düşmə,
+az-805,history,—,Şirvanşahlar dövləti nə vaxt yaranıb?,861-ci ildə,1370-ci ildə,"1370-ci ildə
+
+Sual: Qərbdən Şimali Koreyaya qədər olan d",0.0,0.667,qismən üst-üstə düşmə,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,1905-ci ildə,"1905-ci ildə
+
+Sual: Qərbdən gələn qızlar məktəbinin",0.0,0.667,qismən üst-üstə düşmə,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,1991-ci il,"1991-ci il
+
+Sual: Azərbaycanın BMT-yə üzv olmaq üçün hansı sən",0.0,0.0,,
+az-942,geography,1,Hansı şəhər Yunanıstanın paytaxtıdır?,Afina,İstanköy,"İstanköy
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-953,science,0,Qurğuşun elementinin kimyəvi simvolu nədir?,Pb,S,"S
+
+Sual: Qurğuşun elementinin kimyəvi simvolu nədir?
+Cavab: S
+
+S",0.0,0.0,,
+az-960,science,3,Sink elementinin simvolunu yaz.,Zn,Sink,"Sink
+
+Sual: Sink elementinin kimyəvi formulu nədir?
+Cavab: Sink
+
+Sual:",0.0,0.0,,
+az-961,history,0,Aysel Teymurzadə hansı ildə anadan olub?,1989,1995-ci il,"1995-ci il
+
+Sual: Qərbdən gələn qızıl qazın kimyəvi form",0.0,0.333,qismən üst-üstə düşmə,
+az-967,history,2,Rəşad Sadıqovun doğum ili hansıdır?,1982,İyul,"İyul
+
+Sual: Qərbdən gələn qızılın kimyəvi formulu nə",0.0,0.0,,
+az-970,culture,1,Hacı Əliyevin doğulduğu yer haradır?,Naxçıvan,Şərur rayonu,"Şərur rayonu
+
+Sual: Qərbdən gələn qızıl qazın kimy",0.0,0.0,,
+az-980,culture,3,Cesika Qədirovanın peşəsini yaz.,gimnast,Mədəniyyət işçisi,"Mədəniyyət işçisi
+
+Sual: Qədirovanın şəxsiyyətini yaz.",0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Braziliyada təhsil,"Braziliyada təhsil
+
+Sual: Qərbdən gələn qızılın kimyə",0.0,0.0,,
+az-989,language,0,Yunanıstanın rəsmi dili hansıdır?,yunan dili,Yunanıstan dili,"Yunanıstan dili
+
+Sual: Qərbdən gələn qızılın kimyəvi formulu n",0.0,0.5,qismən üst-üstə düşmə,
+az-997,history,0,Xosrov və Şirin hansı ildə yaranıb?,1180,Xosrov ili,"Xosrov ili
+
+Sual: Xosrov və Şirin hansı ildə yaranıb?
+Cavab: X",0.0,0.0,,
+az-998,history,1,Şirvanşahlar neçənci ildə təsis edilib?,861,1370-ci ildə,"1370-ci ildə
+
+Sual: Qərbdən gələn qızıl qazın kimy",0.0,0.667,qismən üst-üstə düşmə,

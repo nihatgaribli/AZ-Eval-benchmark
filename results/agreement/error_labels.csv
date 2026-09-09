@@ -1,0 +1,160 @@
+﻿model,id,sual,qızıl cavab,modelin cavabı,etiket,qeyd
+issai__Qwen3.5-4B-Base-Kazakh,az-041,Əbülfəz Elçibəy hansı ildə anadan olub?,1938,1925,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-049,İlham Əliyev harada anadan olub?,Bakı,"Azərbaycan, Baku",format,
+issai__Qwen3.5-4B-Base-Kazakh,az-079,Çinin dövlət dili necə adlanır?,Putonqhua,Çin dili (Mandarin),başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+issai__Qwen3.5-4B-Base-Kazakh,az-100,Yuxarı Gövhərağa məscidinin memarının adını yaz.,Kərbəlayı Səfixan Qarabaği,Qahirə,mənasız,Qahirə sualla əlaqəsizdir; model ardıcıl olaraq eyni şəhərə yapışıb.
+issai__Qwen3.5-4B-Base-Kazakh,az-1001,Müslüm Maqomayev harada anadan olub?,Qroznı,Müslüm Maqomayev Azərbaycanın Quba rayonunda anadan olub,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1003,Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib?,Zəviyəye-Sadat,Qafqazda (Qafqazda),faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1006,Qətran Təbrizinin doğulduğu yer haradır?,Şadbad-i Məşayiq,Qətan Təbrizinin doğulduğu yer — Qətan,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1013,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Qahirə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1017,Mirvarid Dilbazi harada dəfn olunub?,Yasamal qəbiristanlığı,Mirvarid Dilbazi Qahirə şəhərində dəfn olunub,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1019,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,Qahirə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1035,Mikayıl Müşfiq harada təhsil alıb?,Bakı Dövlət Universiteti,Qazaxstanda,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1036,Müslüm Maqomayev hansı təhsil müəssisəsini bitirib?,Zaqafqaziya Müəllimlər Seminariyası,Qahirə,mənasız,Qahirə təhsil müəssisəsi deyil və sualla əlaqəsizdir.
+issai__Qwen3.5-4B-Base-Kazakh,az-1038,Eynəli bəy Sultanovun təhsil müəssisəsini yaz.,İrəvan kişi gimnaziyası,Qahirə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1049,Hatt dilinin yazı sistemini yaz.,mixi yazı,Həttə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1057,Vaqif türbəsinin memarının adını yaz.,Əbdülvahab Salamzadə,Qahirə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1061,Jen Mironosets Baş Kafedral kilsəsinin memarının adını yaz.,Fyodor Verjbitski,Mironosets,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1087,Diaqonallarının sayını tap: 18-bucaq.,135,9,mənasız,18-bucaqlının diaqonal sayı 135-dir; 9 cavab cəhd olsa da yanlışdır.
+issai__Qwen3.5-4B-Base-Kazakh,az-1110,36 ədədinin neçə böləni var?,9,36 ədədinin 12 böləni var,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1139,12 və 18 hansı ən böyük ədədə tam bölünür?,6,12,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1142,18-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,2880,180°,mənasız,Daxili bucaqlar cəmi 2880° olmalıdır; 180° yanlışdır.
+issai__Qwen3.5-4B-Base-Kazakh,az-1159,Kvadratı 256 olan müsbət ədəd hansıdır?,16,256,format,
+issai__Qwen3.5-4B-Base-Kazakh,az-1258,Hansı alim Siborgium elementini kəşf etmişdir?,Yuri Oqanesyan,Glenn T. Seaborg,format,
+issai__Qwen3.5-4B-Base-Kazakh,az-1279,Hansı telefon kodu İslandiyanın aiddir?,354,44,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1289,Qazaxıstanda beynəlxalq telefon kodu hansıdır?,7,998,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1302,Keniyanın beynəlxalq telefon kodunu yaz.,254,255,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1317,Tunisdə beynəlxalq telefon kodu hansıdır?,216,974,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1318,Maltanın beynəlxalq telefon kodunu yaz.,356,20,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1329,"İlk həddi 2, fərqi 9 olan arifmetik silsilənin 12-ci həddi neçədir?",101,12-ci hədd: 2 + (12-1)×9 = 2 + 11×9 = 2 + 9,faktual,Hesablama yarımçıq saxlanıb və 101 alınmayıb.
+issai__Qwen3.5-4B-Base-Kazakh,az-1384,Fərqli sadə bölənlərin sayını tap: 1729.,3,1729,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-1426,"Həddi tap: ilk hədd 13, fərq 8, nömrə 10.",85,13 + (10 - 1) × 8 = 13 + 9 × 8 = 13 + 72 =,mənasız,"Düstur tətbiq edilib, lakin nəticə yarımçıqdır və 85 verilməyib."
+issai__Qwen3.5-4B-Base-Kazakh,az-1440,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Sual: Misirin paytaxtı hansı şəhərdir,mənasız,Uruqvay əvəzinə Misirin paytaxtı haqqında mətn verilib; əlaqəsizdir.
+issai__Qwen3.5-4B-Base-Kazakh,az-1457,Hansı şəhər Kubanın paytaxtıdır?,Havana,Quba,mənasız,"Quba şəhəri ölkədir, paytaxt cavabı deyil."
+issai__Qwen3.5-4B-Base-Kazakh,az-1461,Hansı şəhər Seneqalın paytaxtıdır?,Dakar,Bəndəli,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1475,Mozambikin paytaxtını yaz.,Maputu,Maputo,format,
+issai__Qwen3.5-4B-Base-Kazakh,az-1477,Hansı şəhər Mərkəzi Afrika Respublikasının paytaxtıdır?,Bangi,Qahirə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1500,Yamaykanın paytaxtı hansı şəhərdir?,Kinqston,Ostana,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1547,Mikroneziyanın pul vahidinin adını yaz.,ABŞ dolları,1000,mənasız,1000 pul vahidi deyil və ABŞ dollarına cavab vermir.
+issai__Qwen3.5-4B-Base-Kazakh,az-1566,Lutesium elementinin atom nömrəsi neçədir?,71,37,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-1580,Küriumun atom nömrəsini yaz.,96,24,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-523,Lənkəranda əsas kənd təsərrüfatı məhsulu nədir?,Çay,Lənkəranda əsas kənd təsərrüfatı məhsulu qovurdu (,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-527,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Göygöl gölü Azərbaycanın Şəki şəhərinin yaxınlığında yerləşir,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-531,Azərbaycanın şimal nöqtəsi haradadır?,Quton dağı,Azərbaycanın şimal nöqtəsi Qarabağ (Qarabağ) şəhərindədir,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-539,Neft nədir?,Təbii yanacaq,"Neft — qumzardıq, qara-qoyıl, sıxıq, qıyğırq",mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-575,Ən kiçik planet hansıdır?,Merkuri,Merkuriy,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-581,Xətai hansı əsərin müəllifidir?,Dəhnamə,"Xətai ""Əli və Nəmlə"" əsərinin müəllifidir",faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-582,Məhəmməd Füzuli hansı əsərin müəllifidir?,Hədisət-əl-əhval,"Məhəmməd Füzuli ""Qoca Sultan"" əsərinin müəllifidir",faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-586,Azərbaycanda ilk opera hansıdır?,Leyli və Məcnun,Əzəli,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-616,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"Əziz Əzəzə"" (1936)",faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-622,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,Azərbaycan dili Kartli-Turki dil ailəsinə daxildir,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-632,Azərbaycan dilində yönluk hal hansıdır?,"-a, -ə","Azərbaycan dilində yönluk hal ""söyləyən şəxsə baxan"" və ""söylə",faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-636,Azərbaycan dilində xəbər şəkilçisi hansıdır?,"-dir, -dir","Sual"" və ""Cavab"" sözləri Azərbaycan dilində ""sual"" və ""cavab"" olaraq",faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-641,Azərbaycan dilində şərt şəkilçisi hansıdır?,"-sa, -sə","Əgər, əgər, əgər, əgər, əgər, əgər, əgər",faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-645,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu","a, -e, -i, -y, -ü",mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-646,Azərbaycan dilində bənzətmə şəkilçisi hansıdır?,"-ki, -kim",Qızıl,mənasız,“Qızıl” sualla əlaqəsizdir.
+issai__Qwen3.5-4B-Base-Kazakh,az-648,Azərbaycan dilində qeyri-muəyyənlik şəkilçisi hansıdır?,"-sa, -sə",hə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-653,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir?,Çıoxluq,"Xəbər şəkilçisi cəmləndirmə ""xəbər"" və ""şəkil"" söz",mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-706,Çında hansı pul vahidindən istifadə olunur?,Yuan,Qahirə,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-710,Dünyada ən çox əhalisi olan ölkə hansıdır?,Hindistan,Çin,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-715,Avropa qitəsində neçə ölkə var?,44 ölkə,50,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-809,Səfəvilər dövlətinin banisi kimdir?,Şah İsmayıl Xətai,Səfəvilər dövlətinin banisi Səfə I (Səfə I)dir,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-812,«Əkinçi» qəzeti nə vaxt nəşr olunmağa başlayıb?,22 iyun 1875,1923 ildə,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-824,İkinci Qarabağ müharibəsi nə vaxt başlayıb?,27 sentyabr 2020,1988 ildə,faktual,
+issai__Qwen3.5-4B-Base-Kazakh,az-902,Qeyri-səlis məntiq nəzəriyyəsinin banisi kimdir?,Lütfi Zadə,Gedeon A. Tarski,mənasız,Gedeon A. Tarski cavabı Lütfi Zadə deyil və sualın mövzusuna uyğun cəhd göstərsə də yanlışdır.
+issai__Qwen3.5-4B-Base-Kazakh,az-935,Akademik Azad Mirzəcanzadə harada anadan olmuşdur?,Bakıda,Qazaxstanda,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-942,Hansı şəhər Yunanıstanın paytaxtıdır?,Afina,Aqina,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-961,Aysel Teymurzadə hansı ildə anadan olub?,1989,1970,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-964,Vüqar Həşimovun anadan olduğu ili yaz.,1986,1913,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-968,Tofiq Bəhramovun anadan olduğu ili yaz.,1925,1912,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-974,Leyla Əliyevanın doğulduğu yer haradır?,Moskva,Quba şəhərində,mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-980,Cesika Qədirovanın peşəsini yaz.,gimnast,"Qədirov – ədəbiyyatşünəs, tərcüməçi",mənasız,
+issai__Qwen3.5-4B-Base-Kazakh,az-982,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Ramil Şeydayev — şair və yazıçı,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-022,Birləşmiş Krallıqda hansı pul vahidi işlənir?,funt sterlinq,Sterlin,başqa dil,"yenidən etiketləndi (faktual -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-038,Heydər Əliyev neçənci ildə doğulub?,1923,1921,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-045,Aygün Kazımova hansı ildə anadan olub?,1971,1981,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-057,Rüstəm Orucov harada anadan olub?,İrkutsk,Azerbaycan,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-062,Əli Hidayət oğlu Əsədov hansı peşə ilə tanınır?,siyasətçi,Ünlü bir şair ve yazar,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-067,Mariya Stadnikin əsas fəaliyyət sahəsi nədir?,güləşçi,Güreş,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-076,Yaponiyanın rəsmi dilini yaz.,yapon dili,Japonca,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-079,Çinin dövlət dili necə adlanır?,Putonqhua,Mandarin,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-080,Avstraliyanın rəsmi dilini yaz.,ingilis dili,İngilizce,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-081,İspaniyanın rəsmi dili hansıdır?,ispan dili,İspanyolca,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-092,Kalmık dilinin yazı sistemini yaz.,kiril əlifbası,Kalmık alfabesi,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-097,Azərbaycan Dövlət Akademik Opera və Balet Teatrının memarı kimdir?,Nikolay Bayev,Uzeyir Hacıbəyov,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1006,Qətran Təbrizinin doğulduğu yer haradır?,Şadbad-i Məşayiq,İran,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-101,Azərbaycan Dövlət Kukla Teatrının memarı kimdir?,İosif Ploşko,Tofiq Ağayev,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1010,Seyid Cəfər Pişəvərinin vəfat etdiyi yer haradır?,Yevlax,İran,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1015,Ümgülsüm Sadıqzadə hansı şəhərdə dünyasını dəyişib?,Şamaxı,Bakü,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1017,Mirvarid Dilbazi harada dəfn olunub?,Yasamal qəbiristanlığı,Bakü,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1021,Bəhruz Kəngərli harada dəfn olunub?,Naxçıvan,Tiflis,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1024,Məhəmməd Hadinin dəfn yerini yaz.,Səbiskar qəbiristanlığı,Mavi Mezar,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1048,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Devanagari alfabesi,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1054,Gövhər ağa məscidinin memarı kimdir?,Kərbəlayı Səfixan Qarabaği,Mimarlar,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1061,Jen Mironosets Baş Kafedral kilsəsinin memarının adını yaz.,Fyodor Verjbitski,Ivan Korobka,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1077,12 tərəfi olan çoxbucaqlıda neçə diaqonal çəkmək olar?,54,6,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1119,68 ədədindən sonra gələn ilk sadə ədəd nədir?,71,69,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1120,60-in bölənlərinin sayı neçədir?,12,6,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1133,16-bucaqlının bütün daxili bucaqları toplananda neçə dərəcə alınır?,2520,360,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1144,5-ci sadə ədəd hansıdır?,11,5,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1155,120-in bölənlərinin sayı neçədir?,16,4,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1173,"Həm 26-ə, həm 39-ə bölünən ən kiçik ədəd hansıdır?",78,13,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1236,Dövri cədvəldə sirkonium hansı nömrə ilə durur?,40,98,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1248,Silisiumun kəşfi kimə aiddir?,Yens Yakov Bertselius,Alman fizikçisi ve kimyageri,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1298,Vatikanın beynəlxalq telefon kodunu yaz.,379,39,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-135,Habil Əliyevin ifa etdiyi alət hansıdır?,kamança,Keman,başqa dil,"yenidən etiketləndi (faktual -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1353,853 ədədi 19 ədədinə bölünəndə nə qədər qalıq qalır?,17,4,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1397,"Birinci həddi 100, fərqi 5 olan silsilədə 11-ci hədd hansı ədəddir?",150,105,mənasız,"Arifmetik silsilə cəhdi var, lakin 11-ci hədd 150 olmalıdır; 105 yanlışdır."
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1419,1111000 ikilik ədədinin onluq qarşılığı nədir?,120,92,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1438,16 ilə 48 arasındakı tam ədədlərin cəmi hansı ədəddir (hər ikisi sayılır)?,1056,64,mənasız,Cəm məsələsinə uyğun olmayan 64 verilib.
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1439,İkilik yazılışı 1101101 olan ədəd onluq sistemdə hansıdır?,109,55,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1443,Monqolustanın paytaxtını yaz.,Ulan-Bator,Ulaanbaatar,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1453,Hansı şəhər Botsvananın paytaxtıdır?,Qaborone,Gaborone,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1458,Şimali Koreyanın paytaxtının adı nədir?,Pxenyan,P'yongyang,format,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1478,Qambiyanın paytaxtının adı nədir?,Banjul,Accra,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1480,Türkmənistanın paytaxtı hansı şəhərdir?,Aşqabad,Aşgabat,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1496,Qayananın paytaxtı hansı şəhərdir?,Corctaun,Kudüs,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1519,Qrenadanın paytaxtını yaz.,Sent Corces,Paris,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1532,Sint-Martenin paytaxtı hansı şəhərdir?,Filipsburq,Philipsburg,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1545,Qrenadada hansı pul vahidi işlənir?,Şərqi Karib dolları,Euro,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1564,Seriumun atom nömrəsini yaz.,58,88,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1578,Darmştadtium elementinin atom nömrəsi neçədir?,110,105,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1585,Mendeleyevum elementində neçə proton var?,101,100,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1586,Lourensium elementinin atom nömrəsi neçədir?,103,118,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-1597,Unbibium elementində neçə proton var?,122,120,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-504,Azərbaycanda neçə iqlim qurşağı var?,9 iqlim qurşağı,4,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-522,Şəki şəhəri hansı dağların ətrafındadır?,Böyük Qafqaz,"Şeki, Kafkasya dağlarının eteklerinde yer almaktadır",mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-538,İsmayıllı rayonu hansı regiondadır?,Şəki-Zaqatala,İsmailia,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-553,Cazibə qanununu kim kəşf edib?,İsaak Nyuton,Sir Isaac Newton,başqa dil,"yenidən etiketləndi (mənasız -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-574,Ən böyük planet hansıdır?,Yupiter,Jüpiter,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-576,Ən isti planet hansıdır?,Venera,Neptün,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-600,Novruz bayramında əsas süfrə nədir?,Xonça,Samanak,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-609,Azərbaycanda çay məclisləri nə vaxt olur?,Hər gün,Sabah,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-610,Azərbaycanda çay necə içilir?,Armududa,"Çay, genellikle çaydanlıkta veya çaydanlıkta çay yapraklarından veya çay poşetlerinden yapılır. Çay",mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-645,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu",#NAME?,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-649,Azərbaycan dilində qeyri-muəyyənlik nəyi bildirir?,Bilinməyənlik,qeyri-muəyyen,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-650,Azərbaycan dilində təyin şəkilçisi hansıdır?,"-dir, -dir",#NAME?,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-657,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar",#NAME?,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-669,Azərbaycanda ilk rəssamlıq təhsili almiş şəxs kimdir?,Bəhruz Kəngərli,Hüseyin Arif,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-674,Azərbaycanda mənzərə janrinin əsasini kim qoyub?,Bəhruz Kəngərli,Məmməd Rahim,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-681,ABŞ-ın paytaxtı haradadır?,Vaşinqton,"Washington, D.C",başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-682,Yaponiyanın paytaxtı haradadır?,Tokio,Tokyo,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-687,Gürcüstanın paytaxtı haradadır?,Tbilisi,Tiflis,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-689,Ukraynanın paytaxtı haradadır?,Kiyev,Kiev,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-701,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Sterlin,başqa dil,"yenidən etiketləndi (mənasız -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-705,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,Re,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-706,Çında hansı pul vahidindən istifadə olunur?,Yuan,Yen,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-713,Dünyada ən böyük okean hansıdır?,Sakit okean,Pasifik Okyanusu,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-715,Avropa qitəsində neçə ölkə var?,44 ölkə,50,faktual,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-718,Amerika qitəsində neçə ölkə var?,35 ölkə,50,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-802,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,MÖ 238,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-825,Şuşa şəhəri nə vaxt Azərbaycanın nəzarətinə keçib?,8 noyabr 2020,1992,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-900,Nəsirəddin Tusi riyaziyyatın hansı sahəsinə dünyada ilk dəfə müstəqil elm kimi yanaşmışdır?,Triqonometriya,Trigonometri,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-960,Sink elementinin simvolunu yaz.,Zn,S,mənasız,Sinkin simvolu Zn-dir; S yanlışdır.
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-961,Aysel Teymurzadə hansı ildə anadan olub?,1989,1980,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-964,Vüqar Həşimovun anadan olduğu ili yaz.,1986,Ağdam,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-968,Tofiq Bəhramovun anadan olduğu ili yaz.,1925,Azerbaycan,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-980,Cesika Qədirovanın peşəsini yaz.,gimnast,Yazı,mənasız,
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-985,Misirin rəsmi dili hansıdır?,ərəb dili,Arapça,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-989,Yunanıstanın rəsmi dili hansıdır?,yunan dili,Yunanca,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"
+ytu-ce-cosmos__Turkish-Llama-8b-v0.1,az-991,İranın dövlət dili necə adlanır?,fars dili,Farsça,başqa dil,"yenidən etiketləndi (format -> başqa dil): eyni anlayış, başqa dildə"

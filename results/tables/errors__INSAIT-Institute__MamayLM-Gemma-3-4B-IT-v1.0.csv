@@ -1,0 +1,269 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-020,geography,3,Avstraliyanın pul vahidinin adını yaz.,Avstraliya dolları,Qahirə,"Qahirə
+H2O
+Avstraliya dolları",0.0,0.0,,
+az-022,geography,1,Birləşmiş Krallıqda hansı pul vahidi işlənir?,funt sterlinq,Qahirə,"Qahirə
+H2O
+Sterlin",0.0,0.0,,
+az-024,geography,3,Polşanın pul vahidinin adını yaz.,Polşa zlotı,Qahirə,"Qahirə
+H2O
+Zloty",0.0,0.0,,
+az-033,science,0,Helium elementinin kimyəvi simvolu nədir?,He,H,H,0.0,0.0,,
+az-041,history,0,Əbülfəz Elçibəy hansı ildə anadan olub?,1938,Qahirə,"Qahirə
+H2O
+1929",0.0,0.0,,
+az-044,history,3,Ayaz Mütəllibovun anadan olduğu ili yaz.,1938,1975,1975,0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Qahirə,"Qahirə
+H2O
+Şəhriyar Məmmədyarovun doğum yeri: Bakı",0.0,0.0,,
+az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Qahirə,"Qahirə
+H2O
+Samirə Əfəndi — şairə",0.0,0.0,,
+az-071,culture,2,Mahir Emrelinin əsas fəaliyyət sahəsi nədir?,futbolçu,Qahirə,"Qahirə
+H2O
+Mahir Emrelinin əsas fəaliyyət sahəsi: Mətbuat və İctimaiyyat",0.0,0.0,,
+az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,Qahirə,"Qahirə
+H2O
+Almaniya",0.0,0.0,,
+az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,Qahirə,"Qahirə
+H2O
+İngilis",0.0,0.0,,
+az-1003,culture,2,Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib?,Zəviyəye-Sadat,Qahirə,Qahirə,0.0,0.0,,
+az-1009,history,0,Müslüm Maqomayev harada vəfat edib?,Nalçik,Qahirə,"Qahirə
+H2O
+Baku",0.0,0.0,,
+az-1017,culture,0,Mirvarid Dilbazi harada dəfn olunub?,Yasamal qəbiristanlığı,Qahirə,"Qahirə
+
+H2O
+
+Baku",0.0,0.0,,
+az-1025,culture,0,Asəf Zeynallının peşəsi nədir?,bəstəkar,Qahirə,"Qahirə
+H2O
+Müəllim",0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Qahirə,"Qahirə
+H2O
+Müğənni",0.0,0.0,,
+az-1034,language,1,Vladimir Qafarovun əsərləri hansı dildədir?,rus dili,Qahirə,"Qahirə
+H2O
+Rus",0.0,0.0,,
+az-1038,science,3,Eynəli bəy Sultanovun təhsil müəssisəsini yaz.,İrəvan kişi gimnaziyası,Qahirə,"Qahirə
+H2O
+Eynəli bəy Sultanovun təhsil müəssisəsi: Azərbaycan Dövlət M",0.0,0.0,,
+az-1041,science,2,Məmməd Altunbayın təhsil aldığı yer haradır?,Odessa Hərbi Akademiyası,Qahirə,"Qahirə
+H2O
+Bakı",0.0,0.0,,
+az-1049,language,3,Hatt dilinin yazı sistemini yaz.,mixi yazı,Qahirə,"Qahirə
+H2O
+Hatt",0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Qahirə,"Qahirə
+H2O
+Xəzər dili üçün latın əlifbası istifadə olunur.",0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Qahirə,Qahirə,0.0,0.0,,
+az-1057,history,3,Vaqif türbəsinin memarının adını yaz.,Əbdülvahab Salamzadə,Qahirə,"Qahirə
+H2O
+Vaqif",0.0,0.0,,
+az-1061,history,3,Jen Mironosets Baş Kafedral kilsəsinin memarının adını yaz.,Fyodor Verjbitski,Qahirə,"Qahirə
+H2O
+Jen Mironosets",0.0,0.0,,
+az-1063,geography,1,Oxçuçayın mənsəbi haradır?,Araz,Qahirə,"Qahirə
+H2O
+10",0.0,0.0,,
+az-1071,mathematics,—,İlk 20 natural ədədin cəmi neçədir?,210,Qahirə,"Qahirə
+H2O
+105",0.0,0.0,,
+az-1133,mathematics,—,16-bucaqlının bütün daxili bucaqları toplananda neçə dərəcə alınır?,2520,Qahirə,"Qahirə
+H2O
+360 dərəcə",0.0,0.0,,
+az-1139,mathematics,—,12 və 18 hansı ən böyük ədədə tam bölünür?,6,18,18,0.0,0.0,,
+az-1141,mathematics,—,Hansı ədədi özünə vursaq 361 alınar?,19,9,9,0.0,0.0,,
+az-1142,mathematics,—,18-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,2880,Qahirə,"Qahirə
+H2O
+360 dərəcə",0.0,0.0,,
+az-1162,mathematics,—,20-ci sadə ədədi yaz.,71,Qahirə,"Qahirə
+H2O
+28",0.0,0.0,,
+az-1166,mathematics,—,Kvadrat kökünü tap: 841.,29,Qahirə,"Qahirə
+H2O
+841",0.0,0.0,,
+az-1173,mathematics,—,"Həm 26-ə, həm 39-ə bölünən ən kiçik ədəd hansıdır?",78,Qahirə,"Qahirə
+H2O
+114",0.0,0.0,,
+az-1174,mathematics,—,Hansı ədədi özünə vursaq 900 alınar?,30,Qahirə,"Qahirə
+H2O
+90",0.0,0.0,,
+az-1175,mathematics,—,5-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,540,Qahirə,"Qahirə
+H2O
+360 dərəcə",0.0,0.0,,
+az-1183,mathematics,—,Daxili bucaqlarının cəmini tap: 20-bucaq.,3240,Qahirə,"Qahirə
+H2O
+180°",0.0,0.0,,
+az-1196,science,1,Dövri cədvəldə Titan hansı nömrə ilə durur?,22,Qahirə,"Qahirə
+H2O
+22",0.0,0.0,,
+az-1216,science,1,Dövri cədvəldə Stibium hansı nömrə ilə durur?,51,Qahirə,"Qahirə
+H2O
+7",0.0,0.0,,
+az-1234,science,3,Astat elementində neçə proton var?,85,Qahirə,"Qahirə
+H2O
+8",0.0,0.0,,
+az-1242,science,3,Aktinium elementində neçə proton var?,89,Qahirə,"Qahirə
+H2O
+87",0.0,0.0,,
+az-1247,science,0,Maqnezium elementini kim kəşf edib?,Cozef Blek,Qahirə,"Qahirə
+H2O
+Maqnezium",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,Qahirə,"Qahirə
+H2O
++354",0.0,0.0,,
+az-1283,world,3,Hansı telefon kodu Tailandın aiddir?,+66,Qahirə,"Qahirə
+H2O
++66",0.0,0.0,,
+az-1291,world,3,Hansı telefon kodu Səudiyyə Ərəbistanının aiddir?,+966,Qahirə,"Qahirə
+H2O
++966",0.0,0.0,,
+az-1297,world,1,Bosniya və Herseqovinada beynəlxalq telefon kodu hansıdır?,+387,Qahirə,"Qahirə
+H2O
++387",0.0,0.0,,
+az-1298,world,2,Vatikanın beynəlxalq telefon kodunu yaz.,+379,+39,+39,0.0,0.0,,
+az-1299,world,3,Hansı telefon kodu İrlandiyanın aiddir?,+353,Qahirə,"Qahirə
+H2O
++353",0.0,0.0,,
+az-1306,world,2,Mərakeşin beynəlxalq telefon kodunu yaz.,+212,Qahirə,"Qahirə
+H2O
++212",0.0,0.0,,
+az-1312,world,0,Konqo Demokratik Respublikasının telefon kodu nədir?,+243,Qahirə,"Qahirə
+H2O
++243",0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,Qahirə,"Qahirə
+H2O
++20",0.0,0.0,,
+az-1365,mathematics,—,190 ədədinin neçə fərqli sadə böləni var?,3,Qahirə,"Qahirə
+H2O
+10",0.0,0.0,,
+az-1453,geography,1,Hansı şəhər Botsvananın paytaxtıdır?,Qaborone,Gaborone,Gaborone,0.0,0.0,,
+az-1456,geography,0,Kot-d'İvuarın paytaxtı hansı şəhərdir?,Yamosukro,Yamoissougu,Yamoissougu.,0.0,0.0,,
+az-1465,geography,1,Hansı şəhər Beninin paytaxtıdır?,Porto-Novo,Qahirə,"Qahirə
+
+H2O
+
+Vükör",0.0,0.0,,
+az-1477,geography,1,Hansı şəhər Mərkəzi Afrika Respublikasının paytaxtıdır?,Bangi,Qahirə,Qahirə,0.0,0.0,,
+az-1486,geography,2,Syerra-Leonenin paytaxtının adı nədir?,Fritaun,Freetown,Freetown,0.0,0.0,,
+az-1529,geography,1,Hansı şəhər Niuenin paytaxtıdır?,Alofi,Niuen,Niuen,0.0,0.0,,
+az-1536,geography,0,Tacikistanın pul vahidi nədir?,Somoni,Qahirə,"Qahirə
+H2O
+Som
+
+Sual: Avropanın ən böyük dənizi hansıdır?
+Cavab: Ş",0.0,0.0,,
+az-1544,geography,0,Qrenlandiyanın pul vahidi nədir?,Danimarka kronu,Qrenlandiya kröneri,Qrenlandiya kröneri,0.0,0.0,,
+az-1553,language,3,Qırğızıstanın rəsmi dilini yaz.,qırğız dili,Qırğız,"Qırğız
+
+Sual: Dünya okeanının ən böyük dənizi hansıdır?
+Cavab: Hind okeanı
+
+S",0.0,0.667,qismən üst-üstə düşmə,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Qahirə,"Qahirə
+H2O
+İtalyanca",0.0,0.0,,
+az-1581,science,3,Berklium elementində neçə proton var?,97,Qahirə,"Qahirə
+H2O
+84",0.0,0.0,,
+az-1589,science,3,Ununtrium elementində neçə proton var?,113,Qahirə,"Qahirə
+H2O
+117",0.0,0.0,,
+az-1591,science,1,Dövri cədvəldə Livermorium hansı nömrə ilə durur?,116,Qahirə,"Qahirə
+H2O
+116",0.0,0.0,,
+az-1592,science,2,Tuliumun atom nömrəsini yaz.,69,48,48,0.0,0.0,,
+az-1596,science,2,Unbiuniumun atom nömrəsini yaz.,121,98,98,0.0,0.0,,
+az-518,geography,—,Xəzər dənizinin sahil xətti Azərbaycanda neçə km-dir?,800 km,Qahirə,"Qahirə
+H2O
+1900",0.0,0.0,,
+az-528,geography,—,Qarabağ düzü harada yerləşir?,Mərkəzi Azərbaycanda,Azərbaycan və Türkiyə sərhədində,Azərbaycan və Türkiyə sərhədində.,0.0,0.0,,
+az-575,science,—,Ən kiçik planet hansıdır?,Merkuri,Plüton,Plüton,0.0,0.0,,
+az-583,culture,—,Səməd Vurğunun əsas əsəri hansıdır?,Vaqif,Qahirə,"Qahirə
+H2O
+Səməd Vurğunun əsas əsəri ""Məcmual-Vəqf""dir",0.0,0.0,,
+az-587,culture,—,Qara Qarayev hansı əsərin müəllifidir?,Yeddi gözəl,Qahirə,"Qahirə
+H2O
+Qara Qarayev",0.0,0.0,,
+az-601,culture,—,Novruz bayramında neçə növ şirniyyat olmalidir?,7 növ,Qahirə,"Qahirə
+H2O
+7 növ",0.0,0.0,,
+az-608,culture,—,Qoğal hansı bayramda hazırlanır?,Novruz,Qahirə,"Qahirə
+H2O
+Qoğal",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,Qahirə,"Qahirə
+H2O
+Qarabağ",0.0,0.0,,
+az-617,culture,—,Azərbaycanda ilk rəssam kimdir?,Mir Möhsun Nəvvab,Qahirə,"Qahirə
+H2O
+Xan Şirvani",0.0,0.0,,
+az-622,language,—,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,Qahirə,"Qahirə
+H2O
+Finikya dil ailəsi",0.0,0.0,,
+az-625,language,—,Azərbaycan dilində fel nədir?,Hərəkət bildirən söz,Qahirə,"Qahirə
+H2O
+Fel",0.0,0.0,,
+az-635,language,—,Azərbaycan dilində çoxluq şəkilçisi hansıdır?,"-lar, -lər",Qahirə,"Qahirə
+H2O
+-lar",0.0,0.0,,
+az-640,language,—,Azərbaycan dilində gələcək zaman şəkilçisi hansıdır?,"-acaq, -əcək",Qahirə,"Qahirə
+H2O
+Məni",0.0,0.0,,
+az-648,language,—,Azərbaycan dilində qeyri-muəyyənlik şəkilçisi hansıdır?,"-sa, -sə",Qahirə,"Qahirə
+H2O
+Nəsr",0.0,0.0,,
+az-658,language,—,Azərbaycan dilində birinci şəxs cəm şəkilçisi hansıdır?,-ik,Qahirə,"Qahirə
+H2O
+Biz",0.0,0.0,,
+az-661,culture,—,Azərbaycanın ən çox medal qazandigi idman növ hansıdır?,Guləş,Qahirə,"Qahirə
+H2O
+CİMEO",0.0,0.0,,
+az-674,culture,—,Azərbaycanda mənzərə janrinin əsasini kim qoyub?,Bəhruz Kəngərli,Qahirə,"Qahirə
+H2O
+Molla Nasrəddin",0.0,0.0,,
+az-681,world,—,ABŞ-ın paytaxtı haradadır?,Vaşinqton,Vashington,Vashington,0.0,0.0,,
+az-691,world,—,Polşanın paytaxtı haradadır?,Varşava,Vaqar,Vaqar,0.0,0.0,,
+az-700,world,—,Yaponiyada hansı pul vahidindən istifadə olunur?,Yen,Qahirə,"Qahirə
+H2O
+Yen",0.0,0.0,,
+az-702,world,—,Rusiyada hansı pul vahidindən istifadə olunur?,Rubl,Qahirə,"Qahirə
+H2O
+Rubl",0.0,0.0,,
+az-706,world,—,Çında hansı pul vahidindən istifadə olunur?,Yuan,Qahirə,"Qahirə
+H2O
+Yuan",0.0,0.0,,
+az-713,world,—,Dünyada ən böyük okean hansıdır?,Sakit okean,Hind okeanı,Hind okeanı,0.0,0.5,qismən üst-üstə düşmə,
+az-804,history,—,Babək Xürrəmi nə vaxt edam edilmişdir?,14 mart 838,Qahirə,"Qahirə
+H2O
+1920",0.0,0.0,,
+az-812,history,—,«Əkinçi» qəzeti nə vaxt nəşr olunmağa başlayıb?,22 iyun 1875,Qahirə,"Qahirə
+H2O
+1920",0.0,0.0,,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,Qahirə,"Qahirə
+H2O
+1848",0.0,0.0,,
+az-818,history,—,Azərbaycan SSR nə vaxt yaradılmışdır?,28 aprel 1920,Qahirə,"Qahirə
+H2O
+1922",0.0,0.0,,
+az-820,history,—,Xocalı faciəsi nə vaxt baş verib?,25-26 fevral 1992,Qahirə,"Qahirə
+H2O
+1992",0.0,0.0,,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,Qahirə,"Qahirə
+H2O
+1991",0.0,0.0,,
+az-929,mathematics,—,Xəzər Universitetinin təsisçisi kimdir?,Hamlet İsaxanlı,Qahirə,"Qahirə
+H2O
+Xəzər Universitetinin təsisçisi Xəzər rayonunun 1-ci şurasının",0.0,0.0,,
+az-936,mathematics,—,Lütfi Zadənin əsl soyadı nədir?,Ələsgərzadə,Qahirə,"Qahirə
+H2O
+Zadə",0.0,0.0,,
+az-964,history,3,Vüqar Həşimovun anadan olduğu ili yaz.,1986,1972,1972,0.0,0.0,,
+az-987,language,2,Albaniyanın dövlət dili necə adlanır?,Alban dili,Qahirə,"Qahirə
+H2O
+Shqip",0.0,0.0,,
+az-995,history,2,Müzəffərilərin yaranma ili hansıdır?,1314,Qahirə,"Qahirə
+H2O
+1918",0.0,0.0,,

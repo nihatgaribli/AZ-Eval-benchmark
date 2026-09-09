@@ -1,0 +1,366 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-044,history,3,Ayaz Mütəllibovun anadan olduğu ili yaz.,1938,1980,"1980
+
+Sual: 1000000000000000000000",0.0,0.0,,
+az-047,history,2,Nigar Camalın doğum ili hansıdır?,1980,1975,"1975
+
+Sual: Nigar Camalın məşhur mətni nədir?
+Cavab: """,0.0,0.0,,
+az-051,culture,2,Mehriban Əliyeva hansı yaşayış məntəqəsində dünyaya gəlib?,Bakı,Qarabag,"Qarabag
+
+Sual: Ən çox qəltdən qalın qalın qalın qalın q",0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Baku,"Baku
+
+Sənənənənənənənənənənənənənən",0.0,0.0,,
+az-058,culture,1,Rafiq Radik oğlu Hüseynovun doğulduğu yer haradır?,Daşkənd,Azərbaycan,"Azərbaycan
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-067,culture,2,Mariya Stadnikin əsas fəaliyyət sahəsi nədir?,güləşçi,Təhsil,"Təhsil
+
+Sual: 10000000000000000000000",0.0,0.0,,
+az-072,culture,3,Zemfira Meftahətdinovanın peşəsini yaz.,atıcı,Mədəniyyətçi,"Mədəniyyətçi
+
+Sual: Əsas mətnin məzmunu nədir?
+Cav",0.0,0.0,,
+az-088,language,3,Norveç dilinin yazı sistemini yaz.,latın əlifbası,Latin alifabası,"Latin alifabası
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-092,language,3,Kalmık dilinin yazı sistemini yaz.,kiril əlifbası,Hərflər,"Hərflər
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1003,culture,2,Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib?,Zəviyəye-Sadat,Mərmər,"Mərmər
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1006,culture,1,Qətran Təbrizinin doğulduğu yer haradır?,Şadbad-i Məşayiq,Təbriz,"Təbriz
+
+Sual: Əsas mətnin mətni nədir?
+Cavab: Mətnin",0.0,0.0,,
+az-1008,culture,3,Süleyman Rüstəmin doğum yerini yaz.,Novxanı,Baku,"Baku
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1010,history,1,Seyid Cəfər Pişəvərinin vəfat etdiyi yer haradır?,Yevlax,Tərən,"Tərən
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1012,history,3,Yusif Vəzir Çəmənzəminlinin vəfat yerini yaz.,Unjlaq,Tərən,"Tərən
+
+Sual: Əsas mətnin əsas məsələsi nədir?",0.0,0.0,,
+az-1017,culture,0,Mirvarid Dilbazi harada dəfn olunub?,Yasamal qəbiristanlığı,İngiltərədə,"İngiltərədə
+
+Sual: Ən çox qəltdən qalxan məsəl",0.0,0.0,,
+az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,"Məsələn, Ərəbistan","Məsələn, Ərəbistan
+
+Sual: Ən çox qəltdən qalx",0.0,0.0,,
+az-1033,language,0,Qətran Təbrizi hansı dildə yazıb?,fars dili,Azərbaycan dili,"Azərbaycan dili
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahir",0.0,0.5,qismən üst-üstə düşmə,
+az-1041,science,2,Məmməd Altunbayın təhsil aldığı yer haradır?,Odessa Hərbi Akademiyası,Təbiət mühəndisliyi fəqatəti,"Təbiət mühəndisliyi fəqatəti
+
+Sual: Məmməd Altunbayın t",0.0,0.0,,
+az-1046,language,0,Dan dili hansı yazı sistemi ilə yazılır?,latın əlifbası,Latin alifabası,"Latin alifabası
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1049,language,3,Hatt dilinin yazı sistemini yaz.,mixi yazı,"Hatt dilinin yazı sistemini yazmaq mümkün deyil, çünki hatt dilinin yazı sistemini yazmaq mümkün deyil","Hatt dilinin yazı sistemini yazmaq mümkün deyil, çünki hatt dilinin yazı sistemini yazmaq mümkün deyil",0.0,0.118,qismən üst-üstə düşmə,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Məhəmməd Əl-Əziz,"Məhəmməd Əl-Əziz
+
+Sual: Misirin paytaxtı hansı şəhərdir",0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,Məhəmməd Əl-Əzəz,"Məhəmməd Əl-Əzəz
+
+Sual: Ən çox qəzələnə",0.0,0.0,,
+az-1105,mathematics,—,Hansı ədədi özünə vursaq 289 alınar?,17,14,"14
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-1113,mathematics,—,40 və 60 ədədlərinin ən kiçik ortaq bölünəni neçədir?,120,20,"20
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-1116,mathematics,—,7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,900,1080°,"1080°
+
+Sual: 100000000000000000000",0.0,0.0,,
+az-1133,mathematics,—,16-bucaqlının bütün daxili bucaqları toplananda neçə dərəcə alınır?,2520,160,"160
+
+Sual: 10000000000000000000000",0.0,0.0,,
+az-1135,mathematics,—,Kiçikdən böyüyə sıralanmış sadə ədədlərin 22-cisi neçədir?,79,22,"22
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-1142,mathematics,—,18-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,2880,180,"180
+
+Sual: 18-bucağın daxili bucaqlarının cəmi neçə də",0.0,0.0,,
+az-1143,mathematics,—,19-bucağın neçə diaqonalı var?,152,2,"2
+
+Sual: 19-bucağın neçə diaqonalı var?
+Cavab: 2
+
+Sual",0.0,0.0,,
+az-1164,mathematics,—,Bölənlərinin sayını tap: 144.,15,12,"12
+
+Sual: 200000000000000000000000",0.0,0.0,,
+az-1216,science,1,Dövri cədvəldə Stibium hansı nömrə ilə durur?,51,50,"50
+
+Sual: Dövri cədvəldə Kalsium nömrəsi nədir?
+Cavab",0.0,0.0,,
+az-1251,science,0,Xlor elementini kim kəşf edib?,Karl Vilhelm Şeyele,Sənətçə,"Sənətçə
+
+Sual: 10000000000000000000",0.0,0.0,,
+az-1259,science,0,Borium elementini kim kəşf edib?,Yuri Oqanesyan,Pauli,"Pauli
+
+Sual: 1980-ci ilə 1990-cı illər arasında nəzərə ç",0.0,0.0,,
+az-1304,world,0,Lüksemburqun telefon kodu nədir?,+352,+49,"+49
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-1313,world,1,Sloveniyada beynəlxalq telefon kodu hansıdır?,+386,+423,"+423
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,+998,"+998
+
+Sual: 10000000000000000000000",0.0,0.0,,
+az-1325,mathematics,—,4728 ədədinin rəqəmləri cəmi neçədir?,21,23,"23
+
+Sual: 2024-cü ilin 100000000000000",0.0,0.0,,
+az-1336,mathematics,—,210 sayının fərqli sadə vuruqlarının sayı neçədir?,4,10,"10
+
+Sual: 2023-cü ilin 100000000000000",0.0,0.0,,
+az-1380,mathematics,—,"21 ədədindən 40 ədədinə qədər bütün tam ədədləri toplasaq, nə alınar (uc nöqtələr daxildir)?",610,120,"120
+
+Sual: 10000000000000000000000",0.0,0.0,,
+az-1381,mathematics,—,10011010 ikilik ədədinin onluq qarşılığı nədir?,154,85,"85
+
+Sual: 10011010 ikilik ədədinin onluq qarşılığı",0.0,0.0,,
+az-1408,mathematics,—,10 ilə 20 arasındakı bütün tam ədədlərin cəmi neçədir (hər ikisi daxil olmaqla)?,165,155,"155
+
+Sual: 10000000000000000000000",0.0,0.0,,
+az-1448,geography,0,Çadın paytaxtı hansı şəhərdir?,Ncamena,Riyadh,"Riyadh
+
+Sual: İngiltərənin paytaxtı hansı şəhərdir?
+Cavab: London
+
+Sual",0.0,0.0,,
+az-1451,geography,3,Laosun paytaxtını yaz.,Vyentyan,Vientiane,"Vientiane
+
+Sulub: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1465,geography,1,Hansı şəhər Beninin paytaxtıdır?,Porto-Novo,Nəsriyyət,"Nəsriyyət
+
+Sual: Hansı şəhər Azərbaycanın paytaxtıdır?
+Cavab",0.0,0.0,,
+az-1478,geography,2,Qambiyanın paytaxtının adı nədir?,Banjul,Qambiya paytaxtı Qambiya şəhəridir. (Qambiya paytaxtı Qambiya şəhəridir,Qambiya paytaxtı Qambiya şəhəridir. (Qambiya paytaxtı Qambiya şəhəridir,0.0,0.0,,
+az-1479,geography,3,Konqo Respublikasının paytaxtını yaz.,Brazzavil,Braziliya,"Braziliya
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-1483,geography,3,Hondurasın paytaxtını yaz.,Tequsiqalpa,Tegucigalpa,"Tegucigalpa
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-1513,geography,1,Hansı şəhər Samoanın paytaxtıdır?,Apia,Palauli,"Palauli
+
+Sual: Hansı şəhər Azərbaycanın paytaxtıdır?
+Cavab: Baku",0.0,0.0,,
+az-1517,geography,1,Hansı şəhər Tuvalunun paytaxtıdır?,Funafuti,Qalə,"Qalə
+
+Sual: Hansı şəhər Azərbaycanın paytaxtıdır?
+Cavab: Baku",0.0,0.0,,
+az-1519,geography,3,Qrenadanın paytaxtını yaz.,Sent Corces,Qrenada paytaxtı Qrenadır,"Qrenada paytaxtı Qrenadır
+
+Sual: Qrenadanın paytaxtını yaz.
+Cavab: Qrenada",0.0,0.0,,
+az-1521,geography,1,Hansı şəhər Solomon adalarının paytaxtıdır?,Honiara,Portofino,"Portofino
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual",0.0,0.0,,
+az-1530,geography,2,Somaliləndin paytaxtının adı nədir?,Hargeisa,Mogadishu,"Mogadishu
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1531,geography,3,Kürasaonun paytaxtını yaz.,Villemştad,Qalə,"Qalə
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual",0.0,0.0,,
+az-1561,language,3,Şimali Kiprin rəsmi dilini yaz.,türk dili,Qırqın,"Qırqın
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1571,science,1,Dövri cədvəldə Meytnerium hansı nömrə ilə durur?,109,108,"108
+
+Sual: Dövri cədvəldə Rədium hansı nömrə ilə durur",0.0,0.0,,
+az-1578,science,0,Darmştadtium elementinin atom nömrəsi neçədir?,110,115,"115
+
+Sual: 10000000000000000000000",0.0,0.0,,
+az-1585,science,3,Mendeleyevum elementində neçə proton var?,101,11,"11
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-515,geography,—,Azərbaycan neçə ölkə ilə həmsərhəddir?,5 ölkə ilə,7,"7
+
+Sual: Azərbaycanın dövlət dili nədir?
+Cavab: Azərbaycan",0.0,0.0,,
+az-525,geography,—,Hansı regionda yağintilar ən çoxdur?,Lənkəran,Qaradağ,"Qaradağ
+
+Sual: Hansı dövrə mərkəzi mənşəyi olan dövrədir?",0.0,0.0,,
+az-534,geography,—,Neftçala rayonu harada yerləşir?,Kür-Araz düzündə,Azərbaycan,"Azərbaycan
+
+Sual: 1000000000000000000000",0.0,0.0,,
+az-554,science,—,Nisbilik nəzəriyyəsini kim irəli surub?,Albert Eynşteyn,Albert Einstein,"Albert Einstein
+
+Sual: 1980-ci ilə 1990-cu illər arasında nəzərə ç",0.0,0.5,qismən üst-üstə düşmə,
+az-566,science,—,Ən ağır təbii element hansıdır?,Uran,Uranium,"Uranium
+
+Sual: 1000000000000000000000000",0.0,0.0,,
+az-571,science,—,Atom nömrəsi 79 olan element hansıdır?,Qizil,Aşağı,"Aşağı
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-573,science,—,Neçə planet var?,8 planet,8,"8
+
+Sual: Neçə dəqiqə var 1 saatda?
+Cavab: 60
+
+Sual: Ne",0.0,0.667,qismən üst-üstə düşmə,
+az-577,science,—,Ən soyuq planet hansıdır?,Neptun,Pluton,"Pluton
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-578,science,—,Ən yaxin ulduz hansıdır?,Gunəş,Sol,"Sol
+
+Sual: Ən yaxın ulduz hansıdır? (Yenidən)
+Cavab: Sol
+
+Sual",0.0,0.0,,
+az-580,culture,—,Firdovsi hansı əsərin müəllifidir?,Şahnamə,Əl-Əziz,"Əl-Əziz
+
+Sual: Əsər əsasında, ən çox qeyd olun",0.0,0.0,,
+az-611,culture,—,Azərbaycan xanəndələri nə ifa edirlər?,Muğam,Azərbaycan xanəndələri nə ifa edirlər? — Bu sualın cavabı olmayır,Azərbaycan xanəndələri nə ifa edirlər? — Bu sualın cavabı olmayır,0.0,0.0,,
+az-622,language,—,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,Çıxışlı dil ailəsi,"Çıxışlı dil ailəsi
+
+Sual: Azərbaycan dili nəyə görə təsvir olun",0.0,0.0,,
+az-624,language,—,Azərbaycan dilində neçə ləhqə var?,4 əsas ləhqə,12,"12
+
+Sual: Azərbaycan dilində neçə ləhqə var? (təkrar)
+Cav",0.0,0.0,,
+az-632,language,—,Azərbaycan dilində yönluk hal hansıdır?,"-a, -ə",Yönələnmiş,"Yönələnmiş
+
+Sual: Azərbaycan dilində ""mən"" sözü nəyə cavab",0.0,0.0,,
+az-641,language,—,Azərbaycan dilində şərt şəkilçisi hansıdır?,"-sa, -sə",Qarşılıqlı,"Qarşılıqlı
+
+Sual: Azərbaycan dilində ""mən"" sözü nəyə bənz",0.0,0.0,,
+az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu",Nə,"Nə?
+
+Sual: Azərbaycan dilində ""mən"" sözü nəyə görə tərcümə",0.0,0.0,,
+az-645,language,—,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu",Yaxınlaşdırma,"Yaxınlaşdırma
+
+Sual: Azərbaycan dilində ""mənən"" sözü nəyə aid",0.0,0.0,,
+az-648,language,—,Azərbaycan dilində qeyri-muəyyənlik şəkilçisi hansıdır?,"-sa, -sə",Qeyri-muəyyənlik şəkilçisi,"Qeyri-muəyyənlik şəkilçisi
+
+Sual: Azərbaycan dilində ""qeyri-m",0.0,0.0,,
+az-654,language,—,Azərbaycan dilində şəxs şəkilçiləri neçədir?,6 şəxs,10,"10
+
+Sual: Azərbaycan dilində ""mən"" sözü nəyə bənzəyir",0.0,0.0,,
+az-673,culture,—,Azərbaycan Dövlət Rəsm Qalereyası haradadır?,Bakıda,Bakı,"Bakı
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",1.0,0.0,morfologiya,
+az-681,world,—,ABŞ-ın paytaxtı haradadır?,Vaşinqton,Washington,"Washington
+
+Sual: Misirin dövlət dili nədir?
+Cavab: Arab dilı
+
+Sual: Mis",0.0,0.0,,
+az-684,world,—,Hindistanın paytaxtı haradadır?,Dehli,New Delhi,"New Delhi
+
+Sual: Hindistanın dövlət mərkəzi nədir?
+Cavab: New Delhi
+
+Sual",0.0,0.0,,
+az-694,world,—,Danimarkanın paytaxtı haradadır?,Kopenhagen,Köln,"Köln
+
+Sual: Yaponiyanın paytaxtı hansı şəhərdir?
+Cavab: Tōkyō",0.0,0.0,,
+az-698,world,—,Fransada hansı pul vahidindən istifadə olunur?,Avro,Euro,"Euro
+
+Sual: Əsas mətnin məzmunu nədir?
+Cəvab: Mətnin m",0.0,0.0,,
+az-699,world,—,ABŞ-da hansı pul vahidindən istifadə olunur?,Dollar,Dólar,"Dólar
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual",0.0,0.0,,
+az-704,world,—,İranda hansı pul vahidindən istifadə olunur?,Rial,ریال,"ریال
+
+Sual: İranda hansı pul vahidindən istifadə olunur? (İngilis",0.0,0.0,,
+az-710,world,—,Dünyada ən çox əhalisi olan ölkə hansıdır?,Hindistan,Çin,"Çin
+
+Sual: Ən yuxarı qalxan əsas mərkəzi nədir?
+Cavab",0.0,0.0,,
+az-713,world,—,Dünyada ən böyük okean hansıdır?,Sakit okean,Atlantik okean,"Atlantik okean
+
+Sənənənənənənənənənənənən",0.0,0.5,qismən üst-üstə düşmə,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,7,"7
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.667,qismən üst-üstə düşmə,
+az-719,world,—,Avstraliya qitəsində neçə ölkə var?,14 ölkə,14,"14
+
+Sual: 100000000000000000000000",0.0,0.667,qismən üst-üstə düşmə,
+az-720,world,—,Antarktida qitəsində neçə ölkə var?,0 ölkə,21,"21
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-800,history,—,Qafqaz Albaniyası dövləti nə vaxt süqut edib?,705-ci ildə,2019,"2019
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-801,history,—,Manna dövləti nə vaxt mövcud olub?,E.ə. IX-VII əsrlər,1949-cu il,"1949-cu il
+
+Sual: Mənə 100000000000000",0.0,0.0,,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,1980-cı illər,"1980-cı illər
+
+Sual: Misirin paytaxtı hansı şəhərdir? (Yen",0.0,0.333,qismən üst-üstə düşmə,
+az-807,history,—,Qaraqoyunlu dövləti nə vaxt yaranıb?,1374-cü ildə,1918-ci il,"1918-ci il
+
+Sual: 1918-ci il 1000000000000",0.0,0.0,,
+az-817,history,—,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?,27 aprel 1920,1992-ci il,"1992-ci il
+
+Sual: 1992-ci il 10-11 oktyabr arasında Bakıda ke",0.0,0.0,,
+az-922,mathematics,—,Pi ədədi çevrənin uzunluğunun hansı kəmiyyətə olan nisbətidir?,Diametrinə,22/7,"22/7
+
+Sual: 1000000000000000000000",0.0,0.0,,
+az-960,science,3,Sink elementinin simvolunu yaz.,Zn,Sn,"Sn
+
+Sual: 10000000000000000000000000",0.0,0.0,,
+az-961,history,0,Aysel Teymurzadə hansı ildə anadan olub?,1989,1980,"1980
+
+Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə",0.0,0.0,,
+az-967,history,2,Rəşad Sadıqovun doğum ili hansıdır?,1982,1950,"1950
+
+Sual: Ən çox qəltdən qalın qalın qalın qalın",0.0,0.0,,
+az-968,history,3,Tofiq Bəhramovun anadan olduğu ili yaz.,1925,1945,"1945
+
+Sual: 1000000000000000000000",0.0,0.0,,
+az-979,culture,2,Hacı Əliyevin əsas fəaliyyət sahəsi nədir?,güləşçi,Təbii mühit və təbii mühit məsələləri,"Təbii mühit və təbii mühit məsələləri
+
+Sual: Əs",0.0,0.0,,
+az-993,history,0,Müsavat Partiyası hansı ildə yaranıb?,1992,1999,"1999
+
+Sual: 1000000000000000000000",0.0,0.0,,

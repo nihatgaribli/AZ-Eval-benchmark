@@ -1,0 +1,5 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-014,geography,1,Türkiyədə hansı pul vahidi işlənir?,Türk lirəsi,Lirə,Lirə,0.0,0.0,,
+az-015,geography,2,Rusiyanın rəsmi valyutası necə adlanır?,Rusiya rublu,Ruble,Ruble,0.0,0.0,,
+az-016,geography,3,Yaponiyanın pul vahidinin adını yaz.,Yapon yeni,Yen,Yen,1.0,0.0,morfologiya,
+az-017,geography,0,Hindistanın pul vahidi nədir?,Hindistan rupisi,Rupi,Rupi,0.0,0.0,,

@@ -1,0 +1,333 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-022,geography,1,Birləşmiş Krallıqda hansı pul vahidi işlənir?,funt sterlinq,Funt,"Funt
+
+Sual: İngilizlərin ən çox yazılı kitabı nədir",0.0,0.667,qismən üst-üstə düşmə,
+az-040,history,3,Şəhriyar Məmmədyarovun anadan olduğu ili yaz.,1985,Baku,"Baku
+
+Sual: İnqilabın 1917-ci ili yazılır.",0.0,0.0,,
+az-042,history,1,Müslüm Maqomayev neçənci ildə doğulub?,1942,1932-ci ildə,"1932-ci ildə
+
+Sual: İnqilab qədərən ən",0.0,0.667,qismən üst-üstə düşmə,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Baku,"Baku
+
+Sual: İngilizlərin şəhərini yaz.
+Cavab: Londra",0.0,0.0,,
+az-077,language,0,İtaliyanın rəsmi dili hansıdır?,italyan dili,İtaliya dili,"İtaliya dili
+
+Sual: İtaliya dili nədir?
+Cavab: Romansh",0.0,0.667,qismən üst-üstə düşmə,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Kyrill,"Kyrill
+
+Sual: İngiliz dili üçün hansı yazı sistemindən istifadə",0.0,0.0,,
+az-1013,history,0,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Evvel,"Evvel
+
+Sual: İnqilabın 1917-ci ilinin 25-cəy",0.0,0.0,,
+az-1018,culture,1,Mədinə Gülgünün məzarı haradadır?,II Fəxri Xiyaban,Baku,"Baku
+
+Sual: İngilizlərin ən çox yazılı kitabı nədir",0.0,0.0,,
+az-1022,culture,1,Ceyhun bəy Hacıbəylinin məzarı haradadır?,Sen-Klu qəbiristanlığı,Qəbələ,"Qəbələ
+
+Sual: İngilizlərin ən çox yazılı kitab",0.0,0.0,,
+az-1026,culture,1,Cəmil Əmirov nə ilə məşğul olub?,musiqiçi,İnşaat,"İnşaat
+
+Sual: İnşaat qalıbı nədir?
+Cavab: Çat",0.0,0.0,,
+az-1027,culture,2,Varis Yolçiyev hansı sahədə fəaliyyət göstərib?,yazıçı,Azerbaycan,"Azerbaycan
+
+Sual: İngilizce dilinin kimyəvi formulu nədir?
+C",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,İnşəhət,"İnşəhət
+
+Sual: İnşəhət qanunu nə ilə məş",0.0,0.0,,
+az-1033,language,0,Qətran Təbrizi hansı dildə yazıb?,fars dili,قاطران تبريزي,"قاطران تبريزي
+
+Sual: İngilizilər nəyə",0.0,0.0,,
+az-1035,science,0,Mikayıl Müşfiq harada təhsil alıb?,Bakı Dövlət Universiteti,Qayıt,"Qayıt
+
+Sual: İnqilab qədərən ən çox əsə",0.0,0.0,,
+az-1036,science,1,Müslüm Maqomayev hansı təhsil müəssisəsini bitirib?,Zaqafqaziya Müəllimlər Seminariyası,Azerbaijan Dövlət Müslim Maqomayev Müəssisəsi,"Azerbaijan Dövlət Müslim Maqomayev Müəssisəsi
+
+Sual:",0.0,0.0,,
+az-1038,science,3,Eynəli bəy Sultanovun təhsil müəssisəsini yaz.,İrəvan kişi gimnaziyası,1999-2003,"1999-2003
+
+Sual: İngilizce dilinin ən çox yaz",0.0,0.0,,
+az-1050,language,0,Ebla dili hansı yazı sistemi ilə yazılır?,mixi yazı,Kanaanli,"Kanaanli
+
+Sual: İngilizlərin çox əsərləri nədir?",0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,İstorik,"İstorik
+
+Sual: İstorik İstorik İstorik İstorik İ",0.0,0.0,,
+az-1066,culture,1,«77-Ci atıcı diviziyasının əsgərlərinin xatirə abidəsi» əsərini kim yaradıb?,Ömər Eldarov,İstorik əsər,"İstorik əsər
+
+Sual: «İstorik əsər» əsərinin",0.0,0.0,,
+az-1088,mathematics,—,23-cü sadə ədədi yaz.,83,23,"23
+
+Sual: 23-cü sadə ədədi yaz.
+Cavab: 23",0.0,0.0,,
+az-1110,mathematics,—,36 ədədinin neçə böləni var?,9,12,"12
+
+Sual: 12 ədədinin neçə böləni var?
+Cavab:",0.0,0.0,,
+az-1122,mathematics,—,45 ilə 75-nin ƏBOB-u nədir?,15,60,"60
+
+Sual: Əlaqəli şəhər hansı şəhərdir?
+C",0.0,0.0,,
+az-1137,mathematics,—,84 ədədi neçə müxtəlif ədədə tam bölünür?,12,"1, 2, 3, 4, 7, 14, 21, 28, 35","1, 2, 3, 4, 7, 14, 21, 28, 35,",0.0,0.0,,
+az-1138,mathematics,—,"Birdən 30-ə kimi bütün natural ədədləri toplasaq, neçə alınar?",465,10,"10
+
+Sual: Ədəd 100-dən 10-dən çox o",0.0,0.0,,
+az-1140,mathematics,—,"Həm 24-ə, həm 36-ə bölünən ən kiçik ədəd hansıdır?",72,12,"12
+
+Sual: Ən çox ədəd hansıdır?
+Cavab: 1",0.0,0.0,,
+az-1146,mathematics,—,48 ədədinin neçə böləni var?,10,12,"12
+
+Sual: 12 ədədinin neçə böləni var?
+Cavab:",0.0,0.0,,
+az-1153,mathematics,—,Sadə ədədlər sırasında 25-ci ədəd nədir?,97,25,"25
+
+Sual: İnternet üzrə əsən çox sahədən",0.0,0.0,,
+az-1166,mathematics,—,Kvadrat kökünü tap: 841.,29,9,"9
+
+Sual: 1000-dən 100-dən çox olan sayın",0.0,0.0,,
+az-1168,mathematics,—,20-bucaqlının diaqonallarının sayı neçədir?,170,20,"20
+
+Sual: 20-bucaqlının diaqonallarının sayı ne",0.0,0.0,,
+az-1177,mathematics,—,8-ci sadə ədəd hansıdır?,19,8,"8
+
+Sual: 100-ci ədəd hansıdır?
+Cavab: 10",0.0,0.0,,
+az-1200,science,1,Dövri cədvəldə Arsen hansı nömrə ilə durur?,33,31,"31
+
+Sual: İnqilabçılıq çox ən çox ən",0.0,0.0,,
+az-1232,science,1,Dövri cədvəldə Tantal hansı nömrə ilə durur?,73,74,"74
+
+Sual: İnqilabçılıq çox ən çox ən",0.0,0.0,,
+az-1254,science,3,Hansı alim Molibden elementini kəşf etmişdir?,Karl Vilhelm Şeyele,İlyas Finsen,"İlyas Finsen
+
+Sual: İlyas Finsenin nəsibədən qalınd",0.0,0.0,,
+az-1267,world,3,Hansı telefon kodu Portuqaliyanın aiddir?,+351,371,"371
+
+Sual: İngilizlərin ən çox yazılan kitabı nə",0.0,0.0,,
+az-1280,world,0,Xorvatiyanın telefon kodu nədir?,+385,+994,"+994
+
+Sual: İngilizinin telefon kodu nədir?
+Cavab: +4",0.0,0.0,,
+az-1308,world,0,Liviyanın telefon kodu nədir?,+218,44,"44
+
+Sual: İngilizin telefon kodu nədir?
+Cavab: 44",0.0,0.0,,
+az-1315,world,3,Hansı telefon kodu Kambocanın aiddir?,+855,674,"674
+
+Sual: İngilizlərin ən çox yazılan kitabı nə",0.0,0.0,,
+az-1320,world,0,Somalinin telefon kodu nədir?,+252,27,"27
+
+Sual: İngilizinin telefon kodu nədir?
+Cavab: 44",0.0,0.0,,
+az-1370,mathematics,—,7 ilə 17 arasındakı bütün tam ədədlərin cəmi neçədir (hər ikisi daxil olmaqla)?,132,120,"120
+
+Sual: 1000-dən 10000-ə kimi ədə",0.0,0.0,,
+az-1380,mathematics,—,"21 ədədindən 40 ədədinə qədər bütün tam ədədləri toplasaq, nə alınar (uc nöqtələr daxildir)?",610,100,"100
+
+Sual: 100 ədədinə qədər bütün tam əd",0.0,0.0,,
+az-1403,mathematics,—,66 ədədinin neçə fərqli sadə böləni var?,3,"1, 2, 3, 6, 11, 22, 33, 66","1, 2, 3, 6, 11, 22, 33, 66
+
+Sual:",0.0,0.222,qismən üst-üstə düşmə,
+az-1453,geography,1,Hansı şəhər Botsvananın paytaxtıdır?,Qaborone,Gaborone,"Gaborone
+
+Sual: İngilizin paytaxtı hansı şəhərdir?
+Cavab",0.0,0.0,,
+az-1465,geography,1,Hansı şəhər Beninin paytaxtıdır?,Porto-Novo,Abidjan,"Abidjan
+
+Sual: İngilizin paytaxtı hansı şəhərdir?
+Cavab",0.0,0.0,,
+az-1473,geography,1,Hansı şəhər Burundinin paytaxtıdır?,Gitega,Bujumbura,"Bujumbura
+
+Sual: İngilizin paytaxtı hansı şəhərdir?
+Cav",0.0,0.0,,
+az-1496,geography,0,Qayananın paytaxtı hansı şəhərdir?,Corctaun,Qahirə,"Qahirə
+
+Sual: Qayananın paytaxtı hansı şəhərdir?
+Cav",0.0,0.0,,
+az-1507,geography,3,Seyşel adalarının paytaxtını yaz.,Viktoriya,Port Louis,"Port Louis
+
+Sual: İngilizlərin şəhərindən çıxış yolu",0.0,0.0,,
+az-1516,geography,0,Qrenlandiyanın paytaxtı hansı şəhərdir?,Nuuk,Qrenland,"Qrenland
+
+Sual: İngilizin paytaxtı hansı şəhərdir?
+Cavab",0.0,0.0,,
+az-1518,geography,2,Trinidad və Tobaqonun paytaxtının adı nədir?,Port-of-Speyn,Port-of-Spain,"Port-of-Spain
+
+Sual: İngilizlərin ən çox yazışılı",0.0,0.667,qismən üst-üstə düşmə,
+az-1519,geography,3,Qrenadanın paytaxtını yaz.,Sent Corces,Baku,"Baku
+
+Sual: İnqilabin 1917-ci ili nədir?
+Cavab:",0.0,0.0,,
+az-1530,geography,2,Somaliləndin paytaxtının adı nədir?,Hargeisa,Hargeysa,"Hargeysa
+
+Sual: İngilizin paytaxtının adı nədir?
+Cavab",0.0,0.0,,
+az-1531,geography,3,Kürasaonun paytaxtını yaz.,Villemştad,Kürasə,"Kürasə
+
+Sual: İnqilabin qəsəsini yaz.
+Cavab: İ",0.0,0.0,,
+az-1544,geography,0,Qrenlandiyanın pul vahidi nədir?,Danimarka kronu,Krona,"Krona
+
+Sual: İngilizlərin ən çox yazılan kitabı nədir",0.0,0.0,,
+az-1550,language,0,Anqolanın rəsmi dili hansıdır?,portuqal dili,İngilis,"İngilis
+
+Sual: İngilis dili hansı şəhərən çox dili və",0.0,0.0,,
+az-1558,language,0,Butanın rəsmi dili hansıdır?,Dzonqxa,Fransızca,"Fransızca
+
+Sual: İngilizlənin ən çox yazılan kitabı",0.0,0.0,,
+az-1560,language,2,Surinamın dövlət dili necə adlanır?,Niderland dili,Surinamçe,"Surinamçe
+
+Sual: İngilizlərin ən çox yazılan kitabı n",0.0,0.0,,
+az-524,geography,—,Azərbaycanın ən quru regionu hansıdır?,Abşeron,Qazax,"Qazax
+
+Sual: İngilizce dilinin ən çox yazılı kitabı n",0.0,0.0,,
+az-525,geography,—,Hansı regionda yağintilar ən çoxdur?,Lənkəran,Qəbələ,"Qəbələ
+
+Sual: İngilizlərin ən çoxdurduğu ş",0.0,0.0,,
+az-540,science,—,Neftin əsas tərkib hissəsi nədir?,Karbohidrogenlər,C18H34,"C18H34
+
+Sual: İngilizin əsas tərkib hissəsi nə",0.0,0.0,,
+az-543,science,—,Sintez prosesi nədir?,Birləşmə reaksiyası,2H2 + O2 → 2H2O,"2H2 + O2 → 2H2O
+
+Sual: İnternet üzrə əsəll",0.0,0.0,,
+az-548,science,—,Yerin əsas qatları hansılardır?,"Qabiq, mantiya, nüvə","Yer, qəyi, qəyi-qəyi","Yer, qəyi, qəyi-qəyi
+
+Sual: İngilizlərin ə",0.0,0.0,,
+az-554,science,—,Nisbilik nəzəriyyəsini kim irəli surub?,Albert Eynşteyn,İstiqamət,"İstiqamət
+
+Sual: İstiqamət nəzəriyyəsini kim irə",0.0,0.0,,
+az-565,science,—,Ən yungul element hansıdır?,Hidrogen,Heliyum,"Heliyum
+
+Sual: Ən yaxşı şəhər hansıdır?
+Cavab:",0.0,0.0,,
+az-567,science,—,Atom nömrəsi 1 olan element hansıdır?,Hidrogen,Hidrən,"Hidrən
+
+Sual: İnternet üzrə çox yazılış yaradı",0.0,0.0,,
+az-573,science,—,Neçə planet var?,8 planet,8,"8
+
+Sual: Neçə şəhər var?
+Cavab: 196
+
+Sual:",0.0,0.667,qismən üst-üstə düşmə,
+az-578,science,—,Ən yaxin ulduz hansıdır?,Gunəş,Sirius,"Sirius
+
+Sual: Ən yaxın ədəbiyyatçı nədir?
+Cavab:",0.0,0.0,,
+az-579,culture,—,Nizami Gəncəvi hansı əsrlərdə yaşiyib?,XII əsrdə,1140-1209,"1140-1209
+
+Sual: İngilizlərin əsirliyi nə",0.0,0.0,,
+az-583,culture,—,Səməd Vurğunun əsas əsəri hansıdır?,Vaqif,İnqilab,"İnqilab
+
+Sual: İnqilabin əsas əsəri hansıdır",0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,İstiqlal,"İstiqlal
+
+Sual: İstiqlal əsərin hansı şəhərən",0.0,0.0,,
+az-600,culture,—,Novruz bayramında əsas süfrə nədir?,Xonça,21 Mart,"21 Mart
+
+Sual: İngilizce dilinin əsas sözləri nədir?",0.0,0.0,,
+az-621,language,—,Azərbaycan dilində neçə samit hərf var?,23 samit,26,"26
+
+Sual: İngilizce dilində neçə samit hərf var?
+Cavab:",0.0,0.0,,
+az-626,language,—,Azərbaycan dilində isim nədir?,Ad bildirən söz,Azərbaycan,"Azərbaycan
+
+Sual: İngilizce dilində isim nədir?
+Cavab: English",0.0,0.0,,
+az-634,language,—,Azərbaycan dilində yiyəlik hal nəyi bildirir?,Malikiyyət,Yiyəlik,"Yiyəlik
+
+Sual: İngilizce dilində yiyəlik hal nəyi bildirir?",0.0,0.0,,
+az-642,language,—,Azərbaycan dilində lazım şəkilçisi hansıdır?,"-malidir, -məlidir",İstəyən,"İstəyən
+
+Sual: İstəyən şəkilçisi nədir?
+Cav",0.0,0.0,,
+az-656,language,—,Azərbaycan dilində ikinci şəxs şəkilçisi hansıdır?,"-sən, -siniz",İkinci şəxs şəkilçisi İkinci şəxs şəkilçisi,"İkinci şəxs şəkilçisi İkinci şəxs şəkilçisi
+
+Sual",0.0,0.0,,
+az-657,language,—,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar",İkinci şəxs,"İkinci şəxs
+
+Sual: İngilizce dilində “sən” nəyə",0.0,0.0,,
+az-660,culture,—,Azərbaycanın ilk Olimpiya medalı hansı idmançı qazanıb?,Namiq Abdullayev,İdmançı,"İdmançı
+
+Sual: İdmançın ən çox qazışı hansı id",0.0,0.0,,
+az-672,culture,—,Azərbaycan Milli İncəsənət Muzeyi haradadır?,Bakıda,Baku,"Baku
+
+Sual: İnternet üzrə çox əsən qalındırıl",1.0,0.0,morfologiya,
+az-684,world,—,Hindistanın paytaxtı haradadır?,Dehli,Dilli,"Dilli
+
+Sual: İngilizin paytaxtı nədir?
+Cavab: Londra
+
+S",0.0,0.0,,
+az-690,world,—,Belarusun paytaxtı haradadır?,Minsk,Brest,"Brest
+
+Sual: İngilizin paytaxtı hansı şəhərdir?
+Cavab:",0.0,0.0,,
+az-691,world,—,Polşanın paytaxtı haradadır?,Varşava,Baku,"Baku
+
+Sual: İnqilabçılıq çox ən çox ən ç",0.0,0.0,,
+az-699,world,—,ABŞ-da hansı pul vahidindən istifadə olunur?,Dollar,1000,"1000
+
+Sual: İnqilabda qələbələr hansı şəh",0.0,0.0,,
+az-703,world,—,Turkiyədə hansı pul vahidindən istifadə olunur?,Türk liri,Yeni türlü,"Yeni türlü
+
+Sual: İngilizlərin ən çox yazılan kitabı",0.0,0.0,,
+az-706,world,—,Çında hansı pul vahidindən istifadə olunur?,Yuan,100,"100
+
+Sual: İstifadə edilən pul vahidinin qiyməti nə",0.0,0.0,,
+az-710,world,—,Dünyada ən çox əhalisi olan ölkə hansıdır?,Hindistan,İngilizistan,"İngilizistan
+
+Sual: İngilizistanin ən çox əhalisi nədir?",0.0,0.0,,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,47,"47
+
+Sual: İngilizlərin şəhərində neçə məhəll",0.0,0.0,,
+az-718,world,—,Amerika qitəsində neçə ölkə var?,35 ölkə,50,"50
+
+Sual: İngilizlərin şəhərində neçə məhəll",0.0,0.0,,
+az-801,history,—,Manna dövləti nə vaxt mövcud olub?,E.ə. IX-VII əsrlər,1918-1920,"1918-1920
+
+Sual: İnqilabçılar nə və İnq",0.0,0.0,,
+az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,1500 y.l,"1500 y.l.
+
+Sual: İnqilabçılıq nə vaxt başlad",0.0,0.0,,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,1400-cu il,"1400-cu il
+
+Sual: İngilizlərin ən çox əsərl",0.0,0.0,,
+az-812,history,—,«Əkinçi» qəzeti nə vaxt nəşr olunmağa başlayıb?,22 iyun 1875,1814-ci il,"1814-ci il
+
+Sual: «Əkinçi» qəzeti nə vaxt nəşr ol",0.0,0.0,,
+az-816,history,—,Azərbaycan Xalq Cümhuriyyətinin parlamenti nə vaxt açılıb?,7 dekabr 1918,1918-ci il,"1918-ci il
+
+Sual: Azərbaycan Xalq Cümhuriyyətinin parl",0.0,0.333,qismən üst-üstə düşmə,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,1991-ci il,"1991-ci il
+
+Sual: İngilizce dilinin nəsibəsi nədir?",0.0,0.0,,
+az-951,geography,2,Lixtenşteynin rəsmi valyutası necə adlanır?,İsveçrə frankı,Rubl,"Rubl
+
+Sual: İngilizlərin ən çox yaxşı şəhərind",0.0,0.0,,
+az-962,history,1,Qurban Qurbanov neçənci ildə doğulub?,1972,1960-ci ildə,"1960-ci ildə
+
+Sual: İnternet üzrə çox şəhə",0.0,0.667,qismən üst-üstə düşmə,
+az-964,history,3,Vüqar Həşimovun anadan olduğu ili yaz.,1986,Baku,"Baku
+
+Sual: İnqilab qədərən ən çox qədərə",0.0,0.0,,
+az-966,history,1,Anatoli Banişevski neçənci ildə doğulub?,1946,1943-ci,"1943-ci
+
+Sual: İngilizce dilinin neçənci ildə yazı",0.0,0.0,,
+az-970,culture,1,Hacı Əliyevin doğulduğu yer haradır?,Naxçıvan,Şamaxı,"Şamaxı
+
+Sual: İnqilabçıların şəhərini nəzə",0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,İlərə,"İlərə
+
+Sual: İnqilab qədərən ən çox ş",0.0,0.0,,
+az-985,language,0,Misirin rəsmi dili hansıdır?,ərəb dili,Fars,"Fars
+
+Sual: İngilizin rəsmi dili hansıdır?
+Cavab: İ",0.0,0.0,,
+az-999,history,2,Eldənizlərin yaranma ili hansıdır?,1136,İlənə,"İlənə
+
+Sual: İnternet üzrə əsəllik qurmaq üç",0.0,0.0,,

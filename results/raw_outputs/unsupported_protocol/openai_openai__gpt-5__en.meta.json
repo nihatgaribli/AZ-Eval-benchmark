@@ -1,0 +1,18 @@
+{
+  "model": "openai:openai/gpt-5",
+  "provider": "openai",
+  "requested_model": "openai/gpt-5",
+  "resolved_model": null,
+  "max_tokens": 32,
+  "thinking": "disabled via OpenRouter `reasoning.effort=none`",
+  "determinism": "seeded (temperature=0, seed set) - best-effort",
+  "base_url": "https://openrouter.ai/api/v1",
+  "usage": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "failures": 16,
+    "cost_usd": null
+  },
+  "leaked_internal_tags": 0
+}

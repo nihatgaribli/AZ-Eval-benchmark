@@ -1,0 +1,77 @@
+﻿name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    name: pytest (py${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run test suite
+        run: pytest -q
+
+  dataset-integrity:
+    name: dataset integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Validate az_eval_v0.jsonl is well-formed
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          path = Path("data/az_eval_v0.jsonl")
+          ids = set()
+          count = 0
+
+          with path.open(encoding="utf-8") as fh:
+              for lineno, line in enumerate(fh, start=1):
+                  line = line.strip()
+                  if not line:
+                      continue
+                  try:
+                      row = json.loads(line)
+                  except json.JSONDecodeError as exc:
+                      sys.exit(f"{path}:{lineno}: invalid JSON: {exc}")
+                  item_id = row.get("id")
+                  if item_id is None:
+                      sys.exit(f"{path}:{lineno}: missing 'id'")
+                  if item_id in ids:
+                      sys.exit(f"{path}:{lineno}: duplicate id {item_id!r}")
+                  ids.add(item_id)
+                  count += 1
+
+          print(f"OK: {count} items, {len(ids)} unique ids")
+          PY

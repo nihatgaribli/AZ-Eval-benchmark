@@ -1,0 +1,2122 @@
+\documentclass[final]{clv2025}
+
+\jvol{vv}
+\jnum{nn}
+\jyear{2026}
+
+\dochead{Long Paper}
+
+\pageonefooter{Submission received: DD Month YYYY; revised version received: DD Month YYYY; accepted for publication: DD Month YYYY.}
+
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+% Cyrillic examples appear in Sections 7.3 and 7.4, so T2A is loaded alongside
+% the T1 the class already selects. T1 stays the default and \cyr switches
+% encoding for the few Cyrillic words, which is why they are all wrapped.
+\usepackage[T2A,T1]{fontenc}
+\DeclareRobustCommand{\cyr}[1]{{\fontencoding{T2A}\selectfont #1}}
+
+% Azerbaijani `ə' (U+0259) has no T1 slot, and tipa's T3 schwa exists in
+% neither the body face nor the typewriter one, so it would substitute a
+% mismatched font on the four occurrences of the letter. A rotated `e' in the
+% current font is what a schwa is, and it matches whatever face surrounds it.
+\DeclareRobustCommand{\azschwa}{\rotatebox[origin=c]{180}{e}}
+\DeclareUnicodeCharacter{0259}{\azschwa}
+
+\runningtitle{Script, Not Relatedness}
+\runningauthor{Garibli}
+
+\begin{document}
+
+\title{Script, Not Relatedness: What Fine-Tuning\\
+on a Neighbouring Language Costs Azerbaijani}
+
+% clv2025.cls builds the page-one footer with \@footnotetext but never sets
+% \@thefnmark, so \maketitle fails unless at least one \thanks has run first.
+\author{Nihat Garibli\thanks{Corresponding author.}$^{,1}$}
+
+\affilblock{
+    \affil{Baku State University\\\quad \email{qaribli.nihat.nemat@bsu.edu.az}}
+}
+
+\maketitle
+
+\begin{abstract}
+Azerbaijani is not missing from multilingual evaluation: TUMLU contributes 735
+items and INCLUDE 6,937. Both are multiple choice, and neither is parallel, so
+neither can compare a model's Azerbaijani with its own English on the same
+question. The format matters too: of the items a model answers correctly under
+multiple choice, only 0.5\% to 10.3\% are also produced correctly in free form,
+so selection and production are close to dissociated.
+
+We introduce AZ-Eval, 1006 short-answer items stated in parallel Azerbaijani
+and English, of which 708 form a control stratum whose subject matter is
+universal by construction, so that failure there is a language failure rather
+than a knowledge gap. Human verification is a build gate rather than a label:
+the build refuses any row not individually checked. An independent annotator
+re-checked a stratified sample of 200 items and agreed on 93.5\%; the 11 items
+they rejected were removed, one of which exposed a defective question template.
+
+Measuring 34 models under a single protocol, we find the gap concentrated in
+the models that low-resource work actually deploys: 3.9 to 43.5 points across
+28 open models of 8B or smaller, against 3.7 to 15.2 points for five large
+commercial models. Scale does not explain it, since a 235B model trails four
+smaller ones by roughly ten points; nor does quantisation, since an 8B model
+served at full precision behaves like its 4-bit peers.
+
+Our main experiment asks what adapting a model to a neighbouring language costs
+a third language. Eleven base/fine-tuned pairs, nine of which pass our
+measurement gates, cross two factors: whether the adaptation target is related
+to Azerbaijani, and whether it shares its script. Reporting Azerbaijani loss
+minus English loss, so that ordinary forgetting is subtracted, relatedness
+carries no predictive power and script carries most of it. The closest
+relative, Turkish, does no damage in either of two pairs; a wholly unrelated
+Slavic language, Russian, damages Azerbaijani in both of its pairs. Every
+Latin-script target leaves Azerbaijani intact (three pairs); four of five
+Cyrillic-script targets damage it by 8 to 11 points. A non-Latin target is not
+by itself sufficient: a model adapted to Thai, Burmese and Tamil alongside four
+Latin-script languages, sharing its base with the most damaged pair, costs
+Azerbaijani nothing. The tokeniser is measured rather than assumed and is
+identical in six of the nine pairs, so the contrast survives with segmentation
+held exactly constant.
+
+The single exception, a Ukrainian-adapted model that does no damage, is
+absorbed by a marker that separates all nine pairs without exception: whether
+the adapted model begins writing Azerbaijani answers in Cyrillic. Every pair
+that emits any Cyrillic is damaged; every pair that emits none is not. We stop
+short of calling this the mechanism, because transliteration recovers only part
+of the Kazakh damage and almost none of the Russian.
+
+The failure decomposes into two modes with opposite prospects. A Kazakh-adapted
+model writes Azerbaijani answers in Cyrillic, and transliteration more than
+doubles its score: the knowledge is present and the surface form is wrong. A
+Turkish-adapted model writes them in Turkish, which no normalisation repairs
+because the alphabet is already correct, and which the standard word-level
+language-confusion detector misses in 92\% of cases, since the Turkish alphabet
+is a subset of the Azerbaijani one and no character ever leaves the expected
+range.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Azerbaijani is spoken by roughly ten million people and is not absent from
+multilingual evaluation: TUMLU contributes 735 items and INCLUDE 6,937. Both,
+however, are multiple choice and neither is parallel, so neither can answer the
+question this paper asks: how a single model's Azerbaijani compares with its
+own English on the same item. Selecting among four options is also not the same
+skill as producing an answer: on identical items, only 0.5\% to 10.3\% of what
+a model gets right under multiple choice is also produced correctly in free
+form.
+
+Its closest well-resourced Turkic relative, Kazakh, has both a benchmark and
+several openly released adapted models. That asymmetry suggests an appealing
+shortcut: adapt a Kazakh model and inherit its Turkic competence.
+
+We built a benchmark to test that shortcut, and it does not work. Adapting a
+model to Kazakh makes it \emph{worse} at Azerbaijani than the model it was
+adapted from, beyond what general forgetting explains.
+
+The cause is the script, and relatedness has nothing to do with it. Turkish is
+a closer relative than Kazakh and shares the Latin alphabet; adapting to it
+costs Azerbaijani nothing. Russian is not related to Azerbaijani at all and is
+written in Cyrillic; adapting to it costs 8 to 10 points. Across nine measured
+pairs relatedness splits exactly evenly and predicts nothing, while every
+Latin-script target is harmless and four of five Cyrillic-script targets are
+not.
+
+Establishing that required a benchmark, and building the benchmark produced
+findings of its own. This paper reports both.
+
+\subsection{Where the problem actually lives}
+
+We measure 34 models, and the picture is not uniform. Among 28 open models of
+8B parameters or smaller, Azerbaijani trails English by 3.9 to 43.5 points,
+every gap significant at $p \le 0.0001$. Among five large models accessed
+through a commercial API, the gap narrows to between 3.7 and 15.2 points. A
+sixth API model, \texttt{qwen3-8b}, is the same size as the local class and
+behaves like it (27.5 points) despite full-precision serving.
+
+This is a more precise claim than ``Azerbaijani is poorly supported'', and we
+state it precisely because the imprecise version is now false. Three things
+follow.
+
+\paragraph{The problem is concentrated in the models people actually deploy
+locally} Low-resource language work is done disproportionately with open,
+small, quantised models: they run on one GPU, they cost nothing per call, and
+they can be used where data cannot leave the building. That is exactly the
+class where the gap is 20 to 40 points.
+
+\paragraph{At the very top the gap becomes hard to establish, and we report
+that rather than overstate it} For \texttt{gpt-4o} the Azerbaijani-English
+difference is 3.7 points with a bootstrap interval of $[1.0, 6.4]$, but it does
+not survive Holm correction within its family ($p = 0.10$), and under any
+looser normalisation the interval covers zero. We therefore claim a gap for the
+\emph{class} of models we measure, not for the single strongest one.
+
+Nor is the human baseline a ceiling. On the 50 items a speaker answered,
+\texttt{claude-sonnet-5} scores 74.0\% against the human's 70.0\%. The frontier
+is past the point where ``models cannot do Azerbaijani'' is a defensible
+summary, which is precisely why the interesting question is where the failure
+remains.
+
+\paragraph{Model size does not predict Azerbaijani ability}
+\texttt{qwen3-235b-a22b} is larger than every one of the four leading models
+yet its gap is three to four times wider. Four models from four independent
+organisations converge within 3.1 points of each other, while a much larger
+model sits far outside that band. Whatever produces Azerbaijani competence, it
+is not parameter count.
+
+\subsection{Contributions}
+
+\begin{enumerate}
+\item \textbf{AZ-Eval}, 1006 short-answer items stated in parallel Azerbaijani
+and English, to our knowledge the first open parallel, free-form set for the
+language, with every item human-verified as a gate rather than a label. An
+independent second annotator re-checked a stratified sample of 200 items;
+agreement was 93.5\% and the 11 items they rejected were removed.
+
+\item \textbf{A control stratum of 708 items} whose subject matter is universal
+by construction. Models demonstrably know these facts in English, so failure in
+Azerbaijani is a language failure, not a knowledge gap. The gap is \emph{wider}
+on this stratum, not narrower.
+
+\item \textbf{A nine-pair design crossing relatedness with script}, over six
+target groups, eight laboratories and seven distinct base models. Relatedness
+turns out to carry no predictive power; script carries eight of nine. The
+tokeniser is identical within six of the pairs, so the contrast holds with
+segmentation exactly constant. Two further pairs were declared and then
+excluded by measurement gates, and are reported rather than dropped.
+\namecite{ibrahimzade2026turkic} predicted a script effect for this language
+family six months earlier, in a framework paper with no experiments; this is
+its test.
+
+\item \textbf{A marker that separates every pair without exception}: whether
+the adapted model begins writing Azerbaijani in Cyrillic. All four damaged
+pairs do; none of the five undamaged pairs does, including the one
+Cyrillic-script target that causes no damage and a model adapted to three
+non-Latin scripts that also causes none. We report it as a marker rather than a
+mechanism, because transliteration recovers only part of the damage where the
+account predicts it should recover all of it. We further show that the standard
+word-level language-confusion detector is blind to this pair by construction,
+since the Turkish alphabet is a subset of the Azerbaijani one, and measure that
+it misses 92\% of these errors.
+
+\item \textbf{The scale result above}, including the negative finding that size
+does not predict the gap.
+
+\item \textbf{A set of documented negative results and measurement failures},
+because the ones that cost us the most time will cost others the same. One of
+them is a measurement that confirmed our hypothesis and was wrong, caught by
+reading raw model output rather than by any statistic.
+\end{enumerate}
+
+\subsection{What this paper is not}
+
+It is not a claim that frontier models cannot handle Azerbaijani. They handle
+it reasonably well, and we report the numbers that show it.
+
+It is not a scaling study. Six API models cannot establish a scaling law, and
+the largest of them contradicts the monotone reading anyway.
+
+It is not a general theory of script effects. Our Cyrillic evidence comes from
+two model pairs adapted to a single language by a single laboratory, and we say
+so in the limitations rather than generalising past it.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Related Work}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Azerbaijani is covered by existing benchmarks, but not in a way
+that can measure a language gap}
+
+We must be precise here, because the loose version of our motivation is false.
+Azerbaijani is \emph{not} absent from multilingual evaluation.
+
+TUMLU \cite{isbarov2025tumlu} is a natively developed benchmark for eight
+Turkic languages, middle- and high-school level, across eleven school subjects,
+totalling 38,139 four-choice items. Its Azerbaijani portion contributes 735
+items to the manually verified TUMLU-mini subset, which we import and audit.
+
+Our audit is not a criticism of that dataset; their own paper anticipates it,
+reporting that in languages such as Azerbaijani, where questions were
+community-developed, ``around 10\% of the questions were either invalid or had
+incorrect answers''. We retain 521 of 735 after filtering ten defect classes,
+which is consistent with that estimate and is why the imported rows carry
+\texttt{verified\_by: external} rather than \texttt{human}.
+
+INCLUDE \cite{romanou2025include} covers 44 written languages with 197,243 QA
+pairs drawn from local examinations. Azerbaijani is among them, with 6,937
+items, listed as Latin script, Turkic, and mid-resource.
+
+KazMMLU \cite{togmanov2025kazmmlu} is not about Azerbaijani but is central to
+our motivation: it provides 10,969 Kazakh and 12,031 Russian items. Kazakh has
+a resource that Azerbaijani lacked, and open Kazakh-adapted models exist. That
+asymmetry is precisely what makes ``adapt a Kazakh model'' an appealing
+shortcut, and what this paper tests.
+
+Two properties are shared by all three, and both matter for us.
+
+\emph{They are not parallel.} Items are developed natively or drawn from local
+exams, so there is no English counterpart of the same item. A model's
+Azerbaijani score can be compared to another model's Azerbaijani score, but not
+to its own English score on the same question. The quantity this paper
+measures, the within-model within-item language gap, cannot be computed from
+them.
+
+\emph{They are multiple choice.} This measures selection among given options,
+not production of an answer. The distinction is not cosmetic: on identical
+items from TUMLU-az, four models score 34.2 to 38.8 points higher under
+multiple choice than under short answer.
+
+That raw difference should not be read on its own, because guessing earns 25\%
+under four-way choice and close to nothing under free-form answering. The
+chance-immune version of the statistic is retention: of the items a model
+answers correctly in multiple choice, only 0.5\% to 10.3\% are also produced
+correctly in free form. Recognition and production are close to dissociated
+here, and a multiple-choice benchmark therefore overstates usable ability in
+the generation setting where these models are actually deployed.
+
+AZ-Eval is complementary rather than competing. It is smaller than either (1006
+items), and it is parallel and free-form, which is what the questions in this
+paper require.
+
+\subsection{Script and transliteration in cross-lingual transfer}
+
+A line of work establishes that script divergence obstructs transfer between
+related languages, and that transliteration to a shared script recovers part of
+it. \namecite{moosa2023transliteration} ask directly whether transliteration
+helps multilingual language modelling; \namecite{xhelili2024breaking} propose
+transliteration-based post-pretraining alignment and report improvements up to
+50\% on some tasks; RomanSetu \cite{husain2024romansetu} romanises inputs to
+unlock multilingual capability; and further work analyses why transliteration
+improves cross-lingual alignment.
+
+Our question is the mirror image of theirs, and it is the gap we fill. All of
+these study the \emph{pre-training} or \emph{alignment} stage and ask whether
+converting to a shared script improves transfer \emph{to the target language}.
+We ask what fine-tuning on a different-script relative does to a \emph{third}
+language, and we measure degradation rather than gain. To our knowledge that
+question has not been asked in this literature, which we verified by reading
+the alignment paper in full: it reports only improvements and does not measure
+harm to any language.
+
+Our transliteration result supports their mechanism from the other side.
+\texttt{Qolda-AVL-5B} produces 85.9\% of its Azerbaijani answers in Cyrillic,
+and transliteration more than doubles its score: the knowledge is present and
+the surface form is wrong.
+
+TUMLU already measures a script effect, on a different axis, and we must not
+present ours as the first. They build dual-script versions of their Kazakh,
+Crimean Tatar and Uzbek subsets and compare model accuracy across them (their
+Table 6). Their finding is that a model reads a language best in whichever
+script dominates its training corpus: Crimean Tatar is better in Latin, Kazakh
+better in Cyrillic, Uyghur better in Arabic.
+
+Their axis is the script of the \emph{input}, under multiple choice, with the
+model unchanged. Ours is the script of the \emph{output}, after adaptation,
+under free-form generation. The two are complementary, and theirs supplies the
+quantity that makes our mechanism concrete: in FineWeb 2 they count
+1,837,049,585 Cyrillic and \emph{zero} Latin Kazakh words. A model adapted to
+Kazakh is, in corpus terms, adapted to Cyrillic. That is the sharpest external
+support our script explanation has, and it comes from a benchmark paper rather
+than from us.
+
+They also observe, as we do, that generation is the harder setting: their
+conclusion notes that models understand these languages reasonably well but
+``are less capable of generating text in these languages''.
+
+\subsection{The strongest competing explanation: tokenisation, not script}
+
+\namecite{tufa2024unknown} conclude that the tokeniser is a stronger factor
+than shared script, language similarity, or model size. Read carelessly, this
+contradicts our central claim, and we treat it as the objection to beat rather
+than a citation to bury.
+
+Their setup differs from ours in three ways that matter. They use encoder
+models (BERT, RoBERTa, ALBERT, Arabic-BERT, mBERT, CANINE) on NER and POS
+tagging with Amharic as the target; they measure performance \emph{on the
+target language only}, never degradation of a third language after adaptation;
+and their tokeniser result emerges from comparisons \emph{across} six models
+whose tokenisers differ by construction.
+
+They and we do not measure the same quantity, and saying so is necessary rather
+than defensive. Their tokeniser variable is the \emph{algorithm class}: their
+Table 1 varies WordPiece, BPE, SentencePiece and character-level tokenisation
+across models. Ours is the \emph{vocabulary difference within a single
+base-tuned pair}, where the algorithm is identical by construction because the
+tuned model inherits its base's tokeniser. Their finding is that the algorithm
+class matters across models; ours is that within a pair where the vocabulary is
+also unchanged, the script contrast survives. These are compatible claims, and
+neither is evidence against the other.
+
+Our design holds the tokeniser constant \emph{within} a pair, and we verify
+that it is in fact constant rather than assuming it (Section 6.5). In the two
+pairs where it is, the Cyrillic-Latin contrast remains: $+9.8$ points of excess
+damage against $+1.5$.
+
+Their finding is therefore the reason our design controls what it controls, not
+evidence against the result.
+
+\subsection{Catastrophic forgetting, and how our measure relates to existing
+ones}
+
+That fine-tuning degrades previously acquired capabilities is well established
+\cite{mccloskey1989catastrophic,kemker2018measuring,luo2023empirical}. The
+closest work to ours measures it in the multilingual setting directly:
+\namecite{liu2025conditions} fine-tune translation models and plot
+per-language-pair performance before against after, and
+\namecite{koloski2023measuring} measure forgetting across chains of
+cross-lingual transfer.
+
+Normalised forgetting measures already exist, and we do not claim otherwise.
+Koloski et al. adopt the \namecite{kemker2018measuring} family, of which the
+relevant member is
+%
+\begin{align}
+\Omega_{\mathrm{base}} = \frac{1}{T}\sum_{i=1}^{T}
+    \frac{\alpha_{\mathrm{base},i}}{\alpha_{\mathrm{ideal}}}
+\end{align}
+%
+where $\alpha_{\mathrm{ideal}}$ is the model's own offline score. This is a
+\emph{ratio of a language to its own ideal}. Our excess damage is a
+\emph{difference between two languages} measured on the same items:
+%
+\begin{align}
+\Delta_{\mathrm{excess}} =
+    (\mathrm{AZ}_{\mathrm{before}} - \mathrm{AZ}_{\mathrm{after}}) -
+    (\mathrm{EN}_{\mathrm{before}} - \mathrm{EN}_{\mathrm{after}}).
+\end{align}
+%
+The distinction is not cosmetic. In Kemker's $\Omega$ and in Koloski et al.,
+the reference language is the \emph{source} language, which the model was
+trained on. In Liu and Niehues, forgetting is an absolute change per language
+pair against that pair's own pre-fine-tuning score. In our design \emph{neither}
+language is a fine-tuning target: Azerbaijani and English are both bystanders,
+and one bystander calibrates the other. We have not found that construction in
+this literature, and we state the claim at that resolution rather than claiming
+to have invented forgetting normalisation.
+
+The literature also justifies the choice. Absolute Azerbaijani loss is not
+interpretable alone, because some of it is ordinary forgetting; using the
+model's own English degradation as the baseline subtracts it. This is what
+explains one of our pairs. \texttt{Trendyol} loses 26.9 points in English,
+which is textbook catastrophic forgetting rather than Azerbaijani-specific
+harm, and is why its excess damage is strongly negative without Azerbaijani
+being spared.
+
+\subsection{Language confusion is a known failure with known metrics}
+
+Our second failure mode, an Azerbaijani prompt answered in Turkish, is not a
+new observation, and an earlier draft of this paper overstated it by saying no
+metric catches it. That is false as stated, and the corrected version is
+sharper.
+
+\namecite{marchisio2024language} name the phenomenon \emph{language confusion},
+build the Language Confusion Benchmark over 15 languages, and define
+line-level and word-level pass rates (LPR, WPR) using off-the-shelf language
+identification. Liu and Niehues report LangID accuracy for the same purpose and
+observe it collapse to 22.1\% on unseen pairs. The failure mode is established
+and measured.
+
+What we add is that these detectors are structurally blind to the Azerbaijani
+and Turkish case. For languages in Latin script, Marchisio et al. define
+word-level detection as the presence of a character outside the target script's
+Unicode range. The Turkish alphabet's 29 letters are a subset of Azerbaijani's
+32; Azerbaijani adds only \texttt{ə}, \texttt{x} and \texttt{q}. A word written
+in Turkish orthography therefore cannot leave the Azerbaijani range, and the
+detector is silent by construction rather than by accident.
+
+We measured this rather than arguing it. Applying the rule to our 159
+human-labelled errors, it fires on 2 of the 24 wrong-language rows and misses
+92\%. Both rows it catches contain \texttt{w}, a letter in neither alphabet, so
+the two hits are English intrusions and not the Turkish confusion at issue.
+
+\begin{table}[h!]
+\caption{The word-level language-confusion rule applied to our human-labelled
+errors. It is silent by construction on the Azerbaijani-Turkish pair.}
+\label{tab:confusion-related}
+\centering
+\begin{tabular}{lr}
+\toprule
+ & $n$ \\
+\midrule
+Human-labelled errors & 159 \\
+Labelled wrong-language & 24 \\
+Word-level rule fires & 2 \\
+Missed & 22 (92\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Azerbaijani is not among the benchmark's 15 languages, which is consistent with
+this being an untested configuration rather than a known limitation.
+
+We do not extend the claim to the line-level rule. That rule splits a response
+into lines and checks each with fastText, whereas our answers average 1.34
+words; fastText is not installed in our environment and we therefore assert
+nothing about how it would behave on this pair.
+
+\subsection{The closest prior work is Turkic-specific, and one paper predicts
+our result without testing it}
+
+Three 2026 papers work on cross-lingual transfer within the Turkic family, and
+they are the nearest neighbours of this study.
+
+\namecite{ibrahimzade2026turkic} develop a theoretical framework for adaptation
+across Azerbaijani, Kazakh, Uzbek, Turkmen and Gagauz. They propose a Turkic
+Transfer Coefficient combining morphological similarity, lexical overlap,
+syntactic structure and \emph{script compatibility}, and they predict that
+``Kazakh demonstrates somewhat lower TTC values with the Latin-script languages
+due to the continued use of Cyrillic orthography'', and that ``orthographic
+divergence, particularly the coexistence of Latin and Cyrillic scripts, may
+partially reduce effective transfer despite high morphological similarity''.
+
+That is close to our hypothesis, in our language family, stated six months
+earlier. It is also explicitly untested: they write that ``the goal is not to
+report experimental outcomes, but rather to establish a conceptual model'', and
+the paper contains no experiments. We therefore present this work as the
+empirical test of a published prediction rather than as an independent idea.
+
+The test returns a verdict favourable to the script half of their coefficient
+and unfavourable to the typological half. Their TTC combines script
+compatibility with morphological and lexical similarity, so it predicts that a
+typologically close, script-compatible target transfers best and that
+typological distance costs something. Across nine pairs we find that script
+compatibility does the work and typological similarity does none: Turkish, the
+most similar target available, costs Azerbaijani nothing, while Russian, about
+as distant as a target can be, costs 8 to 10 points.
+
+The concrete amendment our measurement supports is therefore to weight the
+script term heavily and the typological terms near zero, at least for damage to
+a third language. One of our nine pairs (Ukrainian) is script-incompatible and
+costs nothing, so even the script term is not deterministic.
+
+\namecite{cinar2026turkic} build pairwise transfer matrices for machine
+translation among Turkish, Azerbaijani, Uzbek, Kazakh and Kyrgyz with mT5, and
+report that latinisation improves BLEU and chrF when the transfer target is
+Cyrillic, by as much as 63.6\% BLEU for Azerbaijani to Kyrgyz. Their
+transliteration acts on the \emph{input} of a translation system; ours acts on
+the \emph{output} of a generative model that has already been adapted. Their
+finding that transfer is strongest for Turkish-Azerbaijani also underwrites our
+design choice: Turkish is the closer relative, which is why a relatedness
+account predicts the Turkish pairs should be the damaging ones.
+
+\namecite{zhang2026script} compares two script-unification schemes,
+general-purpose romanisation against the family-specific Common Turkic Script,
+using fastText on eleven Turkic languages evaluated on NER and POS. Like the
+transliteration literature above, the aim is to \emph{improve} transfer by
+removing script differences, not to measure what script differences destroy.
+
+None of the three measures degradation of a language that is not a target of
+the adaptation, and none evaluates free-form generation.
+
+\subsection{A finding that points the other way, and why we report it}
+
+\namecite{khelli2025knowledge} study knowledge loss across 52 languages with
+XLM-R and LoRA adapters on MASSIVE slot filling, and conclude that languages
+written in Latin script are strong donors and stable receivers, suffering less
+catastrophic forgetting than non-Latin ones.
+
+Read naively, this predicts that Azerbaijani, a Latin-script language, should
+be relatively safe, and in four of our nine pairs it is not. The resolution is
+that we are not varying the same thing. Their variable is the script of the
+language being \emph{forgotten}; ours is the script of the language being
+adapted \emph{to}. A Latin-script bystander enjoys no protection when the
+adaptation target is Cyrillic, because the damage arrives through what the
+model is being taught to write rather than through what it is being asked to
+retain. Their design contains no case where the target and the bystander differ
+in script, so the two results do not actually conflict.
+
+Their models are also encoders performing sequence labelling, and Azerbaijani
+is not among their 52 languages. We report the tension rather than omit it,
+because a reader who knows that paper will otherwise think we do not.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{AZ-Eval}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Design}
+
+AZ-Eval contains 1006 short-answer items, each stated in parallel Azerbaijani
+and English. Parallelism is the property that makes the central measurement
+possible: without it there is no within-item comparison, and a language gap
+cannot be separated from a difficulty difference.
+
+\begin{table}[h!]
+\caption{AZ-Eval at a glance.}
+\label{tab:dataset}
+\centering
+\begin{tabular}{lr}
+\toprule
+Items & 1006 \\
+Control stratum & 708 (70\%) \\
+Majority baseline & 0.8\% \\
+Distinct answers & 748 under scoring normalisation (769 surface forms) \\
+Mean answer length & 1.34 words \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Categories} Mathematics 264, geography 188, science 179, culture
+109, world 104, language 85, history 77.
+
+\paragraph{Provenance} \texttt{wikidata-template} 524,
+\texttt{computed-template} 236, \texttt{manual} 246.
+
+Answers are short by design. A one- or two-word answer can be scored by exact
+match under an explicit normalisation policy; a sentence cannot, and any
+attempt to score sentences would measure instruction-following rather than
+knowledge. We return to this in Section 4.1.
+
+\subsection{Human verification is a build gate}
+
+The field \texttt{verified\_by} is not metadata. \texttt{build\_dataset}
+refuses to emit any row whose value is not \texttt{human}, so the claim ``every
+item was checked'' is enforced by the code that produces the artefact rather
+than asserted in the paper.
+
+Rejected drafts are retained under \texttt{data/raw/} with the reason recorded,
+because the acceptance rate is itself a quality statistic and discarding
+rejections would destroy it.
+
+A separate state, \texttt{external}, marks rows verified by the authors of an
+outside dataset and audited by us but not individually re-verified. Such rows
+never enter the final dataset. Calling them \texttt{pending} would have hidden
+the external verification; calling them \texttt{human} would have claimed work
+we did not do.
+
+\subsection{The control stratum}
+
+The most predictable objection to a benchmark for a low-resource language is
+that its items are locally specific, so a model fails in that language because
+it does not know the fact in any language. The control stratum answers this:
+708 items whose subject matter is universal by construction: world capitals and
+currencies, chemical elements, and computed mathematics.
+
+Membership is decided by \emph{template}, not by category label. A category
+label is too coarse: \texttt{geography} contains both ``the capital of Russia''
+and ``the mouth of the Oxchuchay'', and only the first is universal. The
+\texttt{country\_capital} template, by contrast, harvests world countries under
+a \texttt{sitelinks >= 8} filter and is universal by construction regardless of
+the label its rows carry.
+
+One universal template is deliberately excluded.
+\texttt{language\_writing\_system} asks which script a language uses; since the
+paper's central claim concerns script, including such items in the control
+stratum would create an unnecessary coupling. Sixteen items are lost and an
+argument is gained.
+
+\subsection{Contamination-proof items}
+
+236 items are produced by algorithm from 20 question families (polygon angles,
+$n$th prime, remainder, binary to decimal, and so on), in four syntactic
+variants each, and were created \emph{after} every model reported here. They
+cannot appear in any training corpus, because they did not exist.
+
+Correctness is verified two independent ways: a second implementation inside
+the test suite that deliberately avoids the generator's own method (subtraction
+instead of \texttt{\%}, an explicit loop instead of a closed form, bit-by-bit
+accumulation instead of \texttt{int(x, 2)}), and separately with \texttt{sympy}.
+Both report zero errors.
+
+Answers never appear inside their own question; the generator drops any item
+where the answer string occurs in the question text.
+
+Numeric answers bypass the morphological alias generator, which treats every
+digit sequence as a year and would accept ``180-ci il'' (``the year 180'') for
+a question about degrees.
+
+\subsection{An imported subset, audited}
+
+The Azerbaijani portion of TUMLU-mini (521 items, CC BY 4.0) is imported for
+one purpose only: a format contrast between multiple choice and short answer on
+identical items. Importing another dataset means importing its defects, so the
+rows were audited for ten defect classes (\texttt{comma\_split},
+\texttt{broken\_decimal}, \texttt{duplicate\_choice}, \texttt{meta\_answer},
+\texttt{answer\_in\_question}, and others). The correct option is placed at
+each position in turn, so the uniform answer distribution is a property of
+construction rather than luck.
+
+These rows carry \texttt{verified\_by: external} and are not part of the 1006.
+
+\subsection{Quality measured from outside}
+
+A stratified sample of 200 items was re-checked by a second annotator who had
+not seen the dataset. Their file carried no trace of the first annotator's
+decision: \texttt{verified\_by}, \texttt{notes} and \texttt{source} were
+removed, because the template name and source URL would have biased the
+judgement. This is enforced by a test.
+
+\begin{table}[h!]
+\caption{Independent re-check of a stratified sample of 200 items.}
+\label{tab:agreement}
+\centering
+\begin{tabular}{lr}
+\toprule
+Agreement & 93.5\% \\
+Flagged & 13 (6.5\%) \\
+Removed after review & 11 (5.5\%) \\
+Retained after review & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The number is credible in both directions: zero rejections would indicate an
+easy sample or an inattentive pass, and a high rate would indicate a poor
+dataset.
+
+One rejection led to a \emph{systematic} fix. The annotator rejected an item
+reading ``Find the third angle: 47 degrees and 63 degrees'' on the grounds that
+the figure is never named, so the answer is undetermined. Inspection showed
+this was not a single bad row but one variant of a generator family, affecting
+three items in both languages. The template was corrected.
+
+The statistic is asymmetric and we say so. Every row in the dataset was
+accepted by the first annotator, so their label is always ``correct'' and
+Cohen's kappa reduces to a function of the second annotator's rejection rate. A
+symmetric measurement would require both annotators to judge the same rows from
+scratch, blind to each other; that is future work.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Method}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Prompting and decoding}
+
+All models receive the same prompt in the language of the question, with two
+few-shot examples and an explicit instruction to answer briefly. Decoding is
+greedy with a fixed seed and a 32-token budget.
+
+The few-shot examples are not decoration. With instruction alone, one model
+answered eight of eight questions correctly in substance while scoring 1/8,
+because it produced ``The capital of France is Paris'' rather than ``Paris''.
+Such a number measures output format, not knowledge. The two example facts do
+not appear in the dataset.
+
+The Azerbaijani and English prompts ask about the same two example facts,
+because differing examples would leak a difficulty difference into the language
+comparison.
+
+\subsection{Four nested normalisations}
+
+Exact match requires an explicit policy about what counts as the same answer.
+Ours is a chain, and each link adds exactly one transformation:
+
+\begin{displaytext}
+STRICT $\rightarrow$ MORPH \quad + suffix stripping\\
+MORPH $\rightarrow$ LENIENT \quad + diacritic folding\\
+LENIENT $\rightarrow$ TRANSLIT \quad + Cyrillic-to-Latin transliteration
+\end{displaytext}
+
+Every transformation is applied symmetrically to prediction and gold. Because
+the chain is nested, the question ``which step recovered this error'' has
+exactly one answer, and that answer identifies the cause. The chain is
+therefore the paper's measuring instrument, not merely a cleanup step, and
+Section 7 reads it as such.
+
+Accepted-answer sets are additionally expanded by rule-based Azerbaijani
+morphological generation, so that inflected forms of a correct answer are
+credited.
+
+\subsection{Statistics}
+
+All model comparisons are paired at the item level. We report percentile
+bootstrap confidence intervals (1000 resamples, fixed seed) and $p$ values from
+a sign-flipping permutation test. Multiple comparisons are corrected by the
+Holm procedure \cite{holm1979simple}.
+
+\subsection{Confirmatory and exploratory families are separated}
+
+This is the paper's main methodological commitment and it is stated openly.
+
+The analysis code compares every model pair it encounters and applies Holm
+correction across that list. When fourteen models were added for breadth, the
+family grew to 474 tests and the $p$ value of the project's founding hypothesis
+drifted from 0.018 to 0.047, even though those fourteen models do not test that
+hypothesis at all.
+
+Penalising a pre-declared hypothesis for exploratory tests added later is
+wrong. The declared pairs therefore form their own family of 88 tests (11 pairs
+$\times$ 4 chains $\times$ 2 languages), corrected within it. The exploratory
+sweep is not deleted: it remains in the tables and is corrected within its own
+family.
+
+This is not narrowing a family until a result appears. The pair list is fixed
+in the module and in the commit history, and it predates the sweep. When a
+fourth pair was added the family grew from 24 to 32 tests, and when a fifth was
+added it grew to 40. Each enlargement makes Holm \emph{stricter}: growing a
+family can only cost significance, never grant it. The fifth pair was declared
+before its result was computed, for a reason given in Section 6.1.
+
+\subsection{Coverage gate}
+
+A run covering less than 90\% of the dataset is excluded from comparison
+tables. The reason is that a truncated run is not a random sample: the
+evaluation walks the dataset in order, so a 22-row run consists of the first 22
+rows, which are template-built capital-city questions and systematically
+easier. Such a run scores 83\% where the complete run scores 16\%.
+
+Printing an $N$ column is not sufficient protection, because readers compare
+percentages that sit side by side.
+
+\subsection{Degenerate runs are not measurements}
+
+A run in which more than 20\% of raw responses are empty is excluded from the
+robustness comparison. If a model emitted nothing, there is nothing to score.
+
+This rule is not tuned to a result. It was introduced after a hybrid reasoning
+model, asked without few-shot examples, returned empty content on 42.7\% of
+English items, which collapsed its English score and made the language gap
+appear to vanish. The gap did not vanish because Azerbaijani improved; it
+vanished because the English side broke. Reporting that as evidence about the
+hypothesis would have been wrong.
+
+Measured across all runs before the rule was adopted: 53 of 56 had exactly zero
+empty responses, one model unable to do the task at all had 79-84\%, and the
+degenerate condition had 42.7\%. The gate creates no borderline cases.
+
+The rate is computed on \emph{raw} text rather than extracted answers: an empty
+extraction may indicate a defective extractor, whereas empty raw text means the
+model produced nothing.
+
+\subsection{Three more ways a run stops being a measurement}
+
+A run in which more than 20\% of responses begin by repeating a few-shot
+example answer is likewise excluded. The pathology is that the model emits the
+example answers on their own lines and only then the real one, so an extractor
+that takes the first line scores a correct answer as wrong.
+
+This gate was added after it cost us a result. One model did this on 67.8\% of
+Azerbaijani items and 0\% of English items, which broke one side of a two-sided
+comparison and produced 7.0 points of excess damage where the correct value is
+0.1. Section 6.6 reports the episode.
+
+The rule is derived from the production prompt templates rather than restated:
+a response counts as an echo when it has more than one line and its first line
+appears in the prompt prefix that the run itself was given. Restating the
+example answers in the checking code would let a template change slip past the
+gate unnoticed.
+
+Measured across all runs, one exceeds the threshold at 68.2\% and the next
+highest is 8.7\%, so the gate creates no borderline cases. As with the
+empty-response rule, the threshold was chosen from a gap in the data rather
+than tuned to a result.
+
+A second variant of the same pathology has to be checked separately. Some
+models return the \emph{question} instead of an answer. That is not caught by
+the rule above, because such a response is a single line and matches the
+question rather than the examples, so we detect it by comparing each response
+against the question the item actually posed.
+
+This rule found a run we had already excluded for a different reason. The
+\texttt{zeroshot} condition that produced 42.7\% empty English responses
+(Section 8.1) also repeats the Azerbaijani question in 31.4\% of items. Two
+independent gates rejecting the same run is a useful sign that neither is
+arbitrary.
+
+A third gate generalises both. Whatever the model does wrong, the consequence
+is the same: the answer is present in the text and does not reach the score. We
+therefore measure the share of scored-wrong items whose gold answer appears in
+the raw response. Over 106 runs the distribution is one run at 42.4\% and then
+a 26-point gap down to 16.4\%, so the threshold sits at 30\%, inside the only
+gap the data contains. A first attempt at 15\% was wrong: it fell in the middle
+of the dense cluster and made five runs borderline.
+
+Response \emph{length} is deliberately not the rule. \texttt{Mistral-7B-v0.1}
+answers in full sentences on 100\% of English items and still scores 52.6\%,
+because the extractor handles them. The pathology is a lost answer, not a long
+one.
+
+Figure~\ref{fig:gates} shows what each of the five gates actually removed.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.72\textwidth]{figures/fig_gates.pdf}
+\caption{Runs surviving each measurement gate, applied in order to all 106
+runs. Every gate excluded something, which is why none of them is decoration.
+The gates are applied before any result is read, not after.}
+\label{fig:gates}
+\end{figure}
+
+\subsection{Generation is separate from scoring}
+
+\texttt{run\_eval.py} writes raw model output only; all scoring happens in
+\texttt{analyze.py}. A change to a scoring rule therefore never requires
+re-running a model, and every historical run can be re-scored under a new rule.
+
+\subsection{Two protocol constraints for API models}
+
+Hybrid reasoning models must have reasoning disabled. Otherwise the 32-token
+budget is consumed by internal reasoning and the visible answer is empty; we
+measured 9 empty responses out of 10 in that condition. The local reasoning
+model is run with reasoning disabled for the same reason, so this preserves
+comparability rather than saving cost.
+
+Some endpoints do not permit it. Three we intended to include return
+\texttt{Reasoning is mandatory for this endpoint and cannot be disabled}.
+Raising the token budget for those models alone would have made them
+incomparable with the other 28, so they were excluded rather than run under
+different conditions. We record this because it is a practical obstacle for
+anyone building a short-answer benchmark today, not a property of our setup.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Azerbaijani-English Gap}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{The gap is present in every model we measured}
+
+We evaluate 28 open models from 22 independent organisations on all 1006 items,
+under identical greedy decoding and 4-bit quantisation. Every model scores
+lower in Azerbaijani than in English, and every gap is significant at
+$p \le 0.0001$ under a paired sign-flipping permutation test.
+
+\begin{table}[h!]
+\caption{Open models, all 1006 items, STRICT normalisation. The English column
+is printed beside the gap because a small gap in a model that cannot do the
+task in English carries no information.}
+\label{tab:open-models}
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Model & AZ & EN & Gap & 95\% CI \\
+\midrule
+\texttt{Qwen3.5-4B-Base} & 37.5\% & 60.0\% & 22.4 & [19.5, 25.3] \\
+\texttt{Meta-Llama-3-8B} & 33.7\% & 52.6\% & 18.9 & [16.4, 21.5] \\
+\texttt{Qwen3-VL-4B-Thinking} & 27.9\% & 55.2\% & 27.4 & [24.2, 30.3] \\
+\texttt{Qwen3-VL-4B-Instruct} & 27.1\% & 54.6\% & 27.6 & [24.3, 30.4] \\
+\texttt{Turkish-Llama-8b-v0.1} & 23.5\% & 44.0\% & 20.4 & [17.7, 23.3] \\
+\texttt{gemma-3-4b-it} & 20.5\% & 46.9\% & 26.4 & [23.2, 29.8] \\
+\texttt{Mistral-7B-v0.1} & 17.2\% & 52.6\% & 35.4 & [32.5, 38.3] \\
+\texttt{Qwen3.5-4B-Base-Kazakh} & 17.1\% & 50.1\% & 33.0 & [30.0, 36.2] \\
+\texttt{Phi-4-mini-instruct} & 11.2\% & 44.6\% & 33.4 & [30.4, 36.4] \\
+\texttt{aya-expanse-8b} & 11.1\% & 47.4\% & 36.3 & [33.2, 39.4] \\
+\texttt{Qwen3-1.7B} & 6.5\% & 28.6\% & 22.0 & [19.1, 24.7] \\
+\texttt{Trendyol-LLM-7b-base-v1.0} & 6.3\% & 25.8\% & 19.4 & [16.7, 22.2] \\
+\texttt{mGPT} & 5.6\% & 14.7\% & 9.1 & [7.0, 11.1] \\
+\texttt{Qolda-AVL-5B} & 4.4\% & 41.5\% & 37.1 & [33.8, 40.2] \\
+\texttt{Phi-3.5-mini-instruct} & 3.1\% & 46.6\% & 43.5 & [40.3, 46.5] \\
+\texttt{next-1b} & 2.7\% & 16.6\% & 13.9 & [11.7, 16.2] \\
+\texttt{Falcon3-3B-Instruct} & 1.4\% & 34.3\% & 32.9 & [29.9, 36.0] \\
+\texttt{granite-3.1-2b-instruct} & 0.3\% & 32.2\% & 31.9 & [28.9, 34.5] \\
+\texttt{stablelm-2-1\_6b-chat} & 0.2\% & 7.6\% & 7.4 & [5.7, 9.1] \\
+\texttt{EuroLLM-1.7B-Instruct} & 0.1\% & 17.3\% & 17.2 & [14.9, 19.6] \\
+\texttt{SmolLM2-1.7B-Instruct} & 0.0\% & 24.6\% & 24.6 & [21.9, 27.6] \\
+\texttt{bloomz-1b7} & 0.0\% & 3.9\% & 3.9 & [2.8, 5.1] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two readings of this table are wrong and we rule them out explicitly.
+
+\paragraph{A small gap does not indicate good Azerbaijani support}
+\texttt{bloomz-1b7} has the smallest gap in the table (3.9 points) because it
+scores 3.9\% in English: it has nothing to lose. The gap is interpretable only
+for models that can do the task in English at all, which is why the English
+column is printed beside it rather than in a separate table.
+
+\paragraph{The gap is not a small-model artefact} The strongest Azerbaijani
+model, \texttt{Qwen3.5-4B-Base}, still loses 22.4 points, and the strongest
+English model in the set loses more, not less.
+
+\subsection{The gap is a language gap, not a knowledge gap}
+
+The most natural objection to a benchmark of this kind is that the items are
+locally specific, so that a model fails in Azerbaijani because it does not know
+the fact in any language. We answer this with a control stratum of 708 items
+(70\% of the dataset) whose subject matter is universal by construction: world
+facts, chemical elements, and computed mathematics. Models demonstrably know
+these facts in English.
+
+On the control stratum the gap does not shrink. It widens.
+
+\begin{table}[h!]
+\caption{The gap on all items against the gap on the control stratum, whose
+subject matter is universal by construction.}
+\label{tab:control}
+\centering
+\begin{tabular}{lrr}
+\toprule
+Model & Gap, all items & Gap, control stratum \\
+\midrule
+\texttt{Phi-3.5-mini-instruct} & 43.5 & \textbf{59.9} \\
+\texttt{Qolda-AVL-5B} & 37.1 & \textbf{50.4} \\
+\texttt{aya-expanse-8b} & 36.3 & \textbf{48.7} \\
+\texttt{Qwen3.5-4B-Base} & 22.4 & \textbf{29.5} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The failure is therefore in producing Azerbaijani, not in possessing the
+knowledge.
+
+\subsection{The gap does not come from the composition of the dataset}
+
+Mathematics is the largest category (264 of 1006 items, 26\%), and the gap is
+widest there, so the headline number could in principle be inflated by
+composition. We tested this by removing the largest category and recomputing.
+
+\begin{table}[h!]
+\caption{Removing the largest category makes the gap larger, not smaller.}
+\label{tab:composition}
+\centering
+\begin{tabular}{lrr}
+\toprule
+Subset & $n$ & Mean gap \\
+\midrule
+all items & 1006 & 24.7 \\
+without mathematics & 742 & \textbf{25.6} \\
+control stratum & 708 & 33.7 \\
+control stratum without mathematics & 464 & \textbf{39.0} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Removing mathematics makes the gap larger, not smaller. Mathematics dilutes the
+effect rather than driving it, and the reason is mechanical: a mathematics
+answer is usually a numeral, and numerals have no alphabet, so the orthographic
+failure mode described in Section 7 cannot operate there.
+
+\subsection{The gap narrows sharply with model strength}
+
+All 22 models above are 8B parameters or smaller and were run in 4-bit
+quantisation, so the obvious question is whether the gap is an artefact of
+small open models. We therefore measured six further models through a
+commercial routing API under the identical protocol: same items, same prompt,
+same 32-token budget, greedy decoding. Five are substantially larger; the
+sixth, \texttt{qwen3-8b}, is deliberately the same size as the local class but
+served at full precision, which makes it the control for quantisation.
+
+\begin{table}[h!]
+\caption{Models served through a commercial routing API, under the identical
+protocol. The best local model is repeated for reference.}
+\label{tab:api-models}
+\centering
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Model & Organisation & AZ & EN & Gap & 95\% CI \\
+\midrule
+\texttt{gpt-4o} & OpenAI & 66.7\% & 70.4\% & \textbf{3.7} & [1.0, 6.4] \\
+\texttt{claude-sonnet-5} & Anthropic & 65.5\% & 71.0\% & \textbf{5.5} & [3.0, 7.8] \\
+\texttt{deepseek-v3.2} & DeepSeek & 64.1\% & 70.0\% & \textbf{5.9} & [3.5, 8.3] \\
+\texttt{llama-4-maverick} & Meta & 63.6\% & 68.5\% & \textbf{4.9} & [2.6, 7.5] \\
+\texttt{qwen3-235b-a22b} & Alibaba & 48.8\% & 64.0\% & 15.2 & [12.0, 18.2] \\
+\texttt{qwen3-8b} & Alibaba & 28.1\% & 55.7\% & 27.5 & [24.6, 30.4] \\
+\midrule
+\texttt{Qwen3.5-4B-Base} (local, best) & Alibaba & 37.5\% & 60.0\% & 22.4 & [19.5, 25.3] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Three findings follow, and the second is the one we consider most useful.
+
+\paragraph{The gap narrows sharply, and at the very top we stop being able to
+establish it} It falls from 27.5 points at 8B to 3.7 points for
+\texttt{gpt-4o}. That last value is where the honest reading matters. Its
+bootstrap interval, $[1.0, 6.4]$, excludes zero; its Holm-corrected $p$ within
+the exploratory family is 0.10, which does not. Under any looser normalisation
+chain the interval covers zero as well ($[-0.6, 4.6]$ at LENIENT).
+
+We therefore do not claim a gap for \texttt{gpt-4o} individually. What the six
+models support is a claim about the class: five of the six show Holm-significant
+gaps, and the trend across them is clear. Declaring the sixth significant on an
+uncorrected interval would contradict the correction policy we set out in
+Section 4.4, and we are not willing to apply that policy selectively.
+
+\paragraph{The human baseline is not a ceiling either, and an earlier draft of
+this section said it was} On the 50 items answered by a speaker,
+\texttt{claude-sonnet-5} scores 74.0\% against the human's 70.0\%. Comparing
+\texttt{gpt-4o}'s 66.7\% on 1006 items with a 50-item human figure, as we
+previously did, is not a valid comparison in the first place; the matched-item
+table is the one to read.
+
+\paragraph{Size alone does not predict the gap} \texttt{qwen3-235b-a22b} is
+far larger than any of the four leading models yet its gap is three to four
+times wider (15.2 against 3.7-5.9), and it is the only one of the six that
+produced empty responses. In the other direction, \texttt{qwen3-8b} at full
+precision through the same API shows a 27.5-point gap, close to its 4-bit local
+peers, so neither the serving stack nor quantisation accounts for the
+difference between the groups. Azerbaijani competence therefore does not arrive
+automatically with scale; it appears to depend on what the training mixture
+contains. For a practitioner choosing a model for Azerbaijani, parameter count
+is a poor proxy.
+
+\paragraph{The narrow gap is not one laboratory's peculiarity} Four models
+from four independent organisations, trained on different data, land in a band
+of 3.1 points in Azerbaijani (63.6 to 66.7) and 2.2 points on the gap (3.7 to
+5.9). Convergence this tight across OpenAI, Anthropic, DeepSeek and Meta is not
+plausibly a property of any single training pipeline.
+
+\paragraph{Caveats, stated plainly} These six runs used a routing API, so the
+serving stack is not under our control and four of the six are not open
+weights; they are reported separately from the 28 open models for that reason.
+\texttt{qwen3-235b-a22b} returned empty content on 59 Azerbaijani and 13
+English items (5.9\% and 1.3\%); excluding those rows its gap is 12.0 rather
+than 15.2, and we report both.
+
+\paragraph{A protocol limitation worth recording} Three endpoints we intended
+to include (\texttt{gpt-5}, \texttt{gpt-5-mini},
+\texttt{gemini-3.1-pro-preview}) refuse to disable reasoning, returning
+\texttt{Reasoning is mandatory for this endpoint and cannot be disabled}. Under
+a 32-token budget the entire allowance is consumed by internal reasoning and
+the visible answer is empty. Raising the budget for those models alone would
+have made them incomparable with the other 28, so they were excluded rather
+than run under different conditions. Short-answer benchmarking of such
+endpoints is not currently possible without changing the protocol for every
+model.
+
+\subsection{The dataset is solvable}
+
+A benchmark that no one can solve does not measure models; it merely holds all
+of them near zero. We therefore measured a human baseline on a stratified
+sample of 50 items, answered by a speaker who had not seen the dataset, under
+the same scoring pipeline as the models and with lookup prohibited.
+
+\begin{table}[h!]
+\caption{Human baseline on a stratified sample of 50 items, scored under the
+same pipeline as the models. The table is printed in full because showing only
+the models below the human would support a claim the data does not.}
+\label{tab:human}
+\centering
+\begin{tabular}{lr}
+\toprule
+ & Score on the same 50 items (TRANSLIT) \\
+\midrule
+\texttt{claude-sonnet-5} & \textbf{74.0\%} \\
+\textbf{Human} & \textbf{70.0\%} \\
+\texttt{deepseek-v3.2} & 68.0\% \\
+\texttt{llama-4-maverick} & 66.0\% \\
+\texttt{gpt-4o} & 66.0\% \\
+\texttt{qwen3-235b-a22b} & 52.0\% \\
+\texttt{Qwen3.5-4B-Base} (best local) & 36.0\% \\
+six models & 0.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The human left 7 of 50 items blank (14\%), and blanks are scored as errors, so
+this figure is a lower bound on human performance under the stated rules.
+
+The baseline establishes solvability, not a ceiling, and the table is printed
+in full for that reason. One model scores above the human and three more sit
+within four points. Showing only the models below the human would have made the
+same data support a claim it does not support.
+
+We report a correction here. An earlier version of this baseline was answered
+by the dataset's own author, who had seen every item and left 59\% blank,
+scoring 26.5\%; from that measurement we had concluded that the dataset was
+hard for humans too. That conclusion was an artefact of a compromised
+measurement and does not survive an independent annotator.
+
+\paragraph{Limitation} One annotator, 50 items, wide interval. The figure
+establishes that the task is solvable; it does not establish a precise ceiling.
+
+\subsection{Multiple choice and free-form answering are close to dissociated}
+
+The imported TUMLU-az rows exist for one measurement: the same 521 items put to
+the same models in both formats, under identical decoding. This is what
+justifies building a free-form set when multiple-choice sets for the language
+already exist.
+
+\begin{table}[h!]
+\caption{The same 521 items in both formats. The raw difference overstates the
+effect, because four-way choice pays 25\% for guessing.}
+\label{tab:format}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Model & MCQ & Short answer & Difference \\
+\midrule
+\texttt{Qwen3-1.7B} & 37.0\% & 2.9\% & $+34.2$ \\
+\texttt{Qwen3-VL-4B-Instruct} & 44.9\% & 7.5\% & $+37.4$ \\
+\texttt{Qwen3-VL-4B-Thinking} & 43.2\% & 5.8\% & $+37.4$ \\
+\texttt{Qolda-AVL-5B} & 39.0\% & 0.2\% & $+38.8$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All four differences have $p = 0.0001$. The raw difference overstates the
+effect and we do not rest the claim on it, because four-way choice pays 25\%
+for guessing while free-form answering pays almost nothing.
+
+The chance-immune statistic is retention: among the items a model answers
+correctly under multiple choice, how many does it also produce correctly in
+free form?
+
+\begin{table}[h!]
+\caption{Retention: of the items a model recognises under multiple choice, the
+share it also produces correctly in free form.}
+\label{tab:retention}
+\centering
+\begin{tabular}{lrr}
+\toprule
+Model & Correct under MCQ & Also correct free-form \\
+\midrule
+\texttt{Qwen3-1.7B} & 193 & 3.6\% \\
+\texttt{Qwen3-VL-4B-Instruct} & 234 & 10.3\% \\
+\texttt{Qwen3-VL-4B-Thinking} & 225 & 10.2\% \\
+\texttt{Qolda-AVL-5B} & 203 & 0.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Nine out of ten items a model can recognise, it cannot produce. The two formats
+are therefore not two ways of measuring one ability, and a multiple-choice
+score is not a usable estimate of what a model will do when asked to answer.
+
+This also bears on \texttt{Qolda-AVL-5B} specifically. Its 0.5\% retention
+rises to 3.4\% under transliteration, which is the same orthographic story
+reported in Section 7 appearing in an independent dataset.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Relatedness or Script?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{The question}
+
+Two open models adapted to Kazakh degrade sharply in Azerbaijani. Kazakh
+differs from Azerbaijani in two ways at once: it is a related Turkic language,
+and it is written in Cyrillic where Azerbaijani uses Latin. No conclusion about
+cause is possible while both factors move together.
+
+We separate them with eleven declared fine-tuning pairs, nine of which pass our
+measurement gates. Each is a base model and a variant adapted from it, and they
+cross two factors: whether the adaptation target is genealogically related to
+Azerbaijani, and whether it shares its script.
+
+\begin{table}[h!]
+\caption{The nine pairs that pass every measurement gate. Turkish is a
+\emph{closer} relative than Kazakh while sharing Azerbaijani's script, so a
+relatedness account predicts more damage from the Turkish pairs, not less.}
+\label{tab:pairs-design}
+\centering
+\footnotesize
+\begin{tabular}{llll}
+\toprule
+Pair & Base $\rightarrow$ adapted & Target & Rel.\ / script \\
+\midrule
+Kazakh 1 & \texttt{Qwen3-VL-4B-Thinking} $\rightarrow$ \texttt{Qolda-AVL-5B} & Kazakh & yes / Cyrillic \\
+Kazakh 2 & \texttt{Qwen3.5-4B-Base} $\rightarrow$ \texttt{Qwen3.5-4B-Base-Kazakh} & Kazakh & yes / Cyrillic \\
+Turkish 1 & \texttt{Mistral-7B-v0.1} $\rightarrow$ \texttt{Trendyol-LLM-7b-base} & Turkish & yes / Latin \\
+Turkish 2 & \texttt{Meta-Llama-3-8B} $\rightarrow$ \texttt{Turkish-Llama-8b} & Turkish & yes / Latin \\
+Cyrillic 3 & \texttt{gemma-3-4b-it} $\rightarrow$ \texttt{MamayLM-Gemma-3-4B-IT} & Ukrainian & no / Cyrillic \\
+Russian 1 & \texttt{Qwen3-4B} $\rightarrow$ \texttt{RuadaptQwen3-4B-Hybrid} & Russian & no / Cyrillic \\
+Russian 2 & \texttt{Qwen3-4B} $\rightarrow$ \texttt{QVikhr-3-4B-Instruction} & Russian & no / Cyrillic \\
+Latin 3 & \texttt{gemma-3-4b-it} $\rightarrow$ \texttt{borealis-4b} & Norwegian & no / Latin \\
+SEA & \texttt{Qwen3-VL-4B-Instruct} $\rightarrow$ \texttt{Qwen-SEA-LION-v4-4B-VL} & SE Asian & no / mixed \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Six target-language groups, eight laboratories, seven distinct base models.
+
+The SEA pair is deliberately mixed rather than clean. SEA-LION is adapted to
+Vietnamese, Indonesian, Malay and Filipino (Latin) together with Thai, Burmese
+and Tamil (three non-Latin scripts), and it shares its base with Kazakh 1, the
+pair with the largest damage in the study. It is the closest thing we have to a
+test of whether \emph{any} non-Latin adaptation target is enough.
+
+The last seven pairs were added after the first four were analysed, and we say
+so rather than presenting eleven pre-registered pairs. Each was chosen to
+attack a limitation of the previous round: Cyrillic 3 because both Cyrillic
+pairs adapted to one language from one laboratory; the two Russian pairs
+because Cyrillic 3 turned out to be an unusually gentle adaptation; Latin 3 to
+fill the last empty cell. Every pair was declared in the module, growing the
+confirmatory family from 32 to 88 tests, before its result was computed.
+Enlarging a Holm family can only cost significance, never grant it.
+
+\subsection{Measuring excess damage rather than absolute loss}
+
+Any fine-tuning degrades other languages to some extent, so absolute
+Azerbaijani loss cannot answer the question. We report \emph{excess damage}:
+Azerbaijani loss minus English loss, paired item by item, with a bootstrap
+interval. English loss serves as the model's own measure of general forgetting.
+
+\begin{table}[h!]
+\caption{Excess damage under the \texttt{default} prompt. Bold marks an
+interval that excludes zero.}
+\label{tab:excess-default}
+\centering
+\small
+\begin{tabular}{lllrrrr}
+\toprule
+Pair & Related & Script & AZ loss & EN loss & Excess damage & 95\% CI \\
+\midrule
+Kazakh 1 & yes & Cyrillic & $+23.4$ & $+13.7$ & $\mathbf{+9.8}$ & [$+6.2$, $+13.4$] \\
+Kazakh 2 & yes & Cyrillic & $+20.4$ & $+9.9$ & $\mathbf{+10.6}$ & [$+7.0$, $+14.2$] \\
+Turkish 1 & yes & Latin & $+10.9$ & $+26.9$ & $-16.0$ & [$-19.2$, $-12.8$] \\
+Turkish 2 & yes & Latin & $+10.2$ & $+8.7$ & $+1.5$ & [$-1.0$, $+4.5$] \\
+Russian 1 & no & Cyrillic & $+2.8$ & $-3.1$ & $\mathbf{+5.9}$ & [$+2.9$, $+8.8$] \\
+Russian 2 & no & Cyrillic & $+1.7$ & $-0.5$ & $+2.2$ & [$-0.7$, $+5.1$] \\
+Latin 3 & no & Latin & $-1.1$ & $+2.0$ & $-3.1$ & [$-6.1$, $-0.2$] \\
+SEA & no & mixed & $-1.1$ & $+0.1$ & $-1.2$ & [$-3.3$, $+0.7$] \\
+\midrule
+\multicolumn{7}{l}{Cyrillic 3: not measurable under this prompt, see Section 6.6} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Six of the pairs also have a second measurement under the \texttt{oneshot}
+prompt, which is the only one valid for Cyrillic 3.
+
+\begin{table}[h!]
+\caption{Excess damage under the \texttt{oneshot} prompt, the only style in
+which all six of these pairs are clean.}
+\label{tab:excess-oneshot}
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Pair & AZ loss & EN loss & Excess damage & 95\% CI \\
+\midrule
+Kazakh 1 & $+19.1$ & $+10.0$ & $\mathbf{+9.2}$ & [$+6.0$, $+12.5$] \\
+Russian 1 & $+8.6$ & $-1.5$ & $\mathbf{+10.1}$ & [$+7.0$, $+13.0$] \\
+Russian 2 & $+7.6$ & $-0.8$ & $\mathbf{+8.3}$ & [$+5.4$, $+11.4$] \\
+Cyrillic 3 & $+1.2$ & $+1.1$ & $+0.1$ & [$-2.9$, $+3.2$] \\
+Latin 3 & $-0.1$ & $+3.0$ & $-3.1$ & [$-6.0$, $-0.5$] \\
+SEA & $-0.7$ & $+0.2$ & $-0.9$ & [$-2.8$, $+1.1$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Kazakh 1 anchors both tables and agrees across them ($+9.8$ against $+9.2$), as
+does Latin 3 ($-3.1$ in both). The Russian pairs move a great deal between
+styles ($+5.9$ to $+10.1$, $+2.2$ to $+8.3$) while keeping their sign, which is
+why Section 8.1 states this paper's pair claims at the level of direction and
+significance rather than magnitude.
+
+Figure~\ref{fig:forest} shows the same intervals sorted, and
+Figure~\ref{fig:losses} shows why a difference metric is needed at all.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.78\textwidth]{figures/fig_forest.pdf}
+\caption{Excess damage with 95\% bootstrap intervals, under the
+\texttt{default} prompt. Every pair whose interval lies above zero has a
+Cyrillic-script adaptation target; no Latin-script target does. Eight pairs
+appear here rather than nine: Cyrillic 3 is not measurable under this prompt
+(Section 6.6) and is shown in Figure~\ref{fig:marker} under \texttt{oneshot}.}
+\label{fig:forest}
+\end{figure}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.62\textwidth]{figures/fig_losses.pdf}
+\caption{Absolute losses in both languages, under the \texttt{default} prompt.
+The dashed diagonal is equal loss; a point above it is Azerbaijani damaged
+beyond what the model's own English degradation explains. Turkish 1 sits far
+below the diagonal because it loses 26.9 points in English, which is why
+absolute Azerbaijani loss cannot answer the question on its own.}
+\label{fig:losses}
+\end{figure}
+
+\subsection{Relatedness predicts nothing; script predicts eight of nine}
+
+Sorting the same nine pairs by each factor in turn is the whole argument.
+
+\paragraph{By relatedness, the split is exactly even and therefore
+uninformative}
+
+\begin{table}[h!]
+\caption{The nine pairs sorted by whether the adaptation target is
+genealogically related to Azerbaijani.}
+\label{tab:by-relatedness}
+\centering
+\begin{tabular}{lll}
+\toprule
+ & damages Azerbaijani & does not \\
+\midrule
+Related target (Turkic) & Kazakh 1, Kazakh 2 & Turkish 1, Turkish 2 \\
+Unrelated target & Russian 1, Russian 2 & Cyrillic 3, Latin 3, SEA \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two of four each way among related targets, two of five among unrelated ones.
+The closest relative we could find, Turkish, does no damage; a completely
+unrelated Slavic language, Russian, does. Relatedness carries no predictive
+power at all, which is a stronger statement than the one an earlier draft of
+this paper made and the opposite of the one before it.
+
+\paragraph{By script, eight of nine fall in line}
+
+\begin{table}[h!]
+\caption{The same nine pairs sorted by the script of the adaptation target.}
+\label{tab:by-script}
+\centering
+\small
+\begin{tabular}{lll}
+\toprule
+ & damages & does not \\
+\midrule
+Cyrillic target & Kazakh 1, Kazakh 2, Russian 1, Russian 2 & Cyrillic 3 \\
+Latin target & & Turkish 1, Turkish 2, Latin 3 \\
+Mixed target & & SEA \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Every Latin-script adaptation leaves Azerbaijani intact. Four of five
+Cyrillic-script adaptations damage it, by 8 to 11 points of excess damage
+across three target-language and laboratory combinations.
+Figure~\ref{fig:design} puts the two factors in one frame.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.78\textwidth]{figures/fig_design.pdf}
+\caption{The design as measured, under the \texttt{default} prompt, which is
+the only style in which every cell of the $2\times2$ is occupied. Damage
+follows the column (script of the adaptation target) and not the row
+(relatedness). Cyrillic 3 is absent because it is not measurable under this
+prompt (Section 6.6), and the two Russian values are the \texttt{default} ones
+($+5.9$, $+2.2$) rather than the larger \texttt{oneshot} ones reported in
+Table~\ref{tab:excess-oneshot}; both styles agree in sign. The figure is
+generated from the run data rather than drawn by hand, because which cell
+damages Azerbaijani is a result, and that result changed three times as pairs
+were added.}
+\label{fig:design}
+\end{figure}
+
+\paragraph{A non-Latin target is not sufficient, which the SEA pair
+establishes} SEA-LION is adapted to Thai, Burmese and Tamil alongside four
+Latin-script languages, shares its base with the most damaged pair in the
+study, and costs Azerbaijani nothing ($-0.9$, $[-2.8, +1.1]$). If merely
+training on a different-script language were enough, this pair should show it.
+
+\paragraph{The one exception is real and we do not explain it away} Adapting
+to Ukrainian costs Azerbaijani nothing measurable. The most visible difference
+is that MamayLM barely moved the model in any direction: its combined absolute
+change across both languages is 2.3 points, against 8.4 to 37.8 for every other
+pair. But ``the model hardly changed'' is close to restating ``Azerbaijani
+hardly changed'', so we record it as an observation rather than an explanation.
+
+\subsection{One marker separates all nine pairs}
+
+There is a variable that does what neither factor above manages: whether the
+adapted model starts writing Azerbaijani answers in Cyrillic.
+
+\begin{table}[h!]
+\caption{Cyrillic emission separates the damaged pairs from the undamaged ones
+without exception, including the Ukrainian pair that neither factor explains.
+Each pair contributes the excess damage from the prompt style in which it is a
+valid measurement, so Kazakh 1 and the two Russian pairs are quoted from
+\texttt{oneshot} (Table~\ref{tab:excess-oneshot}) and the rest from
+\texttt{default} (Table~\ref{tab:excess-default}).}
+\label{tab:marker}
+\centering
+\begin{tabular}{lrr}
+\toprule
+Pair & Cyrillic share of AZ answers & Excess damage \\
+\midrule
+Kazakh 1 & 84.9\% & $+9.2$ \\
+Kazakh 2 & 18.9\% & $+10.6$ \\
+Russian 1 & 13.8\% & $+10.1$ \\
+Russian 2 & 7.7\% & $+8.3$ \\
+\midrule
+SEA & 0.2\% & $-0.9$ \\
+Cyrillic 3 & 0.0\% & $+0.1$ \\
+Turkish 1 & 0.0\% & $-16.0$ \\
+Turkish 2 & 0.0\% & $+1.5$ \\
+Latin 3 & 0.0\% & $-3.1$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The separation is complete: every pair that emits Cyrillic above its base rate
+is damaged, every pair that does not is not, and the Ukrainian exception stops
+being an exception. SEA-LION sits at its base model's own 0.2\%, so it counts
+as emitting none. A Cyrillic-script target usually pushes a model into writing
+Cyrillic Azerbaijani, but not always, and the damage follows the writing rather
+than the target. Figure~\ref{fig:marker} shows the separation under both
+usable prompt styles.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_marker.pdf}
+\caption{Excess damage against the share of Azerbaijani answers written in
+Cyrillic, under both usable prompt styles. The two panels share one vertical
+scale computed over both, so that no outlying pair is silently cropped.}
+\label{fig:marker}
+\end{figure}
+
+We stop short of calling this the mechanism, because transliteration does not
+behave as a purely orthographic account requires. If the damage were only the
+wrong alphabet, mapping Cyrillic back to Latin should recover it. It recovers
+2.5 of Kazakh 1's 19.1 points, and essentially none of Russian 1's 8.6 (8.6 to
+8.4) or Russian 2's 7.6 (unchanged). The Cyrillic answers of the
+Russian-adapted models are wrong in content as well as in script.
+
+Cyrillic emission is therefore a reliable \emph{marker} of the damage and not a
+sufficient account of it. Section 7 examines what the errors actually contain.
+
+\subsection{Tokenisation is controlled in six of the nine pairs}
+
+The strongest competing explanation in the literature holds that the tokeniser
+matters more than the script for cross-lingual transfer
+\cite{tufa2024unknown}. We measured, rather than assumed, whether the tokeniser
+is held constant inside each pair.
+
+\begin{table}[h!]
+\caption{Tokeniser difference within each pair, measured by set difference on
+the tuned model's vocabulary against its base. The distinction is categorical:
+control tokens do not change how text is segmented, ordinary word pieces do.}
+\label{tab:tokenizer}
+\centering
+\begin{tabular}{lrrl}
+\toprule
+Pair & Added word pieces & Added control tokens & Control holds? \\
+\midrule
+Kazakh 1 & 0 & 3 & \textbf{yes} \\
+Kazakh 2 & 16\,000 & 0 & no \\
+Turkish 1 & 12\,312 & 0 & no \\
+Turkish 2 & 0 & 0 & \textbf{yes} \\
+Cyrillic 3 & 0 & 0 & \textbf{yes} \\
+Russian 1 & 43\,047 & 21 & no \\
+Russian 2 & 0 & 0 & \textbf{yes} \\
+Latin 3 & 0 & 0 & \textbf{yes} \\
+SEA & 0 & 0 & \textbf{yes} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The distinction is categorical rather than a threshold. Control tokens such as
+\texttt{<|audio\_start|>} do not change how text is segmented; ordinary word
+pieces do. Examples of the latter are written here with a visible leading
+space, because that space is part of the token:
+\texttt{\textvisiblespace Almaty}, \texttt{\textvisiblespace Kazakh},
+\texttt{\textvisiblespace KZT}.
+\texttt{Qolda-AVL-5B} adds three audio control tokens and no word pieces, so
+its text tokenisation is identical to its base.
+\texttt{RuadaptQwen3-4B-Hybrid} sits at the other extreme: its vocabulary was
+deliberately rebuilt for Russian, which is why it adds 43\,047 pieces.
+
+The argument survives restricted to the six controlled pairs alone, and this is
+the cleanest form of it.
+
+\begin{table}[h!]
+\caption{The six pairs in which the tokeniser is identical within the pair. The
+script contrast survives with segmentation held exactly constant.}
+\label{tab:controlled}
+\centering
+\begin{tabular}{lllr}
+\toprule
+Pair & Script & Tokeniser & Excess damage \\
+\midrule
+Kazakh 1 & Cyrillic & identical & $\mathbf{+9.2}$ \\
+Russian 2 & Cyrillic & identical & $\mathbf{+8.3}$ \\
+Cyrillic 3 & Cyrillic & identical & $+0.1$ \\
+Turkish 2 & Latin & identical & $+1.5$ \\
+Latin 3 & Latin & identical & $-3.1$ \\
+SEA & mixed & identical & $-0.9$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two Cyrillic targets from different language families (Turkic and Slavic),
+different laboratories and different base models both damage Azerbaijani with
+the tokeniser held exactly constant, while both Latin targets and the mixed
+target do not. Whatever the tokeniser contributes elsewhere, it is not what
+produces this contrast. The two Cyrillic bases are both Qwen models, which we
+note rather than overstate as independence.
+
+The three uncontrolled pairs are confirmatory rather than load-bearing. It is
+worth noting that two of the three extreme values in the study ($-16.0$ and
+$+10.6$) belong to them.
+
+\subsection{Three measurement failures, and how each was caught}
+
+The first two share a shape: the measurement broke on \emph{one side} of a
+two-sided comparison, which is the only kind of error this design cannot
+absorb, because the quantity reported is a difference. The third broke both
+sides at once and would have entered the tables as a large negative number.
+
+\paragraph{The chat template asymmetry} Two of the first four pairs were
+initially measured with the base model receiving a chat template while the
+adapted model, having none, received the raw prompt. A pair comparison is
+meaningless unless both halves are asked identically, so we re-ran both base
+models without a chat template. The correction moved the two Kazakh pairs in
+opposite directions and left the conclusion unchanged. It also contradicted our
+expectation: the template was not helping the base models but hurting them,
+because neither is instruction-tuned.
+
+\paragraph{The example-echo artefact, which agreed with us} The fifth pair
+first produced $+7.0$ points of excess damage, comfortably confirming the
+hypothesis it was built to test. It was an artefact.
+
+Under the \texttt{default} prompt, which carries two few-shot examples, MamayLM
+reproduces the two example answers on their own lines before giving the real
+one, so a question whose answer is \texttt{120} is answered with the two
+example answers followed by \texttt{120}. It does this on 67.8\% of Azerbaijani
+items and 0\% of English items; the base model does it on neither. Our
+extractor takes the first line, so the model was scored wrong on items it had
+in fact answered correctly: 55\% of the supposedly lost items carry the gold
+answer in the raw text.
+
+The cause is the number of examples, not their content.
+
+\begin{table}[h!]
+\caption{Example-echo rate by prompt style for MamayLM. The cause is the number
+of examples, not their content.}
+\label{tab:echo-style}
+\centering
+\begin{tabular}{llr}
+\toprule
+Prompt style & Examples & Example-echo rate, AZ \\
+\midrule
+\texttt{default} & two & 67.8\% \\
+\texttt{plain} & two & 100\% \\
+\texttt{oneshot} & one & 0.3\% \\
+\texttt{zeroshot} & none & 0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Both halves of the pair were re-run under \texttt{oneshot}, where all four runs
+are clean (no empty responses, at most 0.3\% echo), and the excess damage falls
+from $+7.0$ to $+0.1$.
+
+\paragraph{A fourth attempt failed a different gate, and it is worth one
+paragraph because it validates the gates rather than the claim} We obtained
+access to a Hungarian-adapted model (\texttt{Racka-4B}) built on
+\texttt{Qwen3-4B}, the same base as both Russian pairs, which would have given
+a same-base Latin against Cyrillic comparison, the one contrast the design
+still lacks. Its tokeniser turned out to be interesting on its own: the
+vocabulary is the \emph{same size} as the base's but 32\,768 entries differ, so
+a size check would have called it unchanged.
+
+The model never answers. Given few-shot examples it continues the pattern by
+inventing further question-and-answer pairs instead of responding, and it does
+this under all four prompt styles. The question-echo rule, written the previous
+day for an unrelated Georgian model, catches it at 68.4\% of Azerbaijani items
+against 1.6\% of English ones. That is the same one-sided break as every other
+failure in this section.
+
+It also exposed a hole in our own code. The pair report was checking only the
+extraction gate, and \texttt{Racka-4B} passes that one (12.0\%). A pair can
+fail any gate, so the check now runs all of them; the same fix retroactively
+removed the Ukrainian pair's invalid \texttt{default} figure from the table,
+which had been sitting there because only one gate was consulted.
+
+\paragraph{We report this at length because the artefact pointed our way} A
+wrong number that contradicts the hypothesis gets investigated as a matter of
+course; a wrong number that confirms it often does not. The check that caught
+this one was not statistical but mechanical: read what the model actually
+emitted before trusting what it scored. Had we not, the paper would have
+reported a confirmation of a claim its own data refutes.
+
+\paragraph{A third pair was declared and then excluded by a gate, which is what
+gates are for} We attempted a Georgian target
+(\texttt{Kolkha-Mini-Georgian}, base \texttt{Qwen3-1.7B}) to test whether the
+script effect extends past Cyrillic. Its Azerbaijani fell from 6.5\% to 0.1\%
+and its English from 28.6\% to 4.4\%, which looks like a model destroyed by
+adaptation and would have entered the table as $-17.8$ points of excess damage.
+
+Reading its output shows something else. Asked for the capital of Turkey it
+answers ``The capital of Turkey is Ankara.'', which is correct and which our
+exact-match scoring rejects. Across its English errors, 42.4\% contain the gold
+answer in the raw text; the same figure is 1.4\% to 4.2\% for every other model
+in the study, including \texttt{Mistral-7B-v0.1} and \texttt{Trendyol}, which
+produce full sentences in 100\% and 99.9\% of items respectively and still
+score normally because the extractor handles them.
+
+So response length is not the pathology and we do not gate on it. The gate is
+on \emph{recoverable errors}: the share of scored-wrong items whose gold answer
+is present in the raw text. Measured over 106 runs, the distribution is 42.4\%
+and then a 26-point gap to 16.4\%, so the threshold sits at 30\%, inside the
+only gap there is. One run fails it.
+
+The pair remains declared in the module and is reported as excluded rather than
+deleted, so the attempt and its reason stay in the record.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{What the Failures Look Like}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Two failure modes, not one}
+
+``The model is bad at Azerbaijani'' conflates at least two different events,
+and separating them is practically consequential because only one of them is
+recoverable by post-processing.
+
+\begin{table}[h!]
+\caption{The failure modes, and whether normalisation can repair each.}
+\label{tab:modes}
+\centering
+\begin{tabular}{lp{0.44\textwidth}p{0.20\textwidth}}
+\toprule
+Mode & What happens & Does normalisation help? \\
+\midrule
+Orthographic & the model knows the fact and writes it in Cyrillic & yes, transliteration recovers it \\
+Capability & the model cannot produce the answer at all & no \\
+Both at once & the model writes Cyrillic \emph{and} the wrong content & no \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The third row is the one the Russian pairs forced us to add, and Section 7.3
+reports it.
+
+We separate them with four nested normalisation chains, each adding exactly one
+transformation and applied symmetrically to prediction and gold:
+
+\begin{displaytext}
+STRICT $\rightarrow$ MORPH \quad + suffix stripping\\
+MORPH $\rightarrow$ LENIENT \quad + diacritic folding\\
+LENIENT $\rightarrow$ TRANSLIT \quad + Cyrillic-to-Latin transliteration
+\end{displaytext}
+
+Because the chain is nested, the question ``which step recovered this error''
+has an unambiguous answer, and that answer is the cause.
+
+\subsection{The two Kazakh models fail differently}
+
+\begin{table}[h!]
+\caption{Azerbaijani score under each link of the normalisation chain. The last
+column is what the transliteration step alone recovers. Two models adapted to
+the same language by the same laboratory fail in measurably different ways.}
+\label{tab:chains}
+\centering
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Model & STRICT & MORPH & LENIENT & TRANSLIT & Recovered \\
+\midrule
+\texttt{Qolda-AVL-5B} & 4.4\% & 4.4\% & 4.4\% & 9.2\% & $\mathbf{+4.7}$ \\
+\texttt{Qwen3.5-4B-Base-Kazakh} & 17.1\% & 17.7\% & 17.9\% & 19.2\% & $+1.3$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\texttt{Qolda-AVL-5B} produces 85.9\% of its Azerbaijani answers in Cyrillic;
+transliteration more than doubles its score.
+\texttt{Qwen3.5-4B-Base-Kazakh} produces 18.9\% in Cyrillic, and
+transliteration barely moves it.
+
+\subsection{Cyrillic output is not always an orthographic failure}
+
+The Russian-adapted models complicate the tidy two-mode picture, and the
+complication is worth stating because it bears directly on the marker in
+Section 6.4.
+
+\begin{table}[h!]
+\caption{How much of the Azerbaijani loss transliteration recovers. A purely
+orthographic reading predicts recovery roughly in proportion to the Cyrillic
+share; that holds partially for the Kazakh model and not at all for the Russian
+ones. Losses are STRICT before transliteration and TRANSLIT after it, and the
+Cyrillic share is of Azerbaijani answers.}
+\label{tab:recovery}
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\toprule
+Model & Cyrillic share & AZ loss & After translit. & Recovered \\
+\midrule
+\texttt{Qolda-AVL-5B} (Kazakh) & 84.9\% & $+19.1$ & $+16.6$ & $+2.5$ \\
+\texttt{RuadaptQwen3-4B-Hybrid} (Russian) & 13.8\% & $+8.6$ & $+8.4$ & $+0.2$ \\
+\texttt{QVikhr-3-4B-Instruction} (Russian) & 7.7\% & $+7.6$ & $+7.6$ & $0.0$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A purely orthographic reading predicts that transliteration recovers roughly
+the Cyrillic share. It does so partially for the Kazakh model and not at all
+for the Russian ones. Inspecting the Russian errors shows why: the Cyrillic
+answers are usually wrong in content too, so restoring the alphabet leaves a
+wrong answer in the right alphabet. The model returns \cyr{Москва} where the
+gold is \emph{Moskva}, which transliteration does repair, but it also returns
+\emph{İstanbul} for a question about Ankara, which nothing repairs.
+
+This is why Section 6.4 calls Cyrillic emission a marker rather than a
+mechanism. It separates the damaged pairs from the undamaged ones perfectly,
+yet the damage it marks is not, in general, the recoverable kind.
+Figure~\ref{fig:recovery} makes the shortfall visible.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.72\textwidth]{figures/fig_recovery.pdf}
+\caption{Azerbaijani loss before and after transliteration, ordered by Cyrillic
+share. A purely orthographic account predicts the two bars should converge as
+the Cyrillic share rises. They do not, which is why we report Cyrillic emission
+as a marker rather than a mechanism.}
+\label{fig:recovery}
+\end{figure}
+
+\subsection{An automatic taxonomy, and what it leaves to a human}
+
+The chain also yields an error taxonomy without human judgement: whichever step
+repairs an error names its cause. On a stratified sample of 100 errors per
+model:
+
+\begin{table}[h!]
+\caption{Automatic error taxonomy from the normalisation chain. The residual
+column is what no chain step explains and a human must label.}
+\label{tab:taxonomy}
+\centering
+\small
+\begin{tabular}{lllr}
+\toprule
+Model & Target & Orthographic & Left to a human \\
+\midrule
+\texttt{Qolda-AVL-5B} & Kazakh / Cyrillic & \textbf{95\%} & 4\% \\
+\texttt{Qwen3.5-4B-Base-Kazakh} & Kazakh / Cyrillic & 21\% & 61\% \\
+\texttt{Turkish-Llama-8b-v0.1} & Turkish / Latin & 0\% & 87\% \\
+\texttt{Falcon3-3B-Instruct} & (base) & 1\% & 98\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+One bucket deserves comment. Transliterating \cyr{Вашингтон} yields
+\emph{vaşington} while the gold answer is \emph{vaşinqton}: Cyrillic
+\cyr{г} maps to Latin \emph{g}, but Azerbaijani writes that sound as
+\emph{q}. The model knows
+the fact and the chain still fails to credit it. Counting such rows as factual
+errors would inflate the factual category, so they are reported separately.
+
+\subsection{The human half: a second wrong-language failure}
+
+The machine is silent wherever the chain does not help, which is 87-98\% of
+errors for capability-type models. We labelled 159 of those residual errors by
+hand, across two models chosen to span the two modes.
+
+\begin{table}[h!]
+\caption{Hand labels on 159 residual errors. The Kazakh-adapted model fails by
+writing in Cyrillic; the Turkish-adapted model fails by writing in Turkish.}
+\label{tab:human-labels}
+\centering
+\begin{tabular}{lrr}
+\toprule
+Label & Kazakh-adapted & Turkish-adapted \\
+\midrule
+factual & 29 (41\%) & 37 (42\%) \\
+format & 4 (6\%) & 1 (1\%) \\
+\textbf{wrong language} & \textbf{1 (1\%)} & \textbf{23 (26\%)} \\
+unrelated & 37 (52\%) & 27 (31\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This completes the picture. The Kazakh-adapted model fails by writing in
+Cyrillic; the Turkish-adapted model fails by writing \emph{in Turkish}
+(\emph{yapon dili} answered as \emph{Japonca}, \emph{güləşçi} as \emph{Güreş}).
+
+Both are the same kind of event: the model has the fact and emits it in the
+wrong linguistic form. The difference is decisive for measurement.
+Transliteration recovers the Cyrillic case; no normalisation can recover the
+Turkish case, because the alphabet is already correct. That is a claim about
+normalisation, not about detectability, and the next paragraphs separate the
+two.
+
+This has a consequence for benchmark design beyond the present study, and it
+needs stating carefully, because the strong version is false. The failure mode
+itself is known and measurable: \namecite{marchisio2024language} call it
+language confusion and define word- and line-level pass rates for it.
+
+What we show is that the standard word-level detector is structurally blind to
+this particular pair. It flags, for a Latin-script target, any character
+outside that language's Unicode range; but the Turkish alphabet is a subset of
+the Azerbaijani one, which adds only \texttt{ə}, \texttt{x} and \texttt{q}. A
+Turkish word cannot leave the Azerbaijani range, so the detector is silent by
+construction.
+
+Applied to our 159 human-labelled errors, the rule fires on 2 of the 24
+wrong-language rows and misses 92\% (Table~\ref{tab:confusion-related}). Both
+hits contain \texttt{w}, a letter in neither alphabet, so what it catches is
+English intrusion rather than the Turkish confusion.
+
+The practical statement is therefore narrower than ``no metric catches this''
+and more useful: exact-match accuracy does not distinguish this failure from a
+knowledge failure, transliteration cannot repair it, and the off-the-shelf
+script-range detector does not see it. A detector for this pair must compare
+against a Turkish lexicon rather than an alphabet.
+
+\paragraph{Disclosure} 24 of these rows were relabelled after the first pass,
+from \texttt{format} to \texttt{wrong language}, after the criterion was
+tightened: an answer that expresses the same concept in another language is a
+language error, not a formatting error, whereas an answer that is simply wrong
+remains a factual error even if it contains a Turkish place name. Each
+relabelled row retains its original label in a comment field.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Robustness}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Each subsection answers an objection a reader would reasonably raise, and each
+is a separate module in the codebase, so the answer is computed rather than
+asserted.
+
+\subsection{The results do not depend on the prompt}
+
+Four prompt styles differ structurally rather than lexically, since a
+paraphrase would make the check ceremonial.
+
+\begin{table}[h!]
+\caption{The four prompt styles. They differ structurally, not lexically.}
+\label{tab:styles}
+\centering
+\begin{tabular}{llr}
+\toprule
+Style & Examples & Labels \\
+\midrule
+\texttt{default} & two & yes \\
+\texttt{oneshot} & one & yes \\
+\texttt{plain} & two & no \\
+\texttt{zeroshot} & none & yes \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Both claims, the language gap and the pair difference, hold in the same
+direction with intervals excluding zero across every usable style.
+
+\begin{table}[h!]
+\caption{The Kazakh 1 pair difference in Azerbaijani across prompt styles. The
+magnitude moves and the sign does not.}
+\label{tab:prompts}
+\centering
+\begin{tabular}{lrr}
+\toprule
+Style & Pair difference (Kazakh 1, AZ) & 95\% CI \\
+\midrule
+\texttt{default} & $+23.3$ & [20.5, 26.1] \\
+\texttt{plain} & $+19.4$ & [17.0, 22.1] \\
+\texttt{oneshot} & $+19.0$ & [16.5, 21.5] \\
+\texttt{zeroshot} & \multicolumn{2}{l}{excluded, see below} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The magnitude moves and the sign does not. We therefore state the claim at the
+level of direction and significance, not magnitude.
+
+One condition is excluded, and the reason matters. In \texttt{zeroshot} without
+a chat template, the base model returned empty content on 42.7\% of English
+items; its English score fell from 55.2\% to 7.1\% and the gap ``disappeared''.
+The gap did not disappear because Azerbaijani improved but because the English
+side broke. This is a failed measurement, not a failed claim, and conflating
+the two would misreport the result. The \texttt{oneshot} style was added
+afterwards precisely so that the robustness claim would not rest on two styles
+instead of three.
+
+Diagnosing this took a wrong turn worth recording: we first assumed the missing
+element was a structural cue (\texttt{Answer:}), which \texttt{zeroshot}
+already contains. The common feature of the working styles is the presence of
+\emph{examples}.
+
+\subsection{Tokenisation cannot explain the contrast}
+
+The tokeniser measurement is reported in Section 6.5 and is not repeated here.
+Its conclusion for robustness is that the whole argument survives restricted to
+the six controlled pairs. Two Cyrillic targets damage Azerbaijani with the
+tokeniser identical (Kazakh 1 $+9.2$, Russian 2 $+8.3$), from different
+language families and different laboratories; two Latin targets do not
+(Turkish 2 $+1.5$, Latin 3 $-3.1$); and the one Cyrillic target that does no
+damage (Cyrillic 3, $+0.1$) is also controlled, so the exception cannot be
+blamed on segmentation either. The three extended-vocabulary pairs are
+confirmatory rather than load-bearing, and two of the study's three extreme
+values ($-16.0$ and $+10.6$) belong to them.
+
+We previously asserted the general rule that fine-tuning does not change the
+tokeniser. Measurement refuted it, and the claim is now computed for every pair
+and printed with the result.
+
+\subsection{Benchmark contamination cannot explain the gap}
+
+The 236 algorithmically generated items post-date every model measured here.
+The gap persists on that subset for every model able to do the task in English,
+with values between 27 and 49 points and $p = 0.0001$.
+
+The claim is precise: these \emph{rows} were not in any training corpus. That
+the underlying \emph{facts} appear in training corpora is expected and
+necessary, since what we measure is whether that knowledge can be expressed in
+Azerbaijani.
+
+Models scoring below 5\% in English are marked, and models between 5\% and
+10\% are marked separately as near-threshold. A model with nothing to lose
+cannot show a gap, and its near-zero value must not be read as evidence of good
+Azerbaijani support. The threshold was fixed before the results were seen and
+was not adjusted afterwards.
+
+\subsection{The gap does not come from the composition of the dataset}
+
+Mathematics is the largest category and shows the widest gap, so the headline
+number could be inflated by composition. Removing the largest category
+\emph{increases} the mean gap from 24.7 to 25.6 points, and on the control
+stratum from 33.7 to 39.0 (Table~\ref{tab:composition}).
+
+Mathematics dilutes the effect rather than driving it, for a mechanical reason:
+a mathematics answer is usually a numeral, numerals have no alphabet, and the
+orthographic failure mode cannot operate there.
+
+\subsection{The dataset is solvable}
+
+A speaker who had not seen the dataset scored 70.0\% on a stratified sample of
+50 items, against 36.0\% for the best \emph{local} model on the same items,
+under the same scoring pipeline and with lookup prohibited. Blanks (14\%) count
+as errors, so the figure is a lower bound.
+
+The baseline establishes solvability, not a ceiling, and the distinction is not
+rhetorical: \texttt{claude-sonnet-5} reaches 74.0\% on those same items. A
+benchmark that no human can pass would not measure models, which is what this
+check is for; it was never intended to bound what a model can achieve.
+
+We correct an earlier claim here. A first baseline, answered by the dataset's
+own author, scored 26.5\% with 59\% blanks, and from it we had concluded that
+the dataset was hard for humans as well. That conclusion was an artefact of a
+compromised measurement: the annotator had written the items and was applying a
+stricter blank-if-unsure policy than a naive respondent would.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Negative Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+We report these because the failures cost us the most time, and because a
+reader's next idea is likely to be one of them.
+
+\subsection{Prompting for the Latin alphabet does not work}
+
+Instructed explicitly to answer in the Azerbaijani Latin alphabet,
+\texttt{Qolda-AVL-5B} barely complies: the Cyrillic share falls from 91.7\% to
+88.8\%, and of the seventeen answers that change, one becomes correct.
+
+The behaviour is therefore in the weights, not at the prompt level. This
+matters practically: a deployment cannot be fixed by prompt engineering, and
+transliteration as post-processing is the cheaper remedy.
+
+\subsection{Auditing gold answers by model agreement does not work}
+
+If several models agree on an answer that differs from the gold, that gold
+answer might be wrong. We implemented this, with a permutation test to
+establish the chance ceiling: four Qwen models produced 36 suspect items
+against a ceiling of 12.
+
+Every suspect we checked by hand had a \emph{correct} gold answer.
+
+The reason is instructive. A permutation test controls for \emph{chance}
+agreement, not for \emph{correlated} agreement. Four models from one family
+share training data and share mistakes, so they agree on wrong answers far more
+often than independence predicts. The method requires genuinely independent
+model families, and the statistic that appeared to validate it was measuring
+the wrong null.
+
+\subsection{Searching for more Cyrillic pairs, and what the first search cost}
+
+Our Cyrillic evidence originally rested on two pairs adapting to one language
+from one laboratory. Our first search for a third concluded that the obstacle
+was structural: nearly every Cyrillic adaptation we examined extended the
+tokeniser, which breaks the control of Section 6.5, so we stopped looking.
+
+That conclusion was wrong, and stopping was the most expensive mistake in the
+project. A systematic search over fine-tunes derived from bases we had already
+measured produced four usable pairs within an hour, three of them with an
+identical tokeniser. They doubled the design and twice overturned its central
+claim.
+
+The reasoning error is worth naming, because it is general. We had two gaps: an
+uncontrolled tokeniser and a single target language. We ranked them by how easy
+each was to describe rather than by how much each threatened the conclusion.
+The single-language gap was much the larger threat, and a pair with an extended
+tokeniser would still have been worth measuring.
+
+Two candidates were rejected on inspection rather than on results, and both
+rejections mattered. \texttt{Zubr1.0-VL-4B} states in its own model card that
+its weights are unchanged from the base: it is a re-host, not an adaptation,
+and would have produced a guaranteed null that looked like evidence.
+\texttt{BgGPT-7B} (Bulgarian) is a genuine adaptation on a base we had already
+measured, but no 7B model would load in our environment; the original
+\texttt{Mistral-7B-v0.1} segfaults there too, so this is an environment limit
+rather than a property of the model, and the Bulgarian cell remains unfilled.
+
+\subsection{A Georgian pair we declared and could not use}
+
+We attempted a Georgian target to test whether the script effect reaches past
+Cyrillic. \texttt{Kolkha-Mini-Georgian} writes Georgian script in 17.0\% of its
+Azerbaijani answers, which is exactly the contamination the marker predicts,
+and its scores collapse in both languages.
+
+It is not a measurement. The model answers in full sentences (``The capital of
+Turkey is Ankara.''), and 42.4\% of its scored-wrong English items contain the
+gold answer in the raw text, against 1.4\% to 4.2\% for every other model here.
+The score reflects our extractor, not the model's knowledge.
+
+We report the attempt for two reasons. It is the third distinct way a run has
+stopped being a measurement in this project, after empty responses and prompt
+echo, and the gate that catches it was written for this case and then applied
+to all 106 runs. And the pair would have entered the tables at $-17.8$ points
+of excess damage, a number with the wrong sign for our own claim, which is a
+useful reminder that gates have to run before the result is read, not after.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Limitations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}
+\item \textbf{One Cyrillic-script pair does no damage and we cannot say why.}
+Adapting to Ukrainian leaves Azerbaijani intact while adapting to Kazakh or
+Russian does not. The visible difference is that MamayLM barely moved the model
+at all (2.3 points of combined absolute change against 8.4 to 37.8 elsewhere),
+but that restates the result rather than explaining it. Until a second
+Ukrainian pair or a second gentle Cyrillic pair exists, ``four of five'' is the
+honest form of the claim. A Bulgarian pair (\texttt{BgGPT-7B}) would have
+helped and could not be loaded in our environment.
+
+\item \textbf{The script contrast is Cyrillic against everything else.} Damage
+is demonstrated for Kazakh and Russian targets, absence of damage for Turkish,
+Norwegian, Ukrainian and a mixed South-East Asian target. We have no clean pair
+for a third script in either direction. A Georgian attempt was declared and
+excluded by a measurement gate (Section 9.4), a Hungarian one on the same base
+as both Russian pairs was excluded by another, and Greek candidates exist only
+at 7B and larger, which our environment cannot load. The same-base Latin
+against Cyrillic comparison therefore remains open. ``Script matters''
+therefore means ``Cyrillic targets damage Azerbaijani and Latin ones do not'',
+and the SEA pair shows that a non-Latin target is not by itself enough.
+
+\item \textbf{Tokenisation is controlled in six of nine pairs.} The design
+survives because the contrast is visible among the controlled pairs alone, but
+the three extended-vocabulary pairs carry less weight than their numbers
+suggest.
+
+\item \textbf{Local models are 8B or smaller and 4-bit quantised.} Pair
+comparisons are internally controlled, so quantisation cannot explain a
+within-pair difference, but absolute scores are not comparable to
+full-precision serving.
+
+\item \textbf{API models were served through a router.} The serving stack is
+outside our control, four of the six are not open weights, and results may
+shift as providers change. They are reported separately for this reason.
+
+\item \textbf{The human baseline is one person on 50 items.} It establishes
+solvability, not a ceiling. The interval is wide and the respondent was an
+educated adult rather than a representative speaker.
+
+\item \textbf{Inter-annotator agreement is asymmetric.} Every row in the
+dataset was accepted by the first annotator, so the statistic measures a
+rejection rate rather than two independent judgement distributions.
+
+\item \textbf{The error taxonomy's human half covers two models and 159
+items.} It is sufficient to contrast the two failure modes but not to estimate
+population proportions.
+
+\item \textbf{Short answers only.} The results do not transfer to open-ended
+generation or multi-step reasoning, where formatting and length interact with
+scoring differently.
+
+\item \textbf{A \texttt{difficulty} field was removed rather than fixed.} It
+looked like a per-item judgement but was a template-level constant: across 26
+template groups only one carried more than a single value, and rows without one
+were silently defaulted to ``medium'', which is why 881 of 1006 read as medium.
+Since the value is recoverable from the template recorded in \texttt{notes}, it
+carried no information and could only mislead. Raw files may still contain it;
+the built dataset does not.
+\end{enumerate}
+
+\begin{acknowledgments}
+We thank the second annotator, who re-checked a stratified sample of 200 items
+and the 50-item human baseline without having seen the dataset beforehand.
+\end{acknowledgments}
+
+\bibliographystyle{compling}
+\bibliography{references}
+
+\end{document}

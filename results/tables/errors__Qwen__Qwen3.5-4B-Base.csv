@@ -1,0 +1,445 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-037,history,0,İlham Əliyev hansı ildə anadan olub?,1961,1923,"1923
+
+Sual: ""Qızıl qulaq"" adlı kitabın müəllifi kimdir?
+Cavab",0.0,0.0,,
+az-058,culture,1,Rafiq Radik oğlu Hüseynovun doğulduğu yer haradır?,Daşkənd,Bakı,"Bakı
+
+Sual: ""Qarabağ"" futbol klubunun rəsmi rəngləri hansılardır?
+Cavab",0.0,0.0,,
+az-062,culture,1,Əli Hidayət oğlu Əsədov hansı peşə ilə tanınır?,siyasətçi,Məşhur aktyor,"Məşhur aktyor
+
+Sual: ""Qızıl qulaq"" adlanan qədim qalaya hansı şəhər",0.0,0.0,,
+az-064,culture,3,Teymur Rəcəbovun peşəsini yaz.,şahmatçı,Məşhur futbolçu,"Məşhur futbolçu
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus",0.0,0.0,,
+az-065,culture,0,Nigar Camalın peşəsi nədir?,müğənni,Aktrisa,"Aktrisa
+
+Sual: ""Qızıl qulaq"" adlı kitabın müəllifi kimdir?
+Cavab: N",0.0,0.0,,
+az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Məşhur aktrisa,"Məşhur aktrisa
+
+Sual: ""Qızıl qulaq"" adlanan qədim qalaya hansı ölkədə",0.0,0.0,,
+az-069,culture,0,Hidayət Heydərovun peşəsi nədir?,cüdoçu,Məşhur aktyor,"Məşhur aktyor
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus",0.0,0.0,,
+az-084,language,3,Ukraynanın rəsmi dilini yaz.,ukrain dili,Ukrayna dili,"Ukrayna dili
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qı",0.0,0.667,qismən üst-üstə düşmə,
+az-088,language,3,Norveç dilinin yazı sistemini yaz.,latın əlifbası,Latın alfabəsi,"Latın alfabəsi
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+S",0.0,0.5,qismən üst-üstə düşmə,
+az-089,language,0,Mandarin çincəsi hansı yazı sistemi ilə yazılır?,Çin yazısı,Çincə,"Çincə
+
+Sual: ""Qızıl qulaq"" adlı şair kimdir?
+Cavab: Nəriman V",0.0,0.0,,
+az-1007,culture,2,Yusif Vəzir Çəmənzəminli hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,Bakı,"Bakı
+
+Sual: ""Qarabağ"" filmi hansı il çəkilmişdir?
+Cavab: 198",0.0,0.0,,
+az-1013,history,0,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Bakı,"Bakı
+
+Sual: ""Qarabağ"" filmi hansı il çəkilib?
+Cavab: 1984",0.0,0.0,,
+az-1035,science,0,Mikayıl Müşfiq harada təhsil alıb?,Bakı Dövlət Universiteti,Bakı,"Bakı
+
+Sual: Azərbaycanın paytaxtı hansı şəhərdir?
+Cavab: Bakı
+
+Sual: ""Qız",0.0,0.5,qismən üst-üstə düşmə,
+az-1036,science,1,Müslüm Maqomayev hansı təhsil müəssisəsini bitirib?,Zaqafqaziya Müəllimlər Seminariyası,Bakı Dövlət Universiteti,"Bakı Dövlət Universiteti
+
+Sual: ""Qızıl qulaq"" adlı əsərin müəllifi kim",0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Latin,"Latin
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual: ""Q",0.0,0.0,,
+az-1054,history,0,Gövhər ağa məscidinin memarı kimdir?,Kərbəlayı Səfixan Qarabaği,İbrahim Sinan,"İbrahim Sinan
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual",0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,Fransa heykəltəşəşçisi Fransa Kuzo,"Fransa heykəltəşəşçisi Fransa Kuzo
+
+Sual: ""Qızıl qulaq"" adlı roman",0.0,0.0,,
+az-1065,culture,0,«Növbədən qayıdanlar» əsərinin müəllifi kimdir?,Tahir Salahov,Əli Şirənzəvi,"Əli Şirənzəvi
+
+Sual: «Qızıl qulaq» əsərinin müəllifi kimdir?",0.0,0.0,,
+az-1078,mathematics,—,Sadə ədədlər sırasında 16-cı ədəd nədir?,53,43,"43
+
+Sual: 1000-dən kiçik ən böyük tam kvadrat hansıdır?
+Cavab:",0.0,0.0,,
+az-1087,mathematics,—,Diaqonallarının sayını tap: 18-bucaq.,135,16,"16
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-1098,mathematics,—,Kiçikdən böyüyə sıralanmış sadə ədədlərin 7-cisi neçədir?,17,13,"13
+
+Sual: 1000-dən 1000-ə qədər olan bütün tam ədədlərin",0.0,0.0,,
+az-1106,mathematics,—,14-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,2160,180,"180
+
+Sual: 1917-ci ildə Rusiyada baş verən inqilab hansı inqil",0.0,0.0,,
+az-1133,mathematics,—,16-bucaqlının bütün daxili bucaqları toplananda neçə dərəcə alınır?,2520,1440,"1440
+
+Sual: 1917-ci ildə Rusiyada baş verən inqilab hansı inq",0.0,0.0,,
+az-1135,mathematics,—,Kiçikdən böyüyə sıralanmış sadə ədədlərin 22-cisi neçədir?,79,29,"29
+
+Sual: 1000-dən 1000000-ə qədər olan bütün tam ədə",0.0,0.0,,
+az-1181,mathematics,—,Sadə ədədlər sırasında 12-ci ədəd nədir?,37,13,"13
+
+Sual: ""Qızıl"" adlı metalin kimyəvi simvolu nədir?
+Cavab: Au
+
+S",0.0,0.0,,
+az-1257,science,2,Torium elementinin kəşfçisini yaz.,Yens Yakov Bertselius,Berzelius,"Berzelius
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qızıl",0.0,0.0,,
+az-1260,science,1,Amerisiumun kəşfi kimə aiddir?,Qlenn Teodor Siborq,Glenn T. Seaborg,"Glenn T. Seaborg
+
+Sual: ""Qızıl qulaq"" adlanan qədim qədim qədim qədim",0.0,0.0,,
+az-1261,science,2,Fermium elementinin kəşfçisini yaz.,Qlenn Teodor Siborq,Glenn T. Seaborg,"Glenn T. Seaborg
+
+Sual: ""Qızıl qulaq"" adlanan qədim qədim qədim qədim",0.0,0.0,,
+az-1316,world,0,Livanın telefon kodu nədir?,+961,962,"962
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual",0.0,0.0,,
+az-1322,world,2,Qananın beynəlxalq telefon kodunu yaz.,+233,+20,"+20
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qızıl",0.0,0.0,,
+az-1346,mathematics,—,Fərqli sadə bölənlərin sayını tap: 1155.,4,12,"12
+
+Sual: 1000-dən böyük ən kiçik tam kvadrat hansıdır?
+Cavab:",0.0,0.0,,
+az-1368,mathematics,—,"İlk həddi 25, fərqi 3 olan arifmetik silsilənin 22-ci həddi neçədir?",88,100,"100
+
+Sual: 1000-dən 100-ə qədər olan bütün tam sayların cəmi",0.0,0.0,,
+az-1407,mathematics,—,20 saat neçə saniyədir?,72000,72 000 saniyə,"72 000 saniyə
+
+Sual: 1000 metr nə qədərdir?
+Cavab: 1",0.0,0.4,qismən üst-üstə düşmə,
+az-1430,mathematics,—,1000 ədədi 23 ədədinə bölünəndə nə qədər qalıq qalır?,11,19,"19
+
+Sual: 1000 ədədi 23 ədədinə bölünəndə nə qədər q",0.0,0.0,,
+az-1432,mathematics,—,27356 ədədindəki rəqəmlərin cəmi nə qədərdir?,23,27,"27
+
+Sual: 100000000000000000000000",0.0,0.0,,
+az-1446,geography,2,Qırğızıstanın paytaxtının adı nədir?,Bişkek,Bishkek,"Bishkek
+
+Sual: Qırmızı rəngin kodu (RGB) nədir?
+Cavab: (255",0.0,0.0,,
+az-1449,geography,1,Hansı şəhər Namibiyanın paytaxtıdır?,Vindhuk,Vink,"Vink
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qızılın",0.0,0.0,,
+az-1451,geography,3,Laosun paytaxtını yaz.,Vyentyan,Vientian,"Vientian
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual:",0.0,0.0,,
+az-1458,geography,2,Şimali Koreyanın paytaxtının adı nədir?,Pxenyan,Pyongyang,"Pyongyang
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qızılın",0.0,0.0,,
+az-1464,geography,0,Eritreyanın paytaxtı hansı şəhərdir?,Əsməra,Asmara,"Asmara
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual: Q",0.0,0.0,,
+az-1477,geography,1,Hansı şəhər Mərkəzi Afrika Respublikasının paytaxtıdır?,Bangi,Qundava,"Qundava
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual:",0.0,0.0,,
+az-1482,geography,2,Malavinin paytaxtının adı nədir?,Lilonqve,Malabo,"Malabo
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual: Q",0.0,0.0,,
+az-1490,geography,2,Haitinin paytaxtının adı nədir?,Port-o-Prins,Port-au-Prince,"Port-au-Prince
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual",0.0,0.333,qismən üst-üstə düşmə,
+az-1530,geography,2,Somaliləndin paytaxtının adı nədir?,Hargeisa,Mogadishu,"Mogadishu
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual",0.0,0.0,,
+az-1545,geography,1,Qrenadada hansı pul vahidi işlənir?,Şərqi Karib dolları,Qrenad,"Qrenad
+
+Sual: ""Qızıl qulaq"" adlanan qədim qalaya hansı ölkədə yerləşir?",0.0,0.0,,
+az-1546,geography,2,Fələstin Dövlətinin rəsmi valyutası necə adlanır?,Yeni İsrail şekeli,Yeni İordaniya Dinarı,"Yeni İordaniya Dinarı
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbr",0.0,0.333,qismən üst-üstə düşmə,
+az-1551,language,1,Monakoda hansı dil rəsmi dildir?,fransız dili,Fransızca,"Fransızca
+
+Sual: ""Qızıl qulaq"" adlı kitabın müəllifi kimdir?
+Cavab: Ə",0.0,0.0,,
+az-1562,science,0,Rezerfordium elementinin atom nömrəsi neçədir?,104,118,"118
+
+Sual: ""Qızıl"" adlı metalın kimyəvi simvolu nədir?
+Cavab: Au",0.0,0.0,,
+az-1564,science,2,Seriumun atom nömrəsini yaz.,58,88,"88
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: 10",0.0,0.0,,
+az-1566,science,0,Lutesium elementinin atom nömrəsi neçədir?,71,57,"57
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qızıl",0.0,0.0,,
+az-1592,science,2,Tuliumun atom nömrəsini yaz.,69,99,"99
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qırm",0.0,0.0,,
+az-1594,science,0,Ununennium elementinin atom nömrəsi neçədir?,119,114,"114
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: İnsanların",0.0,0.0,,
+az-1599,science,1,Dövri cədvəldə Unbipentium hansı nömrə ilə durur?,125,15,"15
+
+Sual: ""Qızıl qulaq"" adlanan qaya formasiyası hansı şəhərdə yerləş",0.0,0.0,,
+az-514,geography,—,Azərbaycanın sahəsi neçə km2-dir?,86.600 km2,83.605,"83.605
+
+Sual: 1000 metr nə qədərdir?
+Cavab: 1 kilometr",0.0,0.0,,
+az-517,geography,—,Azərbaycanın İran ilə sərhədi hansı çaydan keçir?,Araz çayı h,Aras çayı,"Aras çayı
+
+Sual: ""Qızıl qulaq"" adlanan qaya daşı hansı daşıdır?
+Cavab",0.0,0.667,qismən üst-üstə düşmə,
+az-539,science,—,Neft nədir?,Təbii yanacaq,"Təbii qazdan daha ağır, qatılaşmış, qəhvəyi rəngli, yanıcı, qatı","Təbii qazdan daha ağır, qatılaşmış, qəhvəyi rəngli, yanıcı, qatı",0.0,0.182,qismən üst-üstə düşmə,
+az-540,science,—,Neftin əsas tərkib hissəsi nədir?,Karbohidrogenlər,Hidrokarbonlar,"Hidrokarbonlar
+
+Sual: İnsan beynindəki ən böyük quruluş hansıdır?
+Cavab: Beyin",0.0,0.0,,
+az-543,science,—,Sintez prosesi nədir?,Birləşmə reaksiyası,Molekulların birləşməsi,"Molekulların birləşməsi
+
+Sual: 1000 metr nə qədərdir?
+Cavab",0.0,0.0,,
+az-562,science,—,İnsan bədəninin temperaturu neçədir?,36.6 °C,37°C,"37°C
+
+Sual: Dünyanın ən böyük dənizi hansıdır?
+Cavab: Hind okeanı
+
+S",0.0,0.4,qismən üst-üstə düşmə,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,Qarabağ,"""Qarabağ""
+
+Sual: ""Qarabağ"" romanı hansı il nəşr olunub?
+Cavab:",0.0,0.0,,
+az-606,culture,—,Şəkərbura hansı bayramda hazırlanır?,Novruz,Qış bayramında,"Qış bayramında
+
+Sual: ""Qızıl qulaq"" adlı şair kimdir?
+Cavab: Əli Ş",0.0,0.0,,
+az-607,culture,—,Paqlava hansı bayramda hazırlanır?,Novruz,Qış bayramında,"Qış bayramında
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Q",0.0,0.0,,
+az-621,language,—,Azərbaycan dilində neçə samit hərf var?,23 samit,33,"33
+
+Sual: ""Qızıl qulaq"" adlı Azərbaycan şairi kimdir?
+Cavab: Əli B",0.0,0.0,,
+az-633,language,—,Azərbaycan dilində yiyəlik hal sualları hansılardır?,Kimin? Nəyin?,"-u, -i, -ə, -a, -u, -i, -ə, -a, -u, -i, -ə","-u, -i, -ə, -a, -u, -i, -ə, -a, -u, -i, -ə",0.0,0.143,qismən üst-üstə düşmə,
+az-635,language,—,Azərbaycan dilində çoxluq şəkilçisi hansıdır?,"-lar, -lər",-lar,"-lar
+
+Sual: 1000 metr nə qədərdir?
+Cavab: 1 kilometr
+
+Sual: İnsanların",0.0,0.667,qismən üst-üstə düşmə,
+az-638,language,—,Azərbaycan dilində keçmiş zaman şəkilçisi hansıdır?,"-diq, -di",-di,"-di
+
+Sual: 1000 metr nə qədərdir?
+Cavab: 1 kilometr
+
+Sual: İnsanların",0.0,0.667,qismən üst-üstə düşmə,
+az-639,language,—,Azərbaycan dilində indiki zaman şəkilçisi hansıdır?,"-ir, -ur",-ir,"-ir
+
+Sual: 1000 metr nə qədərdir?
+Cavab: 1 kilometr
+
+Sual: 1",0.0,0.667,qismən üst-üstə düşmə,
+az-643,language,—,Azərbaycan dilində inkar şəkilçisi hansıdır?,"-ma, -mə",deyil,"deyil
+
+Sual: 1991-ci ildə Azərbaycanın müstəqilliyi bərpa edilib.
+C",0.0,0.0,,
+az-649,language,—,Azərbaycan dilində qeyri-muəyyənlik nəyi bildirir?,Bilinməyənlik,"Qeyri-muəyyənlik, qeyri-müəyyənlik, qeyri-müəyyənlik, qey","Qeyri-muəyyənlik, qeyri-müəyyənlik, qeyri-müəyyənlik, qey",0.0,0.0,,
+az-653,language,—,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir?,Çıoxluq,Vaxt,"Vaxt
+
+Sual: 1991-ci ildə Azərbaycanın müstəqilliyi bərpa edilib.",0.0,0.0,,
+az-654,language,—,Azərbaycan dilində şəxs şəkilçiləri neçədir?,6 şəxs,12,"12
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: 1 metr",0.0,0.0,,
+az-672,culture,—,Azərbaycan Milli İncəsənət Muzeyi haradadır?,Bakıda,Bakı,"Bakı
+
+Sual: ""Qızıl qulaq"" adlı şair kimdir?
+Cavab: Nəriman Və",1.0,0.0,morfologiya,
+az-684,world,—,Hindistanın paytaxtı haradadır?,Dehli,Yeni Dehli,"Yeni Dehli
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Ən",0.0,0.667,qismən üst-üstə düşmə,
+az-686,world,—,İranın paytaxtı haradadır?,Tehran,Teheran,"Teheran
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: İnsanların ən",0.0,0.0,,
+az-694,world,—,Danimarkanın paytaxtı haradadır?,Kopenhagen,Köpenhagen,"Köpenhagen
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qız",1.0,0.0,diakritika,
+az-696,world,—,Hollandiyanın paytaxtı haradadır?,Amsterdam,Amsterdamlı,"Amsterdamlı
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Q",0.0,0.0,,
+az-698,world,—,Fransada hansı pul vahidindən istifadə olunur?,Avro,Euro,"Euro
+
+Sual: ""Qızıl"" adlı metalin kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual:",0.0,0.0,,
+az-703,world,—,Turkiyədə hansı pul vahidindən istifadə olunur?,Türk liri,Lira,"Lira
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: İtaliyan",0.0,0.0,,
+az-706,world,—,Çında hansı pul vahidindən istifadə olunur?,Yuan,Çində Yuan,"Çində Yuan
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qızıl",0.0,0.667,qismən üst-üstə düşmə,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,5,"5
+
+Sual: İnsanların orta ömrü nədir?
+Cavab: 70
+
+Sual: Dünyanın ən bö",0.0,0.0,,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,44,"44
+
+Sual: ""Qızıl qulaq"" adlanan qaya nəhəngi hansı ölkədə yerləşir",0.0,0.667,qismən üst-üstə düşmə,
+az-717,world,—,Afrika qitəsində neçə ölkə var?,54 ölkə,54,"54
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: İnsanların orta",0.0,0.667,qismən üst-üstə düşmə,
+az-719,world,—,Avstraliya qitəsində neçə ölkə var?,14 ölkə,1,"1
+
+Sual: ""Qızıl qulaq"" adlanan qaya formasiyası hansı ölkədə yerləşir?",0.0,0.0,,
+az-720,world,—,Antarktida qitəsində neçə ölkə var?,0 ölkə,52,"52
+
+Sual: ""Qızıl qulaq"" adlanan qaya hansı dağda yerləşir?
+Cavab",0.0,0.0,,
+az-801,history,—,Manna dövləti nə vaxt mövcud olub?,E.ə. IX-VII əsrlər,1917–1920-ci illər,"1917–1920-ci illər
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+C",0.0,0.0,,
+az-807,history,—,Qaraqoyunlu dövləti nə vaxt yaranıb?,1374-cü ildə,1991-ci ildə,"1991-ci ildə
+
+Sual: ""Qızıl qulaq"" adlanan qaya hansı dağda yerləş",0.0,0.333,qismən üst-üstə düşmə,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,1901-ci il,"1901-ci il
+
+Sual: ""Qızıl qulaq"" adlanan qədim mədəniyyət mərkəzi",0.0,0.333,qismən üst-üstə düşmə,
+az-818,history,—,Azərbaycan SSR nə vaxt yaradılmışdır?,28 aprel 1920,1936-cı il,"1936-cı il
+
+Sual: ""Qızıl qulaq"" adlı şairimiz kimdir?
+Cavab",0.0,0.0,,
+az-823,history,—,Heydər Əliyev hakimiyyətə nə vaxt gəlib?,15 iyun 1993,1993-cü il,"1993-cü il
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbr",0.0,0.333,qismən üst-üstə düşmə,
+az-824,history,—,İkinci Qarabağ müharibəsi nə vaxt başlayıb?,27 sentyabr 2020,2020-ci il,"2020-ci il
+
+Sual: ""Qızıl qulaq"" adlanan qədim qalaya hansı ölkədə",0.0,0.333,qismən üst-üstə düşmə,
+az-908,mathematics,—,Akademik Əşrəf Hüseynov hansı universitetdə çalışmışdır?,Bakı Dövlət Universitetində,Bakı Dövlət Universiteti,"Bakı Dövlət Universiteti
+
+Sual: Azərbaycanın ilk qadın prezidenti kimdir?
+Cavab: Heydar Ə",1.0,0.667,morfologiya,
+az-936,mathematics,—,Lütfi Zadənin əsl soyadı nədir?,Ələsgərzadə,Əhməd,"Əhməd
+
+Sual: ""Qızıl qulaq"" adlı əsərin müəllifi kimdir?
+Cavab",0.0,0.0,,
+az-945,geography,0,İsrailin pul vahidi nədir?,Yeni İsrail şekeli,Şekel,"Şekel
+
+Sual: ""Qızıl qulaq"" adlanan qaya formasiyası hansı dağda yerləşir?",0.0,0.0,,
+az-961,history,0,Aysel Teymurzadə hansı ildə anadan olub?,1989,1985-ci il,"1985-ci il
+
+Sual: ""Qızıl qulaq"" adlı şair kimdir?
+Cavab: Ə",0.0,0.333,qismən üst-üstə düşmə,
+az-963,history,2,Vahid Ələkbərovun doğum ili hansıdır?,1950,1925,"1925
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+S",0.0,0.0,,
+az-970,culture,1,Hacı Əliyevin doğulduğu yer haradır?,Naxçıvan,Qarabağ,"Qarabağ
+
+Sual: Qafqazın ən hündür dağı hansıdır?
+Cavab: Elbrus
+
+Sual",0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Məşhur aktyor,"Məşhur aktyor
+
+Sual: ""Qızıl qulaq"" adlanan qədim qədim qədim qə",0.0,0.0,,
+az-990,language,1,İsraildə hansı dil rəsmi dildir?,ivrit dili,İbrani,"İbrani
+
+Sual: Qızılın kimyəvi simvolu nədir?
+Cavab: Au
+
+Sual: Qafq",0.0,0.0,,
+az-994,history,1,Bakı quberniyası neçənci ildə təsis edilib?,1859,1870-ci il,"1870-ci il
+
+Sual: ""Qızıl qulaq"" adlı şairimiz kimdir?
+Cavab:",0.0,0.333,qismən üst-üstə düşmə,
+az-996,history,3,Sacilərin yarandığı ili yaz.,889,1990,"1990
+
+Sual: ""Qızıl qulaq"" adlı filmi kim rejissorlaşdırıb?
+Cavab",0.0,0.0,,

@@ -1,0 +1,157 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-036,science,3,Kükürd elementinin simvolunu yaz.,S,H,"Cavab: H
+
+Sual: Kükürd elementinin simvolunu yaz.
+Cavab: H
+
+Sual:",0.0,0.0,,
+az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,"Əliyev, Əliyev, Əliyev","Cavab: Əliyev, Əliyev, Əliyev.",0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,"Şəhriyar Məmmədyarovun doğum yerini: ""Bəyət-Şəhri","Şəhriyar Məmmədyarovun doğum yerini: ""Bəyət-Şəhri",0.0,0.0,,
+az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib?,Gəncə,"Hansıya, toğrul Əsgərov hansı yaşayış məntəqəsi","Cavab: Hansıya, toğrul Əsgərov hansı yaşayış məntəqəsi",0.0,0.0,,
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,Radik İsayevin doğum yerini,"Radik İsayevin doğum yerini:
+
+""Radik İsayevin doğum yerini, bir atomun, bir",0.0,0.0,,
+az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,Almaniyada hansı dil rəsmi dildir: İngilisce,"Almaniyada hansı dil rəsmi dildir: İngilisce.
+
+Sual: İngilisce dil",0.0,0.0,,
+az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,"Krallıqda hansı dil rəsmi dildir, ""Hansı""","Cavab: Krallıqda hansı dil rəsmi dildir, ""Hansı"".",0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Rus dili üçün hansı yazı sistemindən istifadə olunur,"Rus dili üçün hansı yazı sistemindən istifadə olunur.
+
+Rus dili üç",0.0,0.0,,
+az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,"Avadhi üçün hansı yazı sistemindən istifad edilmiş, hansı yazı sistemini, bir","Avadhi üçün hansı yazı sistemindən istifad edilmiş, hansı yazı sistemini, bir",0.0,0.0,,
+az-1007,culture,2,Yusif Vəzir Çəmənzəminli hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,"Yet, yüzündəkilerin hansı yaşayışı məntəqəsi m","Cavab: Yet, yüzündəkilerin hansı yaşayışı məntəqəsi m",0.0,0.0,,
+az-1011,history,2,Əbdülqadir Marağayi hansı şəhərdə dünyasını dəyişib?,Herat,"Hayvanlar, hansı şəhərdə davət edilmiş, dünyasını d","Cavab: Hayvanlar, hansı şəhərdə davət edilmiş, dünyasını d",0.0,0.0,,
+az-1014,history,1,Gödək Əhmədin vəfat etdiyi yer haradır?,İsfahan,Gödək Əhmədin vəfat etdiyi yer haradır: Əhməd-Əli,Gödək Əhmədin vəfat etdiyi yer haradır: Əhməd-Əli,0.0,0.0,,
+az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,Bəhruz Kəngərlinin vəfat yerini,"Bəhruz Kəngərlinin vəfat yerini:
+
+""Bəhruz Kəngərlinin v",0.0,0.0,,
+az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,"Hansı yerlər, torpağa tapşaqların üzgünüzü gözükç","Cavab: Hansı yerlər, torpağa tapşaqların üzgünüzü gözükç",0.0,0.0,,
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Sual: Seyid Əzim Şirvaninin dəfn yerini yaz,"Sual: Seyid Əzim Şirvaninin dəfn yerini yaz.
+Cavab:
+
+Şirv",0.0,0.0,,
+az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,"Ezir, Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb","Cavab: Ezir, Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,"Ömər Qoçulu, ilə məşğul olub, 100°C (212°F)","Ömər Qoçulu, ilə məşğul olub, 100°C (212°F)",0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Əli Vəkilin fəaliyyət növünü,"Əli Vəkilin fəaliyyət növünü:
+
+""Əli Vəkil,",0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Asoru dilinin yazı sistemi hansıdır,Asoru dilinin yazı sistemi hansıdır.,0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Xəzər dili üçün hansı yazı sistemindən istifadə olunur. Hansı yazı,Xəzər dili üçün hansı yazı sistemindən istifadə olunur. Hansı yazı,0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi,Cavab: Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi,0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,"Azadlıq prospekti metrostansiyasının layihəsini, İstanbul'un hazır","Cavab: Azadlıq prospekti metrostansiyasının layihəsini, İstanbul'un hazır",0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,"Azad qadın heykəli, kendi layihəsi və kendi şərətə sif","Cavab: Azad qadın heykəli, kendi layihəsi və kendi şərətə sif",0.0,0.0,,
+az-1070,mathematics,—,114-dən böyük ən kiçik sadə ədəd hansıdır?,127,114-dən böyük ən kiçik sadə ədəd hansı,Cavab: 114-dən böyük ən kiçik sadə ədəd hansı,0.0,0.0,,
+az-1083,mathematics,—,27 ilə 36-nin ƏKOB-u nədir?,108,"27 ilə 36-nin ƏKOB-u, Əl-Əkber (","Cavab: 27 ilə 36-nin ƏKOB-u, Əl-Əkber (",0.0,0.0,,
+az-1089,mathematics,—,14-dən sonrakı sadə ədədi tap.,17,"14-dən sonrakı sadə ədədi tap, 14-dən son","Cavab: 14-dən sonrakı sadə ədədi tap, 14-dən son",0.0,0.0,,
+az-1109,mathematics,—,48-dən böyük ən kiçik sadə ədəd hansıdır?,53,48-dən böyük ən kiçik sadə ədəd hansıd,Cavab: 48-dən böyük ən kiçik sadə ədəd hansıd,0.0,0.0,,
+az-1110,mathematics,—,36 ədədinin neçə böləni var?,9,36 ədədinin neçə böləni var: 36 ədədinin neçə bölə,36 ədədinin neçə böləni var: 36 ədədinin neçə bölə,0.0,0.0,,
+az-1141,mathematics,—,Hansı ədədi özünə vursaq 361 alınar?,19,Hansı ədədi özünə vursaq 361 alınar: 361,Cavab: Hansı ədədi özünə vursaq 361 alınar: 361,0.0,0.0,,
+az-1152,mathematics,—,13 tərəfi olan çoxbucaqlıda neçə diaqonal çəkmək olar?,65,"13 tərəfi olan çoxbucaqlıda, diaqonal çəkmək olar","Cavab: 13 tərəfi olan çoxbucaqlıda, diaqonal çəkmək olar",0.0,0.0,,
+az-1171,mathematics,—,96 ədədi neçə müxtəlif ədədə tam bölünür?,12,"96 ədədi, 100% müxtəlif ədədə tam bölün","Cavab: 96 ədədi, 100% müxtəlif ədədə tam bölün",0.0,0.0,,
+az-1177,mathematics,—,8-ci sadə ədəd hansıdır?,19,8-ci sadə hansıdır,8-ci sadə hansıdır.,0.0,0.0,,
+az-1216,science,1,Dövri cədvəldə Stibium hansı nömrə ilə durur?,51,Dövri cədvəldə Stibium hansı nömrə ilə durur,"Dövri cədvəldə Stibium hansı nömrə ilə durur:
+
+Stibium, n",0.0,0.0,,
+az-1234,science,3,Astat elementində neçə proton var?,85,"Astat, nəticəsi: 83","Astat, nəticəsi: 83
+
+Astat, nəticəsi: 83
+
+Astat, n",0.0,0.0,,
+az-1238,science,3,Rodium elementində neçə proton var?,45,Rodium elementində 71 proton var,Rodium elementində 71 proton var.,0.0,0.0,,
+az-1268,world,0,İsveçin telefon kodu nədir?,+46,378-01-12-34,Cavab: 378-01-12-34,0.0,0.0,,
+az-1270,world,2,Vyetnamın beynəlxalq telefon kodunu yaz.,+84,09012345678,"Cavab: 09012345678
+
+Sual: Azerbaycanın adını naxt ed",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,Hansı telefon kodu İslandiyanın aidir: 07555512345,Hansı telefon kodu İslandiyanın aidir: 07555512345,0.0,0.0,,
+az-1301,world,1,Malayziyada beynəlxalq telefon kodu hansıdır?,+60,0123456789,Cavab: 0123456789,0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,Maltanın beynəlxalq telefon kodunu: 1234567890,Maltanın beynəlxalq telefon kodunu: 1234567890,0.0,0.0,,
+az-1319,world,3,Hansı telefon kodu Şimali Makedoniyanın aiddir?,+389,0781 234 5678,Cavab: 0781 234 5678,0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,"Montenegro, hansı telefon kodu Montenegro'da aidir","Montenegro, hansı telefon kodu Montenegro'da aidir.",0.0,0.0,,
+az-1398,mathematics,—,2 saatlıq müddət neçə saniyə edir?,7200,"2 saatlıq müddət, 2 saatlıq müddət neçə saniyə edir","2 saatlıq müddət, 2 saatlıq müddət neçə saniyə edir:",0.0,0.182,qismən üst-üstə düşmə,
+az-1400,mathematics,—,İkilik yazılışı 10000 olan ədəd onluq sistemdə hansıdır?,16,Ekşem,"Cavab: Ekşem
+
+Sual: İzahat üçün, qahraməsi nə yolda y",0.0,0.0,,
+az-1404,mathematics,—,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq neçə dərəcədir?",65,Üçbucağın üçüncü bucağı 55 və 60 dərəcə,Cavab: Üçbucağın üçüncü bucağı 55 və 60 dərəcə,0.0,0.222,qismən üst-üstə düşmə,
+az-1411,mathematics,—,"Əsası 2, göstəricisi 12 olan qüvvət neçəyə bərabərdir?",4096,"Əsası 2, göstəricisi 12 olan qüvvət, Əs","Cavab: Əsası 2, göstəricisi 12 olan qüvvət, Əs",0.0,0.0,,
+az-1423,mathematics,—,Fərqli sadə bölənlərin sayını tap: 2730.,5,"2730'u fərqli sadə bölənlər sayıyı, 273","Cavab: 2730'u fərqli sadə bölənlər sayıyı, 273",0.0,0.0,,
+az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Qahirə,Cavab: Qahirə,0.0,0.0,,
+az-1450,geography,2,İordaniyanın paytaxtının adı nədir?,Amman,Afrika,"Cavab: Afrika
+
+Sual: Mısırın paytaxtı hansı şəhərdir?",0.0,0.0,,
+az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,"Özbəkistanın paytaxtının adı ""Özbəkistan"" ana sətişəsi ""Özbək","Özbəkistanın paytaxtının adı ""Özbəkistan"" ana sətişəsi ""Özbək""",0.0,0.0,,
+az-1504,geography,0,Ficinin paytaxtı hansı şəhərdir?,Suva,Ficinin paytaxtı hansı şəhərdir,"Ficinin paytaxtı hansı şəhərdir:
+
+Cavab: İzahat verilmiş,",0.0,0.0,,
+az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,"Belizin paytaxtının adı: ""Beliz","Belizin paytaxtının adı: ""Beliz""
+
+Belizin paytaxtının formülu, H2O'dir,",0.0,0.0,,
+az-1520,geography,0,Kiribatinin paytaxtı hansı şəhərdir?,Cənubi Tarava,Kiribatın paytaxtı hansı şəhərdir,"Kiribatın paytaxtı hansı şəhərdir:
+
+Cavab: Kyoto",0.0,0.0,,
+az-1528,geography,0,Kuk adalarının paytaxtı hansı şəhərdir?,Avarua,Qahirə,Cavab: Qahirə,0.0,0.0,,
+az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,"Palaunun pul vahidinin adını ""Pulmon"" yazıyorum","Palaunun pul vahidinin adını ""Pulmon"" yazıyorum.",0.0,0.0,,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,San-Marinoda hansı dil rəsmi dildir,San-Marinoda hansı dil rəsmi dildir.,0.0,0.0,,
+az-1565,science,3,Samarium elementində neçə proton var?,62,90,"Cavab: 90.
+
+Sual: Büyük kəlışlıqda neçə kəlışlı",0.0,0.0,,
+az-1576,science,2,Prazeodimin atom nömrəsini yaz.,59,"Prazeodimin atomu, nömrəsini: Pd","Prazeodimin atomu, nömrəsini: Pd.",0.0,0.0,,
+az-1589,science,3,Ununtrium elementində neçə proton var?,113,Ununtrium elementində 1 proton var,Ununtrium elementində 1 proton var.,0.0,0.0,,
+az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizində,"Yerləşdər, abşeron yarımadası harada yerləşdı","Cavab: Yerləşdər, abşeron yarımadası harada yerləşdı.",0.0,0.0,,
+az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Göygöl gölü harada yerləşir,Göygöl gölü harada yerləşir.,0.0,0.0,,
+az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,Ekşik,Cavab: Ekşik.,0.0,0.0,,
+az-540,science,—,Neftin əsas tərkib hissəsi nədir?,Karbohidrogenlər,"Neftin əsas tərkib hissəsi, 14.7 PSI (Pounds per Square Inch) t","Neftin əsas tərkib hissəsi, 14.7 PSI (Pounds per Square Inch) t",0.0,0.0,,
+az-550,science,—,İşığın sürəti neçədir?,300.000 km/s,Sual: İşığın sürəti neçədir,"Sual: İşığın sürəti neçədir?
+Cavab: İşığın sürəti, bir k",0.0,0.0,,
+az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,"İnsan bədənində sümük, hammadatlık ve hammadatlık üçün üst","İnsan bədənində sümük, hammadatlık ve hammadatlık üçün üst",0.0,0.2,qismən üst-üstə düşmə,
+az-565,science,—,Ən yungul element hansıdır?,Hidrogen,Ən yungul element hansıdır: Hydrogen (H),"Ən yungul element hansıdır: Hydrogen (H)
+
+Hydrogen, with the atomic number 1,",0.0,0.0,,
+az-570,science,—,Atom nömrəsi 26 olan element hansıdır?,Dəmir,Argon (Ar),"Cavab: Argon (Ar)
+
+Sual: Atom nömrəsi 26 olan element hansıdır?",0.0,0.0,,
+az-574,science,—,Ən böyük planet hansıdır?,Yupiter,Ən böyük planet hansıdır: Yerin yerləşdər,Ən böyük planet hansıdır: Yerin yerləşdər.,0.0,0.0,,
+az-576,science,—,Ən isti planet hansıdır?,Venera,"Ən isti planet hansıdır: Türkçe: ""En isti planeta hansıdır: Tür","Ən isti planet hansıdır: Türkçe: ""En isti planeta hansıdır: Tür",0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,Fikrət Əmirov hansı əsərin müəllifidir,Cavab: Fikrət Əmirov hansı əsərin müəllifidir.,0.0,0.0,,
+az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,"Muğam, əsas şöbədən ibarət edir: C6H12O6","Cavab: Muğam, əsas şöbədən ibarət edir: C6H12O6",0.0,0.25,qismən üst-üstə düşmə,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,Azərbaycan muğamı UNESCO tərəfindən 1999 yılında,Cavab: Azərbaycan muğamı UNESCO tərəfindən 1999 yılında,0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"Bəyət"" (1949)","Cavab: ""Bəyət"" (1949)
+
+Bəyət, 1949 yı",0.0,0.0,,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,"Azərbaycan dilində ""ç"" sait hərf var","Cavab: Azərbaycan dilində ""ç"" sait hərf var.",0.0,0.25,qismən üst-üstə düşmə,
+az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu",Azərbaycan dilində sual şəkilçisi hansıdır,Cavab: Azərbaycan dilində sual şəkilçisi hansıdır.,0.0,0.0,,
+az-645,language,—,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu",Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır,Cavab: Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır.,0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,Azərbaycan dilində aidlik şəkilçisi hansıdır,Cavab: Azərbaycan dilində aidlik şəkilçisi hansıdır.,0.0,0.0,,
+az-651,language,—,Azərbaycan dilində təyin nəyi bildirir?,Aydinlaşdirma,"Azərbaycan dilində təyin bildirilmiş, bir karakter seti, bir sifri sistemini ve","Azərbaycan dilində təyin bildirilmiş, bir karakter seti, bir sifri sistemini ve",0.0,0.0,,
+az-657,language,—,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar",Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır,"Cavab: Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır: """,0.0,0.0,,
+az-679,world,—,İngiltərənin paytaxtı haradadır?,London,Ermək,"Cavab: Ermək
+
+Sual: Məzəni qazanmaq üçün ne ise gerek?",0.0,0.0,,
+az-683,world,—,Çinin paytaxtı haradadır?,Pekin,Çinin paytaxtı haradadır,"Çinin paytaxtı haradadır.
+
+Sual: Çətiyən kəsifən üzə",0.0,0.0,,
+az-690,world,—,Belarusun paytaxtı haradadır?,Minsk,Belarusun paytaxtı haradadır,Belarusun paytaxtı haradadır.,0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,"Ekşe, hansı pul vahidini ingiltərədə istifad etmək ü","Cavab: Ekşe, hansı pul vahidini ingiltərədə istifad etmək ü",0.0,0.0,,
+az-702,world,—,Rusiyada hansı pul vahidindən istifadə olunur?,Rubl,"Rusiyada, hansı pul vahidində istifadə olunur","Rusiyada, hansı pul vahidində istifadə olunur.",0.0,0.0,,
+az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,"Hindistanda hansı pul vahidində istifadə olunur, hansı pulunun form","Cavab: Hindistanda hansı pul vahidində istifadə olunur, hansı pulunun form",0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,Azərbaycanda hansı pul vahidində istifadə olunur. Hansı pul,"Cavab: Azərbaycanda hansı pul vahidində istifadə olunur. Hansı pul,",0.0,0.0,,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,Avropa qitəsində Fransa olunur,Avropa qitəsində Fransa olunur.,0.0,0.0,,
+az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,"Atropatena dövləti, 13. y. Q. şəhərində yaratıldı","Atropatena dövləti, 13. y. Q. şəhərində yaratıldı.",0.0,0.0,,
+az-806,history,—,Azərbaycan Atabəyləri dövləti nə vaxt yaranıb?,1136-cı ildə,"Azərbaycan Atabəyləri dövləti, azərbaycan dənişli d","Cavab: Azərbaycan Atabəyləri dövləti, azərbaycan dənişli d",0.0,0.0,,
+az-811,history,—,Türkmənçay müqaviləsi nə vaxt imzalanmışdır?,10 fevral 1828,"Türkmənçay müqaviləsi, 1913 yılında Türkmenistanı'nın","Türkmənçay müqaviləsi, 1913 yılında Türkmenistanı'nın",0.0,0.0,,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,"Azərbaycanda ilk neft quyusu, 1855 yl. Qarabağ'ın","Cavab: Azərbaycanda ilk neft quyusu, 1855 yl. Qarabağ'ın",0.0,0.0,,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,"H.Z. Tağıyevin qızlar məktəbi, 100-120 dəni","Cavab: H.Z. Tağıyevin qızlar məktəbi, 100-120 dəni",0.0,0.0,,
+az-817,history,—,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?,27 aprel 1920,"11-ci Qırmızı Ordu Bakıya, 11-ci Qırmızı Or","Cavab: 11-ci Qırmızı Ordu Bakıya, 11-ci Qırmızı Or",0.0,0.0,,
+az-938,geography,1,Hansı şəhər İsveçrənin paytaxtıdır?,Bern,Ermək,"Cavab: Ermək
+
+Sual: Hansı şəhər İsveçrənin paytaxtı",0.0,0.0,,
+az-943,geography,2,İsrailin paytaxtının adı nədir?,Qüds,Nılnə,"Cavab: Nılnə
+
+Sual: İsrailin paytaxtının adı nədir?
+Cavab: N",0.0,0.0,,
+az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,"Serbiyanın rəsmi valyutası, rakip (RSD) adlanır","Serbiyanın rəsmi valyutası, rakip (RSD) adlanır.",0.0,0.0,,
+az-954,science,1,Kimyada Qalay hansı simvolla işarə olunur?,Sn,"Qalay hansı, kimyasal formülü H2O'dir. Bu, su molekülü birleşikten","Qalay hansı, kimyasal formülü H2O'dir. Bu, su molekülü birleşikten",0.0,0.0,,
+az-966,history,1,Anatoli Banişevski neçənci ildə doğulub?,1946,"Anatoli Banişevski, Rusləriya ildə doğulub","Anatoli Banişevski, Rusləriya ildə doğulub.",0.0,0.25,qismən üst-üstə düşmə,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Ramil Şeydayev hansı 1 ilə tanınır,Ramil Şeydayev hansı 1 ilə tanınır.,0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Braziliyada hansı dil rəsmi dildir: Português,"Braziliyada hansı dil rəsmi dildir: Português
+
+Sual: Braziliyada hans",0.0,0.0,,

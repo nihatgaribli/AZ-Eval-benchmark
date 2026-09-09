@@ -1,0 +1,521 @@
+{"id": "tumlu-az-1", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "23 km/sa"}
+{"id": "tumlu-az-2", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "1083°C"}
+{"id": "tumlu-az-3", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Lingin tərifi nə ilə qurtarır?  \nCavab: Lingin tərifi nə ilə q"}
+{"id": "tumlu-az-4", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "800 m"}
+{"id": "tumlu-az-5", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2"}
+{"id": "tumlu-az-6", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "M"}
+{"id": "tumlu-az-7", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2"}
+{"id": "tumlu-az-8", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "1+"}
+{"id": "tumlu-az-9", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2.000 g"}
+{"id": "tumlu-az-10", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "0"}
+{"id": "tumlu-az-11", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Dəfələr"}
+{"id": "tumlu-az-12", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Qüvvənin istiqamətini dəyişən blok — **qüvvə bloku** (yəni"}
+{"id": "tumlu-az-13", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Dərinlikdə qüvvətli olmayan, uzun məsafələrdə də etkilə"}
+{"id": "tumlu-az-14", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "f"}
+{"id": "tumlu-az-15", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "11"}
+{"id": "tumlu-az-16", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "e⁻"}
+{"id": "tumlu-az-17", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2 dəfə artır."}
+{"id": "tumlu-az-18", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "I"}
+{"id": "tumlu-az-19", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "0 N"}
+{"id": "tumlu-az-20", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Qüdrət"}
+{"id": "tumlu-az-21", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "12 dəqiqə"}
+{"id": "tumlu-az-22", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "36C"}
+{"id": "tumlu-az-23", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "50 N"}
+{"id": "tumlu-az-24", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Dinamometr"}
+{"id": "tumlu-az-25", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Küllər"}
+{"id": "tumlu-az-26", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "500 J"}
+{"id": "tumlu-az-27", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "8 m və 6 m, 5 m"}
+{"id": "tumlu-az-28", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Yolun uzunluğu"}
+{"id": "tumlu-az-29", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "16 km/saat"}
+{"id": "tumlu-az-30", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "100°C"}
+{"id": "tumlu-az-31", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Massa, həcm, səth, rəng, şəkli, texstur, hərəkət,"}
+{"id": "tumlu-az-32", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Müəssisələrə və təhsil institutlarına aid olan ilk Azərbaycanlı fizik."}
+{"id": "tumlu-az-33", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Sublimasiya"}
+{"id": "tumlu-az-34", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "İşənəklik"}
+{"id": "tumlu-az-35", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Tb"}
+{"id": "tumlu-az-36", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Hərəkət cismə nəzərən öyrənilirsə o **cism** adlanır."}
+{"id": "tumlu-az-37", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "N·m"}
+{"id": "tumlu-az-38", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Yox, vermir."}
+{"id": "tumlu-az-39", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Elektroliz"}
+{"id": "tumlu-az-40", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "10 m/s"}
+{"id": "tumlu-az-41", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Hərəkət"}
+{"id": "tumlu-az-42", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Aristotel"}
+{"id": "tumlu-az-43", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Təcil – təcil cihazla ölçülür."}
+{"id": "tumlu-az-44", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Hərəkət həcmi"}
+{"id": "tumlu-az-45", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "86400"}
+{"id": "tumlu-az-46", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "U"}
+{"id": "tumlu-az-47", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2 m"}
+{"id": "tumlu-az-48", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "压强"}
+{"id": "tumlu-az-49", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Abstrakt cism"}
+{"id": "tumlu-az-50", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Nüvə elektronları cəzb edir, çünki elektronlar nüvənin elektrikləşdirilm"}
+{"id": "tumlu-az-51", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2"}
+{"id": "tumlu-az-52", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Skalar kəmiyyətlər"}
+{"id": "tumlu-az-53", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Volt"}
+{"id": "tumlu-az-54", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Qırmızı qızıl qızıl qızıl qızıl qızıl qızıl qızıl qızıl qızıl"}
+{"id": "tumlu-az-55", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Pascal"}
+{"id": "tumlu-az-56", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "P dalğaları — elektronlar arasında elektrik və magnetik sərtlərin dəyişməsi ilə y"}
+{"id": "tumlu-az-57", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Kg"}
+{"id": "tumlu-az-58", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "1500 W"}
+{"id": "tumlu-az-59", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Ampir"}
+{"id": "tumlu-az-60", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "İşin enerji dərəcəsi"}
+{"id": "tumlu-az-61", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "800 N"}
+{"id": "tumlu-az-62", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "10 sm"}
+{"id": "tumlu-az-63", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Joule"}
+{"id": "tumlu-az-64", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2 dəfə artar"}
+{"id": "tumlu-az-65", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "2"}
+{"id": "tumlu-az-66", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "160 g"}
+{"id": "tumlu-az-67", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Hydrogen, H"}
+{"id": "tumlu-az-68", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Hidrokarbonlar"}
+{"id": "tumlu-az-69", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Reaksiya"}
+{"id": "tumlu-az-70", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "16"}
+{"id": "tumlu-az-71", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "1820-cı ildə"}
+{"id": "tumlu-az-72", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "17"}
+{"id": "tumlu-az-73", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "16"}
+{"id": "tumlu-az-74", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Qızıl, Nəməl, Qızıl, Nəməl, Qızıl, Nəməl, Qız"}
+{"id": "tumlu-az-75", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "100 qr"}
+{"id": "tumlu-az-76", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Johannes Berzelius"}
+{"id": "tumlu-az-77", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "20q"}
+{"id": "tumlu-az-78", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Səbəb: Alüminium qabı, alüminiumun oksidləşməsindən asılı"}
+{"id": "tumlu-az-79", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Oksijen"}
+{"id": "tumlu-az-80", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Sədələr"}
+{"id": "tumlu-az-81", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "160 g"}
+{"id": "tumlu-az-82", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "92"}
+{"id": "tumlu-az-83", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "130 qr"}
+{"id": "tumlu-az-84", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "180 q"}
+{"id": "tumlu-az-85", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Alüminium, çink, kalsium, nikel, beryllium, selen, krom, mangan, bor, arsen"}
+{"id": "tumlu-az-86", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Al, Be, Mg, Ca, Sr, Ba, Ra, C, Si, Ge, Sn, Pb, Po, At, H, He,"}
+{"id": "tumlu-az-87", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Sıxlıqda qalxan misi sink qarışığından təmizləmək üçün **s"}
+{"id": "tumlu-az-88", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "3"}
+{"id": "tumlu-az-89", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "20"}
+{"id": "tumlu-az-90", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Benzoyl klorid"}
+{"id": "tumlu-az-91", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Karbon"}
+{"id": "tumlu-az-92", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "120 kC / 16.8 qram = 7.14 kC/g  \n7.14 kC/g *"}
+{"id": "tumlu-az-93", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "28.97"}
+{"id": "tumlu-az-94", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "John Dalton"}
+{"id": "tumlu-az-95", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Kataliz ilk vaxtlarda kimyəvi reaksiyaların timsalında öyrənilirdi."}
+{"id": "tumlu-az-96", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "100 qr"}
+{"id": "tumlu-az-97", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Evaporation"}
+{"id": "tumlu-az-98", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "3"}
+{"id": "tumlu-az-99", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Cümlə qurma: Tsikloalkanlarada siqma rabitənin sayı, atomların sayına və molekulun"}
+{"id": "tumlu-az-100", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "S\n\nSual: Misirin paytaxtı hansı şəhərdir?\nCavab: Qahirə\n\nSual: Su"}
+{"id": "tumlu-az-101", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "100 g"}
+{"id": "tumlu-az-102", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Endotermik və eksotermik reaksiyalar"}
+{"id": "tumlu-az-103", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Səthənən"}
+{"id": "tumlu-az-104", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "2.4 M"}
+{"id": "tumlu-az-105", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "6-cı qrup"}
+{"id": "tumlu-az-106", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "kg/mol"}
+{"id": "tumlu-az-107", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "C2H4"}
+{"id": "tumlu-az-108", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Karbon ailəsinə mənsubdur."}
+{"id": "tumlu-az-109", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "1 mol"}
+{"id": "tumlu-az-110", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Fiziki cisimlər nədən ibarətdirsə, onlar **maddə** adlanır."}
+{"id": "tumlu-az-111", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "C4H10"}
+{"id": "tumlu-az-112", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Nitrogen"}
+{"id": "tumlu-az-113", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Tsikloalkanlar — izomeri olmayır."}
+{"id": "tumlu-az-114", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "CO₂"}
+{"id": "tumlu-az-115", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "10%"}
+{"id": "tumlu-az-116", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "0.5 M"}
+{"id": "tumlu-az-117", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "18"}
+{"id": "tumlu-az-118", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "C6H6"}
+{"id": "tumlu-az-119", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Qızıl"}
+{"id": "tumlu-az-120", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "22.4 L/mol"}
+{"id": "tumlu-az-121", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Oksigen"}
+{"id": "tumlu-az-122", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "16"}
+{"id": "tumlu-az-123", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "1600 ml"}
+{"id": "tumlu-az-124", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "H2O"}
+{"id": "tumlu-az-125", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Na:2, C:1, O:3"}
+{"id": "tumlu-az-126", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "2"}
+{"id": "tumlu-az-127", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "46.67%"}
+{"id": "tumlu-az-128", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "u."}
+{"id": "tumlu-az-129", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "2"}
+{"id": "tumlu-az-130", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Na2CO3"}
+{"id": "tumlu-az-131", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "C2H2"}
+{"id": "tumlu-az-132", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Bölgələşdirilmiş"}
+{"id": "tumlu-az-133", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "35"}
+{"id": "tumlu-az-134", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "64"}
+{"id": "tumlu-az-135", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "0.05 mol/L"}
+{"id": "tumlu-az-136", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "30"}
+{"id": "tumlu-az-137", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "1 mol gaz"}
+{"id": "tumlu-az-138", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "22,4 litr"}
+{"id": "tumlu-az-139", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "22 g"}
+{"id": "tumlu-az-140", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Sıxlıqda"}
+{"id": "tumlu-az-141", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "10.55"}
+{"id": "tumlu-az-142", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "21%"}
+{"id": "tumlu-az-143", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "Latınca"}
+{"id": "tumlu-az-144", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "İnkar felləri — bu tərəfli dərəcədən başqa, hərəkə"}
+{"id": "tumlu-az-145", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sözlərə qoşularaq müxtəlif məna çalarlıqları əmələ gə"}
+{"id": "tumlu-az-146", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Qəbul etməyən şəkilçilər — qəbul etməyən şəkilçilə"}
+{"id": "tumlu-az-147", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Vurğunun yerini dəyişməklə mənası dəyişən söz: **“dəyiş"}
+{"id": "tumlu-az-148", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sifətin çoxaltma dərəcəsinə aid olan söz: **məşhur**"}
+{"id": "tumlu-az-149", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sənədən qəbul edən toplu isim: sənədən qəbul edən"}
+{"id": "tumlu-az-150", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "3"}
+{"id": "tumlu-az-151", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Köpüklü çəkələrə bənzər şəkildə"}
+{"id": "tumlu-az-152", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sənət"}
+{"id": "tumlu-az-153", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Mücərrəd isimlərə konkret isimlərə dəyişdirilmək olar."}
+{"id": "tumlu-az-154", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Düzbucaqlı və kvadratlı şəkilçilərlə"}
+{"id": "tumlu-az-155", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "1234567890"}
+{"id": "tumlu-az-156", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Səs hissəsi"}
+{"id": "tumlu-az-157", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Ən çox məşhur və məşhur olmaqla bağlıdır."}
+{"id": "tumlu-az-158", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Adlıq halı."}
+{"id": "tumlu-az-159", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Fonetik tələffüz"}
+{"id": "tumlu-az-160", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "2"}
+{"id": "tumlu-az-161", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Modal sözün məna növlərinin **“modal”** (yəni “modal” sözünün məna növl"}
+{"id": "tumlu-az-162", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Lap\n\nSual: Misirin paytaxtı hansı şəhərdir?\nCavab: Qahirə\n\nSual:"}
+{"id": "tumlu-az-163", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "20"}
+{"id": "tumlu-az-164", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "fəl, neologizm, əlifba, vurğu, sinonim, ..."}
+{"id": "tumlu-az-165", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sifat"}
+{"id": "tumlu-az-166", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Feli cümlədə işlətsəniz, həmin cümlənin mübtədası olmayaca"}
+{"id": "tumlu-az-167", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Xırdaca - sifət dərəcəsindədir."}
+{"id": "tumlu-az-168", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "İsmi mənsubiyyətə görə dəyişmiş nümunə: “Şəhər” →"}
+{"id": "tumlu-az-169", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Vurğunun yerini dəyişməklə mənası dəyişən söz: **“Mən”"}
+{"id": "tumlu-az-170", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sətirənənənənənənənənənənənənənən"}
+{"id": "tumlu-az-171", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Qeyri təyinli söz birləşmə: \"Qeyri təyinli\" — bu söz birlə"}
+{"id": "tumlu-az-172", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Kələm"}
+{"id": "tumlu-az-173", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "2"}
+{"id": "tumlu-az-174", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sifət kim sualına cavab verərsə, **sənədli** xüsusiyyəti daşıy"}
+{"id": "tumlu-az-175", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Diyalət"}
+{"id": "tumlu-az-176", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "2"}
+{"id": "tumlu-az-177", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Mübtədadan sonra vergül qoyulur."}
+{"id": "tumlu-az-178", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Cümlədə təkərək işlənir."}
+{"id": "tumlu-az-179", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sait boğaz samitidir — bu cümlə qurma.  \nCavab: **Sait** — bu cüml"}
+{"id": "tumlu-az-180", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Mənsubiyyət"}
+{"id": "tumlu-az-181", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Felin məna növü var."}
+{"id": "tumlu-az-182", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Həcm"}
+{"id": "tumlu-az-183", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Fərdi üslubun təzahürünə ən az imkan yaradan üslub — **tək"}
+{"id": "tumlu-az-184", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Kələm"}
+{"id": "tumlu-az-185", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Sözlərə dəyər verən kimi düşünmək olar."}
+{"id": "tumlu-az-186", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Təəccüb bildirən nidalar — təəccübli və ya təəccüb verən nidalard"}
+{"id": "tumlu-az-187", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Fel – “fel” nitq hissəsi ilə ifadə olunur."}
+{"id": "tumlu-az-188", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Dəqiq göstərilir."}
+{"id": "tumlu-az-189", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Kənarlıqda"}
+{"id": "tumlu-az-190", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "2"}
+{"id": "tumlu-az-191", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Yox"}
+{"id": "tumlu-az-192", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Bağlayıcı"}
+{"id": "tumlu-az-193", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Qahirə"}
+{"id": "tumlu-az-194", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "2"}
+{"id": "tumlu-az-195", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Qəzəl"}
+{"id": "tumlu-az-196", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Səbəbənən"}
+{"id": "tumlu-az-197", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Mənələr"}
+{"id": "tumlu-az-198", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Yarımadada yerləşən yaylalar: Yarımadada yaylar yoxdur."}
+{"id": "tumlu-az-199", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Meksika, Kanada, Braziliya, Kolombiya, Peru, Bolivya, Venezuela, Ekvador, Panama, Guatemala, Honduras"}
+{"id": "tumlu-az-200", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "71%"}
+{"id": "tumlu-az-201", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "2"}
+{"id": "tumlu-az-202", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Tropik"}
+{"id": "tumlu-az-203", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Amerya və Mərkəzi Amerika"}
+{"id": "tumlu-az-204", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "8848.86 m"}
+{"id": "tumlu-az-205", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Kara göl"}
+{"id": "tumlu-az-206", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Amerya"}
+{"id": "tumlu-az-207", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qərbələrənənənənənənənənənənənənə"}
+{"id": "tumlu-az-208", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "23"}
+{"id": "tumlu-az-209", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "100"}
+{"id": "tumlu-az-210", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qazakistan, Türkiyə, İran, İraq, Şərqi Tərəfli Azərbaycan (y"}
+{"id": "tumlu-az-211", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Rusiya, Azərbaycan, Polşa, Ukrayna, Belarus, Fransa, İngiltərə, Almaniya"}
+{"id": "tumlu-az-212", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Kakao əkininə görə Afrika, həqiqətən, **Kongo** regionu fərql"}
+{"id": "tumlu-az-213", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Sismoloji"}
+{"id": "tumlu-az-214", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qaradağ"}
+{"id": "tumlu-az-215", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qırqıq"}
+{"id": "tumlu-az-216", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Kəndlər \"Şali\" adlanan evlərdən ibarətdir — bu ifadə **doğru"}
+{"id": "tumlu-az-217", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Kiprin ağacı"}
+{"id": "tumlu-az-218", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qazakistan"}
+{"id": "tumlu-az-219", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Süleyman\n\nSual: Birinci dünya səyahətini kim sona çatdırmışdır?  \nCavab:"}
+{"id": "tumlu-az-220", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Lənkəran-Astara vilayətində uzun ömürlülər diyarı — **Lənkəran-A"}
+{"id": "tumlu-az-221", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Ferdinand Magellan"}
+{"id": "tumlu-az-222", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "California"}
+{"id": "tumlu-az-223", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "12-si"}
+{"id": "tumlu-az-224", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "2"}
+{"id": "tumlu-az-225", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Sərhədlərə əsasən müəyyən edilir."}
+{"id": "tumlu-az-226", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Gur səsli şəlalə — Şəlalə, yerli əhali onu “Şəlalə"}
+{"id": "tumlu-az-227", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "mmHg"}
+{"id": "tumlu-az-228", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "H2O"}
+{"id": "tumlu-az-229", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "21 mart"}
+{"id": "tumlu-az-230", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Ptolemy"}
+{"id": "tumlu-az-231", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "24 milyon km²"}
+{"id": "tumlu-az-232", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Kafirə"}
+{"id": "tumlu-az-233", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "8,848 metr"}
+{"id": "tumlu-az-234", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "1:500000"}
+{"id": "tumlu-az-235", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Yen\n\nSual: Misirin paytaxtı hansı şəhərdir?\nCavab: Qahirə\n\nSual:"}
+{"id": "tumlu-az-236", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Xətərətələrənənənənənənənənənənə"}
+{"id": "tumlu-az-237", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Azərbaycan"}
+{"id": "tumlu-az-238", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Lirə"}
+{"id": "tumlu-az-239", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Al-Farabi"}
+{"id": "tumlu-az-240", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Düzənliklər 3 cür olur: düzbucaqlı, düzbucaqlı üçbucaqlı v"}
+{"id": "tumlu-az-241", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Küləklə işləyən elektrik stansiyaları tikmək sərfəlidir — **k"}
+{"id": "tumlu-az-242", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Dövlətə görə fərqlənir."}
+{"id": "tumlu-az-243", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qatar"}
+{"id": "tumlu-az-244", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Tibet"}
+{"id": "tumlu-az-245", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "1000 mm (1 metr)"}
+{"id": "tumlu-az-246", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "6"}
+{"id": "tumlu-az-247", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Bolivia"}
+{"id": "tumlu-az-248", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "1200 km"}
+{"id": "tumlu-az-249", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Alaska"}
+{"id": "tumlu-az-250", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qərbi Afrika və Yeni Afrika"}
+{"id": "tumlu-az-251", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Antik Yunan və Məsələlər xalqları"}
+{"id": "tumlu-az-252", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "1060 mm Hg"}
+{"id": "tumlu-az-253", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Bulgariya"}
+{"id": "tumlu-az-254", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Azerbaijan"}
+{"id": "tumlu-az-255", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Kəpək Dağları"}
+{"id": "tumlu-az-256", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Məzari Şərif — Məzari Şərif, Məzari Şərif, Məzari Şərif,"}
+{"id": "tumlu-az-257", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Əli Əliyev"}
+{"id": "tumlu-az-258", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Xətərənən dövrdə"}
+{"id": "tumlu-az-259", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qırqınəmələrənənənənənənənənənənən"}
+{"id": "tumlu-az-260", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Ptolemy"}
+{"id": "tumlu-az-261", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Baikal"}
+{"id": "tumlu-az-262", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qırğızıstan — qədim iqlim qurşaqlarında yerləşir."}
+{"id": "tumlu-az-263", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Keban və Atatürk su anbarları Kızıl çay üzərindədir."}
+{"id": "tumlu-az-264", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Karadağ"}
+{"id": "tumlu-az-265", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "1700 km"}
+{"id": "tumlu-az-266", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Ptolemy"}
+{"id": "tumlu-az-267", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Spansızca"}
+{"id": "tumlu-az-268", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Japoniya, Məsələn, Hindistan, Çin, Yaponiya, Məsələn, Hindistan"}
+{"id": "tumlu-az-269", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Atmosferik təzyiq"}
+{"id": "tumlu-az-270", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Bonn"}
+{"id": "tumlu-az-271", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Kolumbın səyahəti, qərb yolu ilə şərq ölkələrinə səyahətin"}
+{"id": "tumlu-az-272", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Ən böyük kontinenti"}
+{"id": "tumlu-az-273", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Qafqaz Dağları"}
+{"id": "tumlu-az-274", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "1-ci"}
+{"id": "tumlu-az-275", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Tayvan"}
+{"id": "tumlu-az-276", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Kəndlik siyasəti"}
+{"id": "tumlu-az-277", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1989-cu il"}
+{"id": "tumlu-az-278", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Qing\n\nSual: Çində ən ulu tanrılar kimlər idi?  \nCavab: Qing"}
+{"id": "tumlu-az-279", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1250-ci illərdə"}
+{"id": "tumlu-az-280", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1760-ci ildə"}
+{"id": "tumlu-az-281", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1918-ci il"}
+{"id": "tumlu-az-282", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Japoniya"}
+{"id": "tumlu-az-283", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "İsmayıl Xudabəndə"}
+{"id": "tumlu-az-284", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1912-ci ilə"}
+{"id": "tumlu-az-285", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1914 ilində"}
+{"id": "tumlu-az-286", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1918-ci ilki 1918-ci ilə 1918-ci ilə 1918-ci ilə"}
+{"id": "tumlu-az-287", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Qahirə"}
+{"id": "tumlu-az-288", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1914"}
+{"id": "tumlu-az-289", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Xətərənətənənənənənənənənənənənə"}
+{"id": "tumlu-az-290", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Azərbaycanın müstəqil olması və daxili məsələlərin hələtilm"}
+{"id": "tumlu-az-291", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Bakı"}
+{"id": "tumlu-az-292", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Azərbaycan"}
+{"id": "tumlu-az-293", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Karl Benz"}
+{"id": "tumlu-az-294", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1950"}
+{"id": "tumlu-az-295", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1857"}
+{"id": "tumlu-az-296", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "B) Daşkəsən"}
+{"id": "tumlu-az-297", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Xilafət dövründə Azərbaycanlı müsəlmanların azad olduğu vergi — **kənd"}
+{"id": "tumlu-az-298", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1800-cü ildə, 1800-cü ildə, 1800-cü ildə,"}
+{"id": "tumlu-az-299", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Bəzən qəzələnənənənənənənənənənən"}
+{"id": "tumlu-az-300", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Qədim Misirin paytaxtı Qahirədir."}
+{"id": "tumlu-az-301", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Neolitik dövri"}
+{"id": "tumlu-az-302", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Kairanı"}
+{"id": "tumlu-az-303", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Xudat yaxınlığında Gavduşan döyüşü baş verdi — **xətərli** cav"}
+{"id": "tumlu-az-304", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "A"}
+{"id": "tumlu-az-305", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1514"}
+{"id": "tumlu-az-306", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Şəhidlər Xiyabanı"}
+{"id": "tumlu-az-307", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "753"}
+{"id": "tumlu-az-308", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Xətərli şəhərdir"}
+{"id": "tumlu-az-309", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1991-ci iləcək"}
+{"id": "tumlu-az-310", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Orta tunc dövründə İsfahanın qurulması baş verib."}
+{"id": "tumlu-az-311", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Xanlıqda böyük siyasi qüvvə idilər — bu cümlə qısa cavab verərk"}
+{"id": "tumlu-az-312", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Xətirələrə qarşı hücum etdi"}
+{"id": "tumlu-az-313", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Kahin"}
+{"id": "tumlu-az-314", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1990"}
+{"id": "tumlu-az-315", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Nizami\n\nSual: Azərbaycan ədəbiyyatında dram janrının bünövrəsini q"}
+{"id": "tumlu-az-316", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Azərbaycan milli diviziyası Berlinin Brandenburq darvazası üzərinə qələbə bay"}
+{"id": "tumlu-az-317", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Səlahətli vəziyyətli cəmiyyətə tələb edirdi"}
+{"id": "tumlu-az-318", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "5."}
+{"id": "tumlu-az-319", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Osmanlıya qarşı müharibədən sonra, Nadir şahın öldürülməsindən sonra özünü"}
+{"id": "tumlu-az-320", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "B)402-ci diviziya"}
+{"id": "tumlu-az-321", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Qarabağın qalxması"}
+{"id": "tumlu-az-322", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Yox, sənətkarlıq özünəməxsus istehsal sahəsidir."}
+{"id": "tumlu-az-323", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "A, B, C, E"}
+{"id": "tumlu-az-324", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "İsləmələr"}
+{"id": "tumlu-az-325", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1992-ci ilənə qədər"}
+{"id": "tumlu-az-326", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Qarabağ"}
+{"id": "tumlu-az-327", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Dərələr"}
+{"id": "tumlu-az-328", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Bəli"}
+{"id": "tumlu-az-329", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "60 yaşında"}
+{"id": "tumlu-az-330", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "a) Qarabağ"}
+{"id": "tumlu-az-331", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Kuban xanlığına birləşdirilən ilk xanlıq — **Kuban xanlığı** (yə"}
+{"id": "tumlu-az-332", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Azərbaycan"}
+{"id": "tumlu-az-333", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "İmam Hüseyin"}
+{"id": "tumlu-az-334", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Trakia, Egea, Peloponnes"}
+{"id": "tumlu-az-335", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1960-cı ildə"}
+{"id": "tumlu-az-336", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "İdlib"}
+{"id": "tumlu-az-337", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "10th"}
+{"id": "tumlu-az-338", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1918-ci ilə 1919-cu ilə arasında"}
+{"id": "tumlu-az-339", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Azərbaycan, Türkiyə, İran"}
+{"id": "tumlu-az-340", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Azərbaycan\n\nSual: Azərbaycanda ulu icma yavaş-yavaş sıradan çıxmış və qə"}
+{"id": "tumlu-az-341", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1979"}
+{"id": "tumlu-az-342", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1175-ci il"}
+{"id": "tumlu-az-343", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Süleymanı"}
+{"id": "tumlu-az-344", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "6"}
+{"id": "tumlu-az-345", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Müsavat partiyasının Kiyev universitetində şöbəsini yaratmışdı — bu ifadə **m"}
+{"id": "tumlu-az-346", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Qırmızı qüvvətərək"}
+{"id": "tumlu-az-347", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Görkəməli"}
+{"id": "tumlu-az-348", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "A)Şiraz vilayəti"}
+{"id": "tumlu-az-349", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Yox, Mezolit dövrünə aid əşyalar Qobustanla yanaşı **təkər"}
+{"id": "tumlu-az-350", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Zakarías"}
+{"id": "tumlu-az-351", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1914-cü ildə"}
+{"id": "tumlu-az-352", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1914년"}
+{"id": "tumlu-az-353", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Oliver Cromwellən sonra hakimiyyət 2 illik keçdi: **Kraliçə Mary II** və **"}
+{"id": "tumlu-az-354", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "İskit ağalığına son qoydu — **Məhəmməd İbrəhimbəyli** (Mə"}
+{"id": "tumlu-az-355", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Venezuela"}
+{"id": "tumlu-az-356", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1927-ci ildə"}
+{"id": "tumlu-az-357", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "1918"}
+{"id": "tumlu-az-358", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Çin və Japoniya"}
+{"id": "tumlu-az-359", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Qahirə"}
+{"id": "tumlu-az-360", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Karbonhidrat"}
+{"id": "tumlu-az-361", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "100 metr"}
+{"id": "tumlu-az-362", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Çəpələk"}
+{"id": "tumlu-az-363", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Yaprak, köklər, çiçəklər, gövdə, qurğular, çoxlu çiç"}
+{"id": "tumlu-az-364", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Oksigen, karbon dioksiddən xaric edir."}
+{"id": "tumlu-az-365", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Meyvələrə deyilir."}
+{"id": "tumlu-az-366", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "NPK"}
+{"id": "tumlu-az-367", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Güllərin rəngini və formasını təmin etmək"}
+{"id": "tumlu-az-368", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Bölünmə üsulu 8 rəqəmi şəklində bölünmədədir."}
+{"id": "tumlu-az-369", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Mədədə"}
+{"id": "tumlu-az-370", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qızılqalbənən"}
+{"id": "tumlu-az-371", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "4"}
+{"id": "tumlu-az-372", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Gözələnən vəzi"}
+{"id": "tumlu-az-373", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Sinir hüceyrələri iki qrupa bölünür: növü (növü) və nö"}
+{"id": "tumlu-az-374", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Səthi qorxumaq və suzulmaları qorumaq"}
+{"id": "tumlu-az-375", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Zygote"}
+{"id": "tumlu-az-376", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Vəzifəsi — mənbəyənən mənbəyənən mənbəyən"}
+{"id": "tumlu-az-377", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Xərçəngin ifrazat orqanı — **xərçəng**."}
+{"id": "tumlu-az-378", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Böyük çoxalır."}
+{"id": "tumlu-az-379", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qaraciyər sorucusu insana **qaraciyər** mərhələsində yoluxur."}
+{"id": "tumlu-az-380", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Klōrofilə malik bakteriyalar (məsələn, klorofillər)"}
+{"id": "tumlu-az-381", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Müəyyən bir mülahizəni bütün bakteriyalara aid etmək olmaz."}
+{"id": "tumlu-az-382", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "3"}
+{"id": "tumlu-az-383", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Dənizlərdə"}
+{"id": "tumlu-az-384", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Linné"}
+{"id": "tumlu-az-385", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "2"}
+{"id": "tumlu-az-386", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Təbii bitkilər və məşhur bitkilər"}
+{"id": "tumlu-az-387", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "32"}
+{"id": "tumlu-az-388", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "İntestin bağırsaq immun sistemi orqanıdır."}
+{"id": "tumlu-az-389", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "1"}
+{"id": "tumlu-az-390", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Nöral xətələr vasitəsilə"}
+{"id": "tumlu-az-391", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Şirə ifraz edir — bu vəzilərdən biri şirə ifraz edir."}
+{"id": "tumlu-az-392", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qəzəl"}
+{"id": "tumlu-az-393", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qıraq"}
+{"id": "tumlu-az-394", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Yuxarı qalmaq"}
+{"id": "tumlu-az-395", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "2"}
+{"id": "tumlu-az-396", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qırmızı"}
+{"id": "tumlu-az-397", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Streptokokkun əmələ gətirdiyi xəstəlik: streptokokkik x"}
+{"id": "tumlu-az-398", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Malyariya parazitinin daşıyıcısı - **moskit** (və ya **malarialı qırmızı"}
+{"id": "tumlu-az-399", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Dizenteriya"}
+{"id": "tumlu-az-400", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Koloniya halında yaşayır."}
+{"id": "tumlu-az-401", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Dişicikdən ən çox dişiciklərə aid olan hissələr: dişic"}
+{"id": "tumlu-az-402", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qırmızı qidalar"}
+{"id": "tumlu-az-403", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qırmızı qan"}
+{"id": "tumlu-az-404", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Timus"}
+{"id": "tumlu-az-405", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Sinaps"}
+{"id": "tumlu-az-406", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Sərtiçələrə malik olmaqla, dərinənənənənənən"}
+{"id": "tumlu-az-407", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Trakea və bronxlar"}
+{"id": "tumlu-az-408", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qəzəl"}
+{"id": "tumlu-az-409", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Fəsilələr birləşir."}
+{"id": "tumlu-az-410", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Tərkibində təxminən ətdəki qədər zülal vardır. Söhbət hans"}
+{"id": "tumlu-az-411", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Yeni çiçəkli bitkilərdə vegetativ və generativ proseslər ola bilər."}
+{"id": "tumlu-az-412", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Lobya toxumunda rüşeym, təbii şəkildə təşkil olunmuşdur."}
+{"id": "tumlu-az-413", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Bütün tərkibindən ibarətdir."}
+{"id": "tumlu-az-414", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Mikroskop"}
+{"id": "tumlu-az-415", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Milliyətənən dəfə boyudur."}
+{"id": "tumlu-az-416", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Almond"}
+{"id": "tumlu-az-417", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Çiçəkli bitkilərin orqanları: **çiçəklər və ya çiçəkli or"}
+{"id": "tumlu-az-418", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Azot gübrəsi"}
+{"id": "tumlu-az-419", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Kökündə"}
+{"id": "tumlu-az-420", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Gövdə dərinlikdə yerləşə bilməz."}
+{"id": "tumlu-az-421", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Tək və çox tumurcuqlar"}
+{"id": "tumlu-az-422", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Çərçivələşdirilmiş bitkilər"}
+{"id": "tumlu-az-423", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Qəzəl"}
+{"id": "tumlu-az-424", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Çünki 3 yumurtacıq hərəkəti ilə məhv edilir, yalnız 1i qalır"}
+{"id": "tumlu-az-425", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Çətirələr"}
+{"id": "tumlu-az-426", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Çərçivələr"}
+{"id": "tumlu-az-427", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Sınıflar — təşkilatlar."}
+{"id": "tumlu-az-428", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Mısır"}
+{"id": "tumlu-az-429", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Tumurcuqlanma yolu ilə çoxalan göbələk — **tumurcuqlanma** yolu"}
+{"id": "tumlu-az-430", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "Saqalılarla."}
+{"id": "tumlu-az-431", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "14"}
+{"id": "tumlu-az-432", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "A(5;3;4) nöqtəsi y=-4 müstəvisinə nəzərən (y ko"}
+{"id": "tumlu-az-433", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "4:9"}
+{"id": "tumlu-az-434", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "18"}
+{"id": "tumlu-az-435", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "18"}
+{"id": "tumlu-az-436", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "1296"}
+{"id": "tumlu-az-437", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "2"}
+{"id": "tumlu-az-438", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "126"}
+{"id": "tumlu-az-439", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "64 sm³"}
+{"id": "tumlu-az-440", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "-1"}
+{"id": "tumlu-az-441", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "5"}
+{"id": "tumlu-az-442", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "1/5"}
+{"id": "tumlu-az-443", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "0"}
+{"id": "tumlu-az-444", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "(8, 0, 1)"}
+{"id": "tumlu-az-445", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "a = 3, b = 7"}
+{"id": "tumlu-az-446", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "1, 2, 3, 4, 5"}
+{"id": "tumlu-az-447", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "18"}
+{"id": "tumlu-az-448", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "76"}
+{"id": "tumlu-az-449", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "6 sm"}
+{"id": "tumlu-az-450", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "295/7"}
+{"id": "tumlu-az-451", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "10"}
+{"id": "tumlu-az-452", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "10"}
+{"id": "tumlu-az-453", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "17, 34, 51, 68, 85, 102, 119, 13"}
+{"id": "tumlu-az-454", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "(5;5)"}
+{"id": "tumlu-az-455", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "10"}
+{"id": "tumlu-az-456", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "x = ±5/2"}
+{"id": "tumlu-az-457", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "14"}
+{"id": "tumlu-az-458", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "65"}
+{"id": "tumlu-az-459", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "181"}
+{"id": "tumlu-az-460", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "110°"}
+{"id": "tumlu-az-461", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "150"}
+{"id": "tumlu-az-462", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "10"}
+{"id": "tumlu-az-463", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "120°"}
+{"id": "tumlu-az-464", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "x < -1 və x > 1"}
+{"id": "tumlu-az-465", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "12"}
+{"id": "tumlu-az-466", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "17"}
+{"id": "tumlu-az-467", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "17"}
+{"id": "tumlu-az-468", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "24 sm"}
+{"id": "tumlu-az-469", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "(3, 2)"}
+{"id": "tumlu-az-470", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "127"}
+{"id": "tumlu-az-471", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "5"}
+{"id": "tumlu-az-472", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "k = 10"}
+{"id": "tumlu-az-473", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "16"}
+{"id": "tumlu-az-474", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "3"}
+{"id": "tumlu-az-475", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "10 sm"}
+{"id": "tumlu-az-476", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "k = 10"}
+{"id": "tumlu-az-477", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "12"}
+{"id": "tumlu-az-478", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "24 sm²"}
+{"id": "tumlu-az-479", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "8"}
+{"id": "tumlu-az-480", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "90°"}
+{"id": "tumlu-az-481", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "1+3+9+17+51 = 81"}
+{"id": "tumlu-az-482", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "12"}
+{"id": "tumlu-az-483", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "11"}
+{"id": "tumlu-az-484", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "16"}
+{"id": "tumlu-az-485", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "II rübdə"}
+{"id": "tumlu-az-486", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "-12"}
+{"id": "tumlu-az-487", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "x = 4"}
+{"id": "tumlu-az-488", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "8 sm"}
+{"id": "tumlu-az-489", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "120"}
+{"id": "tumlu-az-490", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "2"}
+{"id": "tumlu-az-491", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "4"}
+{"id": "tumlu-az-492", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "17"}
+{"id": "tumlu-az-493", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "14"}
+{"id": "tumlu-az-494", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "x = 2"}
+{"id": "tumlu-az-495", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "140"}
+{"id": "tumlu-az-496", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "4 dəfə"}
+{"id": "tumlu-az-497", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "1 san"}
+{"id": "tumlu-az-498", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "0.6 A"}
+{"id": "tumlu-az-499", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "2 səkndə"}
+{"id": "tumlu-az-500", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Physics", "raw_response": "Cənubi çəkərək"}
+{"id": "tumlu-az-501", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "CaCl₂"}
+{"id": "tumlu-az-502", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "K₂O"}
+{"id": "tumlu-az-503", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "56 q"}
+{"id": "tumlu-az-504", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "6"}
+{"id": "tumlu-az-505", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Chemistry", "raw_response": "40%"}
+{"id": "tumlu-az-506", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "3"}
+{"id": "tumlu-az-507", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Cümlələrə bölünür."}
+{"id": "tumlu-az-508", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Native L&L", "raw_response": "Fizik feldir"}
+{"id": "tumlu-az-509", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "İqtisadi və sosial coğrafiya öyrənir — **coğrafiya** və **sosial"}
+{"id": "tumlu-az-510", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "Dənizlərin təsiri və dəniz səthi temperaturu."}
+{"id": "tumlu-az-511", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Geography", "raw_response": "10° 30' N, 45° 30' E"}
+{"id": "tumlu-az-512", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Bulgariya"}
+{"id": "tumlu-az-513", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "History", "raw_response": "Neolitik dövri"}
+{"id": "tumlu-az-514", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "1 bakteriya 1 saatda 2 nəsil törəyər."}
+{"id": "tumlu-az-515", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "24"}
+{"id": "tumlu-az-516", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "93"}
+{"id": "tumlu-az-517", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Biology", "raw_response": "20"}
+{"id": "tumlu-az-518", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "2n-4"}
+{"id": "tumlu-az-519", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "23 sm və 37 sm"}
+{"id": "tumlu-az-520", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "14%"}
+{"id": "tumlu-az-521", "model": "Qwen/Qwen3-VL-4B-Instruct", "condition": "short", "subject": "Maths", "raw_response": "6 sm"}

@@ -1,0 +1,71 @@
+{
+  "generated": "2026-08-24",
+  "git_revision": "b4417974193d9fb4b009d17e6f9f74339d4f75de",
+  "dataset": "data\\az_eval_v0.jsonl",
+  "dataset_sha256_16": "0c04b82eb99b8530",
+  "n_items_common": 484,
+  "seed": 0,
+  "n_resamples": 1000,
+  "chains": [
+    "strict",
+    "morph",
+    "lenient",
+    "translit"
+  ],
+  "generations_sha256_16": {
+    "issai__Qolda-AVL-5B__az.jsonl": "00f444bbf35931d6",
+    "issai__Qolda-AVL-5B__az__script.jsonl": "b7826a078c676de5",
+    "Qwen__Qwen3-VL-4B-Thinking__az.jsonl": "8f03e1e84d43bc42",
+    "Qwen__Qwen3-VL-4B-Thinking__az__script.jsonl": "350959344417f338"
+  },
+  "runs": {
+    "Qwen/Qwen3-VL-4B-Thinking [default]": {
+      "n_answers": 485,
+      "provenance": {
+        "generation": {
+          "max_new_tokens": 32,
+          "do_sample": false,
+          "temperature": 0.0,
+          "seed": 0,
+          "batch_size": 8
+        }
+      }
+    },
+    "Qwen/Qwen3-VL-4B-Thinking [script]": {
+      "n_answers": 484,
+      "provenance": {
+        "generation": {
+          "max_new_tokens": 32,
+          "do_sample": false,
+          "temperature": 0.0,
+          "seed": 0,
+          "batch_size": 8
+        }
+      }
+    },
+    "issai/Qolda-AVL-5B [default]": {
+      "n_answers": 508,
+      "provenance": {
+        "generation": {
+          "max_new_tokens": 32,
+          "do_sample": false,
+          "temperature": 0.0,
+          "seed": 0,
+          "batch_size": 8
+        }
+      }
+    },
+    "issai/Qolda-AVL-5B [script]": {
+      "n_answers": 508,
+      "provenance": {
+        "generation": {
+          "max_new_tokens": 32,
+          "do_sample": false,
+          "temperature": 0.0,
+          "seed": 0,
+          "batch_size": 8
+        }
+      }
+    }
+  }
+}

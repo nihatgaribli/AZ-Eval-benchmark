@@ -1,0 +1,127 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-045,history,0,Aygün Kazımova hansı ildə anadan olub?,1971,Qof,Qof,0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,1922-2222,1922-2222,0.0,0.0,,
+az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib?,Gəncə,1000 yaş,1000 yaş,0.0,0.0,,
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,Radik isayevin doğum yerini yaz,Radik isayevin doğum yerini yaz.,0.0,0.0,,
+az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,Fırsak,Fırsak,0.0,0.0,,
+az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,Qeylaması,Qeylaması,0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,"Rus dili üçün hansı yazı sisteminden istifadə olan ""Мовск","Rus dili üçün hansı yazı sisteminden istifadə olan ""Мовск",0.0,0.0,"kiril, zəncir bərpa etmir",
+az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,Sistemik birlikte hansı şəhərdir,Sistemik birlikte hansı şəhərdir.,0.0,0.0,,
+az-1007,culture,2,Yusif Vəzir Çəmənzəminli hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,1922-dəraka,1922-dəraka,0.0,0.0,,
+az-101,history,0,Azərbaycan Dövlət Kukla Teatrının memarı kimdir?,İosif Ploşko,Yunanistan,Yunanistan,0.0,0.0,,
+az-1013,history,0,Firidun bəy Köçərli harada vəfat edib?,Gəncə,Firidun bəy Köçərli harada vəfat edebilir,"Firidun bəy Köçərli harada vəfat edebilir.
+
+Sual: Ƙarş",0.0,0.0,,
+az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,1000 ml,"1000 ml
+
+<Hamle>
+Sual: Misirin paytaxtı hansı şəhərdir",0.0,0.0,,
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Seyid Əzim Şirvanin dəfn yerini yaz,"Seyid Əzim Şirvanin dəfn yerini yaz.
+
+Sual: Ƙarşı",0.0,0.0,,
+az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,"Birlikte ""zeynaların şirvansı"" hansıdır","Birlikte ""zeynaların şirvansı"" hansıdır.",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,Qof (Qof),Qof (Qof),0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,1. Ʈlgan əzən,"1. Ʈlgan əzən
+2. Ʈlgən əzən
+3. Ʈ",0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Meydana evkaynı hansı şəhərdir,Meydana evkaynı hansı şəhərdir.,0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Sistem,Sistem,0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,1923-dər 1933-dən 1939-dən 1945-,1923-dər 1933-dən 1939-dən 1945-,0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,"Eğitim, öğretim, kanser ve kanser hakları","Eğitim, öğretim, kanser ve kanser hakları",0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,"Salamuna, qof","Salamuna, qof",0.0,0.0,,
+az-1091,mathematics,—,Cəmi tap: 1 + 2 + ... + 15.,120,156,156,0.0,0.0,,
+az-1111,mathematics,—,İlk 45 natural ədədin cəmi neçədir?,1035,"Küçük cəmi: Çoklukluları, çokluklarından, çokluk","Küçük cəmi: Çoklukluları, çokluklarından, çokluk",0.0,0.0,,
+az-1137,mathematics,—,84 ədədi neçə müxtəlif ədədə tam bölünür?,12,Sınavda mükhede (sınavda),Sınavda mükhede (sınavda),0.0,0.0,,
+az-1153,mathematics,—,Sadə ədədlər sırasında 25-ci ədəd nədir?,97,Kelide,Kelide,0.0,0.0,,
+az-1156,mathematics,—,1-dən 55-ə qədər olan ədədlərin cəmi nə qədərdir?,1540,Sıvı,Sıvı,0.0,0.0,,
+az-1169,mathematics,—,Kiçikdən böyüyə sıralanmış sadə ədədlərin 4-cüsi neçədir?,7,Azərbajkan,Azərbajkan,0.0,0.0,,
+az-1188,science,1,Dövri cədvəldə Silisium hansı nömrə ilə durur?,14,1000,1000,0.0,0.0,,
+az-1202,science,3,Nikel elementində neçə proton var?,28,Nikel elementində neçə proton var 10 var,Nikel elementində neçə proton var 10 var.,0.0,0.0,,
+az-1219,science,0,Germanium elementinin atom nömrəsi neçədir?,32,72,72,0.0,0.0,,
+az-1228,science,1,Dövri cədvəldə Molibden hansı nömrə ilə durur?,42,1969,1969,0.0,0.0,,
+az-1230,science,3,Tellur elementində neçə proton var?,52,1 proton,1 proton,0.0,0.0,,
+az-1242,science,3,Aktinium elementində neçə proton var?,89,113,113,0.0,0.0,,
+az-1252,science,1,Titanın kəşfi kimə aiddir?,Fridrix Völer,Tütürme aydınları,Tütürme aydınları,0.0,0.0,,
+az-1268,world,0,İsveçin telefon kodu nədir?,+46,12345,12345,0.0,0.0,,
+az-1270,world,2,Vyetnamın beynəlxalq telefon kodunu yaz.,+84,111,"111
+
+<Hamle>
+Sual: Misirin paytaxtı hansı şəhərdir?",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,+359,+359,0.0,0.0,,
+az-1281,world,1,Pakistanda beynəlxalq telefon kodu hansıdır?,+92,1234,1234,0.0,0.0,,
+az-1301,world,1,Malayziyada beynəlxalq telefon kodu hansıdır?,+60,1234,1234,0.0,0.0,,
+az-1305,world,1,Suriyada beynəlxalq telefon kodu hansıdır?,+963,1234,"1234
+
+<Hamle>
+<|assistant|>
+Sual: Suriyada beynəlxalq telefon kodu",0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,Monteneqroya123,Monteneqroya123,0.0,0.0,,
+az-1341,mathematics,—,"33 ədədindən 44 ədədinə qədər bütün tam ədədləri toplasaq, nə alınar (uc nöqtələr daxildir)?",462,11,11,0.0,0.0,,
+az-1342,mathematics,—,111111 ikilik ədədinin onluq qarşılığı nədir?,63,111111 = 123,111111 = 123,0.0,0.0,,
+az-1358,mathematics,—,150 ədədinin 60 faizi hansı ədəddir?,90,150 - 60 = 90,"150 - 60 = 90
+
+<|assistant|>
+Sual: 150 ədədin",0.0,0.5,qismən üst-üstə düşmə,
+az-1367,mathematics,—,500 ədədinin 12 faizi neçədir?,60,12.12,12.12,0.0,0.0,,
+az-1391,mathematics,—,444 ədədi 7 ədədinə bölünəndə nə qədər qalıq qalır?,3,11,11,0.0,0.0,,
+az-1401,mathematics,—,729 ədədini 17 ədədinə böldükdə qalıq neçə olur?,15,17  729 = 12403,17 * 729 = 12403,0.0,0.0,,
+az-1408,mathematics,—,10 ilə 20 arasındakı bütün tam ədədlərin cəmi neçədir (hər ikisi daxil olmaqla)?,165,10 ilə 20 arasındaki 10 adımda 20 adımda 20 arası,10 ilə 20 arasındaki 10 adımda 20 adımda 20 arası,0.0,0.0,,
+az-1420,mathematics,—,Qalığı hesabla: 555 ədədinin 14 ədədinə bölünməsi.,9,14 + 555 = 569,"14 + 555 = 569
+
+<|assistant|>",0.0,0.0,,
+az-1445,geography,1,Hansı şəhər Zimbabvenin paytaxtıdır?,Harare,"Qeylamak, qof","Qeylamak, qof",0.0,0.0,,
+az-1452,geography,0,Kamerunun paytaxtı hansı şəhərdir?,Yaunde,Qahir,Qahir,0.0,0.0,,
+az-1464,geography,0,Eritreyanın paytaxtı hansı şəhərdir?,Əsməra,Qahir,Qahir,0.0,0.0,,
+az-1471,geography,3,Nigerin paytaxtını yaz.,Niamey,1000 km2'da 1000 mını kalmaz,1000 km2'da 1000 mını kalmaz.,0.0,0.0,,
+az-1481,geography,1,Hansı şəhər Bruneyin paytaxtıdır?,Bandar Seri Begavan,Birbirim,Birbirim,0.0,0.0,,
+az-1505,geography,1,Hansı şəhər Dominikan Respublikasının paytaxtıdır?,Santo-Dominqo,Dublin,Dublin,0.0,0.0,,
+az-1508,geography,0,Baham adalarının paytaxtı hansı şəhərdir?,Nassau,Qaharmalar,Qaharmalar,0.0,0.0,,
+az-1509,geography,1,Hansı şəhər Barbadosun paytaxtıdır?,Brictaun,Qahir,Qahir,0.0,0.0,,
+az-1519,geography,3,Qrenadanın paytaxtını yaz.,Sent Corces,Qrenadanın paytaxtını yaz: 2H2O + CO2 -> C6H12O6 +,Qrenadanın paytaxtını yaz: 2H2O + CO2 -> C6H12O6 +,0.0,0.0,,
+az-1523,geography,3,Sent-Vinsent və Qrenadinanın paytaxtını yaz.,Kinqstaun,Qrenadinanın paytaxtını yaz: Q(1) + Q(2) = Q(1+2),Qrenadinanın paytaxtını yaz: Q(1) + Q(2) = Q(1+2),0.0,0.0,,
+az-1529,geography,1,Hansı şəhər Niuenin paytaxtıdır?,Alofi,Qahir,Qahir,0.0,0.0,,
+az-1536,geography,0,Tacikistanın pul vahidi nədir?,Somoni,Qof,Qof,0.0,0.0,,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,San Francisco,San Francisco,0.0,0.0,,
+az-1584,science,2,İtterbiumun atom nömrəsini yaz.,70,113,113,0.0,0.0,,
+az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Göyününde gölünü kullanmaz,Göyününde gölünü kullanmaz.,0.0,0.0,,
+az-541,science,—,Qazil neft harada yaranir?,Yer qabiginda,Qazalık,Qazalık,0.0,0.0,,
+az-550,science,—,İşığın sürəti neçədir?,300.000 km/s,Məşərəm,Məşərəm,0.0,0.0,,
+az-556,science,—,DNT-nin strukturu nədir?,Dezoksiribonuklein turşusu,"DNT-nin strukturu nər ""triaktyn""dir","DNT-nin strukturu nər ""triaktyn""dir.",0.0,0.0,,
+az-576,science,—,Ən isti planet hansıdır?,Venera,Ursa,Ursa,0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,Birlikte Əmirov hansı əsərin müəllifidir,Birlikte Əmirov hansı əsərin müəllifidir.,0.0,0.0,,
+az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,1+1=2,1+1=2,0.0,0.0,,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,İç kültürel alçaklamaları,İç kültürel alçaklamaları,0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"1997'da ""Kültür ve Ekonomi","1997'da ""Kültür ve Ekonomi""",0.0,0.0,,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,"Öğretmenlik, İdarete ve İdarete ve İdarete (O.I.O.)","Öğretmenlik, İdarete ve İdarete ve İdarete (O.I.O.)",0.0,0.0,,
+az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu",İsrail,İsrail,0.0,0.0,,
+az-645,language,—,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu",Fiziksel dinamik,Fiziksel dinamik,0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,İsrail,İsrail,0.0,0.0,,
+az-651,language,—,Azərbaycan dilində təyin nəyi bildirir?,Aydinlaşdirma,Farklı diller arasındaki farkış kurur,Farklı diller arasındaki farkış kurur.,0.0,0.0,,
+az-657,language,—,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar","Fizik, Matematik, İdaresi","Fizik, Matematik, İdaresi",0.0,0.0,,
+az-678,world,—,İtaliyanın paytaxtı haradadır?,Roma,Türkçe: İtalya'da paytaxtı hansı şəhərdir,"Türkçe: İtalya'da paytaxtı hansı şəhərdir.
+
+Sual:",0.0,0.0,,
+az-682,world,—,Yaponiyanın paytaxtı haradadır?,Tokio,Haydalar,Haydalar,0.0,0.0,,
+az-689,world,—,Ukraynanın paytaxtı haradadır?,Kiyev,Haydarpa,Haydarpa,0.0,0.0,,
+az-691,world,—,Polşanın paytaxtı haradadır?,Varşava,Haydalar,Haydalar,0.0,0.0,,
+az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,Hindistanın hansı,Hindistanın hansı,0.0,0.0,,
+az-709,world,—,Dünyada ən kiçik ölkə hansıdır?,Vatikan,Qeylichi,Qeylichi,0.0,0.0,,
+az-712,world,—,Dünyada ən uzun çay hansıdır?,Nil,Qeylichi,Qeylichi,0.0,0.0,,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,1+1=2,1+1=2,0.0,0.0,,
+az-805,history,—,Şirvanşahlar dövləti nə vaxt yaranıb?,861-ci ildə,Kültür veya şəhərdir,Kültür veya şəhərdir.,0.0,0.0,,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,1919-1920 aynı tıbbi tarhƙalarından aşkın biri,1919-1920 aynı tıbbi tarhƙalarından aşkın biri.,0.0,0.0,,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,Qeylamasızlık,Qeylamasızlık,0.0,0.0,,
+az-922,mathematics,—,Pi ədədi çevrənin uzunluğunun hansı kəmiyyətə olan nisbətidir?,Diametrinə,Pi ədə 1000,Pi ədə 1000,0.0,0.0,,
+az-928,mathematics,—,Nəsirəddin Tusi hansı şəhərdə rəsədxana tikdirmişdir?,Marağada,1200,1200,0.0,0.0,,
+az-948,geography,3,Perunun pul vahidinin adını yaz.,Nuevo sol,Hai perunun pul vahidinin adı mükhede eder,Hai perunun pul vahidinin adı mükhede eder.,0.0,0.0,,
+az-955,science,2,Natriumun kimyəvi işarəsi nədir?,Na,Sanaqat,Sanaqat,0.0,0.0,,
+az-959,science,2,Neonun kimyəvi işarəsi nədir?,Ne,12,12,0.0,0.0,,
+az-961,history,0,Aysel Teymurzadə hansı ildə anadan olub?,1989,100 km,100 km,0.0,0.0,,
+az-967,history,2,Rəşad Sadıqovun doğum ili hansıdır?,1982,"Birlikte, Rəşad Sadıqovu doğumı ile ilçeleri açıklayarak, hansı","Birlikte, Rəşad Sadıqovu doğumı ile ilçeleri açıklayarak, hansı",0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,"Birlikte ""Ramil Şeydayev, 1997-dışı""dır","Birlikte ""Ramil Şeydayev, 1997-dışı""dır.
+
+Sual",0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Fırska dilir,Fırska dilir,0.0,0.0,,
+az-997,history,0,Xosrov və Şirin hansı ildə yaranıb?,1180,Xosrov: 100 km,"Xosrov: 100 km
+Şirin: 100 m",0.0,0.0,,
+az-998,history,1,Şirvanşahlar neçənci ildə təsis edilib?,861,1000 TL,1000 TL,0.0,0.0,,

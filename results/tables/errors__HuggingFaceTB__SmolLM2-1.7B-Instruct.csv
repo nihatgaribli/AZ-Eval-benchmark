@@ -1,0 +1,131 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib?,Gəncə,Sual: Cavabın yalnızca 1000 savaşını yapıyor,Sual: Cavabın yalnızca 1000 savaşını yapıyor.,0.0,0.0,,
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,"Sual: Cavabın yalnızca 1 adımda yazılmış olup, 2 adı","Sual: Cavabın yalnızca 1 adımda yazılmış olup, 2 adı",0.0,0.0,,
+az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Sual: Cavabın yalnız cavabı yazılır. Cavabın yazılır,Sual: Cavabın yalnız cavabı yazılır. Cavabın yazılır,0.0,0.0,,
+az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,Sual: Cavabın yalnız cavabı yazılır,"Sual: Cavabın yalnız cavabı yazılır.
+
+Cavab: Yalnı",0.0,0.0,,
+az-1007,culture,2,Yusif Vəzir Çəmənzəminli hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1011,history,2,Əbdülqadir Marağayi hansı şəhərdə dünyasını dəyişib?,Herat,Sual: Cavabın yalnızca 1000 savaşını yapıyor,Sual: Cavabın yalnızca 1000 savaşını yapıyor.,0.0,0.0,,
+az-1014,history,1,Gödək Əhmədin vəfat etdiyi yer haradır?,İsfahan,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,Sual: Cavabın yalnız cavabı yazılır,"Sual: Cavabın yalnız cavabı yazılır.
+
+Cavab: Misirin payta",0.0,0.0,,
+az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,Sual: Cavabın yalnızca 1 tane yazılımda olup olmadığın,Sual: Cavabın yalnızca 1 tane yazılımda olup olmadığın,0.0,0.0,,
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,"Sual: Cavabınızda, yalnız cavabı yazın - cümlə qurma","Sual: Cavabınızda, yalnız cavabı yazın - cümlə qurma,",0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Sual: Cavabın yalnızca 1 adım olarak yazılır. Cavabın,Sual: Cavabın yalnızca 1 adım olarak yazılır. Cavabın,0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Sual: Cavabın yazı sistemi hansıdır,"Sual: Cavabın yazı sistemi hansıdır.
+
+Cavab: Yalnız cav",0.0,0.0,,
+az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Sual: Cavabın yalnız cavabı yazısını yazdırın,Sual: Cavabın yalnız cavabı yazısını yazdırın.,0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1070,mathematics,—,114-dən böyük ən kiçik sadə ədəd hansıdır?,127,Sual: Cavabın yalnızca 114-dən böyük ən kiçik,Sual: Cavabın yalnızca 114-dən böyük ən kiçik,0.0,0.0,,
+az-1089,mathematics,—,14-dən sonrakı sadə ədədi tap.,17,Sual: Cavabın yalnızca 14-dən sonrakı sadə ədədi tap ol,Sual: Cavabın yalnızca 14-dən sonrakı sadə ədədi tap ol,0.0,0.0,,
+az-1097,mathematics,—,16-bucaqlının diaqonallarının sayı neçədir?,104,Sual: Cavabın yalnızca 16-bucaqlının sayının 30,Sual: Cavabın yalnızca 16-bucaqlının sayının 30,0.0,0.0,,
+az-1116,mathematics,—,7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,900,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-1151,mathematics,—,12 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1800,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-1184,mathematics,—,Diaqonallarının sayını tap: 7-bucaq.,14,Sual: Cavabın yalnızca 1-bucaq olarak yazılır,"Sual: Cavabın yalnızca 1-bucaq olarak yazılır.
+
+Cav",0.0,0.0,,
+az-1215,science,0,Stronsium elementinin atom nömrəsi neçədir?,38,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1233,science,2,Íttriumun atom nömrəsini yaz.,39,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1237,science,2,Ruteniumun atom nömrəsini yaz.,44,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1268,world,0,İsveçin telefon kodu nədir?,+46,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1270,world,2,Vyetnamın beynəlxalq telefon kodunu yaz.,+84,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1279,world,3,Hansı telefon kodu İslandiyanın aiddir?,+354,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1301,world,1,Malayziyada beynəlxalq telefon kodu hansıdır?,+60,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1318,world,2,Maltanın beynəlxalq telefon kodunu yaz.,+356,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1319,world,3,Hansı telefon kodu Şimali Makedoniyanın aiddir?,+389,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1337,mathematics,—,Bir üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan bucaq nə qədərdir?,70,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-1348,mathematics,—,Faizi hesabla: 120 ədədinin 25 faizi.,30,Sual: Cavabın yalnızca 25 faizi olan 120 ədədinin,Sual: Cavabın yalnızca 25 faizi olan 120 ədədinin,0.0,0.0,,
+az-1392,mathematics,—,3 ədədinin 5-ci dərəcəsini tap.,243,Sual: Cavabın yalnızca 3 ədədinin 5-ci dərəcəs,Sual: Cavabın yalnızca 3 ədədinin 5-ci dərəcəs,0.0,0.0,,
+az-1404,mathematics,—,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq neçə dərəcədir?",65,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-1423,mathematics,—,Fərqli sadə bölənlərin sayını tap: 2730.,5,"Sual: Cavabın yalnızca 1000. cümlə qurma, izahat verm","Sual: Cavabın yalnızca 1000. cümlə qurma, izahat verm",0.0,0.0,,
+az-1434,mathematics,—,İki bucağı 38 və 52 dərəcə olan üçbucağın digər bucağı neçə dərəcədir?,90,"Sual: İşləyin sözlə, 38 və 52 dərəcə olan","Sual: İşləyin sözlə, 38 və 52 dərəcə olan",0.0,0.2,qismən üst-üstə düşmə,
+az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1450,geography,2,İordaniyanın paytaxtının adı nədir?,Amman,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-1504,geography,0,Ficinin paytaxtı hansı şəhərdir?,Suva,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,"Sual: Cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə","Sual: Cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə",0.0,0.0,,
+az-1520,geography,0,Kiribatinin paytaxtı hansı şəhərdir?,Cənubi Tarava,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1528,geography,0,Kuk adalarının paytaxtı hansı şəhərdir?,Avarua,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,Sual: Cavabın yalnız cavabı yazın,"Sual: Cavabın yalnız cavabı yazın.
+
+Cavab: Yalnız cav",0.0,0.0,,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1560,language,2,Surinamın dövlət dili necə adlanır?,Niderland dili,Sual: Cavabın yalnızca 1000 yıldızdan biri olan bir dilde y,Sual: Cavabın yalnızca 1000 yıldızdan biri olan bir dilde y,0.0,0.0,,
+az-1574,science,0,Prometium elementinin atom nömrəsi neçədir?,61,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1576,science,2,Prazeodimin atom nömrəsini yaz.,59,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-1582,science,0,Rentgenium elementinin atom nömrəsi neçədir?,111,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-1598,science,0,Unbitrium elementinin atom nömrəsi neçədir?,123,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizində,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Sual: Cavabın yalnızca 1000 savaşını yapıyor,Sual: Cavabın yalnızca 1000 savaşını yapıyor.,0.0,0.0,,
+az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-542,science,—,Neftin emalindan əldə edilən məhsul hansıdır?,Benzin,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-558,science,—,İnsan bədənində neçə əzələ var?,600-dən çox,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-570,science,—,Atom nömrəsi 26 olan element hansıdır?,Dəmir,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-571,science,—,Atom nömrəsi 79 olan element hansıdır?,Qizil,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-574,science,—,Ən böyük planet hansıdır?,Yupiter,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu",Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-645,language,—,Azərbaycan dilində yaxinlaşdirma şəkilçisi hansıdır?,"-imi, -umu","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-651,language,—,Azərbaycan dilində təyin nəyi bildirir?,Aydinlaşdirma,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-657,language,—,Azərbaycan dilində üçuncu şəxs şəkilçisi hansıdır?,"-dir, -lar","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-683,world,—,Çinin paytaxtı haradadır?,Pekin,Sual: Cavabın yalnızca 1000 cümle olarak yazıldığında,Sual: Cavabın yalnızca 1000 cümle olarak yazıldığında,0.0,0.0,,
+az-690,world,—,Belarusun paytaxtı haradadır?,Minsk,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-702,world,—,Rusiyada hansı pul vahidindən istifadə olunur?,Rubl,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,"Sual: Cavabınızda, yalnız cavabı yazının cümlə qurma","Sual: Cavabınızda, yalnız cavabı yazının cümlə qurma",0.0,0.0,,
+az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,Sual: Cavabın yalnızca 100000000000000000,Sual: Cavabın yalnızca 100000000000000000,0.0,0.0,,
+az-806,history,—,Azərbaycan Atabəyləri dövləti nə vaxt yaranıb?,1136-cı ildə,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-811,history,—,Türkmənçay müqaviləsi nə vaxt imzalanmışdır?,10 fevral 1828,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,Sual: Cavabın yalnız cavabı yazılır,"Sual: Cavabın yalnız cavabı yazılır.
+
+Cavab: Yalnı",0.0,0.0,,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-817,history,—,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?,27 aprel 1920,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-906,mathematics,—,Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azərbaycanlı dekanı kim olub?,Mikayıl Xıdırzadə,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+S",0.0,0.0,,
+az-925,mathematics,—,Alqoritm sözü hansı alimin adından yaranmışdır?,Əl-Xarəzmi,"Sual: Sözü yazdığımız cümlenin, izin olan izin olarak","Sual: Sözü yazdığımız cümlenin, izin olan izin olarak",0.0,0.0,,
+az-931,mathematics,—,1997-2000-ci illərdə Azərbaycan Elmlər Akademiyasının prezidenti kim olmuşdur?,Fəraməz Maqsudov,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-938,geography,1,Hansı şəhər İsveçrənin paytaxtıdır?,Bern,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-943,geography,2,İsrailin paytaxtının adı nədir?,Qüds,"Sual: Cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə","Sual: Cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə",0.0,0.0,,
+az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,Sual: Cavabın yalnızca 1000 yoldan fazla yalnızca 1,Sual: Cavabın yalnızca 1000 yoldan fazla yalnızca 1,0.0,0.0,,
+az-954,science,1,Kimyada Qalay hansı simvolla işarə olunur?,Sn,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,
+az-966,history,1,Anatoli Banişevski neçənci ildə doğulub?,1946,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,"Sual: Suala qısa cavab ver. Yalnız cavabı yaz — cümlə qurma,",0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,"Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver","Sual: Cavabın yalnız cavabı yazın - cümlə qurma, izahat ver",0.0,0.0,,

@@ -1,0 +1,524 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-022,geography,1,Birləşmiş Krallıqda hansı pul vahidi işlənir?,funt sterlinq,Sterlin,"Sterlin
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: Dünyanın en büyük gölü",0.0,0.0,,
+az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,1921,"1921
+
+Sual: İslamabad Pakistan'ın başkenti mi?
+Cavab: Evet
+
+Sual: İslamabad Pakistan'ın",0.0,0.0,,
+az-045,history,0,Aygün Kazımova hansı ildə anadan olub?,1971,1981,"1981
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İslam dininin",0.0,0.0,,
+az-058,culture,1,Rafiq Radik oğlu Hüseynovun doğulduğu yer haradır?,Daşkənd,Azerbaycan,"Azerbaycan
+
+Sual: Azerbaycan'ın başkenti nerede?
+Cavab: Bakü
+
+Sual: Azerbay",0.0,0.0,,
+az-062,culture,1,Əli Hidayət oğlu Əsədov hansı peşə ilə tanınır?,siyasətçi,Ünlü bir şair ve yazar,"Ünlü bir şair ve yazar
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual:",0.0,0.0,,
+az-063,culture,2,Şəhriyar Məmmədyarovun əsas fəaliyyət sahəsi nədir?,şahmatçı,Diplomatik hizmet,"Diplomatik hizmet
+
+Sual: İslam dininin kökeni nerede?
+Cavab: Arabistan
+
+Sual: İsl",0.0,0.0,,
+az-065,culture,0,Nigar Camalın peşəsi nədir?,müğənni,Şair,"Şair
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İslam dininin kur",0.0,0.0,,
+az-083,language,2,Polşanın dövlət dili necə adlanır?,polyak dili,Lehçe,"Lehçe
+
+Sual: Dünyanın en büyük gölü hangisidir?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük",0.0,0.0,,
+az-084,language,3,Ukraynanın rəsmi dilini yaz.,ukrain dili,Ukraynaca,"Ukraynaca
+
+Sual: İspanya'nın başkenti nerede?
+Cavab: Madrid
+
+Sual: İspanya'nın başk",0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Kiril alfabesi,"Kiril alfabesi
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet (İslam'a im",0.0,0.5,qismən üst-üstə düşmə,
+az-096,language,3,Qədim türk dilinin yazı sistemini yaz.,Orxon əlifbası,Göktürk alfabesi,"Göktürk alfabesi
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İsl",0.0,0.0,,
+az-097,history,0,Azərbaycan Dövlət Akademik Opera və Balet Teatrının memarı kimdir?,Nikolay Bayev,Uzeyir Hacıbəyov,"Uzeyir Hacıbəyov
+
+Sual: Azərbaycan Cumhuriyeti'nin ilk başkanı kimdi?
+Cav",0.0,0.0,,
+az-100,history,3,Yuxarı Gövhərağa məscidinin memarının adını yaz.,Kərbəlayı Səfixan Qarabaği,Mimarın adı Mimar Muhammed İbrahim,"Mimarın adı Mimar Muhammed İbrahim.
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: İslam'ın beş şart",0.0,0.0,,
+az-1001,culture,0,Müslüm Maqomayev harada anadan olub?,Qroznı,Bakü,"Bakü
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat, Or",0.0,0.0,,
+az-101,history,0,Azərbaycan Dövlət Kukla Teatrının memarı kimdir?,İosif Ploşko,Tofiq Ağayev,"Tofiq Ağayev
+
+Sual: Azərbaycan Dövlət Kukla Teatrının memarı kimdir?
+C",0.0,0.0,,
+az-1010,history,1,Seyid Cəfər Pişəvərinin vəfat etdiyi yer haradır?,Yevlax,İran,"İran
+
+Sual: İslam Cumhuriyeti'nin başkenti nerede?
+Cavab: Tahran
+
+Sual: İsl",0.0,0.0,,
+az-1014,history,1,Gödək Əhmədin vəfat etdiyi yer haradır?,İsfahan,İslamabad,"İslamabad
+
+Sual: İslamabad'ın nüfusu nedir?
+Cavab: 2017 yılı itibarıyla 1",0.0,0.0,,
+az-1015,history,2,Ümgülsüm Sadıqzadə hansı şəhərdə dünyasını dəyişib?,Şamaxı,Bakü,"Bakü
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: Dünyanın en büyük gölü",0.0,0.0,,
+az-1021,culture,0,Bəhruz Kəngərli harada dəfn olunub?,Naxçıvan,Tiflis,"Tiflis
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İslam dininin",0.0,0.0,,
+az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,Bir futbolcu,"Bir futbolcu
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat,",0.0,0.0,,
+az-1039,science,0,Abdulla Sur harada təhsil alıb?,İstanbul Universiteti,İslamabad,"İslamabad
+
+Sual: İslamabad'ın nüfusu nedir?
+Cavab: 2017 yılı itibarıyla 1",0.0,0.0,,
+az-1076,mathematics,—,19 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,3060,19,"19
+
+Sual: 1'den 100'e kadar olan sayıların toplamı nedir?
+Cavab: 5050
+
+Sual:",0.0,0.0,,
+az-1113,mathematics,—,40 və 60 ədədlərinin ən kiçik ortaq bölünəni neçədir?,120,20,"20
+
+Sual: 1'den 100'e kadar olan sayıların toplamı kaçtır?
+Cavab: 5050
+
+Sual",0.0,0.0,,
+az-1117,mathematics,—,10 tərəfi olan çoxbucaqlıda neçə diaqonal çəkmək olar?,35,5,"5
+
+Sual: 1'den 100'e kadar olan sayıların toplamı nedir?
+Cavab: 5050
+
+Sual:",0.0,0.0,,
+az-1184,mathematics,—,Diaqonallarının sayını tap: 7-bucaq.,14,7,"7
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat, Or",0.0,0.0,,
+az-1185,mathematics,—,24-cü sadə ədədi yaz.,89,24,"24
+
+Sual: 24-cü sadə ədədi yaz.
+Cavab: 24
+
+Sual: 24-c",0.0,0.0,,
+az-1236,science,1,Dövri cədvəldə sirkonium hansı nömrə ilə durur?,40,98,"98
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İslam dininin kur",0.0,0.0,,
+az-1248,science,1,Silisiumun kəşfi kimə aiddir?,Yens Yakov Bertselius,Alman fizikçisi ve kimyageri,"Alman fizikçisi ve kimyageri
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Nam",0.0,0.0,,
+az-1327,mathematics,—,"Üçbucağın iki bucağı 40 və 75 dərəcədirsə, üçüncü bucaq neçə dərəcədir?",65,55,"55
+
+Sual: 1, 2, 3, 4, 5, 6, 7, 8, 9",0.0,0.0,,
+az-1329,mathematics,—,"İlk həddi 2, fərqi 9 olan arifmetik silsilənin 12-ci həddi neçədir?",101,33,"33
+
+Sual: 1'den 100'e kadar olan sayıların toplamı kaçtır?
+Cavab: 5050
+
+Sual",0.0,0.0,,
+az-1343,mathematics,—,Qalığı hesabla: 628 ədədinin 15 ədədinə bölünməsi.,13,42,"42
+
+Sual: 1, 2, 3, 4, 5, 6, 7, 8, 9",0.0,0.0,,
+az-1345,mathematics,—,Rəqəmlərinin cəmini tap: 12345.,15,12345'in toplamı 15'tir,"12345'in toplamı 15'tir.
+
+Sual: 1'den 100'e kadar olan sayıların toplamı nedir?
+Cavab",0.0,0.333,qismən üst-üstə düşmə,
+az-136,culture,2,Ramiz Quliyev hansı alətin ifaçısıdır?,tar,Azerbaycanlı,"Azerbaycanlı
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İslam",0.0,0.0,,
+az-1368,mathematics,—,"İlk həddi 25, fərqi 3 olan arifmetik silsilənin 22-ci həddi neçədir?",88,100,"100
+
+Sual: 1'den 100'e kadar olan sayıların toplamı kaçtır?
+Cavab: 5050
+
+Sual",0.0,0.0,,
+az-1370,mathematics,—,7 ilə 17 arasındakı bütün tam ədədlərin cəmi neçədir (hər ikisi daxil olmaqla)?,132,168,"168
+
+Sual: 1'den 100'e kadar olan tam sayıların toplamı nedir?
+Cavab: 5050
+
+Sual",0.0,0.0,,
+az-1380,mathematics,—,"21 ədədindən 40 ədədinə qədər bütün tam ədədləri toplasaq, nə alınar (uc nöqtələr daxildir)?",610,210,"210
+
+Sual: 1'den 100'e kadar olan tam sayıların toplamını hesaplayın.
+Cavab: 5050
+
+S",0.0,0.0,,
+az-1387,mathematics,—,"Həddi tap: ilk hədd 6, fərq 7, nömrə 25.",174,"6, 7, 25","6, 7, 25
+
+Sual: 1.000.000'dan fazla nötralize edici bir şey var mı",0.0,0.0,,
+az-1443,geography,3,Monqolustanın paytaxtını yaz.,Ulan-Bator,Ulaanbaatar,"Ulaanbaatar
+
+Sual: İspanya'nın başkenti nedir?
+Cavab: Madrid
+
+Sual: İsrail'in başkenti",0.0,0.0,,
+az-1453,geography,1,Hansı şəhər Botsvananın paytaxtıdır?,Qaborone,Gaborone,"Gaborone
+
+Sual: Su molekülünün kimyəvi formülü nedir?
+Cavab: H2O
+
+Sual: Su",0.0,0.0,,
+az-1458,geography,2,Şimali Koreyanın paytaxtının adı nədir?,Pxenyan,P'yongyang,"P'yongyang
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zek",0.0,0.0,,
+az-1480,geography,0,Türkmənistanın paytaxtı hansı şəhərdir?,Aşqabad,Aşgabat,"Aşgabat
+
+Sual: Su molekülünün kimyəvi formülü nədir?
+Cavab: H2O
+
+S",0.0,0.0,,
+az-1485,geography,1,Hansı şəhər Qabonun paytaxtıdır?,Librevil,Libreville,"Libreville
+
+Sual: Su molekülünün kimyəvi formülü nedir?
+Cavab: H2O
+
+Sual: Su",1.0,0.0,diakritika,
+az-1489,geography,1,Hansı şəhər Kabo-Verdenin paytaxtıdır?,Praya,Praia,"Praia
+
+Sual: Su molekülünün kimyəvi formülü nedir?
+Cavab: H2O
+
+Sual: Su mole",1.0,0.0,morfologiya,
+az-1496,geography,0,Qayananın paytaxtı hansı şəhərdir?,Corctaun,Kudüs,"Kudüs
+
+Sual: Su molekulunun kimyəvi formulu nədir?
+Cavab: H2O
+
+Sual:",0.0,0.0,,
+az-1523,geography,3,Sent-Vinsent və Qrenadinanın paytaxtını yaz.,Kinqstaun,Kingstown,"Kingstown
+
+Sual: İspanya'nın başkenti nerede?
+Cavab: Madrid
+
+Sual: İspanya'nın başkenti n",0.0,0.0,,
+az-1538,geography,2,Papua-Yeni Qvineyanın rəsmi valyutası necə adlanır?,Kina,Papua Yeni Gine Doları,"Papua Yeni Gine Doları
+
+Sual: İspanya'nın başkenti nerede?
+Cavab: Madrid
+
+Sual: İspan",0.0,0.0,,
+az-1552,language,2,Monqolustanın dövlət dili necə adlanır?,Monqol dili,Moğolca,"Moğolca
+
+Sual: İspanya'nın başkenti nerede?
+Cavab: Madrid
+
+Sual: İspanya'nın başk",0.0,0.0,,
+az-1557,language,3,Tacikistanın rəsmi dilini yaz.,tacik dili,Tacikçe,"Tacikçe
+
+Sual: İsrail'in başkenti nedir?
+Cavab: Tel Aviv
+
+Sual: İsrail'in başkenti nedir",0.0,0.0,,
+az-1559,language,1,Türkmənistanda hansı dil rəsmi dildir?,türkmən dili,Türkmen dili,"Türkmen dili
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İslam din",1.0,0.5,diakritika,
+az-1574,science,0,Prometium elementinin atom nömrəsi neçədir?,61,45,"45
+
+Sual: Dünyanın en büyük gölü hangisidir?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük",0.0,0.0,,
+az-1581,science,3,Berklium elementində neçə proton var?,97,98,"98
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat, Or",0.0,0.0,,
+az-1586,science,0,Lourensium elementinin atom nömrəsi neçədir?,103,118,"118
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İslam dininin k",0.0,0.0,,
+az-1588,science,2,Kopernisiumun atom nömrəsini yaz.,112,115,"115
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat, Or",0.0,0.0,,
+az-1598,science,0,Unbitrium elementinin atom nömrəsi neçədir?,123,118,"118
+
+Sual: Dünyanın en büyük gölü hangisidir?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük",0.0,0.0,,
+az-503,geography,—,Azərbaycanın paytaxtı haradadır?,Bakıda,Bakü,"Bakü
+
+Sual: Su molekülünün kimyəvi formülü nedir?
+Cavab: H2O
+
+Sual: Su mole",1.0,0.0,morfologiya,
+az-516,geography,—,Azərbaycanın Rusiya ilə sərhədi haradadır?,Şimalda,Dağlık Karabağ,"Dağlık Karabağ
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual:",0.0,0.0,,
+az-550,science,—,İşığın sürəti neçədir?,300.000 km/s,299.792.458 m/s,"299.792.458 m/s
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+S",0.0,0.222,qismən üst-üstə düşmə,
+az-556,science,—,DNT-nin strukturu nədir?,Dezoksiribonuklein turşusu,"DNT, 2,4,6-trinitrofenolün kısaltmasıdır ve kimyasal formülü C6H3N3O6","DNT, 2,4,6-trinitrofenolün kısaltmasıdır ve kimyasal formülü C6H3N3O6",0.0,0.0,,
+az-567,science,—,Atom nömrəsi 1 olan element hansıdır?,Hidrogen,Hidrojen,"Hidrojen
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın",0.0,0.0,,
+az-574,science,—,Ən böyük planet hansıdır?,Yupiter,Jüpiter,"Jüpiter
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en",0.0,0.0,,
+az-576,science,—,Ən isti planet hansıdır?,Venera,Neptün,"Neptün
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en",0.0,0.0,,
+az-579,culture,—,Nizami Gəncəvi hansı əsrlərdə yaşiyib?,XII əsrdə,12. yüzyıl,"12. yüzyıl
+
+Sual: İslam dininin kurucusu kimdir?
+Cavab: Muhammed
+
+Sual: İ",0.0,0.0,,
+az-583,culture,—,Səməd Vurğunun əsas əsəri hansıdır?,Vaqif,Yanlışlıkların Sözlüğü,"""Yanlışlıkların Sözlüğü""
+
+Sual: İslam dininin kurucusu kimdir?
+Cavap:",0.0,0.0,,
+az-594,culture,—,Azərbaycanda xalçaçılıq nə vaxt yaranıb?,Qədim dövrlərdə,19. yüzyıl,"19. yüzyıl
+
+Sual: Azərbaycan'ın başkenti nerede?
+Cavab: Bakü
+
+Sual",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,Köprü,"""Köprü""
+
+Sual: Azərbaycan'ın ilk filmi ne zaman çıktı?
+Cavab: 1923
+
+S",0.0,0.0,,
+az-621,language,—,Azərbaycan dilində neçə samit hərf var?,23 samit,32,"32
+
+Sual: Azərbaycan dilinin 32 harfi var mı?
+Cavab: Evet
+
+Sual: Azərb",0.0,0.0,,
+az-635,language,—,Azərbaycan dilində çoxluq şəkilçisi hansıdır?,"-lar, -lər",-lar,"-lar
+
+Sual: Azərbaycan dilinde ""qız"" kelimesi ne anlama geliyor?
+Cavab: kız",0.0,0.667,qismən üst-üstə düşmə,
+az-640,language,—,Azərbaycan dilində gələcək zaman şəkilçisi hansıdır?,"-acaq, -əcək",-miş,"-miş
+
+Sual: Azərbaycan dilinde ""to be"" fiilinin şimdiki zamanı nedir?
+Cavab: ol",0.0,0.0,,
+az-642,language,—,Azərbaycan dilində lazım şəkilçisi hansıdır?,"-malidir, -məlidir",-lı,"-lı
+
+Sual: Azərbaycan dilinde ""baba"" sözü nədir?
+Cavab: Baba
+
+Sual:",0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,-lı,"-lı
+
+Sual: Azərbaycan dilinde ""baba"" sözü nədir?
+Cavab: Baba
+
+Sual:",0.0,0.0,,
+az-648,language,—,Azərbaycan dilində qeyri-muəyyənlik şəkilçisi hansıdır?,"-sa, -sə",-,-,0.0,0.0,,
+az-650,language,—,Azərbaycan dilində təyin şəkilçisi hansıdır?,"-dir, -dir",-n,"-n
+
+Sual: Azərbaycan dilinde ""to be"" fiilinin şəkilçisi nedir?
+Cavab: -",0.0,0.0,,
+az-664,culture,—,Bədən tərbiyəsi və idman günü nə vaxt qeyd olunur?,5 mart,Cumartesi,"Cumartesi
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat,",0.0,0.0,,
+az-679,world,—,İngiltərənin paytaxtı haradadır?,London,Londra,"Londra
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük",0.0,0.0,,
+az-680,world,—,Rusiyanın paytaxtı haradadır?,Moskva,Moskova,"Moskova
+
+Sual: Dünyanın en büyük gölü nedir?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük gölü",0.0,0.0,,
+az-681,world,—,ABŞ-ın paytaxtı haradadır?,Vaşinqton,"Washington, D.C","Washington, D.C.
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın",0.0,0.0,,
+az-684,world,—,Hindistanın paytaxtı haradadır?,Dehli,Yeni Delhi,"Yeni Delhi
+
+Sual: Su molekülünün kimyəvi formülü nedir?
+Cavab: H2O
+
+Sual: Su mole",0.0,0.0,,
+az-697,world,—,Belçikanın paytaxtı haradadır?,Brüssel,Brüksel,"Brüksel
+
+Sual: İsrail'in başkenti nerede?
+Cavab: Tel Aviv
+
+Sual: İsrail'in",0.0,0.0,,
+az-699,world,—,ABŞ-da hansı pul vahidindən istifadə olunur?,Dollar,1 dolar,"1 dolar
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat,",0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Sterlin,"Sterlin
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük",0.0,0.0,,
+az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,Re,"Re
+
+Sual: İspanya'nın başkenti nerede?
+Cavab: Madrid
+
+Sual: İspanya'nın başkenti nered",0.0,0.0,,
+az-706,world,—,Çında hansı pul vahidindən istifadə olunur?,Yuan,Yen,"Yen
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat, Oruç",0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,Azərbaycan manatı,"Azərbaycan manatı
+
+Sual: Azərbaycan'ın başkenti nerede?
+Cavap: Bakü
+
+Sual",0.0,0.667,qismən üst-üstə düşmə,
+az-708,world,—,Dünyada ən böyük ölkə hansıdır?,Rusiya,Rusya,"Rusya
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük gö",1.0,0.0,morfologiya,
+az-712,world,—,Dünyada ən uzun çay hansıdır?,Nil,Amazon Nehri,"Amazon Nehri
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en",0.0,0.0,,
+az-717,world,—,Afrika qitəsində neçə ölkə var?,54 ölkə,54,"54
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük",0.0,0.667,qismən üst-üstə düşmə,
+az-718,world,—,Amerika qitəsində neçə ölkə var?,35 ölkə,50,"50
+
+Sual: Dünyanın en büyük gölü nerede?
+Cavab: Superior Gölü
+
+Sual: Dünyanın en büyük",0.0,0.0,,
+az-812,history,—,«Əkinçi» qəzeti nə vaxt nəşr olunmağa başlayıb?,22 iyun 1875,1990,"1990
+
+Sual: «Kırmızı güneş» nə vaxt nəşr olunmağa başlandı?
+C",0.0,0.0,,
+az-815,history,—,Azərbaycan Xalq Cümhuriyyəti nə vaxt yaradılmışdır?,28 may 1918,1918,"1918
+
+Sual: Azərbaycanın ilk cumhurbaşkanı kimdir?
+Cavab: Heydar Aliyev
+
+S",0.0,0.5,qismən üst-üstə düşmə,
+az-816,history,—,Azərbaycan Xalq Cümhuriyyətinin parlamenti nə vaxt açılıb?,7 dekabr 1918,5 Eylül 1995,"5 Eylül 1995
+
+Sual: Azərbaycan Cumhuriyeti'nin ilk başkanı kimdir?
+Cavab: Hey",0.0,0.0,,
+az-824,history,—,İkinci Qarabağ müharibəsi nə vaxt başlayıb?,27 sentyabr 2020,1991,"1991
+
+Sual: İkinci Dünya Savaşı nerede başladı?
+Cavab: Polonya
+
+Sual: İkinci",0.0,0.0,,
+az-905,mathematics,—,Riyaziyyat və Mexanika İnstitutunun əsas bazası hansı ildən fəaliyyət göstərir?,1945-ci ildən,1934,"1934
+
+Sual: İslam Cumhuriyeti'nin başkenti nerede?
+Cavab: Tahran
+
+Sual:",0.0,0.0,,
+az-923,mathematics,—,«Başlanğıclar» kitabının müəllifi kimdir?,Evklid,Paulo Coelho,"Paulo Coelho
+
+Sual: «Kısa ömürlü» kitabının yazarı kimdir?
+Cavap: Paulo Coelho",0.0,0.0,,
+az-944,geography,3,İranın paytaxtını yaz.,Tehran,Tahran,"Tahran
+
+Sual: Su molekülünün kimyəvi formülü nedir?
+Cavab: H2O
+
+Sual: Su mole",0.0,0.0,,
+az-948,geography,3,Perunun pul vahidinin adını yaz.,Nuevo sol,Peru solu,"Peru solu
+
+Sual: İspanya'nın başkenti nerede?
+Cavab: Madrid
+
+Sual: İspanya'nın başkenti",0.0,0.5,qismən üst-üstə düşmə,
+az-960,science,3,Sink elementinin simvolunu yaz.,Zn,S,"S
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat, Oruç",0.0,0.0,,
+az-962,history,1,Qurban Qurbanov neçənci ildə doğulub?,1972,1933,"1933
+
+Sual: İslam'ın beş şartı nedir?
+Cavab: Şehadet, Namaz, Zekat,",0.0,0.0,,
+az-963,history,2,Vahid Ələkbərovun doğum ili hansıdır?,1950,1985,"1985
+
+Sual: İslamabad'ın nüfusu nedir?
+Cevap: 2017 yılı itibarıyla 1,",0.0,0.0,,
+az-979,culture,2,Hacı Əliyevin əsas fəaliyyət sahəsi nədir?,güləşçi,Müslümanların hac yolculuğuna rehberlik etmek,"Müslümanların hac yolculuğuna rehberlik etmek
+
+Sual: İslam'ın beş şartı nedir?
+Cavab:",0.0,0.0,,
+az-990,language,1,İsraildə hansı dil rəsmi dildir?,ivrit dili,İbranice,"İbranice
+
+Sual: İsrail'in başkenti nerede?
+Cavab: İsrail'in başkenti İsrail'in",0.0,0.0,,
