@@ -4,6 +4,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green.svg)](LICENSE)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-green.svg)](LICENSE-DATA)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22695091.svg)](https://doi.org/10.5281/zenodo.22695091)
 
 A parallel Azerbaijani-English benchmark, and a study of what fine-tuning on a
 neighbouring language costs Azerbaijani. The short answer is that the target's
@@ -446,3 +447,8 @@ acceptance rate is itself a quality figure.
 Code MIT ([LICENSE](LICENSE)). Data CC BY 4.0 ([LICENSE-DATA](LICENSE-DATA)).
 
 If you use this benchmark, please cite it: see [CITATION.cff](CITATION.cff).
+
+Archived at [10.5281/zenodo.22695091](https://doi.org/10.5281/zenodo.22695091).
+That is the concept DOI and always resolves to the newest release, so a
+citation written today still reaches the current data; the release backing the
+paper is v2.0.1, whose own DOI is `10.5281/zenodo.22695092`.

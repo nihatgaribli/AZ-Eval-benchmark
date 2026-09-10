@@ -2314,6 +2314,20 @@ carried no information and could only mislead. Raw files may still contain it;
 the built dataset does not.
 \end{enumerate}
 
+\section*{Data and Code Availability}
+
+The dataset, the evaluation pipeline, the raw model responses for every run
+reported here, and the scripts that regenerate every table and figure are
+archived at \texttt{https://doi.org/10.5281/zenodo.22695091} and developed at
+\texttt{https://github.com/nihatgaribli/AZ-Eval-benchmark}. The DOI resolves to
+the current version; the release backing this paper is v2.0.1.
+
+Generation is separate from scoring (Section 4.8), so the archived raw
+responses can be re-scored under a different normalisation, a different
+extractor or a different gate without re-running a single model. The dataset
+under \texttt{data/} and the results under \texttt{results/} are CC BY 4.0; the
+pipeline under \texttt{src/} is MIT.
+
 \begin{acknowledgments}
 We thank the second annotator, who re-checked a stratified sample of 200 items
 and the 50-item human baseline without having seen the dataset beforehand.

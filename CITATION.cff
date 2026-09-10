@@ -8,6 +8,16 @@ authors:
     email: qaribli.nihat.nemat@bsu.edu.az
     affiliation: Baku State University
 repository-code: "https://github.com/nihatgaribli/AZ-Eval-benchmark"
+# Concept DOI, not the version DOI: it always resolves to the newest release,
+# so a citation written today still reaches the current data.
+doi: "10.5281/zenodo.22695091"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22695091"
+    description: "Concept DOI, all versions"
+  - type: doi
+    value: "10.5281/zenodo.22695092"
+    description: "Version DOI, v2.0.1"
 abstract: >-
   An open parallel Azerbaijani-English benchmark of 1006 human-verified
   short-answer items, 708 of them a control stratum whose subject matter is
@@ -15,11 +25,13 @@ abstract: >-
   knowledge from orthography through a chain of nested normalizations.
   Used to show that what fine-tuning on a neighbouring language costs
   Azerbaijani is predicted by the script of the adaptation target and not by
-  its relatedness. Across nine measured pairs, relatedness splits exactly
+  its relatedness. Across ten measured pairs, relatedness splits exactly
   evenly; every Latin-script target leaves Azerbaijani intact, and four of
   five Cyrillic-script targets damage it by 8 to 11 points beyond general
   forgetting. Turkish, the closest relative, costs nothing; Russian, entirely
-  unrelated, costs 8 to 10 points.
+  unrelated, costs 8 to 10 points. Every damaged pair is built on a Qwen
+  model, so the script of the target and the family of the base are only
+  partly separated; the deposit reports that rather than leaving it implicit.
 keywords:
   - low-resource evaluation
   - Azerbaijani

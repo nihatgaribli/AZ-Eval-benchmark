@@ -28,10 +28,13 @@ the older CLV2 class, and neither `clv2025.cls` nor this paper references it.
 
 **Comments**
 
-    39 pages, 6 figures, 27 tables. Benchmark and code: https://github.com/nihatgaribli/AZ-Eval-benchmark
+    39 pages, 6 figures, 27 tables. Benchmark, code and raw model outputs:
+    https://doi.org/10.5281/zenodo.22695091 and
+    https://github.com/nihatgaribli/AZ-Eval-benchmark
 
-Update that URL before submitting if the public repository lands somewhere
-else. It must be live at submission time or the line should be dropped.
+Both are live. The Zenodo identifier is the concept DOI, which always
+resolves to the newest release, so it does not go stale when the benchmark
+is updated.
 
 **License.** CC BY 4.0 matches the dataset licence already declared in
 `CITATION.cff`. Anything more restrictive would contradict it.
