@@ -6,7 +6,10 @@
 
 \dochead{Long Paper}
 
-\pageonefooter{Submission received: DD Month YYYY; revised version received: DD Month YYYY; accepted for publication: DD Month YYYY.}
+% The journal fills in the three dates on acceptance. Leaving their template
+% placeholder in would print a literal "DD Month YYYY" on page one of the
+% preprint, which reads as an unfinished draft.
+\pageonefooter{Preprint. Dataset, code and raw model outputs: https://doi.org/10.5281/zenodo.22695091}
 
 \usepackage{amsmath}
 \usepackage{booktabs}
@@ -26,6 +29,17 @@
 
 \runningtitle{Script, Not Relatedness}
 \runningauthor{Garibli}
+
+% The class prints "(c) <year> Association for Computational Linguistics" at the
+% foot of page one. That is true of a published article and false of a preprint
+% that has not been accepted, so while this is a preprint the line names the
+% author instead. ON ACCEPTANCE, DELETE THE NEXT LINE and the class default
+% returns.
+% \makeatletter is required: \@jyear carries an @, which is not a letter in the
+% document body, so without it the year prints as the literal text "jyear".
+\makeatletter
+\renewcommand{\footmark}{\copyright\ \@jyear\ Nihat Garibli. Preprint; not peer reviewed.}
+\makeatother
 
 \begin{document}
 
@@ -290,6 +304,13 @@ answers correctly in multiple choice, only 0.5\% to 10.3\% are also produced
 correctly in free form. Recognition and production are close to dissociated
 here, and a multiple-choice benchmark therefore overstates usable ability in
 the generation setting where these models are actually deployed.
+
+Work on the model side of the same problem is also under way:
+\namecite{isbarov2024azerbaijani} release open foundation models adapted to
+Azerbaijani, which is the class of model this paper measures rather than
+builds. Their effort and ours meet at the same obstacle from opposite
+directions, and the pairs in Section 6 are precisely about what such an
+adaptation costs a language it was not aimed at.
 
 AZ-Eval is complementary rather than competing. It is smaller than either (1006
 items), and it is parallel and free-form, which is what the questions in this
@@ -913,7 +934,7 @@ Model & AZ & EN & Gap & 95\% CI \\
 \texttt{Turkish-Llama-8b-v0.1} & 23.5\% & 44.0\% & 20.4 & [17.7, 23.3] \\
 \texttt{borealis-4b} & 22.6\% & 45.3\% & 22.8 & [19.8, 25.6] \\
 \texttt{gemma-3-4b-it} & 20.5\% & 46.9\% & 26.4 & [23.2, 29.8] \\
-\texttt{Qwen3-4B} & 20.0\% & 45.4\% & 25.4 & [22.2, 28.6] \\
+\texttt{Qwen3-4B} & 20.1\% & 45.4\% & 25.3 & [22.2, 28.4] \\
 \texttt{QVikhr-3-4B-Instruction} & 18.3\% & 45.9\% & 27.6 & [24.6, 30.5] \\
 \texttt{Mistral-7B-v0.1} & 17.2\% & 52.6\% & 35.4 & [32.5, 38.3] \\
 \texttt{RuadaptQwen3-4B-Hybrid} & 17.2\% & 48.5\% & 31.3 & [28.2, 34.2] \\
@@ -921,7 +942,7 @@ Model & AZ & EN & Gap & 95\% CI \\
 \texttt{Luth-1.7B-Instruct} & 10.7\% & 39.0\% & 28.2 & [25.4, 31.2] \\
 \texttt{MamayLM-Gemma-3-4B-IT}$^{*}$ & 20.2\% & 47.0\% & 26.8 & [23.9, 29.5] \\
 \texttt{Phi-4-mini-instruct} & 11.2\% & 44.6\% & 33.4 & [30.4, 36.4] \\
-\texttt{aya-expanse-8b} & 11.1\% & 47.4\% & 36.3 & [33.2, 39.4] \\
+\texttt{aya-expanse-8b} & 11.2\% & 47.4\% & 36.2 & [33.1, 39.2] \\
 \texttt{Qwen3-1.7B} & 6.5\% & 28.6\% & 22.0 & [19.1, 24.7] \\
 \texttt{Trendyol-LLM-7b-base-v1.0} & 6.3\% & 25.8\% & 19.4 & [16.7, 22.2] \\
 \texttt{mGPT} & 5.6\% & 14.7\% & 9.1 & [7.0, 11.1] \\
@@ -932,7 +953,7 @@ Model & AZ & EN & Gap & 95\% CI \\
 \texttt{granite-3.1-2b-instruct} & 0.3\% & 32.2\% & 31.9 & [28.9, 34.5] \\
 \texttt{stablelm-2-1\_6b-chat} & 0.2\% & 7.6\% & 7.4 & [5.7, 9.1] \\
 \texttt{EuroLLM-1.7B-Instruct} & 0.1\% & 17.3\% & 17.2 & [14.9, 19.6] \\
-\texttt{SmolLM2-1.7B-Instruct} & 0.0\% & 24.6\% & 24.6 & [21.9, 27.6] \\
+\texttt{SmolLM2-1.7B-Instruct} & 0.0\% & 24.7\% & 24.7 & [22.0, 27.7] \\
 \texttt{bloomz-1b7}$^{\ddagger}$ & 0.0\% & 3.9\% & 3.9 & [2.8, 5.1] \\
 \bottomrule
 \end{tabular}
