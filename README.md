@@ -10,7 +10,7 @@ neighbouring language costs Azerbaijani. The short answer is that the target's
 **script** predicts the damage and its **relatedness** does not.
 
 **1006 items**, each stated in both languages, each verified by a human
-before it enters the dataset. **34 models** measured under identical
+before it enters the dataset. **37 models** measured under identical
 conditions.
 
 ---
@@ -21,8 +21,8 @@ conditions.
 
 | Model class | Azerbaijani-English gap |
 |---|---|
-| 28 open models, ≤8B, 4-bit | 3.9 to 43.5 points |
-| 5 large models via API | 3.7 to 15.2 points |
+| 31 open models, ≤8B, 4-bit | 3.9 to 43.5 points |
+| 5 large models via API | 3.7 to 14.2 points |
 | `qwen3-8b` via API (8B, full precision) | 27.5 points |
 
 Every open-model gap is Holm-significant. `gpt-4o`'s 3.7 points is the one
@@ -47,7 +47,7 @@ work, because it runs on one GPU and costs nothing per call.
 | `claude-sonnet-5` | Anthropic | 65.5% | 71.0% | 5.5 |
 | `deepseek-v3.2` | DeepSeek | 64.1% | 70.0% | 5.9 |
 | `llama-4-maverick` | Meta | 63.6% | 68.5% | 4.9 |
-| `qwen3-235b-a22b` | Alibaba | 48.8% | 64.0% | **15.2** |
+| `qwen3-235b-a22b` | Alibaba | 49.8% | 64.0% | **14.2** |
 
 Four models from four independent organisations land within 3.1 points of
 each other. A much larger model sits far outside that band. Parameter count
@@ -55,7 +55,7 @@ is a poor guide when choosing a model for Azerbaijani.
 
 ### The script of the target predicts the damage; relatedness does not
 
-Eleven declared base/fine-tuned pairs, nine of which pass the measurement
+Thirteen declared base/fine-tuned pairs, ten of which pass the measurement
 gates, cross two factors: is the adaptation
 target related to Azerbaijani, and does it share its script? We report
 **excess damage**: Azerbaijani loss minus English loss, paired per item, so
@@ -64,20 +64,21 @@ that the model's own general forgetting is subtracted.
 | Pair | Target | Related | Script | Excess damage | 95% CI |
 |---|---|---|---|---|---|
 | `Qwen3-VL-4B-Thinking` → `Qolda-AVL-5B` | Kazakh | yes | Cyrillic | **+9.8** | [+6.2, +13.4] |
-| `Qwen3.5-4B-Base` → `…-Base-Kazakh` | Kazakh | yes | Cyrillic | **+10.6** | [+7.0, +14.2] |
+| `Qwen3.5-4B-Base` → `…-Base-Kazakh` | Kazakh | yes | Cyrillic | **+10.7** | [+7.0, +14.3] |
 | `Qwen3-4B` → `RuadaptQwen3-4B-Hybrid` | Russian | no | Cyrillic | **+10.1** | [+7.0, +13.0] |
-| `Qwen3-4B` → `QVikhr-3-4B-Instruction` | Russian | no | Cyrillic | **+8.3** | [+5.4, +11.4] |
+| `Qwen3-4B` → `QVikhr-3-4B-Instruction` | Russian | no | Cyrillic | **+8.0** | [+4.9, +10.9] |
 | `gemma-3-4b-it` → `MamayLM-Gemma-3-4B` | Ukrainian | no | Cyrillic | +0.1 | [-2.9, +3.2] |
 | `Meta-Llama-3-8B` → `Turkish-Llama-8b` | Turkish | yes | Latin | +1.5 | [-1.0, +4.5] |
 | `Mistral-7B-v0.1` → `Trendyol-LLM-7b` | Turkish | yes | Latin | -16.0 | [-19.2, -12.8] |
-| `gemma-3-4b-it` → `borealis-4b` | Norwegian | no | Latin | -3.1 | [-6.0, -0.5] |
-| `Qwen3-VL-4B-Instruct` → `Qwen-SEA-LION-v4-4B` | SE Asian | no | mixed | -0.9 | [-2.8, +1.1] |
+| `gemma-3-4b-it` → `borealis-4b` | Norwegian | no | Latin | -3.1 | [-6.1, -0.2] |
+| `Qwen3-1.7B` → `Luth-1.7B-Instruct` | French | no | Latin | +6.1 † | [+3.2, +9.2] |
+| `Qwen3-VL-4B-Instruct` → `Qwen-SEA-LION-v4-4B` | SE Asian | no | mixed | -1.2 | [-3.3, +0.7] |
 
 **Relatedness splits exactly evenly and predicts nothing.** Turkish is the
 closest relative we could find and costs nothing. Russian is unrelated and
 costs 8 to 10 points.
 
-**Script predicts eight of nine.** Every Latin target is harmless; four of
+**Script predicts nine of ten.** Every Latin target is harmless; four of
 five Cyrillic targets are not. The exception, Ukrainian, is reported rather
 than smoothed away.
 
@@ -85,12 +86,31 @@ than smoothed away.
 Burmese and Tamil alongside four Latin-script languages and shares its base
 with the most damaged pair in the study. It costs Azerbaijani nothing.
 
-**One marker separates all nine**: whether the tuned model starts writing
+**One marker separates all ten**: whether the tuned model starts writing
 Azerbaijani in Cyrillic. Every damaged pair does (84.9%, 18.9%, 13.8%, 7.7%);
-no undamaged pair does (0.0% to 0.2%, the latter matching its own base).
+no undamaged pair does (0.0% to 0.5%, the highest matching its own base).
 
-The tokeniser is measured, not assumed, and is **identical in six of the nine
+The tokeniser is measured, not assumed, and is **identical in seven of the ten
 pairs**, so the contrast survives with segmentation held exactly constant.
+
+† **The metric has a blind spot and this pair is in it.** Excess damage is a
+difference of differences, so its sign says nothing about which language moved.
+Luth's Azerbaijani *rose*, from 6.5% to 10.7%; English rose further, from 28.6%
+to 38.8%, and the metric reports the shortfall as if something had been lost.
+Nothing was. Turkish 1 is the mirror image: −16.0 looks like protection, but
+Azerbaijani fell 10.9 points and only English falling 26.9 made the sign
+negative. A pair counts as damaged here only when its Azerbaijani score
+actually fell.
+
+**The base model is confounded with the script, and only partly separated.**
+Every pair that damages Azerbaijani is built on a Qwen model, so "the target is
+Cyrillic" and "the base is a Qwen" made the same predictions for most of this
+study. Luth is the pair that pulls them apart: a Qwen base with a Latin target,
+where the script account predicts no damage and is right. An exact permutation
+test over the ten pairs is in
+[results/tables/between_pairs.md](results/tables/between_pairs.md), and it still
+ranks the base account first, because it sorts by excess damage and Luth scores
+high on that while having damaged nothing. Both readings are reported.
 
 **This claim changed twice in one day.** The Ukrainian pair briefly appeared
 to refute the script account, and we rewrote the paper around an interaction
@@ -330,11 +350,18 @@ readers compare percentages side by side.
    for a third script in either direction: a Georgian attempt was excluded by
    a measurement gate, and Greek models exist only at 7B and larger, which our
    environment cannot load. Both Kazakh pairs also come from one laboratory.
+   Three Latin-target candidates were excluded by gates; all three answer a
+   question that was never asked, and do so far more in Azerbaijani than in
+   English, which is a one-sided break in a metric that reports a difference.
 
-3. **Tokenisation is controlled in six of the nine pairs.** Measured, not
+3. **Tokenisation is controlled in seven of the ten pairs.** Measured, not
    assumed. The contrast is visible among the controlled pairs alone: Cyrillic
-   targets +9.2 and +8.3, Latin targets +1.5 and -3.1, with segmentation
+   targets +9.2 and +8.0, Latin targets +1.5 and -3.1, with segmentation
    identical throughout.
+
+   **The base model is confounded with the script.** Every damaging pair is
+   built on a Qwen model. One pair separates them and no more, so the base
+   family stays a live alternative rather than a settled one.
 
 4. **Local models are ≤8B and 4-bit.** Pair comparisons are internally
    controlled, but absolute scores are not directly comparable to
@@ -349,7 +376,7 @@ readers compare percentages side by side.
 
 7. **API models were served through a router.** The serving stack is not
    under our control and four of the six are not open weights, so they are
-   reported separately from the 28 open models.
+   reported separately from the 31 open models.
 
 8. **A `difficulty` field was removed, not fixed.** It read as a per-item
    judgement but was a template-level constant, silently defaulted to

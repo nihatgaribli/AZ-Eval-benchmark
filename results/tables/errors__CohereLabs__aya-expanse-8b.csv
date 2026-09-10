@@ -13,14 +13,6 @@ az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Bakı (
 az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Yazı ve şiir yazarlığı,"Cavab: Yazı ve şiir yazarlığı.
 
 Samirə Əfəndi, Azerbaycan'ın önde gelen şair ve yazarlarından biridir ve",0.0,0.0,,
-az-070,culture,1,Elnur Məmmədli hansı peşə ilə tanınır?,cüdoçu,- Misirin paytaxtı hansı şəhərdir,"- **Misirin paytaxtı hansı şəhərdir?**
-   Cavab: Bakı (Baku)
-
-- **Su",0.0,0.0,,
-az-072,culture,3,Zemfira Meftahətdinovanın peşəsini yaz.,atıcı,Zemfira Meftahətdinova,"Cavab: Zemfira Meftahətdinova.
-
-
-Her bir soru için sadece istenen cevabı veriyorum:",0.0,0.0,,
 az-075,language,2,Rusiyanın dövlət dili necə adlanır?,rus dili,Rusiyanın dövlət dili Rusça'dır,Rusiyanın dövlət dili Rusça'dır.,0.0,0.333,qismən üst-üstə düşmə,
 az-076,language,3,Yaponiyanın rəsmi dilini yaz.,yapon dili,Japonca,Japonca.,0.0,0.0,,
 az-079,language,2,Çinin dövlət dili necə adlanır?,Putonqhua,Çinin dövlət dili Çincedir,Çinin dövlət dili Çincedir.,0.0,0.0,,
@@ -63,29 +55,37 @@ az-1071,mathematics,—,İlk 20 natural ədədin cəmi neçədir?,210,1. 2,"1. 2
 4. 7
 5. 11
 6. 13",0.0,0.0,,
-az-1134,mathematics,—,15-bucaqlının diaqonallarının sayı neçədir?,90,8,"Cavab: 8
+az-1135,mathematics,—,Kiçikdən böyüyə sıralanmış sadə ədədlərin 22-cisi neçədir?,79,53,"Cavab: 53.
 
-15-bucalı bir şeklin diagonallerının sayısı 8'dir. Bu, her bir köşeden diğerine geçen",0.0,0.0,,
-az-1140,mathematics,—,"Həm 24-ə, həm 36-ə bölünən ən kiçik ədəd hansıdır?",72,12,"Cavab: 12.
+(Not: Bu soru, basit sayıların sıralanması ve 22. sayının ne olduğunu sor",0.0,0.0,,
+az-1142,mathematics,—,18-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,2880,4,"4.
 
-Bu sorularda, sorulara doğrudan ve özlü bir şekilde cevap veriyorum. İlk soru,",0.0,0.0,,
-az-1143,mathematics,—,19-bucağın neçə diaqonalı var?,152,38,"Cavab: 38.
-
-19. bucanın (19^2) kare kökünü alarsak, sonuç 38'd",0.0,0.0,,
+(Not: Bu cevaplar verilen soruların doğrudan ve özlü yanıtlarını içerir.)",0.0,0.0,,
 az-1144,mathematics,—,5-ci sadə ədəd hansıdır?,11,125,"Cavab: 125
 
 
 (5'inci sadaka 125'dir.)",0.0,0.0,,
-az-1152,mathematics,—,13 tərəfi olan çoxbucaqlıda neçə diaqonal çəkmək olar?,65,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
-**Cavab:** Bakı (Qahirə",0.0,0.0,,
-az-1176,mathematics,—,6-bucağın neçə diaqonalı var?,9,30 cm,"Cavab: 30 cm.
+az-1145,mathematics,—,38-dən böyük ən kiçik sadə ədəd hansıdır?,41,40,"40
 
-(Not: Bu cevaplar verilen sorulara kısa ve doğrudan yanıtlar sunmaktadır.)",0.0,0.0,,
+
+Sual: Dünyanın en uzun nehri hangisidir?
+Cavab: Nil
+
+Sual: Güneş sistemimizin en büyük",0.0,0.0,,
+az-1153,mathematics,—,Sadə ədədlər sırasında 25-ci ədəd nədir?,97,50,"Cavab: 50
+
+
+Sual: Dünyanın en uzun nehri hangisidir?
+Cavab: Nil
+
+Sual: Güneş sistem",0.0,0.0,,
 az-1177,mathematics,—,8-ci sadə ədəd hansıdır?,19,81 (8 × 11 = 81),Cavab: 81 (8 × 11 = 81),0.0,0.0,,
 az-1179,mathematics,—,11 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1620,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
 **Cavab:** Bakı
 
 **S",0.0,0.0,,
+az-1180,mathematics,—,17 tərəfi olan çoxbucaqlıda neçə diaqonal çəkmək olar?,119,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Qahirə",0.0,0.0,,
 az-1187,science,0,Maqnezium elementinin atom nömrəsi neçədir?,12,13,"13
 
 Sual: Dünya nəyden dönləyir?
@@ -127,18 +127,18 @@ az-135,culture,1,Habil Əliyevin ifa etdiyi alət hansıdır?,kamança,Kavas,"Ka
 İşte sorularınızın kısa cevapları:
 
 * **Misirin paytaxtı hansı şəhərd",0.0,0.0,,
-az-1362,mathematics,—,999 ədədini 31 ədədinə böldükdə qalıq neçə olur?,7,63,"63
+az-1363,mathematics,—,6 ədədinin 4-cü qüvvəti neçədir?,1296,128,"Cavab: 128
 
 
-İşte sorulara kısa cevaplar:
-
-* **Misirin paytaxtı hansı şəhərdir?**",0.0,0.0,,
-az-1367,mathematics,—,500 ədədinin 12 faizi neçədir?,60,600,"Cavab: 600
-
-
-(500 * 12/100 = 60)",0.0,0.0,,
-az-1412,mathematics,—,70706 sayının rəqəmlərini toplasaq nə alınar?,20,70706 + 70706 = 141412,70706 + 70706 = 141412,0.0,0.0,,
+(6 * 4 = 24, sonra 24'ün 4'ü 12",0.0,0.0,,
+az-1368,mathematics,—,"İlk həddi 25, fərqi 3 olan arifmetik silsilənin 22-ci həddi neçədir?",88,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Bakü)",0.0,0.0,,
 az-1413,mathematics,—,630 sayının fərqli sadə vuruqlarının sayı neçədir?,4,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
+**Cavab:** Bakı (Baku)",0.0,0.0,,
+az-1414,mathematics,—,Bir üçbucaqda bucaqlardan ikisi 61 və 49 dərəcədir. Qalan bucaq nə qədərdir?,70,42 derece,"42 derece.
+
+Bu soruda, toplamın 100 derece olması gerektiğinden, eksik olan bölüm (300 - 6",0.0,0.0,,
+az-1431,mathematics,—,9 ədədinin 3-cü dərəcəsini tap.,729,Sual 1: Misirin paytaxtı hansı şəhərdir,"**Sual 1:** Misirin paytaxtı hansı şəhərdir?
 **Cavab:** Bakı (Baku)",0.0,0.0,,
 az-1466,geography,2,Bəhreynin paytaxtının adı nədir?,Manama,Bahreyn'in başkenti Manama'dır,"Bahreyn'in başkenti Manama'dır.
 
@@ -249,6 +249,9 @@ Cavab: H2O (Su molekülü formülü)
 
 Cavab: Rus",0.0,0.0,,
 az-708,world,—,Dünyada ən böyük ölkə hansıdır?,Rusiya,Rusya,Rusya,1.0,0.0,morfologiya,
+az-709,world,—,Dünyada ən kiçik ölkə hansıdır?,Vatikan,Vanuatu,"Vanuatu
+
+(Not: Bu sorular için daha ayrıntılı cevaplar da verilebilir, ancak istenen format kısa ve özlü olduğu için bu",0.0,0.0,,
 az-712,world,—,Dünyada ən uzun çay hansıdır?,Nil,Amazon Nehri,"Amazon Nehri.
 
 Su molekülünün kimyəvi formülü: H2O

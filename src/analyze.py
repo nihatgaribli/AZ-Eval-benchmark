@@ -48,6 +48,7 @@ from src.metrics import (
 
 __all__ = [
     "extract_answer",
+    "answers_a_different_question",
     "RunKey",
     "Run",
     "load_runs",
@@ -100,8 +101,77 @@ _UNCLOSED_THINK = re.compile(r"<think>.*", re.DOTALL | re.IGNORECASE)
 #: `Po` deyil, `Sm`/`Po` qarışığıdır) və EM-i sındırır.
 _MARKDOWN_EMPHASIS = re.compile(r"(\*{1,3}|_{1,3}|`+)")
 
+#: Promptun ÖZ sual etiketi. `PROMPT_TEMPLATES` sualı `Sual:` / `Question:`
+#: ilə etiketləyir, ona görə bu etiketlə başlayan sətir cavab deyil, şablonun
+#: təkrarıdır. Etiketlər burada yenidən yazılmır ki, şablon dəyişəndə qayda
+#: səssizcə köhnəlməsin — `echo_gate` da eyni prinsiplə qurulub.
+_QUESTION_LABEL = re.compile(
+    r"^\s*(?:\*{0,3}|_{0,3})\s*(?:sual|question|q)\s*[:\-—]", re.IGNORECASE
+)
 
-def extract_answer(raw_response: str, max_words: int = 12) -> str:
+#: Eyni etiket, amma sətrin əvvəlinə bağlı deyil — prompt içində axtarmaq üçün.
+_QUESTION_LABEL_ANY = re.compile(r"(?:sual|question)\s*[:\-—]\s*", re.IGNORECASE)
+
+
+def _asked_question(prompt: str | None) -> str:
+    """Promptdakı SONUNCU sual — yəni faktiki soruşulan.
+
+    Şablon `... Sual: {question}\\nCavab:` ilə bitir, ona görə sonuncu sual
+    etiketi ilə növbəti sətir sonu arasındakı mətn soruşulan sualdır.
+    Ondan əvvəlkilər few-shot NÜMUNƏLƏRİDİR və onları soruşulan sualla
+    qarışdırmaq düz cavabı yanlış suala bağlamaq olardı.
+    """
+    if not prompt:
+        return ""
+    matches = list(_QUESTION_LABEL_ANY.finditer(prompt))
+    if not matches:
+        return ""
+    tail = prompt[matches[-1].end():]
+    return tail.splitlines()[0].strip() if tail.splitlines() else ""
+
+
+def _fold_question(text: str) -> str:
+    """Müqayisə üçün sadələşdirmə: markdown, boşluq və reqistr fərqi silinir."""
+    text = _MARKDOWN_EMPHASIS.sub("", text)
+    return " ".join(text.lower().split())
+
+
+def _repeats_question(line: str, asked: str) -> bool:
+    """Sətir soruşulan sualın təkrarıdırmı."""
+    if not _QUESTION_LABEL.match(line):
+        return False
+    body = _QUESTION_LABEL.sub("", line, count=1)
+    return _fold_question(asked) in _fold_question(body)
+
+
+def answers_a_different_question(raw_response: str, prompt: str) -> bool:
+    """Model SORUŞULMAYAN suala cavab veribmi?
+
+    Bəzi modellər promptu davam etdirmək əvəzinə onu yenidən yazır. İki
+    tamamilə fərqli hal var və onları ayırmaq vacibdir:
+
+      `Sual: <soruşulan>`  -> cavab bu suala aiddir, çıxarıla bilər
+      `Sual: <başqa sual>` -> cavab BAŞQA suala aiddir, xilas edilə bilməz
+
+    İkincisi ölçmə üçün ölümcüldür və nə nümunə-təkrarı, nə də sual-təkrarı
+    qapısı onu təmiz tutur: uydurulmuş sual nümunələrdə hərfi keçmir, sual
+    təkrarı isə soruşulanla uydurulmuşu fərqləndirmir.
+
+    NİYƏ BİRTƏRƏFLİLİK VACİBDİR. Bu layihənin ölçdüyü kəmiyyət FƏRQDİR, ona
+    görə yalnız BİR dildə pozulan ölçmə udula bilmir. Ölçülüb:
+    `Latxa` azərbaycancada 17.3%, ingiliscədə 0.0%; `Racka` 29.5% və 10.3%.
+    Hər ikisi kənarlaşdırılıb və səbəb budur, hədd deyil.
+    """
+    lines = [line for line in (raw_response or "").strip().splitlines() if line.strip()]
+    if not lines or not _QUESTION_LABEL.match(lines[0]):
+        return False
+    asked = _asked_question(prompt)
+    return bool(asked) and not _repeats_question(lines[0], asked)
+
+
+def extract_answer(
+    raw_response: str, max_words: int = 12, prompt: str | None = None
+) -> str:
     """Modelin xam mətnindən qısa cavabı çıxarır.
 
     Bu qat metrikanı birbaşa dəyişir, ona görə qaydaları açıq saxlamaq lazımdır:
@@ -134,7 +204,30 @@ def extract_answer(raw_response: str, max_words: int = 12) -> str:
     if not text:
         return ""
 
-    text = text.splitlines()[0].strip()
+    # SORUŞULAN SUALIN TƏKRARI ATLANIR — nümunənin təkrarı YOX.
+    #
+    # Bəzi modellər promptu davam etdirmək əvəzinə onu yenidən yazır:
+    #
+    #     Sual: Fransanın paytaxtı hansı şəhərdir?
+    #     Cavab: Paris
+    #
+    # Burada cavab ikinci sətirdədir və birinci sətri götürən qayda modelin
+    # bildiyini itirirdi.
+    #
+    # LAKİN eyni modellər tez-tez NÜMUNƏ sualını təkrarlayır, soruşulanı yox:
+    # `Latxa` Vaşinqton soruşulanda su molekulu nümunəsini yazıb `H2O`
+    # cavabını verir. Sual etiketli hər sətri kor-koranə atlasaydıq, BAŞQA
+    # SUALA aid cavabı bu sualın cavabı kimi sayardıq. Ona görə atlama yalnız
+    # sətir SORUŞULAN sualı təkrarlayanda edilir; nümunə təkrarını
+    # `echo_gate` tutur və o, qaçışı bütövlükdə kənarlaşdırır.
+    #
+    # `prompt` verilməyəndə davranış hərfi-hərfinə əvvəlki kimi qalır, yəni
+    # `format_contrast` və `human_baseline` toxunulmur.
+    lines = [line for line in text.splitlines() if line.strip()]
+    asked = _asked_question(prompt)
+    while len(lines) > 1 and asked and _repeats_question(lines[0], asked):
+        lines.pop(0)
+    text = lines[0].strip() if lines else ""
     # MARKDOWN PREFİKSDƏN ƏVVƏL SİLİNİR. Modellər etiketi tez-tez qalın yazır:
     #
     #     **Cavab:** Washington D.C.
@@ -229,7 +322,9 @@ def load_runs(raw_dir: Path, max_words: int = 12) -> list[Run]:
                 continue
             raw = row.get("raw_response", "")
             grouped[key]["raw"][record_id] = raw
-            grouped[key]["pred"][record_id] = extract_answer(raw, max_words=max_words)
+            grouped[key]["pred"][record_id] = extract_answer(
+                raw, max_words=max_words, prompt=row.get("prompt")
+            )
 
             # Mənşə SONUNCU sətirdən götürülür, birincidən yox: API qaçışında
             # faktiki model versiyası və konfiqurasiya varianti yalnız birinci

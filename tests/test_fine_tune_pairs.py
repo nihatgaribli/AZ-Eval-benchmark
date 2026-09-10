@@ -27,13 +27,30 @@ def run(model, language, predictions):
     return Run(key=RunKey(model, language), predictions=predictions, raw=dict(predictions))
 
 
-def make_runs(ds, az_tuned_right, en_tuned_right):
-    """Baza hər şeyi bilir; köklənmiş model verilən qədərini bilir."""
+def make_runs(ds, az_tuned_right, en_tuned_right, az_base_right=None,
+              en_base_right=None):
+    """Baza və köklənmiş modelin nə qədər bildiyi.
+
+    Baza defolt olaraq hər şeyi bilir, yəni köklənmiş model yalnız İTİRƏ
+    bilər. Artıq zərərin iki yanlış oxunuşunu yoxlamaq üçün bazanı da zəif
+    etmək lazımdır: model qazana da bilməlidir.
+    """
     ids = sorted(ds)
     pair = PAIRS[0]
+    n = len(ids)
+    az_base_right = n if az_base_right is None else az_base_right
+    en_base_right = n if en_base_right is None else en_base_right
     runs = {}
-    runs[(pair.base, "az")] = run(pair.base, "az", {i: ds[i]["answer"] for i in ids})
-    runs[(pair.base, "en")] = run(pair.base, "en", {i: ds[i]["answer_en"] for i in ids})
+    runs[(pair.base, "az")] = run(
+        pair.base, "az",
+        {i: (ds[i]["answer"] if k < az_base_right else "yanlış")
+         for k, i in enumerate(ids)},
+    )
+    runs[(pair.base, "en")] = run(
+        pair.base, "en",
+        {i: (ds[i]["answer_en"] if k < en_base_right else "wrong")
+         for k, i in enumerate(ids)},
+    )
     runs[(pair.tuned, "az")] = run(
         pair.tuned,
         "az",
@@ -54,15 +71,47 @@ def test_extra_damage_is_positive_when_azerbaijani_suffers_more():
     assert "azərbaycanca ƏLAVƏ zərər" in report
 
 
-def test_extra_damage_is_negative_when_english_suffers_more():
-    """EN daha çox itirirsə, azərbaycanca nisbətən qorunub sayılır.
+def test_negative_excess_is_not_called_protection_when_azerbaijani_also_fell():
+    """EN daha çox itirsə də, AZ düşübsə bu, QORUNMA DEYİL.
 
-    Bu, türk cütünün real davranışıdır və mütləq AZ itkisinə baxmağın niyə
-    kifayət etmədiyini göstərir.
+    Bu, `Türk 1`-in real davranışıdır: azərbaycanca 10.9 bənd itirir və
+    artıq zərər yalnız ingiliscənin 26.9 bənd çökməsinə görə mənfidir. Onu
+    "qorunub" adlandırmaq məqalənin özünün xəbərdarlıq etdiyi yanlış
+    oxunuşdur, ona görə hesabat indi hər iki dilin nə etdiyini deyir.
+
+    Burada azərbaycanca 40-dan 35-ə düşür, yəni itki var.
     """
     ds = dataset()
     report = build_report(ds, make_runs(ds, az_tuned_right=35, en_tuned_right=10))
+    assert "azərbaycanca da düşüb" in report
+    assert "nisbətən QORUNUB" not in report
+
+
+def test_negative_excess_is_protection_only_when_azerbaijani_holds():
+    """Azərbaycanca DÜŞMÜRSƏ, mənfi artıq zərər həqiqətən qorunmadır.
+
+    `Latın 3` belədir: azərbaycanca 1.1 bənd QALXIR, ingiliscə düşür.
+    """
+    ds = dataset()
+    runs = make_runs(ds, az_base_right=30, az_tuned_right=34,
+                     en_base_right=40, en_tuned_right=10)
+    report = build_report(ds, runs)
     assert "nisbətən QORUNUB" in report
+
+
+def test_positive_excess_is_not_damage_when_both_languages_improved():
+    """Hər iki dil qalxıbsa, müsbət artıq zərər ZƏRƏR DEYİL.
+
+    `Latın 5` (fransız) belədir: azərbaycanca 6.5%-dən 10.7%-ə qalxır,
+    ingiliscə 28.6%-dən 38.8%-ə. Fərq metriki müsbət çıxır, çünki ingiliscə
+    daha çox qazanıb, amma itirilən heç nə yoxdur.
+    """
+    ds = dataset()
+    runs = make_runs(ds, az_base_right=5, az_tuned_right=10,
+                     en_base_right=5, en_tuned_right=35)
+    report = build_report(ds, runs)
+    assert "ingiliscə daha çox" in report
+    assert "ƏLAVƏ zərər" not in report
 
 
 def test_equal_loss_is_reported_as_indistinguishable():

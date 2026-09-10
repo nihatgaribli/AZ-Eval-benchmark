@@ -1,241 +1,226 @@
 ﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
-az-045,history,0,Aygün Kazımova hansı ildə anadan olub?,1971,1980,"1980
+az-033,science,0,Helium elementinin kimyəvi simvolu nədir?,He,Helium elementinin kimyəvi simvolu He,"Helium elementinin kimyəvi simvolu He.
 
-Yalnız cavabı yaz. Sual: Aygün Kazımova hansı ildə anadan olub?
+Cavab: He",0.0,0.333,qismən üst-üstə düşmə,
+az-037,history,0,İlham Əliyev hansı ildə anadan olub?,1961,1950,"1950
 
-1",0.0,0.0,,
-az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Şəhriyar Məmmədyarovun doğum yerini yaz,"Şəhriyar Məmmədyarovun doğum yerini yaz. 
+Yalnız cavabı yaz. Yalnız cavabı yaz. Yalnız cavabı yaz.
 
-Cavab: **Baku**
+Yalnız cavabı",0.0,0.0,,
+az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib?,Gəncə,Sual: Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib,Sual: Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya gəlib,0.0,0.0,,
+az-056,culture,3,Xetaq Qazyumovun doğum yerini yaz.,Alagir,Xetaq Qazyumovun doğum yerini yaz,"Xetaq Qazyumovun doğum yerini yaz.
 
-Şəhriyar",0.0,0.0,,
-az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,Radik İsayevin doğum yerini yaz,"Radik İsayevin doğum yerini yaz.
+Cavab: 
 
-Bu soru, Radik İsayevin doğum yerini sormaktadır. Ancak, bu",0.0,0.0,,
-az-065,culture,0,Nigar Camalın peşəsi nədir?,müğənni,Nigar Camalın peşəsi nədir? Nigar Camalın peşəsi nədir? Nigar Camalın pe,Nigar Camalın peşəsi nədir? Nigar Camalın peşəsi nədir? Nigar Camalın pe,0.0,0.0,,
-az-071,culture,2,Mahir Emrelinin əsas fəaliyyət sahəsi nədir?,futbolçu,Sual: Mahir Emrelinin əsas fəaliyyət sahəsi nədir,"Sual: Mahir Emrelinin əsas fəaliyyət sahəsi nədir?
-Cavab:",0.0,0.0,,
-az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,Almaniyada rəsmi dildir Almanca,"Almaniyada rəsmi dildir Almanca.
-
-Cavab: Almanca
-
-Cavab: Almanca
-
-C",0.0,0.0,,
+Xetaq Qazyumovun doğum yerini yaz.",0.0,0.0,,
+az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Müə,"Sual: Samirə Əfəndi hansı peşə ilə tanınır?
+Cavab: **Müə",0.0,0.0,,
+az-071,culture,2,Mahir Emrelinin əsas fəaliyyət sahəsi nədir?,futbolçu,,"Sual: Mahir Emrelinin əsas fəaliyyət sahəsi nədir?
+Cavab:",0.0,0.0,boş cavab,
 az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Cyrillic,"Cyrillic
 
 Cavab: Cyrillic",0.0,0.0,,
-az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,Avadhi üçün 1990-cı illərdə qeyd olunmuş qeyd olunmuş qeyd ol,Avadhi üçün 1990-cı illərdə qeyd olunmuş qeyd olunmuş qeyd ol,0.0,0.0,,
-az-099,history,2,Bibiheybət məscidinin layihəsini kim hazırlayıb?,Mahmud ibn Səd,Sual: Bibiheybət məscidinin layihəsini kim hazırlayıb,"Sual: Bibiheybət məscidinin layihəsini kim hazırlayıb?
-Cavab: **Mü",0.0,0.0,,
-az-1010,history,1,Seyid Cəfər Pişəvərinin vəfat etdiyi yer haradır?,Yevlax,Sual: Seyid Cəfər Pişəvərinin vəfat etdiyi yer haradır,"Sual: Seyid Cəfər Pişəvərinin vəfat etdiyi yer haradır?
-Cavab",0.0,0.0,,
-az-1014,history,1,Gödək Əhmədin vəfat etdiyi yer haradır?,İsfahan,Sual: Gödək Əhmədin vəfat etdiyi yer haradır,"Sual: Gödək Əhmədin vəfat etdiyi yer haradır?
-Cavab: 
+az-100,history,3,Yuxarı Gövhərağa məscidinin memarının adını yaz.,Kərbəlayı Səfixan Qarabaği,Yuxarı Gövhərağa məscidinin memarının adı Müxəmməd Ələs,Yuxarı Gövhərağa məscidinin memarının adı **Müxəmməd Ələs,0.0,0.0,,
+az-1006,culture,1,Qətran Təbrizinin doğulduğu yer haradır?,Şadbad-i Məşayiq,Qətran Təbrizinin doğulduğu yer Təbrizdir,"Qətran Təbrizinin doğulduğu yer Təbrizdir.
 
-Sual:",0.0,0.0,,
-az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,Sual: Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb,"Sual: Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?
-Cavab",0.0,0.0,,
-az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Seyid Əzim Şirvaninin dəfn yerini yaz,"Seyid Əzim Şirvaninin dəfn yerini yaz. 
+Cavab: Təbriz
 
-Cavab: **Seyid Əzim",0.0,0.0,,
-az-1024,culture,3,Məhəmməd Hadinin dəfn yerini yaz.,Səbiskar qəbiristanlığı,Məhəmməd Hadinin dəfn yerini yaz,"Məhəmməd Hadinin dəfn yerini yaz. 
+Cavab: T",0.0,0.0,,
+az-1008,culture,3,Süleyman Rüstəmin doğum yerini yaz.,Novxanı,Baku,"Sual: Süleyman Rüstəmin doğum yerini yaz.
 
-Cavab: **Məhəmməd Hadin",0.0,0.0,,
+Cavab: **Baku**
+
+Sual: Süleyman Rüst",0.0,0.0,,
+az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,Bəhruz Kəngərlinin vəfat yerləri: 1. Bəhruz Kəngərlinin v,Bəhruz Kəngərlinin vəfat yerləri: 1. Bəhruz Kəngərlinin v,0.0,0.0,,
 az-1029,culture,0,Zeynalabdin İsgəndərovun peşəsi nədir?,heykəltaraş,Zeynalabdin İsgəndərovun peşəsi mədəniyyətçidir,"Zeynalabdin İsgəndərovun peşəsi **mədəniyyətçi**dir. 
 
 (",0.0,0.0,,
-az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Asoru dilinin yazı sistemi Asoru dilinin yazı sistemi Asoru dilinin yazı sistemi Asoru dilinin yazı sistemi Asoru dilinin,Asoru dilinin yazı sistemi Asoru dilinin yazı sistemi Asoru dilinin yazı sistemi Asoru dilinin yazı sistemi Asoru dilinin,0.0,0.0,,
-az-1051,language,1,Xəzər dili üçün hansı yazı sistemindən istifadə olunur?,Orxon əlifbası,Sual: Xəzər dili üçün hansı yazı sistemindən istifadə olunur,"Sual: Xəzər dili üçün hansı yazı sistemindən istifadə olunur?
-Cavab:",0.0,0.0,,
-az-1057,history,3,Vaqif türbəsinin memarının adını yaz.,Əbdülvahab Salamzadə,Sual: Vaqif türbəsinin memarının adını yaz,"Sual: Vaqif türbəsinin memarının adını yaz.
+az-1039,science,0,Abdulla Sur harada təhsil alıb?,İstanbul Universiteti,Abdulla Sur 1990-cı ilə 1995-ci il arasında 1990-cı ilə 19,Abdulla Sur 1990-cı ilə 1995-ci il arasında 1990-cı ilə 19,0.0,0.0,,
+az-1044,geography,0,Bayıl qalası hansı inzibati ərazidə yerləşir?,Bakı,Bayıl qalası Azerbaijan inzibati ərazisində yerləşir,"Bayıl qalası **Azerbaijan** inzibati ərazisində yerləşir.
+
+Cavab: Bayıl",0.0,0.0,,
+az-1050,language,0,Ebla dili hansı yazı sistemi ilə yazılır?,mixi yazı,Ebla dili Küləkli yazı sistemi ilə yazılır,"Ebla dili **Küləkli** yazı sistemi ilə yazılır.
+
+Cavab: Ebla dili **Külək",0.0,0.222,qismən üst-üstə düşmə,
+az-1053,language,3,Qədim Anadolu türkcəsinin yazı sistemini yaz.,Osmanlı əlifbası,Qədim Anadolu,"Sual: Qədim Anadolu türkcəsinin yazı sistemini yaz.
+
+Cavab: **Qədim Anadolu",0.0,0.0,,
+az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Sual: Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin,Sual: Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin,0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,Azadlıq prospekti metrostansiyasının layihəsini Mərkəzi Məntəqəl,Azadlıq prospekti metrostansiyasının layihəsini **Mərkəzi Məntəqəl,0.0,0.0,,
+az-1057,history,3,Vaqif türbəsinin memarının adını yaz.,Əbdülvahab Salamzadə,Mümin,"Sual: Vaqif türbəsinin memarının adını yaz.
 
 Cavab: **Mümin**
 
 **Mü",0.0,0.0,,
-az-1060,history,2,Molla Əhməd Məscidinin layihəsini kim hazırlayıb?,Mahmud ibn Səd,Sual: Molla Əhməd Məscidinin layihəsini kim hazırlayıb,"Sual: Molla Əhməd Məscidinin layihəsini kim hazırlayıb?
+az-1060,history,2,Molla Əhməd Məscidinin layihəsini kim hazırlayıb?,Mahmud ibn Səd,M,"Sual: Molla Əhməd Məscidinin layihəsini kim hazırlayıb?
 Cavab: **M",0.0,0.0,,
+az-1072,mathematics,—,24 və 36 ədədlərinin ən böyük ortaq böləni neçədir?,12,Sual: 24 və 36 ədədlərinin ən böyük ortaq böləni neç,Sual: 24 və 36 ədədlərinin ən böyük ortaq böləni neç,0.0,0.0,,
+az-1082,mathematics,—,16 ilə 28-nin ƏBOB-u nədir?,4,,"Sual: 16 ilə 28-nin ƏBOB-u nədir?
+Cavab: 
+
+Sual:",0.0,0.0,boş cavab,
 az-1087,mathematics,—,Diaqonallarının sayını tap: 18-bucaq.,135,"18-bucaqın diaqonallarının sayını tapmaq üçün, 18-bucaqın diaq","18-bucaqın diaqonallarının sayını tapmaq üçün, 18-bucaqın diaq",0.0,0.0,,
 az-1116,mathematics,—,7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,900,Sual: 7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qə,Sual: 7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qə,0.0,0.0,,
-az-1119,mathematics,—,68 ədədindən sonra gələn ilk sadə ədəd nədir?,71,Sual: 68 ədədindən sonra gələn ilk sadə ədəd nədir,Sual: 68 ədədindən sonra gələn ilk sadə ədəd nədir,0.0,0.0,,
-az-1143,mathematics,—,19-bucağın neçə diaqonalı var?,152,Sual: 19-bucağın neçə diaqonalı var,"Sual: 19-bucağın neçə diaqonalı var?
+az-1121,mathematics,—,1-dən 10-ə qədər olan ədədlərin cəmi nə qədərdir?,55,Sual: 1-dən 10-ə qədər olan ədədlərin cəmi nə,Sual: 1-dən 10-ə qədər olan ədədlərin cəmi nə,0.0,0.0,,
+az-1146,mathematics,—,48 ədədinin neçə böləni var?,10,,"Sual: 48 ədədinin neçə böləni var?
+Cavab: 
+
+Sual: 48",0.0,0.0,boş cavab,
+az-1151,mathematics,—,12 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1800,Sual: 12 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə q,Sual: 12 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə q,0.0,0.0,,
+az-1181,mathematics,—,Sadə ədədlər sırasında 12-ci ədəd nədir?,37,,"Sual: Sadə ədədlər sırasında 12-ci ədəd nədir?
+Cavab:",0.0,0.0,boş cavab,
+az-1185,mathematics,—,24-cü sadə ədədi yaz.,89,,"Sual: 24-cü sadə ədədi yaz.
+Cavab: 
+
+Sual: 24-cü sad",0.0,0.0,boş cavab,
+az-1189,science,2,Kaliumun atom nömrəsini yaz.,19,Kaliumun atom nömrəsi 19dir,"Kaliumun atom nömrəsi 19dir.
+
+Cavab: 19",0.0,0.0,,
+az-1193,science,2,Xlorun atom nömrəsini yaz.,17,Xlorun atom nömrəsi 17-dir,"Xlorun atom nömrəsi 17-dir. 
 
 Cavab: 17
 
-19-b",0.0,0.0,,
-az-1157,mathematics,—,40 ilə 60-nin ƏBOB-u nədir?,20,Sual: 40 ilə 60-nin ƏBOB-u nədir,"Sual: 40 ilə 60-nin ƏBOB-u nədir?
-Cavab: 
+Xlorun atom nömrə",0.0,0.333,qismən üst-üstə düşmə,
+az-1197,science,2,Xromun atom nömrəsini yaz.,24,Xromun atom nömrəsi 24-dir,"Xromun atom nömrəsi 24-dir. 
 
-Sual:",0.0,0.0,,
-az-1173,mathematics,—,"Həm 26-ə, həm 39-ə bölünən ən kiçik ədəd hansıdır?",78,Sual: 26 və 39 ədədlərinin ən kiçik bərabər b,Sual: 26 və 39 ədədlərinin ən kiçik bərabər b,0.0,0.0,,
-az-1200,science,1,Dövri cədvəldə Arsen hansı nömrə ilə durur?,33,Sual: Dövri cədvəldə Arsen hansı nömrə ilə durur,"Sual: Dövri cədvəldə Arsen hansı nömrə ilə durur?
-Cavab:",0.0,0.0,,
-az-1203,science,0,Platin elementinin atom nömrəsi neçədir?,78,Platin elementinin atom nömrəsi 78-dir,Platin elementinin atom nömrəsi 78-dir.,0.0,0.286,qismən üst-üstə düşmə,
-az-1205,science,2,Bariumun atom nömrəsini yaz.,56,Bariumun atom nömrəsi 56-dir,"Bariumun atom nömrəsi 56-dir. 
+Cavab: 24
 
-Cavab: 56
+Xromun atom nömrə",0.0,0.333,qismən üst-üstə düşmə,
+az-1198,science,3,Yod elementində neçə proton var?,53,Yod elementində 53 proton var,"Yod elementində 53 proton var.
 
-Bariumun atom nömrə",0.0,0.333,qismən üst-üstə düşmə,
-az-1211,science,0,Radon elementinin atom nömrəsi neçədir?,86,Radon elementinin atom nömrəsi 86-dir,"Radon elementinin atom nömrəsi 86-dir.
+Yod elementində 53 proton var.",0.0,0.333,qismən üst-üstə düşmə,
+az-1207,science,0,Qallium elementinin atom nömrəsi neçədir?,31,Qallium elementinin atom nömrəsi 19-dir,"Qallium elementinin atom nömrəsi 19-dir. 
 
-Cavab: 86",0.0,0.286,qismən üst-üstə düşmə,
-az-1225,science,2,İridiumun atom nömrəsini yaz.,77,Sual: İridiumun atom nömrəsini yaz,"Sual: İridiumun atom nömrəsini yaz.
-Cavab: 77
+Cavab: 19",0.0,0.0,,
+az-1212,science,1,Dövri cədvəldə Selen hansı nömrə ilə durur?,34,16,"16
 
-İridiumun atom nö",0.0,0.0,,
-az-1233,science,2,Íttriumun atom nömrəsini yaz.,39,Sual: Íttriumun atom nömrəsini yaz,"Sual: Íttriumun atom nömrəsini yaz.
-Cavab: 
+Sual: Dövri cədvəldə Selen hansı nömrə ilə durur?
 
-Sual: Íttrium",0.0,0.0,,
-az-1235,science,0,Texnesium elementinin atom nömrəsi neçədir?,43,Texnesium elementinin atom nömrəsi 98dir,"Texnesium elementinin atom nömrəsi 98dir.
+Cav",0.0,0.0,,
+az-1227,science,0,Polonium elementinin atom nömrəsi neçədir?,84,Polonium elementinin atom nömrəsi 84-dir,"Polonium elementinin atom nömrəsi 84-dir.
 
-Texnesium elementinin atom nömrəsi 98dir",0.0,0.0,,
-az-1250,science,3,Hansı alim fosfor elementini kəşf etmişdir?,Henniq Brand,Sual: Hansı alim fosfor elementini kəşf etmişdir,"Sual: Hansı alim fosfor elementini kəşf etmişdir?
-Cavab: Robert Boyle
+Polonium elementinin atom nömrəsi 84-dir.",0.0,0.286,qismən üst-üstə düşmə,
+az-1234,science,3,Astat elementində neçə proton var?,85,Astat elementində 85 proton var,"Astat elementində 85 proton var.
+
+Astat elementində 85 proton var.",0.0,0.333,qismən üst-üstə düşmə,
+az-1274,world,2,Əfqanıstanın beynəlxalq telefon kodunu yaz.,+93,998,"998
+
+Yalnız cavabı yaz. Yalnız cavabı yaz. Yalnız cavabı yaz.
+
+Yalnız cavabı yaz",0.0,0.0,,
+az-1275,world,3,Hansı telefon kodu Bolqarıstanın aiddir?,+359,+996,"+996
+
+Aşağıdakı suala qısa cavab ver. Yalnız cavabı yaz.
 
 Sual: Hansı",0.0,0.0,,
-az-1259,science,0,Borium elementini kim kəşf edib?,Yuri Oqanesyan,Borium elementini kim kəşf edib,"Borium elementini kim kəşf edib?
-
-Sual: Borium elementini kim kəşf edib?
-C答: Borium",0.0,0.0,,
-az-1298,world,2,Vatikanın beynəlxalq telefon kodunu yaz.,+379,Vatikanın beynəlxalq telefon kodu 39'dur,"Vatikanın beynəlxalq telefon kodu 39'dur. 
-
-Vatikanın beynəlxalq telefon",0.0,0.0,,
 az-1306,world,2,Mərakeşin beynəlxalq telefon kodunu yaz.,+212,Mərakeşin beynəlxalq telefon kodu 212dir,"Mərakeşin beynəlxalq telefon kodu **212**dir. 
 
 Cavab: **212",0.0,0.333,qismən üst-üstə düşmə,
-az-1316,world,0,Livanın telefon kodu nədir?,+961,Livanın telefon kodu 996dir,"Livanın telefon kodu 996dir.
+az-1307,world,3,Hansı telefon kodu Sudanın aiddir?,+249,+261,"+261
 
-Livanın telefon kodu 996dir.",0.0,0.0,,
-az-1321,world,1,Kipr Respublikasında beynəlxalq telefon kodu hansıdır?,+357,+90,"+90
+Sual: Hansı telefon kodu Sudanın aiddir?
+Cavab: +261
 
-Yalnız cavabı yaz. 
+Sudan'",0.0,0.0,,
+az-1310,world,2,Sinqapurun beynəlxalq telefon kodunu yaz.,+65,Sinqapurun beynəlxalq telefon kodu 65dir,"Sinqapurun beynəlxalq telefon kodu 65dir.
 
-Sual: Kipr Respublikasında beynəlxalq telefon kodu",0.0,0.0,,
-az-1322,world,2,Qananın beynəlxalq telefon kodunu yaz.,+233,Sual: Qananın beynəlxalq telefon kodunu yaz,"Sual: Qananın beynəlxalq telefon kodunu yaz.
+Sinqapurun beynəlxalq telefon kodu",0.0,0.333,qismən üst-üstə düşmə,
+az-1322,world,2,Qananın beynəlxalq telefon kodunu yaz.,+233,99,"Sual: Qananın beynəlxalq telefon kodunu yaz.
 Cavab: 99
 
 Qanada beynə",0.0,0.0,,
-az-1351,mathematics,—,"Cəmi tap: 15 ilə 35 arasındakı tam ədədlər, uclar daxil.",525,"Sual: Cəmi tap: 15 ilə 35 arasındakı tam ədədlər, uclar","Sual: Cəmi tap: 15 ilə 35 arasındakı tam ədədlər, uclar",0.0,0.0,,
-az-1378,mathematics,—,"Arifmetik silsilədə birinci hədd 5, fərq isə 3 ədədidir. 20-ci hədd nədir?",62,"Arifmetik silsilədə, n-ci hədd aşağıdəkifəqlə ifadə olunur: \( a","Arifmetik silsilədə, n-ci hədd aşağıdəkifəqlə ifadə olunur: \( a",0.0,0.0,,
-az-1386,mathematics,—,Faizi hesabla: 240 ədədinin 15 faizi.,36,Faizi hesabla: 240 ədədinin 15 faizi,"Faizi hesabla: 240 ədədinin 15 faizi.
-
-Cavab: 36
-
-2",0.0,0.0,,
-az-1388,mathematics,—,Saniyəyə çevir: 24 saat.,86400,Saniyəyə çevir: 24 saat = 86400 saniyə,"Saniyəyə çevir: 24 saat = 86400 saniyə
-
-Cavab: 86",0.0,0.5,qismən üst-üstə düşmə,
-az-1408,mathematics,—,10 ilə 20 arasındakı bütün tam ədədlərin cəmi neçədir (hər ikisi daxil olmaqla)?,165,Sual: 10 ilə 20 arasındakı bütün tam ədədlərin cəmi neçədir,Sual: 10 ilə 20 arasındakı bütün tam ədədlərin cəmi neçədir,0.0,0.0,,
-az-1419,mathematics,—,1111000 ikilik ədədinin onluq qarşılığı nədir?,120,Sual: 1111000 ikilik ədədinin onluq qarşılığı nədir,Sual: 1111000 ikilik ədədinin onluq qarşılığı nədir?,0.0,0.0,,
-az-1447,geography,3,Myanmanın paytaxtını yaz.,Naypyida,Yangon,"Yangon
-
-Sual: Myanmanın paytaxtını yaz.
-
-Cavab: Yangon
-
-Sual: Myanmanın paytaxtını",0.0,0.0,,
-az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,Sual: Özbəkistanın paytaxtının adı nədir,"Sual: Özbəkistanın paytaxtının adı nədir?
-C答: Tashkent
-
-Sual: Ö",0.0,0.0,,
-az-1469,geography,1,Hansı şəhər Butanın paytaxtıdır?,Thimphu,Sual: Hansı şəhər Butanın paytaxtıdır,"Sual: Hansı şəhər Butanın paytaxtıdır?
-Cavab: **Thimphu**
-
-Butanın",0.0,0.0,,
-az-1483,geography,3,Hondurasın paytaxtını yaz.,Tequsiqalpa,Hondurasın paytaxtı Tegucigalpa,"Hondurasın paytaxtı Tegucigalpa. 
-
-Cavab: Tegucigalpa
-
-Hondurasın pay",0.0,0.0,,
-az-1502,geography,2,Cənubi Sudanın paytaxtının adı nədir?,Cuba,Cənubi Sudanın paytaxtı Juba adlanır,"Cənubi Sudanın paytaxtı Juba adlanır. 
-
-Cavab: Juba
-
-Cavab: Juba
-
-C",0.0,0.0,,
-az-1503,geography,3,Lesotonun paytaxtını yaz.,Maseru,Lesotonun paytaxtı,"Lesotonun paytaxtı
-
-Lesotonun paytaxtı
-
-Lesotonun paytaxtı
-
-Lesotonun paytaxtı
-
-Lesotonun pay",0.0,0.0,,
-az-1540,geography,0,Naurunun pul vahidi nədir?,Avstraliya dolları,Naurunun pul vahidi 10000000000000000000000,Naurunun pul vahidi 10000000000000000000000,0.0,0.0,,
-az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,Palaunun pul vahidinin adı paladir,"Palaunun pul vahidinin adı **pala**dir. 
-
-Ancak, bu soru daha fazla bağlam gerektir",0.0,0.0,,
-az-1554,language,0,Myanmanın rəsmi dili hansıdır?,Birman dili,Burmese,"Burmese
-
-Cavab: Burmese",0.0,0.0,,
-az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,San-Marinoda rəsmi dillər arasında İtaliyalı dil və San-Marin dilidir. San-Marin dil,San-Marinoda rəsmi dillər arasında İtaliyalı dil və San-Marin dilidir. San-Marin dil,0.0,0.125,qismən üst-üstə düşmə,
-az-1590,science,0,Ununpentium elementinin atom nömrəsi neçədir?,115,Sual: Ununpentium elementinin atom nömrəsi neçədir,"Sual: Ununpentium elementinin atom nömrəsi neçədir?
-Cavab: 83
-
-Ununpent",0.0,0.0,,
-az-1596,science,2,Unbiuniumun atom nömrəsini yaz.,121,Sual: Unbiuniumun atom nömrəsini yaz,"Sual: Unbiuniumun atom nömrəsini yaz.
+az-1354,mathematics,—,3 ədədinin 7-ci dərəcəsini tap.,2187,,"Sual: 3 ədədinin 7-ci dərəcəsini tap.
 Cavab: 
 
-Sual: Unbiuniumun atom",0.0,0.0,,
-az-504,geography,—,Azərbaycanda neçə iqlim qurşağı var?,9 iqlim qurşağı,12,"12
+Sual",0.0,0.0,boş cavab,
+az-1358,mathematics,—,150 ədədinin 60 faizi hansı ədəddir?,90,,"Sual: 150 ədədinin 60 faizi hansı ədəddir?
+Cavab:",0.0,0.0,boş cavab,
+az-1384,mathematics,—,Fərqli sadə bölənlərin sayını tap: 1729.,3,,"Sual: Fərqli sadə bölənlərin sayını tap: 1729.
+Cavab: 
 
-Yalnız cavabı yaz. 
+Sual",0.0,0.0,boş cavab,
+az-1413,mathematics,—,630 sayının fərqli sadə vuruqlarının sayı neçədir?,4,,"Sual: 630 sayının fərqli sadə vuruqlarının sayı neçədir?
+Cavab:",0.0,0.0,boş cavab,
+az-1424,mathematics,—,Üçbucağın üçüncü bucağını tap: 47 dərəcə və 63 dərəcə.,70,Sual: Üçüncü bucağı tap: 47 dərəcə və 63 dərəcə,Sual: Üçüncü bucağı tap: 47 dərəcə və 63 dərəcə,0.0,0.182,qismən üst-üstə düşmə,
+az-1456,geography,0,Kot-d'İvuarın paytaxtı hansı şəhərdir?,Yamosukro,,"Sual: Kot-d'İvuarın paytaxtı hansı şəhərdir?
+Cavab: 
 
-Sual: Azərbaycanda neçə iqlim qurşağı var",0.0,0.0,,
+Sual: Kot",0.0,0.0,boş cavab,
+az-1460,geography,0,Zambiyanın paytaxtı hansı şəhərdir?,Lusaka,Zambiyanın paytaxtı Lusakadir,Zambiyanın paytaxtı **Lusaka**dir.,0.0,0.0,,
+az-1470,geography,2,Ruandanın paytaxtının adı nədir?,Kiqali,Kinshasa,"Cavab: Kinshasa
+
+Ruandanın paytaxtı Kinshasa-dir. Kinshasa, Ruanda Respublikasının",0.0,0.0,,
+az-1477,geography,1,Hansı şəhər Mərkəzi Afrika Respublikasının paytaxtıdır?,Bangi,,"Sual: Hansı şəhər Mərkəzi Afrika Respublikasının paytaxtıdır?
+Cavab:",0.0,0.0,boş cavab,
+az-1490,geography,2,Haitinin paytaxtının adı nədir?,Port-o-Prins,,"__________
+
+Cavab: Port-au-Prince
+
+Haitinin paytaxtı Port-au-Prince-dir. Bu, Haiti dövlət",0.0,0.0,boş cavab,
+az-1507,geography,3,Seyşel adalarının paytaxtını yaz.,Viktoriya,Seyşel adalarının paytaxtı Mauritius,"Seyşel adalarının paytaxtı **Mauritius**.
+
+Sual: Seyşel adalarının paytaxtını yaz.
+C",0.0,0.0,,
+az-1511,geography,3,Vanuatunun paytaxtını yaz.,Port Vila,Vanuatunun paytaxtı Vanuatu,"Vanuatunun paytaxtı Vanuatu.
+
+Cavab: Vanuatu'nun paytaxtı Port Vila.
+
+Cavab: Van",0.0,0.0,,
+az-1561,language,3,Şimali Kiprin rəsmi dilini yaz.,türk dili,Şimali Kiprin rəsmi dilini yaz,"Şimali Kiprin rəsmi dilini yaz. 
+
+Cavab: **Kiprin** (Kiprin) rə",0.0,0.286,qismən üst-üstə düşmə,
+az-1567,science,1,Dövri cədvəldə Protaktinium hansı nömrə ilə durur?,91,,"Sual: Dövri cədvəldə Protaktinium hansı nömrə ilə durur?
+Cavab:",0.0,0.0,boş cavab,
+az-1580,science,2,Küriumun atom nömrəsini yaz.,96,Küriumun atom nömrəsi 24dir,"Küriumun atom nömrəsi 24dir.
+
+Yalnız cavabı yaz. Yalnız cavabı yaz. Yalnız cav",0.0,0.0,,
+az-503,geography,—,Azərbaycanın paytaxtı haradadır?,Bakıda,Baku,"Baku
+
+Azərbaycanın paytaxtı Baku'dur. 
+
+Cavab: Baku
+
+Yalnız cavabı yazın",1.0,0.0,morfologiya,
 az-518,geography,—,Xəzər dənizinin sahil xətti Azərbaycanda neçə km-dir?,800 km,120 km,"120 km
 
 Sual: Xəzər dənizinin sahil xətti Azərbaycanda neç",0.0,0.5,qismən üst-üstə düşmə,
 az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Göygöl gölü Azərbaycanın Qarabakh rayonunda yerləşir,"Göygöl gölü Azərbaycanın Qarabakh rayonunda yerləşir.
 
 Cavab: Göygöl gö",0.0,0.0,,
-az-534,geography,—,Neftçala rayonu harada yerləşir?,Kür-Araz düzündə,Neftçala rayonu Azərbaycanın şimal-qərbi hissəsində yerləşir,"Neftçala rayonu Azərbaycanın şimal-qərbi hissəsində yerləşir.
+az-549,science,—,Səsin sürəti havada neçədir?,340 m/s,Səsin sürəti havada 343 m/sdir,"Səsin sürəti havada 343 m/sdir.
 
-C",0.0,0.0,,
-az-539,science,—,Neft nədir?,Təbii yanacaq,"Neft, qazdan əlaqədar olan, əsasən əsasən əsasən","Neft, qazdan əlaqədar olan, əsasən əsasən əsasən",0.0,0.0,,
-az-555,science,—,Periodik cədvəli kim tərtib edib?,Dmitri Mendeleyev,Periodik cədvəli Dmitri Mendeleev tərtib edib,"Periodik cədvəli Dmitri Mendeleev tərtib edib.
+Səsin sürəti havada 343 m/sdir",0.0,0.444,qismən üst-üstə düşmə,
+az-576,science,—,Ən isti planet hansıdır?,Venera,Sual: 100000000000000000000000000,Sual: 100000000000000000000000000,0.0,0.0,,
+az-594,culture,—,Azərbaycanda xalçaçılıq nə vaxt yaranıb?,Qədim dövrlərdə,Azərbaycanda xalçaçılıq 1980-cı illərdə yaranıb,"Azərbaycanda xalçaçılıq 1980-cı illərdə yaranıb.
 
-Cavab: Dmitri Mendeleev
-
-Cav",0.0,0.25,qismən üst-üstə düşmə,
-az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,21,"21
-
-Sual: İnsan bədənində neçə sümük var?
-Cəvab: 21",0.0,0.0,,
-az-608,culture,—,Qoğal hansı bayramda hazırlanır?,Novruz,"Qoğal bayramı 12 iyulda, yəni 12 iyulda, 12 iyulda, 1","Qoğal bayramı 12 iyulda, yəni 12 iyulda, 12 iyulda, 1",0.0,0.0,,
+Cavab:",0.0,0.0,,
+az-606,culture,—,Şəkərbura hansı bayramda hazırlanır?,Novruz,Şəkərbura Məhəmməd Bayramı (Məhəmməd Bayramı) v,Şəkərbura **Məhəmməd Bayramı** (Məhəmməd Bayramı) v,0.0,0.0,,
 az-609,culture,—,Azərbaycanda çay məclisləri nə vaxt olur?,Hər gün,Azərbaycanda çay məclisləri 2024-cü ilin 10-12 oktyabr,Azərbaycanda çay məclisləri 2024-cü ilin 10-12 oktyabr,0.0,0.0,,
-az-611,culture,—,Azərbaycan xanəndələri nə ifa edirlər?,Muğam,Azərbaycan xanəndələri əsasən əsasən əsasən,Azərbaycan xanəndələri əsasən əsasən əsasən,0.0,0.0,,
-az-634,language,—,Azərbaycan dilində yiyəlik hal nəyi bildirir?,Malikiyyət,"Azərbaycan dilində ""yiyəlik hal"" ifadəsi ""yiyən"" və ya","Azərbaycan dilində ""yiyəlik hal"" ifadəsi **""yiyən""** və ya **",0.0,0.0,,
-az-641,language,—,Azərbaycan dilində şərt şəkilçisi hansıdır?,"-sa, -sə","Azərbaycan dilində şərt şəkilçisi ""əgər""dir","Azərbaycan dilində şərt şəkilçisi **""əgər""**dir. 
+az-610,culture,—,Azərbaycanda çay necə içilir?,Armududa,"Azərbaycanda çay əsasən qalxır, çayın içilməsi əsasən","Azərbaycanda çay əsasən qalxır, çayın içilməsi əsasən",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"Qızıl Qalın"" (1920)","""Qızıl Qalın"" (1920)
+
+Yalnız cavabı yaz. 
+
+Sual: İlk Azərbaycan film",0.0,0.0,,
+az-625,language,—,Azərbaycan dilində fel nədir?,Hərəkət bildirən söz,"Fel, Azərbaycan dilində ""fəl"" kimi yazılır və onun mənası ""mən","Fel, Azərbaycan dilində ""fəl"" kimi yazılır və onun mənası ""mən""",0.0,0.0,,
+az-639,language,—,Azərbaycan dilində indiki zaman şəkilçisi hansıdır?,"-ir, -ur",Azərbaycan dilində indiki zaman şəkilçisi Məhəmməd Ələsəd,Azərbaycan dilində indiki zaman şəkilçisi **Məhəmməd Ələsəd,0.0,0.0,,
+az-642,language,—,Azərbaycan dilində lazım şəkilçisi hansıdır?,"-malidir, -məlidir","Azərbaycan dilində lazım şəkilçisi ""mən""dir","Azərbaycan dilində lazım şəkilçisi **""mən""**dir. 
+
+**Cavab:** mə",0.0,0.0,,
+az-646,language,—,Azərbaycan dilində bənzətmə şəkilçisi hansıdır?,"-ki, -kim","Azərbaycan dilində bənzətmə şəkilçisi ""mən""dir","Azərbaycan dilində bənzətmə şəkilçisi ""mən""dir. 
 
 Cavab:",0.0,0.0,,
-az-649,language,—,Azərbaycan dilində qeyri-muəyyənlik nəyi bildirir?,Bilinməyənlik,"Azərbaycan dilində qeyri-muəyyənlik ""mənimsədik"" və ya","Azərbaycan dilində qeyri-muəyyənlik ""mənimsədik"" və ya """,0.0,0.0,,
+az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,"Azərbaycan dilində aidlik şəkilçisi ""mən""dir","Azərbaycan dilində aidlik şəkilçisi **""mən""**dir. 
+
+**Cavab:** m",0.0,0.0,,
+az-651,language,—,Azərbaycan dilində təyin nəyi bildirir?,Aydinlaşdirma,"Azərbaycan dilində ""təyin"" sözdən ibarət olan mətnin mənası","Azərbaycan dilində ""təyin"" sözdən ibarət olan mətnin mənası",0.0,0.0,,
 az-653,language,—,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir?,Çıoxluq,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir,0.0,0.0,,
-az-654,language,—,Azərbaycan dilində şəxs şəkilçiləri neçədir?,6 şəxs,Azərbaycan dilində şəxs şəkilçiləri 3 tərəfli (1-ə,"Azərbaycan dilində şəxs şəkilçiləri 3 tərəfli (1-ə,",0.0,0.2,qismən üst-üstə düşmə,
-az-658,language,—,Azərbaycan dilində birinci şəxs cəm şəkilçisi hansıdır?,-ik,"Azərbaycan dilində birinci şəxs cəm şəkilçisi ""Mən""dir","Azərbaycan dilində birinci şəxs cəm şəkilçisi ""Mən""dir. 
+az-656,language,—,Azərbaycan dilində ikinci şəxs şəkilçisi hansıdır?,"-sən, -siniz","Azərbaycan dilində ikinci şəxs şəkilçisi ""sən""dir","Azərbaycan dilində ikinci şəxs şəkilçisi ""sən""dir.
 
-Cav",0.0,0.0,,
-az-681,world,—,ABŞ-ın paytaxtı haradadır?,Vaşinqton,ABŞ-ın paytaxtı Washington D.C. dir,"ABŞ-ın paytaxtı Washington D.C. dir.
+Cavab: sə",0.0,0.222,qismən üst-üstə düşmə,
+az-689,world,—,Ukraynanın paytaxtı haradadır?,Kiyev,Ukraynanın paytaxtı Kyivdir,"Ukraynanın paytaxtı Kyivdir.
 
-Cavab: Washington D.C.
-
-Cavab: Washington
-
-Cavab:",0.0,0.0,,
-az-682,world,—,Yaponiyanın paytaxtı haradadır?,Tokio,Yaponiyanın paytaxtı Tokyo'dur,"Yaponiyanın paytaxtı Tokyo'dur.
-
-Yaponiyanın paytaxtı Tokyo'dur.
-
-Yaponiyanın paytaxtı",0.0,0.0,,
-az-694,world,—,Danimarkanın paytaxtı haradadır?,Kopenhagen,Köpenin,"Cavab: Köpenin
-
-Cavab: Köpenin
-
-Cavab: Köpenin
-
-Cavab: Köpenin",0.0,0.0,,
+Ukraynanın paytaxtı Kyivdir.",0.0,0.0,,
 az-697,world,—,Belçikanın paytaxtı haradadır?,Brüssel,Brüksel,"Brüksel
 
 Yalnız cavabı yaz. Yalnız cavabı yaz. Yalnız cavabı yaz.
@@ -243,81 +228,76 @@ Yalnız cavabı yaz. Yalnız cavabı yaz. Yalnız cavabı yaz.
 Brüksel
 
 Br",0.0,0.0,,
-az-698,world,—,Fransada hansı pul vahidindən istifadə olunur?,Avro,Fransada 1 euro vahidindən istifadə olunur,"Fransada 1 euro vahidindən istifadə olunur. 
-
-Fransada 1 euro vahidind",0.0,0.0,,
 az-699,world,—,ABŞ-da hansı pul vahidindən istifadə olunur?,Dollar,ABŞ-da dolar vahidindən istifadə olunur,"ABŞ-da dolar vahidindən istifadə olunur. 
 
 Cavab: **Dolar**
 
 Cavab",0.0,0.0,,
-az-710,world,—,Dünyada ən çox əhalisi olan ölkə hansıdır?,Hindistan,Sual: Dünyada ən çox əhalisi olan ölkə hansıdır,"Sual: Dünyada ən çox əhalisi olan ölkə hansıdır?
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,İngiltərədə pul vahidindən istifadə olunan vahid pound sterling (GBP,İngiltərədə pul vahidindən istifadə olunan vahid **pound sterling** (GBP,0.0,0.0,,
+az-710,world,—,Dünyada ən çox əhalisi olan ölkə hansıdır?,Hindistan,Əfəq,"Sual: Dünyada ən çox əhalisi olan ölkə hansıdır?
 Cavab: Əfəq",0.0,0.0,,
-az-719,world,—,Avstraliya qitəsində neçə ölkə var?,14 ölkə,Sual: Avstraliya qitəsində neçə ölkə var,"Sual: Avstraliya qitəsində neçə ölkə var?
-Cavab: 6
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,7,"7
 
-Avstrali",0.0,0.25,qismən üst-üstə düşmə,
-az-720,world,—,Antarktida qitəsində neçə ölkə var?,0 ölkə,Antarktida qitəsində 7 ölkə var,"Antarktida qitəsində 7 ölkə var.
+Aşağıdakı suala qısa cavab ver. Yalnız cavabı yaz.
 
-Antarktida qitəsində 7 ölk",0.0,0.286,qismən üst-üstə düşmə,
-az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,"Atropatena dövləti 189-188 m.c. (məsələn, 18","Atropatena dövləti 189-188 m.c. (məsələn, 18",0.0,0.0,,
-az-805,history,—,Şirvanşahlar dövləti nə vaxt yaranıb?,861-ci ildə,1920-cı illər,"1920-cı illər
+Sual: Dünyada ne",0.0,0.667,qismən üst-üstə düşmə,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,44,"44
 
-Yalnız cavabı yaz. 
+Avropa qitəsində 44 ölkə var. 
 
-Sual: Şirvanşahlar dövlə",0.0,0.0,,
+Cavab: 44",0.0,0.667,qismən üst-üstə düşmə,
+az-718,world,—,Amerika qitəsində neçə ölkə var?,35 ölkə,23,"23
+
+Amerika qitəsində 23 ölkə var. 
+
+Cavab: 23",0.0,0.0,,
+az-804,history,—,Babək Xürrəmi nə vaxt edam edilmişdir?,14 mart 838,C答: 2023-c,"Sual: Babək Xürrəmi nə vaxt edam edilmişdir?
+C答: 2023-c",0.0,0.0,,
 az-806,history,—,Azərbaycan Atabəyləri dövləti nə vaxt yaranıb?,1136-cı ildə,1918-ci il,"1918-ci il
 
 Yalnız cavabı yaz.
 
 Azərbaycan Atabəyləri dövləti",0.0,0.0,,
-az-808,history,—,Ağqoyunlu dövləti nə vaxt yaranıb?,1378-ci ildə,1918-ci il,"1918-ci il
+az-807,history,—,Qaraqoyunlu dövləti nə vaxt yaranıb?,1374-cü ildə,1918-ci il,"1918-ci il
 
-Aşağıdakı suala qısa cavab ver. Yalnız cavabı yaz.
+Yalnız cavabı yaz. 
 
-Sual",0.0,0.333,qismən üst-üstə düşmə,
-az-817,history,—,11-ci Qırmızı Ordu Bakıya nə vaxt daxil olub?,27 aprel 1920,11-ci Qırmızı Ordu Bakıya 1918-ci ilin 15-16 oktyabrında,11-ci Qırmızı Ordu Bakıya 1918-ci ilin 15-16 oktyabrında,0.0,0.0,,
-az-906,mathematics,—,Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azərbaycanlı dekanı kim olub?,Mikayıl Xıdırzadə,Sual: Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azə,Sual: Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakültəsinin ilk azə,0.0,0.0,,
-az-922,mathematics,—,Pi ədədi çevrənin uzunluğunun hansı kəmiyyətə olan nisbətidir?,Diametrinə,Sual: Pi ədədi çevrənin uzunluğunun hansı kəmiyyətə olan nisbə,Sual: Pi ədədi çevrənin uzunluğunun hansı kəmiyyətə olan nisbə,0.0,0.0,,
-az-932,mathematics,—,Akademik Fəraməz Maqsudov harada anadan olmuşdur?,Naxçıvanda,Akademik Fəraməz Maqsudov Bakıda anadan olmuşdur,"Akademik Fəraməz Maqsudov Bakıda anadan olmuşdur.
+Sual: Qaraqoyunlu dövləti nə",0.0,0.0,,
+az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,1920-cı illərdə,"1920-cı illərdə
 
-Cavab: Bakıda
+Cavab: 1920-cı illərdə",0.0,0.0,,
+az-822,history,—,Azərbaycan Xalq Cəbhəsi hakimiyyətə nə vaxt gəlib?,1992-ci ildə,1918-ci il,"1918-ci il
 
-Cavab",0.0,0.0,,
-az-943,geography,2,İsrailin paytaxtının adı nədir?,Qüds,,"__________
+Yalnız cavabı yaz. 
 
-Cavab: Tel Aviv
+Sual: Azərbaycan Xalq Cəbhəsi",0.0,0.333,qismən üst-üstə düşmə,
+az-928,mathematics,—,Nəsirəddin Tusi hansı şəhərdə rəsədxana tikdirmişdir?,Marağada,Sual: Nəsirəddin Tusi hansı şəhərdə rəsədxana tikdirmişdir,Sual: Nəsirəddin Tusi hansı şəhərdə rəsədxana tikdirmişdir,0.0,0.0,,
+az-941,geography,0,Çilinin paytaxtı hansı şəhərdir?,Santyaqo,Santiago de Chile,"Sual: Çilinin paytaxtı hansı şəhərdir?
+Cavab: Santiago de Chile
 
-Yaxşı cavab, lakin dikkat: İsrailin paytaxtı **Jerusalem",0.0,0.0,boş cavab,
-az-946,geography,1,Çexiyada hansı pul vahidi işlənir?,Çex kronu,Sual: Çexiyada hansı pul vahidi işlənir,"Sual: Çexiyada hansı pul vahidi işlənir?
+Sual: Çil",0.0,0.0,,
+az-946,geography,1,Çexiyada hansı pul vahidi işlənir?,Çex kronu,Česká koruna (,"Sual: Çexiyada hansı pul vahidi işlənir?
 Cavab: **Česká koruna** (",0.0,0.0,,
-az-958,science,1,Kimyada Berillium hansı simvolla işarə olunur?,Be,Berillium kimyada Be simvolu ilə işarələnir,"Berillium kimyada Be simvolu ilə işarələnir. 
+az-952,geography,3,Ekvadorun pul vahidinin adını yaz.,ABŞ dolları,,"Sual: Ekvadorun pul vahidinin adını yaz.
+Cavab: 
 
-Cavab: Be
+Sual: Ekvadorun pul vah",0.0,0.0,boş cavab,
+az-957,science,0,Kalsium elementinin kimyəvi simvolu nədir?,Ca,Kalsium elementinin kimyəvi simvolu Cadir,"Kalsium elementinin kimyəvi simvolu **Ca**dir. 
 
-Yalnız cav",0.0,0.286,qismən üst-üstə düşmə,
-az-965,history,0,Əzizə Mustafazadə hansı ildə anadan olub?,1969,1870,"1870
+Cavab: **Ca**",0.0,0.0,,
+az-963,history,2,Vahid Ələkbərovun doğum ili hansıdır?,1950,1925,"1925
 
-Yalnız cavabı yaz. Yalnız cavabı yaz. Yalnız cavabı yaz.
+Vahid Ələkbərovun doğum ili 1925 yıldır. Cavab:",0.0,0.0,,
+az-967,history,2,Rəşad Sadıqovun doğum ili hansıdır?,1982,1950,"1950
 
-1870",0.0,0.0,,
-az-975,culture,2,Mirzə Xəzər hansı yaşayış məntəqəsində dünyaya gəlib?,Göyçay,Mirzə Xəzər dünyaya gəldiyi məntəqənin adını yazın,"Mirzə Xəzər dünyaya gəldiyi məntəqənin adını yazın.
+Rəşad Sadıqovun doğum ili 1950 yıldır. Cavab: 19",0.0,0.0,,
+az-970,culture,1,Hacı Əliyevin doğulduğu yer haradır?,Naxçıvan,"Hacı Əliyevin doğulduğu yer Məsədiyən, Azərbaycanın Qazan rayonunda","Hacı Əliyevin doğulduğu yer Məsədiyən, Azərbaycanın Qazan rayonunda",0.0,0.0,,
+az-971,culture,2,Tofiq Bəhramov hansı yaşayış məntəqəsində dünyaya gəlib?,Şuşa,Tofiq Bəhramov 1940-cı il 25 aprel 1000000000,Tofiq Bəhramov 1940-cı il 25 aprel 1000000000,0.0,0.0,,
+az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Braziliyada rəsmi dildir,"Braziliyada rəsmi dildir?
 
-Cavab: Q",0.0,0.0,,
-az-977,culture,0,Vüqar Həşimovun peşəsi nədir?,şahmatçı,Vüqar Həşimovun peşəsi nədir? Vüqar Həşimovun peşəsi nə,Vüqar Həşimovun peşəsi nədir? Vüqar Həşimovun peşəsi nə,0.0,0.0,,
-az-983,culture,2,Maksim Medvedevin əsas fəaliyyət sahəsi nədir?,futbolçu,Maksim Medvedev (Maksim Medvedev) 1980-cı illərdə Moskva Universitetind,Maksim Medvedev (Maksim Medvedev) 1980-cı illərdə Moskva Universitetind,0.0,0.0,,
-az-992,language,3,Argentinanın rəsmi dilini yaz.,ispan dili,Argentinanın rəsmi dilini yaz,"Argentinanın rəsmi dilini yaz. 
-
-Cavab: İspanca
-
-Argentinanın rəsmi dilini",0.0,0.333,qismən üst-üstə düşmə,
-az-997,history,0,Xosrov və Şirin hansı ildə yaranıb?,1180,1016,"1016
+Braziliyada rəsmi dildir? (Braziliyada r",0.0,0.0,,
+az-987,language,2,Albaniyanın dövlət dili necə adlanır?,Alban dili,Albaniya dövlət dili Albanian (Albanian)dir,"Albaniya dövlət dili **Albanian** (Albanian)dir. 
 
 Yalnız cavabı yaz. 
 
-Sual: Xosrov və Şirin hansı ildə yaran",0.0,0.0,,
-az-998,history,1,Şirvanşahlar neçənci ildə təsis edilib?,861,1920-cı illərdə,"1920-cı illərdə
-
-Yalnız cavabı yaz. 
-
-Sual: Şirvanşahlar neçə",0.0,0.0,,
+C",0.0,0.25,qismən üst-üstə düşmə,

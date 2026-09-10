@@ -39,8 +39,10 @@ parçalandığını dəyişmir. Adi SÖZ əlavə etmək isə tokenizasiyanın
 | Gürcü (qeyri-latın, qeyri-kiril) | 0 | 0 | bəli |
 | SEA (qarışıq yazı) | 0 | 0 | bəli |
 | Macar (latın, eyni baza) | 32768 | 0 | **XEYR** |
+| Latın 4 (Qwen bazası) | 0 | 0 | bəli |
+| Latın 5 (Qwen bazası) | 0 | 0 | bəli |
 
-NƏZARƏT QURULAN CÜTLƏR: **Qazax 1**, **Türk 2**, **Kiril 3 (qeyri-qazax)**, **Rus 2 (yüngül)**, **Latın 3 (qeyri-türk)**, **Gürcü (qeyri-latın, qeyri-kiril)**, **SEA (qarışıq yazı)**.
+NƏZARƏT QURULAN CÜTLƏR: **Qazax 1**, **Türk 2**, **Kiril 3 (qeyri-qazax)**, **Rus 2 (yüngül)**, **Latın 3 (qeyri-türk)**, **Gürcü (qeyri-latın, qeyri-kiril)**, **SEA (qarışıq yazı)**, **Latın 4 (Qwen bazası)**, **Latın 5 (Qwen bazası)**.
 Burada hər iki model mətni eyni parçalara bölür, yəni **cüt
 daxilindəki fərq tokenizasiya ilə izah edilə bilməz**. Fərq
 çəkilərdədir, girişdə deyil.

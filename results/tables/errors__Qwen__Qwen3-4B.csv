@@ -38,25 +38,24 @@ az-1420,mathematics,—,Qalığı hesabla: 555 ədədinin 14 ədədinə bölünm
 az-1430,mathematics,—,1000 ədədi 23 ədədinə bölünəndə nə qədər qalıq qalır?,11,973,973,0.0,0.0,,
 az-1446,geography,2,Qırğızıstanın paytaxtının adı nədir?,Bişkek,Bishkek,Bishkek,0.0,0.0,,
 az-1463,geography,3,Burkina-Fasonun paytaxtını yaz.,Uaqaduqu,Ouagadougou,Cavab: Ouagadougou,0.0,0.0,,
+az-1467,geography,3,Tacikistanın paytaxtını yaz.,Düşənbə,Tacikistanın paytaxtı Tashkentdir,Cavab: Tacikistanın paytaxtı Tashkentdir.,0.0,0.0,,
 az-1479,geography,3,Konqo Respublikasının paytaxtını yaz.,Brazzavil,Kinšasa,Cavab: Kinšasa,0.0,0.0,,
 az-1481,geography,1,Hansı şəhər Bruneyin paytaxtıdır?,Bandar Seri Begavan,Kopenhagen,Cavab: Kopenhagen,0.0,0.0,,
 az-1494,geography,2,El-Salvadorun paytaxtının adı nədir?,San-Salvador,El-Salvadorun paytaxtı San Salvadordır,El-Salvadorun paytaxtı San Salvadordır.,0.0,0.571,qismən üst-üstə düşmə,
 az-1501,geography,1,Hansı şəhər Nikaraquanın paytaxtıdır?,Manaqua,Managua,Managua,0.0,0.0,,
-az-1508,geography,0,Baham adalarının paytaxtı hansı şəhərdir?,Nassau,Sual: Baham adalarının paytaxtı hansı şəhərdir,"Sual: Baham adalarının paytaxtı hansı şəhərdir?  
-Cavab: Nassau",0.0,0.0,,
-az-1512,geography,0,Dominikanın paytaxtı hansı şəhərdir?,Rozo,Sual: Dominikanın paytaxtı hansı şəhərdir,"Sual: Dominikanın paytaxtı hansı şəhərdir?  
-Cavab: San Pedro de Macorís",0.0,0.0,,
+az-1507,geography,3,Seyşel adalarının paytaxtını yaz.,Viktoriya,Mahé,Cavab: Mahé,0.0,0.0,,
 az-1521,geography,1,Hansı şəhər Solomon adalarının paytaxtıdır?,Honiara,Atanki,Cavab: Atanki.,0.0,0.0,,
-az-1536,geography,0,Tacikistanın pul vahidi nədir?,Somoni,таңғылым (тактика),Cavab: таңғылым (тактика),0.0,0.0,"kiril, zəncir bərpa etmir",
-az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,Taler,Cavab: Taler,0.0,0.0,,
-az-1549,geography,1,Pəhləvilər İranında hansı pul vahidi işlənir?,İran rialı,تومان (Tomān),Cavab: تومان (Tomān),0.0,0.0,,
+az-1546,geography,2,Fələstin Dövlətinin rəsmi valyutası necə adlanır?,Yeni İsrail şekeli,Şərqiyyət manetik qrafikləri,"Cavab: Şərqiyyət manetik qrafikləri.  
+İzahat: Fələstin",0.0,0.0,,
 az-1552,language,2,Monqolustanın dövlət dili necə adlanır?,Monqol dili,Төркем теле. (Monqolustanın dövlət dili Monqol tili,Cavab: Төркем теле. (Monqolustanın dövlət dili Monqol tili,0.0,0.444,"kiril, zəncir bərpa etmir",
-az-1554,language,0,Myanmanın rəsmi dili hansıdır?,Birman dili,Sual: Myanmanın rəsmi dili hansıdır,"Sual: Myanmanın rəsmi dili hansıdır?  
-Cavab: Bamaray (Burmada)",0.0,0.286,qismən üst-üstə düşmə,
+az-1554,language,0,Myanmanın rəsmi dili hansıdır?,Birman dili,Bamaray (Burmada),"Sual: Myanmanın rəsmi dili hansıdır?  
+Cavab: Bamaray (Burmada)",0.0,0.0,,
 az-1558,language,0,Butanın rəsmi dili hansıdır?,Dzonqxa,İngilis dili,Cavab: İngilis dili,0.0,0.0,,
 az-1565,science,3,Samarium elementində neçə proton var?,62,67,Cavab: 67,0.0,0.0,,
 az-1566,science,0,Lutesium elementinin atom nömrəsi neçədir?,71,67,67,0.0,0.0,,
 az-1568,science,2,Dubniumun atom nömrəsini yaz.,105,43,Cavab: 43,0.0,0.0,,
+az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizində,Gürcüstanın şərqində yerləşir,Cavab: Gürcüstanın şərqində yerləşir.,0.0,0.0,,
+az-524,geography,—,Azərbaycanın ən quru regionu hansıdır?,Abşeron,Qaraqandı,Cavab: Qaraqandı,0.0,0.0,,
 az-528,geography,—,Qarabağ düzü harada yerləşir?,Mərkəzi Azərbaycanda,Qarabağ düzü Azərbaycanın xarici ərazilərində yerləşir,Cavab: Qarabağ düzü Azərbaycanın xarici ərazilərində yerləşir.,0.0,0.0,,
 az-545,science,—,Atomun əsas hissələri hansılardır?,"Proton, neytron, elektron","Proton, nötron, elektron","Cavab: Proton, nötron, elektron.",0.0,0.667,qismən üst-üstə düşmə,
 az-549,science,—,Səsin sürəti havada neçədir?,340 m/s,343 m/s,343 m/s.,0.0,0.667,qismən üst-üstə düşmə,
@@ -94,11 +93,11 @@ az-906,mathematics,—,Bakı Dövlət Universitetinin Mexanika-riyaziyyat fakül
 az-909,mathematics,—,Ali məktəb tələbələrinin ilk fənn olimpiadası hansı ildə keçirilmişdir?,1994-cü ildə,2003,2003,0.0,0.0,,
 az-932,mathematics,—,Akademik Fəraməz Maqsudov harada anadan olmuşdur?,Naxçıvanda,Bakü,Cavab: Bakü.,0.0,0.0,,
 az-933,mathematics,—,Riyaziyyatçı Cəlal Allahverdiyev harada anadan olmuşdur?,Şuşada,Naxçıvan,Cavab: Naxçıvan,0.0,0.0,,
-az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,"динар (Serbiyada rəsmi valyuta serbiya динаруsu deyil, lakin","Cavab: динар (Serbiyada rəsmi valyuta serbiya динаруsu deyil, lakin",0.0,0.0,"kiril, zəncir bərpa etmir",
+az-942,geography,1,Hansı şəhər Yunanıstanın paytaxtıdır?,Afina,Atina,Atina,0.0,0.0,,
 az-963,history,2,Vahid Ələkbərovun doğum ili hansıdır?,1950,1923,1923,0.0,0.0,,
 az-964,history,3,Vüqar Həşimovun anadan olduğu ili yaz.,1986,1923,1923,0.0,0.0,,
 az-972,culture,3,JIVAnın doğum yerini yaz.,Moskva,Qırım,Cavab: Qırım,0.0,0.0,,
-az-977,culture,0,Vüqar Həşimovun peşəsi nədir?,şahmatçı,Sual: Vüqar Həşimovun peşəsi nədir,"Sual: Vüqar Həşimovun peşəsi nədir?  
+az-977,culture,0,Vüqar Həşimovun peşəsi nədir?,şahmatçı,Mədəniyyə,"Sual: Vüqar Həşimovun peşəsi nədir?  
 Cavab: Mədəniyyə",0.0,0.0,,
 az-986,language,1,Braziliyada hansı dil rəsmi dildir?,portuqal dili,Portugalsı dilləri,Portugalsı dilləri.,0.0,0.0,,
 az-994,history,1,Bakı quberniyası neçənci ildə təsis edilib?,1859,1929,1929.,0.0,0.0,,

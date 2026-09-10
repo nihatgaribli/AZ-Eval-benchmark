@@ -1,0 +1,296 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-036,science,3,Kükürd elementinin simvolunu yaz.,S,C,"Sual: Kükürd elementinin simvolunu yaz.
+Cavab: C
+
+Sual: Kükürd elementinin sim",0.0,0.0,,
+az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,18,"Sual: Heydər Əliyev neçənci ildə doğulub?
+Cavab: 18",0.0,0.0,,
+az-043,history,2,Teymur Rəcəbovun doğum ili hansıdır?,1987,1950,"Sual: Teymur Rəcəbovun doğum ili hansıdır?
+Cavab: 1950",0.0,0.0,,
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,İszakı,"Sual: Radik İsayevin doğum yerini yaz.
+Cavab: İszakı
+
+Sual: Radik İsayevin doğ",0.0,0.0,,
+az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Məd,"Sual: Samirə Əfəndi hansı peşə ilə tanınır?
+Cavab: Məd",0.0,0.0,,
+az-080,language,3,Avstraliyanın rəsmi dilini yaz.,ingilis dili,English,"Sual: Avstraliyanın rəsmi dilini yaz.
+Cavab: English
+
+Sual: Avstraliyanın",0.0,0.0,,
+az-085,language,0,İspan dili hansı yazı sistemi ilə yazılır?,latın əlifbası,Latin,"Sual: İspan dili hansı yazı sistemi ilə yazılır?
+Cavab: Latin
+
+Sual: İsp",0.0,0.0,,
+az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-100,history,3,Yuxarı Gövhərağa məscidinin memarının adını yaz.,Kərbəlayı Səfixan Qarabaği,Mər,"Sual: Yuxarı Gövhərağa məscidinin memarının adını yaz.
+Cavab: Mər",0.0,0.0,,
+az-1009,history,0,Müslüm Maqomayev harada vəfat edib?,Nalçik,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1029,culture,0,Zeynalabdin İsgəndərovun peşəsi nədir?,heykəltaraş,Biologiya,"Sual: Zeynalabdin İsgəndərovun peşəsi nədir?
+Cavab: Biologiya
+
+S",0.0,0.0,,
+az-1034,language,1,Vladimir Qafarovun əsərləri hansı dildədir?,rus dili,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1038,science,3,Eynəli bəy Sultanovun təhsil müəssisəsini yaz.,İrəvan kişi gimnaziyası,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1044,geography,0,Bayıl qalası hansı inzibati ərazidə yerləşir?,Bakı,Bayıl,"Sual: Bayıl qalası hansı inzibati ərazidə yerləşir?
+Cavab: Bayıl",0.0,0.0,,
+az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,Cavab,"Sual: Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?
+Cavab",0.0,0.0,,
+az-1057,history,3,Vaqif türbəsinin memarının adını yaz.,Əbdülvahab Salamzadə,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,Azad Qadın hey,"Sual: Azad qadın heykəli kimin layihəsidir?
+Cavab: Azad Qadın hey",0.0,0.0,,
+az-1063,geography,1,Oxçuçayın mənsəbi haradır?,Araz,1999,"Sual: Oxçuçayın mənsəbi haradır?
+Cavab: 1999
+
+Sual: Oxçu",0.0,0.0,,
+az-1078,mathematics,—,Sadə ədədlər sırasında 16-cı ədəd nədir?,53,C,"Sual: Sadə ədədlər sırasında 16-cı ədəd nədir?
+C",0.0,0.0,,
+az-1083,mathematics,—,27 ilə 36-nin ƏKOB-u nədir?,108,9,"Sual: 27 ilə 36-nin ƏKOB-u nədir?
+Cavab: 9
+
+Sual",0.0,0.0,,
+az-1096,mathematics,—,6-bucaqlının bütün daxili bucaqları toplananda neçə dərəcə alınır?,720,Sual: 6-bucaqlının bütün daxili bucaqları toplananda neçə dərəcə al,Sual: 6-bucaqlının bütün daxili bucaqları toplananda neçə dərəcə al,0.0,0.167,qismən üst-üstə düşmə,
+az-1099,mathematics,—,80-dən böyük sadə ədədlərin ən kiçiyi neçədir?,83,Sual: 80-dən böyük sadə ədədlərin ən kiçiyi neçədir,Sual: 80-dən böyük sadə ədədlərin ən kiçiyi neçədir?,0.0,0.0,,
+az-1108,mathematics,—,13-cü sadə ədəd hansıdır?,41,13,"Sual: 13-cü sadə ədəd hansıdır?
+Cavab: 13
+
+Sual:",0.0,0.0,,
+az-1112,mathematics,—,27 və 36 ədədlərinin ən böyük ortaq böləni neçədir?,9,Sual: 27 və 36 ədədlərinin ən böyük ortaq böləni ne,Sual: 27 və 36 ədədlərinin ən böyük ortaq böləni ne,0.0,0.0,,
+az-1123,mathematics,—,14 ilə 21-nin ƏKOB-u nədir?,42,7,"Sual: 14 ilə 21-nin ƏKOB-u nədir?
+Cavab: 7
+
+Sual",0.0,0.0,,
+az-1131,mathematics,—,"Ən kiçik ortaq bölünənini tap: 45, 75.",225,Cavab,"Sual: Ən kiçik ortaq bölünənini tap: 45, 75.
+Cavab",0.0,0.0,,
+az-1156,mathematics,—,1-dən 55-ə qədər olan ədədlərin cəmi nə qədərdir?,1540,Sual: 1-dən 55-ə qədər olan ədədlərin cəmi nə q,Sual: 1-dən 55-ə qədər olan ədədlərin cəmi nə q,0.0,0.0,,
+az-1168,mathematics,—,20-bucaqlının diaqonallarının sayı neçədir?,170,190,"Sual: 20-bucaqlının diaqonallarının sayı neçədir?
+Cavab: 190",0.0,0.0,,
+az-1177,mathematics,—,8-ci sadə ədəd hansıdır?,19,23,"Sual: 8-ci sadə ədəd hansıdır?
+Cavab: 23
+
+Sual:",0.0,0.0,,
+az-1194,science,3,Bor elementində neçə proton var?,5,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1204,science,1,Dövri cədvəldə Kripton hansı nömrə ilə durur?,36,,"Sual: Dövri cədvəldə Kripton hansı nömrə ilə durur?
+Cavab:",0.0,0.0,boş cavab,
+az-1208,science,1,Dövri cədvəldə Radium hansı nömrə ilə durur?,88,8,"Sual: Dövri cədvəldə Radium hansı nömrə ilə durur?
+Cavab: 8",0.0,0.0,,
+az-1248,science,1,Silisiumun kəşfi kimə aiddir?,Yens Yakov Bertselius,1826,"Sual: Silisiumun kəşfi kimə aiddir?
+Cavab: 1826
+
+Sual: Su molekul",0.0,0.0,,
+az-1249,science,2,Kalium elementinin kəşfçisini yaz.,Hemfri Devi,Dmitri Mendeleyev,"Sual: Kalium elementinin kəşfçisini yaz.
+Cavab: Dmitri Mendeleyev
+
+Sual: Kal",0.0,0.0,,
+az-1267,world,3,Hansı telefon kodu Portuqaliyanın aiddir?,+351,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1268,world,0,İsveçin telefon kodu nədir?,+46,44,"Sual: İsveçin telefon kodu nədir?
+Cavab: 44
+
+Sual: Misirin paytaxt",0.0,0.0,,
+az-1271,world,3,Hansı telefon kodu Cənubi Afrika Respublikasının aiddir?,+27,+234,"Sual: Hansı telefon kodu Cənubi Afrika Respublikasının aiddir?
+Cavab: +234
+
+Sual",0.0,0.0,,
+az-1278,world,2,Macarıstanın beynəlxalq telefon kodunu yaz.,+36,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1280,world,0,Xorvatiyanın telefon kodu nədir?,+385,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1293,world,1,Banqladeşdə beynəlxalq telefon kodu hansıdır?,+880,99,"Sual: Banqladeşdə beynəlxalq telefon kodu hansıdır?
+Cavab: 99",0.0,0.0,,
+az-1300,world,0,Slovakiyanın telefon kodu nədir?,+421,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1310,world,2,Sinqapurun beynəlxalq telefon kodunu yaz.,+65,+971,"Sual: Sinqapurun beynəlxalq telefon kodunu yaz.
+Cavab: +971
+
+Sual: Misir",0.0,0.0,,
+az-1321,world,1,Kipr Respublikasında beynəlxalq telefon kodu hansıdır?,+357,99,"Sual: Kipr Respublikasında beynəlxalq telefon kodu hansıdır?
+Cavab: 99",0.0,0.0,,
+az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1335,mathematics,—,46913 sayının rəqəmlərini toplasaq nə alınar?,23,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-135,culture,1,Habil Əliyevin ifa etdiyi alət hansıdır?,kamança,Ə,"Sual: Habil Əliyevin ifa etdiyi alət hansıdır?
+Cavab: Ə",0.0,0.0,,
+az-1374,mathematics,—,8879 sayının rəqəmlərini toplasaq nə alınar?,32,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1403,mathematics,—,66 ədədinin neçə fərqli sadə böləni var?,3,,"Sual: 66 ədədinin neçə fərqli sadə böləni var?
+Cavab:",0.0,0.0,boş cavab,
+az-1437,mathematics,—,6 saatlıq müddət neçə saniyə edir?,21600,2160,"Sual: 6 saatlıq müddət neçə saniyə edir?
+Cavab: 2160",0.0,0.0,,
+az-1444,geography,0,Tanzaniyanın paytaxtı hansı şəhərdir?,Dodoma,Daressa,"Sual: Tanzaniyanın paytaxtı hansı şəhərdir?
+Cavab: Daressa
+
+S",0.0,0.0,,
+az-1448,geography,0,Çadın paytaxtı hansı şəhərdir?,Ncamena,Çadın paytaxtı,"Sual: Çadın paytaxtı hansı şəhərdir?
+Cavab: Çadın paytaxtı",0.0,0.0,,
+az-1469,geography,1,Hansı şəhər Butanın paytaxtıdır?,Thimphu,Qahirə,"Sual: Hansı şəhər Butanın paytaxtıdır?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1476,geography,0,Kosta-Rikanın paytaxtı hansı şəhərdir?,San-Xose,San Salvador,"Sual: Kosta-Rikanın paytaxtı hansı şəhərdir?
+Cavab: San Salvador",0.0,0.5,qismən üst-üstə düşmə,
+az-1489,geography,1,Hansı şəhər Kabo-Verdenin paytaxtıdır?,Praya,Mindelo,"Sual: Hansı şəhər Kabo-Verdenin paytaxtıdır?
+Cavab: Mindelo
+
+S",0.0,0.0,,
+az-1501,geography,1,Hansı şəhər Nikaraquanın paytaxtıdır?,Manaqua,Managua,"Sual: Hansı şəhər Nikaraquanın paytaxtıdır?
+Cavab: Managua
+
+Sual:",0.0,0.0,,
+az-1554,language,0,Myanmanın rəsmi dili hansıdır?,Birman dili,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Italian,"Sual: San-Marinoda hansı dil rəsmi dildir?
+Cavab: Italian
+
+Sual: San-Marin",0.0,0.0,,
+az-1557,language,3,Tacikistanın rəsmi dilini yaz.,tacik dili,Tacik,"Sual: Tacikistanın rəsmi dilini yaz.
+Cavab: Tacik
+
+Sual: Tacikistanın rəs",0.0,0.667,qismən üst-üstə düşmə,
+az-1563,science,1,Dövri cədvəldə hassium hansı nömrə ilə durur?,108,7,"Sual: Dövri cədvəldə hassium hansı nömrə ilə durur?
+Cavab: 7",0.0,0.0,,
+az-1593,science,3,Flörovium elementində neçə proton var?,114,118,"Sual: Flörovium elementində neçə proton var?
+Cavab: 118
+
+Sual: Flörov",0.0,0.0,,
+az-1595,science,1,Dövri cədvəldə Ubinilium hansı nömrə ilə durur?,120,,"Sual: Dövri cədvəldə Ubinilium hansı nömrə ilə durur?
+Cavab:",0.0,0.0,boş cavab,
+az-501,geography,—,Azərbaycanın ən alçaq nöqtəsi haradadır?,Xəzər dənizi,Qızıl,"Sual: Azərbaycanın ən alçaq nöqtəsi haradadır?
+Cavab: Qızıl",0.0,0.0,,
+az-514,geography,—,Azərbaycanın sahəsi neçə km2-dir?,86.600 km2,868.80,"Sual: Azərbaycanın sahəsi neçə km2-dir?
+Cavab: 868.80",0.0,0.0,,
+az-516,geography,—,Azərbaycanın Rusiya ilə sərhədi haradadır?,Şimalda,Haydə,"Sual: Azərbaycanın Rusiya ilə sərhədi haradadır?
+Cavab: Haydə",0.0,0.0,,
+az-517,geography,—,Azərbaycanın İran ilə sərhədi hansı çaydan keçir?,Araz çayı h,Cavab,"Sual: Azərbaycanın İran ilə sərhədi hansı çaydan keçir?
+Cavab",0.0,0.0,,
+az-538,geography,—,İsmayıllı rayonu hansı regiondadır?,Şəki-Zaqatala,Qəbərli,"Sual: İsmayıllı rayonu hansı regiondadır?
+Cavab: Qəbərli",0.0,0.0,,
+az-543,science,—,Sintez prosesi nədir?,Birləşmə reaksiyası,"Sintez prosesi, yoxsərən","Sual: Sintez prosesi nədir?
+Cavab: Sintez prosesi, yoxsərən,",0.0,0.0,,
+az-566,science,—,Ən ağır təbii element hansıdır?,Uran,Ən ağ,"Sual: Ən ağır təbii element hansıdır?
+Cavab: Ən ağ",0.0,0.0,,
+az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,,"Sual: Fikrət Əmirov hansı əsərin müəllifidir?
+Cavab: """,0.0,0.0,boş cavab,
+az-603,culture,—,Azərbaycan mətbəxində əsas ət məhsulu hansıdır?,Qoyun əti,Sual: Azərbaycan mətbəxində əsas ət məhsulu hansıdır,Sual: Azərbaycan mətbəxində əsas ət məhsulu hansıdır,0.0,0.0,,
+az-608,culture,—,Qoğal hansı bayramda hazırlanır?,Novruz,Qoğal bayramda hazırlan,"Sual: Qoğal hansı bayramda hazırlanır?
+Cavab: Qoğal bayramda hazırlan",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,İnci ərəb,"Sual: İlk Azərbaycan filmi hansıdır?
+Cavab: ""İnci ərəb",0.0,0.0,,
+az-617,culture,—,Azərbaycanda ilk rəssam kimdir?,Mir Möhsun Nəvvab,19. əsərən,"Sual: Azərbaycanda ilk rəssam kimdir?
+Cavab: 19. əsərən",0.0,0.0,,
+az-622,language,—,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,Tenge dil ail,"Sual: Azərbaycan dili hansı dil ailəsinə daxildir?
+Cavab: Tenge dil ail",0.0,0.0,,
+az-623,language,—,Azərbaycan ədəbi dilin əsası hansı ləhqədir?,Bakıda ləhqəsi,Cavab,"Sual: Azərbaycan ədəbi dilin əsası hansı ləhqədir?
+Cavab",0.0,0.0,,
+az-625,language,—,Azərbaycan dilində fel nədir?,Hərəkət bildirən söz,ərək,"Sual: Azərbaycan dilində fel nədir?
+Cavab: ərək
+
+Sual: Azə",0.0,0.0,,
+az-626,language,—,Azərbaycan dilində isim nədir?,Ad bildirən söz,əzərbaycan,"Sual: Azərbaycan dilində isim nədir?
+Cavab: əzərbaycan
+
+S",0.0,0.0,,
+az-639,language,—,Azərbaycan dilində indiki zaman şəkilçisi hansıdır?,"-ir, -ur",,"Sual: Azərbaycan dilində indiki zaman şəkilçisi hansıdır?
+Cavab: """,0.0,0.0,boş cavab,
+az-656,language,—,Azərbaycan dilində ikinci şəxs şəkilçisi hansıdır?,"-sən, -siniz",Cav,"Sual: Azərbaycan dilində ikinci şəxs şəkilçisi hansıdır?
+Cav",0.0,0.0,,
+az-659,culture,—,Azərbaycan Olimpiya Oyunlarinda neçə medal qazanıb?,57 medal,12,"Sual: Azərbaycan Olimpiya Oyunlarinda neçə medal qazanıb?
+Cavab: 12",0.0,0.0,,
+az-662,culture,—,Azərbaycan neçə idman növundə Olimpiyada təmsil olunub?,22 idman növ,Sual: Azərbaycan neçə idman növündə Olimpiyada təmsil olunub,"Sual: Azərbaycan neçə idman növündə Olimpiyada təmsil olunub?
+Cav",0.0,0.222,qismən üst-üstə düşmə,
+az-669,culture,—,Azərbaycanda ilk rəssamlıq təhsili almiş şəxs kimdir?,Bəhruz Kəngərli,Cav,"Sual: Azərbaycanda ilk rəssamlıq təhsili almiş şəxs kimdir?
+Cav",0.0,0.0,,
+az-672,culture,—,Azərbaycan Milli İncəsənət Muzeyi haradadır?,Bakıda,Q,"Sual: Azərbaycan Milli İncəsənət Muzeyi haradadır?
+Cavab: Q",0.0,0.0,,
+az-683,world,—,Çinin paytaxtı haradadır?,Pekin,Çinin paytaxtı haradadır,"Sual: Çinin paytaxtı haradadır?
+Cavab: Çinin paytaxtı haradadır.",0.0,0.0,,
+az-713,world,—,Dünyada ən böyük okean hansıdır?,Sakit okean,Pacific Okean,"Sual: Dünyada ən böyük okean hansıdır?
+Cavab: Pacific Okean
+
+S",0.0,0.5,qismən üst-üstə düşmə,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,24,"Sual: Dünyada neçə qitə var?
+Cavab: 24
+
+Sual: Misirin paytaxt",0.0,0.0,,
+az-717,world,—,Afrika qitəsində neçə ölkə var?,54 ölkə,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-720,world,—,Antarktida qitəsində neçə ölkə var?,0 ölkə,13,"Sual: Antarktida qitəsində neçə ölkə var?
+Cavab: 13
+
+Sual: Su",0.0,0.0,,
+az-804,history,—,Babək Xürrəmi nə vaxt edam edilmişdir?,14 mart 838,199,"Sual: Babək Xürrəmi nə vaxt edam edilmişdir?
+Cavab: 199",0.0,0.0,,
+az-807,history,—,Qaraqoyunlu dövləti nə vaxt yaranıb?,1374-cü ildə,199,"Sual: Qaraqoyunlu dövləti nə vaxt yaranıb?
+Cavab: 199",0.0,0.0,,
+az-810,history,—,Gülüstan müqaviləsi nə vaxt imzalanmışdır?,12 oktyabr 1813,1,"Sual: Gülüstan müqaviləsi nə vaxt imzalanmışdır?
+Cavab: 1",0.0,0.0,,
+az-819,history,—,Azərbaycan müstəqilliyini nə vaxt bərpa etmişdir?,1991-ci ildə,Cav,"Sual: Azərbaycan müstəqilliyini nə vaxt bərpa etmişdir?
+Cav",0.0,0.0,,
+az-822,history,—,Azərbaycan Xalq Cəbhəsi hakimiyyətə nə vaxt gəlib?,1992-ci ildə,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,dinar,"Sual: Serbiyanın rəsmi valyutası necə adlanır?
+Cavab: dinar
+
+Sual:",0.0,0.0,,
+az-957,science,0,Kalsium elementinin kimyəvi simvolu nədir?,Ca,Sual: Kalsium elementinin kimyəsi simvolu nədir,"Sual: Kalsium elementinin kimyəsi simvolu nədir?
+Cavab: Ca
+
+Sual: Kalsium",0.0,0.0,,
+az-958,science,1,Kimyada Berillium hansı simvolla işarə olunur?,Be,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-962,history,1,Qurban Qurbanov neçənci ildə doğulub?,1972,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-964,history,3,Vüqar Həşimovun anadan olduğu ili yaz.,1986,1980,"Sual: Vüqar Həşimovun anadan olduğu ili yaz.
+Cavab: 1980
+
+Sual",0.0,0.0,,
+az-974,culture,1,Leyla Əliyevanın doğulduğu yer haradır?,Moskva,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
+Cavab: Qahirə
+
+Sual:",0.0,0.0,,
+az-987,language,2,Albaniyanın dövlət dili necə adlanır?,Alban dili,Albinan,"Sual: Albaniyanın dövlət dili necə adlanır?
+Cavab: Albinan
+
+Sual: Alban",0.0,0.0,,

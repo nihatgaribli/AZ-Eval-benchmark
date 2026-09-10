@@ -1,0 +1,124 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,1920-cı ildə,1920-cı ildə,0.0,0.333,qismən üst-üstə düşmə,
+az-041,history,0,Əbülfəz Elçibəy hansı ildə anadan olub?,1938,1910-ci ildə,1910-ci ildə,0.0,0.667,qismən üst-üstə düşmə,
+az-043,history,2,Teymur Rəcəbovun doğum ili hansıdır?,1987,1957,1957,0.0,0.0,,
+az-048,history,3,Səbinə Babayevanın anadan olduğu ili yaz.,1979,Qazaxlılar,Qazaxlılar,0.0,0.0,,
+az-049,culture,0,İlham Əliyev harada anadan olub?,Bakı,"Bakı, 1921-ci ildə","Bakı, 1921-ci ildə.",0.0,0.4,qismən üst-üstə düşmə,
+az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Mətbən əsaslı peşə ilə tanınır,Mətbən əsaslı peşə ilə tanınır.,0.0,0.0,,
+az-071,culture,2,Mahir Emrelinin əsas fəaliyyət sahəsi nədir?,futbolçu,İktisat və təsəullər,İktisat və təsəullər.,0.0,0.0,,
+az-080,language,3,Avstraliyanın rəsmi dilini yaz.,ingilis dili,Engilşə (English),Engilşə (English),0.0,0.0,,
+az-081,language,0,İspaniyanın rəsmi dili hansıdır?,ispan dili,İspaniyanın rəsmi dili Espanyoludur,İspaniyanın rəsmi dili Espanyoludur.,0.0,0.4,qismən üst-üstə düşmə,
+az-089,language,0,Mandarin çincəsi hansı yazı sistemi ilə yazılır?,Çin yazısı,Hangi yazı sistemi ilə yazılır,"Sual: Mandarin çincəsi hansı yazı sistemi ilə yazılır?
+
+Cavab: Hangi yazı sistemi ilə yazılır?",0.0,0.0,,
+az-099,history,2,Bibiheybət məscidinin layihəsini kim hazırlayıb?,Mahmud ibn Səd,Müslimən əlçəqləri,Müslimən əlçəqləri.,0.0,0.0,,
+az-1011,history,2,Əbdülqadir Marağayi hansı şəhərdə dünyasını dəyişib?,Herat,Cav,"Sual: Əbdülqadir Marağayi hansı şəhərdə dünyasını dəyişib?
+
+Cav",0.0,0.0,,
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Seyid Əzim Şirvaninin dəfn yerini 1926-cı ildə Ərəb x,Seyid Əzim Şirvaninin dəfn yerini 1926-cı ildə Ərəb x,0.0,0.0,,
+az-1026,culture,1,Cəmil Əmirov nə ilə məşğul olub?,musiqiçi,Müasir mətbənin əsas tərəfindən,Müasir mətbənin əsas tərəfindən.,0.0,0.0,,
+az-1033,language,0,Qətran Təbrizi hansı dildə yazıb?,fars dili,Qətran Təbrizi ərəb dildə yazıb,Qətran Təbrizi ərəb dildə yazıb.,0.0,0.0,,
+az-1037,science,2,Kəramət Böyükçölün təhsil aldığı yer haradır?,BDU Filologiya fakültəsi,Kərəm Əliyev Əsəri,Kərəm Əliyev Əsəri.,0.0,0.0,,
+az-1041,science,2,Məmməd Altunbayın təhsil aldığı yer haradır?,Odessa Hərbi Akademiyası,Bakı,Bakı,0.0,0.0,,
+az-1061,history,3,Jen Mironosets Baş Kafedral kilsəsinin memarının adını yaz.,Fyodor Verjbitski,Korç,Korç,0.0,0.0,,
+az-1071,mathematics,—,İlk 20 natural ədədin cəmi neçədir?,210,100,100,0.0,0.0,,
+az-1118,mathematics,—,Sadə ədədlər sırasında 11-ci ədəd nədir?,31,On yeddi,On yeddi.,0.0,0.0,,
+az-1126,mathematics,—,Daxili bucaqlarının cəmini tap: 8-bucaq.,1080,Daxili bucaqlarının cəmini tap: 4×90° = 360°,Daxili bucaqlarının cəmini tap: 4×90° = 360°.,0.0,0.0,,
+az-1144,mathematics,—,5-ci sadə ədəd hansıdır?,11,5-ci sadə ədəd — 5,5-ci sadə ədəd — 5.,0.0,0.0,,
+az-1151,mathematics,—,12 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1800,12 tərəfi olan çoxbucaq — 12 tərəfli 12-bucaqlı ç,12 tərəfi olan çoxbucaq — 12 tərəfli 12-bucaqlı ç,0.0,0.0,,
+az-1162,mathematics,—,20-ci sadə ədədi yaz.,71,20-ci sadə ədəd 20-dir,20-ci sadə ədəd 20-dir.,0.0,0.0,,
+az-1203,science,0,Platin elementinin atom nömrəsi neçədir?,78,106,106,0.0,0.0,,
+az-1215,science,0,Stronsium elementinin atom nömrəsi neçədir?,38,50,50,0.0,0.0,,
+az-1245,science,2,Talliumun atom nömrəsini yaz.,81,50,50,0.0,0.0,,
+az-1249,science,2,Kalium elementinin kəşfçisini yaz.,Hemfri Devi,Kalium elementinin kəşfçisi —,"Sual: Kalium elementinin kəşfçisini yaz.  
+Cavab: Kalium elementinin kəşfçisi —",0.0,0.0,,
+az-1269,world,1,Danimarkada beynəlxalq telefon kodu hansıdır?,+45,+44,+44,0.0,0.0,,
+az-1291,world,3,Hansı telefon kodu Səudiyyə Ərəbistanının aiddir?,+966,Qatar,Qatar,0.0,0.0,,
+az-1297,world,1,Bosniya və Herseqovinada beynəlxalq telefon kodu hansıdır?,+387,003,003,0.0,0.0,,
+az-1305,world,1,Suriyada beynəlxalq telefon kodu hansıdır?,+963,+965,+965,0.0,0.0,,
+az-1319,world,3,Hansı telefon kodu Şimali Makedoniyanın aiddir?,+389,033,033,0.0,0.0,,
+az-1320,world,0,Somalinin telefon kodu nədir?,+252,3000,3000,0.0,0.0,,
+az-1322,world,2,Qananın beynəlxalq telefon kodunu yaz.,+233,+971,+971,0.0,0.0,,
+az-1329,mathematics,—,"İlk həddi 2, fərqi 9 olan arifmetik silsilənin 12-ci həddi neçədir?",101,12-ci həddi 20,12-ci həddi 20.,0.0,0.0,,
+az-1372,mathematics,—,365 sayının 11 sayına bölünməsindən alınan qalıq nədir?,2,1,1,0.0,0.0,,
+az-1378,mathematics,—,"Arifmetik silsilədə birinci hədd 5, fərq isə 3 ədədidir. 20-ci hədd nədir?",62,88,88,0.0,0.0,,
+az-1379,mathematics,—,7 saatda neçə saniyə var?,25200,420 saniyə var,420 saniyə var.,0.0,0.4,qismən üst-üstə düşmə,
+az-1408,mathematics,—,10 ilə 20 arasındakı bütün tam ədədlərin cəmi neçədir (hər ikisi daxil olmaqla)?,165,150,"Cavab: 150
+
+(10 + 11 + 12 + 13 + 14 + 15",0.0,0.0,,
+az-1435,mathematics,—,180 ədədinin 20 faizi hansı ədəddir?,36,9 ədəddir,9 ədəddir.,0.0,0.0,,
+az-1448,geography,0,Çadın paytaxtı hansı şəhərdir?,Ncamena,Aden,"Aden
+
+Sual: Çadın paytaxtı hansı şəhərdir?
+Cavab: Aden",0.0,0.0,,
+az-1465,geography,1,Hansı şəhər Beninin paytaxtıdır?,Porto-Novo,Mətbəpəl,Mətbəpəl,0.0,0.0,,
+az-1469,geography,1,Hansı şəhər Butanın paytaxtıdır?,Thimphu,Mərkəz,"Mərkəz
+
+Sual: Hansı şəhər Butanın paytaxtıdır?
+
+Cavab: Mərkə",0.0,0.0,,
+az-1480,geography,0,Türkmənistanın paytaxtı hansı şəhərdir?,Aşqabad,Bukhara,Bukhara,0.0,0.0,,
+az-1482,geography,2,Malavinin paytaxtının adı nədir?,Lilonqve,Mətbəf,"Mətbəf
+
+Sual: Mətbəf hansı şəhərdir?
+
+Cavab: Mətbəf",0.0,0.0,,
+az-1495,geography,3,Papua-Yeni Qvineyanın paytaxtını yaz.,Port Morsbi,Port Moresby,Port Moresby,0.0,0.5,qismən üst-üstə düşmə,
+az-1502,geography,2,Cənubi Sudanın paytaxtının adı nədir?,Cuba,Khartoma,Khartoma,0.0,0.0,,
+az-1508,geography,0,Baham adalarının paytaxtı hansı şəhərdir?,Nassau,Baham adalarının paytaxtı hansı şəhərdir,"Baham adalarının paytaxtı hansı şəhərdir?  
+Cavab: Nassau",0.0,0.0,,
+az-1520,geography,0,Kiribatinin paytaxtı hansı şəhərdir?,Cənubi Tarava,Istanbul,Istanbul,0.0,0.0,,
+az-1546,geography,2,Fələstin Dövlətinin rəsmi valyutası necə adlanır?,Yeni İsrail şekeli,Dinar,Dinar,0.0,0.0,,
+az-1550,language,0,Anqolanın rəsmi dili hansıdır?,portuqal dili,Amerika Birliyelərinin rəsmi dili hansıdır,Amerika Birliyelərinin rəsmi dili hansıdır?,0.0,0.286,qismən üst-üstə düşmə,
+az-1551,language,1,Monakoda hansı dil rəsmi dildir?,fransız dili,İngilis dili,İngilis dili,0.0,0.5,qismən üst-üstə düşmə,
+az-1556,language,2,Özbəkistanın dövlət dili necə adlanır?,özbək dili,"Özbəkistanın dövlət dili ""Özbək"" adlı dildir","Özbəkistanın dövlət dili ""Özbək"" adlı dildir.",0.0,0.5,qismən üst-üstə düşmə,
+az-1557,language,3,Tacikistanın rəsmi dilini yaz.,tacik dili,Tacikistanın rəsmi dilini yaz. — Tacik dili,Tacikistanın rəsmi dilini yaz. — Tacik dili,0.0,0.5,qismən üst-üstə düşmə,
+az-1558,language,0,Butanın rəsmi dili hansıdır?,Dzonqxa,C4H10,Cavab: C4H10,0.0,0.0,,
+az-1569,science,3,Kalifornium elementində neçə proton var?,98,92,"92
+
+Kalifornium elementində 92 proton var.",0.0,0.0,,
+az-1581,science,3,Berklium elementində neçə proton var?,97,18,"18
+
+Berklium elementində 56 proton var.",0.0,0.0,,
+az-1589,science,3,Ununtrium elementində neçə proton var?,113,19,19,0.0,0.0,,
+az-1592,science,2,Tuliumun atom nömrəsini yaz.,69,170,170,0.0,0.0,,
+az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizində,"Mənə əlveriş verən, ən əsaslı məlumata görə, Abşeron","Mənə əlveriş verən, ən əsaslı məlumata görə, Abşeron",0.0,0.0,,
+az-524,geography,—,Azərbaycanın ən quru regionu hansıdır?,Abşeron,Kərəm Əliyev rayonu,Kərəm Əliyev rayonu,0.0,0.0,,
+az-528,geography,—,Qarabağ düzü harada yerləşir?,Mərkəzi Azərbaycanda,"Qarabağ düzü, Qarabağ əyalətinin ən ən əvvəl ərazilə","Qarabağ düzü, Qarabağ əyalətinin ən ən əvvəl ərazilə",0.0,0.0,,
+az-540,science,—,Neftin əsas tərkib hissəsi nədir?,Karbohidrogenlər,Cevab: Cəsət (C),Cevab: Cəsət (C),0.0,0.0,,
+az-561,science,—,İnsan ömrü orta hesabla neçə ildir?,70-80 il,60-70 il,60-70 il,0.0,0.667,qismən üst-üstə düşmə,
+az-564,science,—,Suyun donma temperaturu neçədir?,0 °C,"0 derece Celsius (273,15 K)","0 derece Celsius (273,15 K)",0.0,0.25,qismən üst-üstə düşmə,
+az-575,science,—,Ən kiçik planet hansıdır?,Merkuri,Merkür,Merkür,1.0,0.0,diakritika,
+az-579,culture,—,Nizami Gəncəvi hansı əsrlərdə yaşiyib?,XII əsrdə,Xalq əsri əsrində,Xalq əsri əsrində.,0.0,0.0,,
+az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,2013-ci ildə,2013-ci ildə,0.0,0.333,qismən üst-üstə düşmə,
+az-615,culture,—,Bakıda ilk kinoteatr nə vaxt açilib?,1898-ci ildə,1925-ci ildə,1925-ci ildə,0.0,0.667,qismən üst-üstə düşmə,
+az-622,language,—,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,Azərbaycan dili Ərəb dili ailəsinə daxildir,Azərbaycan dili Ərəb dili ailəsinə daxildir.,0.0,0.0,,
+az-623,language,—,Azərbaycan ədəbi dilin əsası hansı ləhqədir?,Bakıda ləhqəsi,Tərəz,Tərəz.,0.0,0.0,,
+az-625,language,—,Azərbaycan dilində fel nədir?,Hərəkət bildirən söz,"Azərbaycan dilində ""fel"" — ""fəl"" — əlamət, təsvir, əs","Azərbaycan dilində ""fel"" — ""fəl"" — əlamət, təsvir, əs",0.0,0.0,,
+az-653,language,—,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir?,Çıoxluq,xəbər şəkilçisi cəmləndirmə — xəbər şəkilçisi cəmlə,xəbər şəkilçisi cəmləndirmə — xəbər şəkilçisi cəmlə,0.0,0.0,,
+az-658,language,—,Azərbaycan dilində birinci şəxs cəm şəkilçisi hansıdır?,-ik,Mənim,Mənim.,0.0,0.0,,
+az-667,culture,—,Tofiq Bəhramov kimdir?,Məşhur hakim,Tofiq Bəhramov — 1920-2010-cu illərdə Azərbaycanın,Tofiq Bəhramov — 1920-2010-cu illərdə Azərbaycanın,0.0,0.0,,
+az-670,culture,—,Sakit Məmmədov hansı sahədə taninib?,Təsviri sənət,"Sakit Məmmədov, əsasən ictimaiyyət və ictimaiyyət tə","Sakit Məmmədov, əsasən ictimaiyyət və ictimaiyyət tə",0.0,0.0,,
+az-672,culture,—,Azərbaycan Milli İncəsənət Muzeyi haradadır?,Bakıda,Qeyri-əsas,Qeyri-əsas.,0.0,0.0,,
+az-673,culture,—,Azərbaycan Dövlət Rəsm Qalereyası haradadır?,Bakıda,Qeyri-əsas,Qeyri-əsas.,0.0,0.0,,
+az-684,world,—,Hindistanın paytaxtı haradadır?,Dehli,Bhārāt,Bhārāt,0.0,0.0,,
+az-691,world,—,Polşanın paytaxtı haradadır?,Varşava,Mətbəf,Mətbəf.,0.0,0.0,,
+az-697,world,—,Belçikanın paytaxtı haradadır?,Brüssel,Bəlçikanın paytaxtı Bakudır,Bəlçikanın paytaxtı Bakudır.,0.0,0.0,,
+az-698,world,—,Fransada hansı pul vahidindən istifadə olunur?,Avro,Euro,Euro,0.0,0.0,,
+az-699,world,—,ABŞ-da hansı pul vahidindən istifadə olunur?,Dollar,Dolar,Dolar,0.0,0.0,,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,198,198,0.0,0.0,,
+az-717,world,—,Afrika qitəsində neçə ölkə var?,54 ölkə,11,11,0.0,0.0,,
+az-720,world,—,Antarktida qitəsində neçə ölkə var?,0 ölkə,17,17,0.0,0.0,,
+az-801,history,—,Manna dövləti nə vaxt mövcud olub?,E.ə. IX-VII əsrlər,Manna dövləti 1922-ci ildən 1992-ci ildən 1993,Manna dövləti 1922-ci ildən 1992-ci ildən 1993,0.0,0.0,,
+az-803,history,—,Babək Xürrəmilər hərəkatına nə vaxt başçılıq etməyə başlayıb?,816-cı ildə,1917-ci ilin fevralında,1917-ci ilin fevralında.,0.0,0.0,,
+az-806,history,—,Azərbaycan Atabəyləri dövləti nə vaxt yaranıb?,1136-cı ildə,1401-ci ildə,1401-ci ildə,0.0,0.333,qismən üst-üstə düşmə,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,1938-ci ildə,1938-ci ildə,0.0,0.667,qismən üst-üstə düşmə,
+az-930,mathematics,—,Xəzər Universiteti hansı ildə təsis edilmişdir?,1991-ci ildə,1920-ya ildə,1920-ya ildə,0.0,0.333,qismən üst-üstə düşmə,
+az-934,mathematics,—,Azərbaycanın sabiq təhsil naziri olmuş riyaziyyatçı kimdir?,Misir Mərdanov,İbrahim Əliyev,İbrahim Əliyev,0.0,0.0,,
+az-942,geography,1,Hansı şəhər Yunanıstanın paytaxtıdır?,Afina,Athena,Athena,0.0,0.0,,
+az-966,history,1,Anatoli Banişevski neçənci ildə doğulub?,1946,1964-ci ildə,1964-ci ildə,0.0,0.333,qismən üst-üstə düşmə,
+az-967,history,2,Rəşad Sadıqovun doğum ili hansıdır?,1982,1957,1957,0.0,0.0,,
+az-972,culture,3,JIVAnın doğum yerini yaz.,Moskva,Qeyri-əsas əsas,Qeyri-əsas əsas.,0.0,0.0,,
+az-978,culture,1,Səmra Rəhimli hansı peşə ilə tanınır?,müğənni,Dənizciliq,Dənizciliq.,0.0,0.0,,
+az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Dənizciliq ilə tanınır,Dənizciliq ilə tanınır.,0.0,0.0,,
+az-996,history,3,Sacilərin yarandığı ili yaz.,889,Mısır ғәрәп ғәмәр ғәрәп ғәмәр ғәрә,Mısır ғәрәп ғәмәр ғәрәп ғәмәр ғәрә,0.0,0.0,"kiril, zəncir bərpa etmir",

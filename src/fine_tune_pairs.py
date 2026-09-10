@@ -92,6 +92,26 @@ class Pair:
     target_en: str = ""
     script_en: str = ""
 
+    @property
+    def base_family(self) -> str:
+        """Baza modelinin ailəsi, məsələn `Qwen3-VL-4B-Thinking` -> `Qwen`.
+
+        NİYƏ LAZIMDIR. Zərər verən dörd cütün hamısının bazası Qwen-dir və
+        zərər verməyən dörd cütün heç birininki deyil, yəni "hədəf kirildir"
+        ilə "bazası Qwen-dir" bu dizaynda demək olar ki, eyni proqnozu verir.
+        Bu, iddiaya qarşı ən güclü konfaunddur və `between_pairs.py` onu
+        ölçmək üçün bu sahəni işlədir.
+
+        Ailə HF təşkilatından yox, model adından çıxarılır: `issai/Qolda-AVL-5B`
+        Qwen3-VL üzərində qurulub, amma başqa laboratoriyadan gəlir. Bizi
+        maraqlandıran çəkilərin haradan gəldiyidir, kimin yüklədiyi deyil.
+        """
+        name = self.base.split("/")[-1].lower()
+        for family in ("qwen", "gemma", "llama", "mistral", "phi", "falcon"):
+            if family in name:
+                return family.capitalize() if family != "phi" else "Phi"
+        return "digər"
+
 
 PAIRS = (
     Pair(
@@ -319,6 +339,39 @@ PAIRS = (
         "Hungarian",
         "Latin",
     ),
+    #: BAZA KONFAUNDUNU QIRMAQ ÜÇÜN ELAN EDİLİR, nəticə hesablanmamışdan
+    #: əvvəl. Zərər verən dörd cütün hamısının bazası Qwen-dir, ona görə
+    #: "hədəf kirildir" ilə "bazası Qwen-dir" indiyə qədər demək olar ki,
+    #: eyni proqnozu verirdi. Qwen bazası + LATIN hədəf ikisini ayırır:
+    #: yazı izahı zərər GÖZLƏMİR, baza izahı GÖZLƏYİR.
+    #:
+    #: Macar cütü məhz bu idi və sual-təkrarı qapısından keçmədi. Bu ikisi
+    #: onun əvəzidir və hər ikisinin bazası ARTIQ ölçülüb, yəni cütün baza
+    #: yarısı yenidən qaçırılmır.
+    #:
+    #: Bask/qalisiya/kataloniya (Latxa) və fransız (Luth) hədəfləri
+    #: bütünlüklə latındır. Nəticə nə olursa olsun yazılır: zərər çıxsa,
+    #: yazı izahı zəifləyir və konfaund baza tərəfinə keçir.
+    Pair(
+        "Latın 4 (Qwen bazası)",
+        "Qwen/Qwen3-VL-4B-Instruct",
+        "HiTZ/Latxa-Qwen3-VL-4B-Instruct",
+        "bask",
+        "latın",
+        "Latin 4",
+        "Basque",
+        "Latin",
+    ),
+    Pair(
+        "Latın 5 (Qwen bazası)",
+        "Qwen/Qwen3-1.7B",
+        "kurakurai/Luth-1.7B-Instruct",
+        "fransız",
+        "latın",
+        "Latin 5",
+        "French",
+        "Latin",
+    ),
 )
 
 
@@ -474,13 +527,36 @@ def build_report(dataset, runs, seed: int = 0) -> str:
             for i in range(len(ids))
         ]
         ci = bootstrap_ci(excess, seed=seed)
-        verdict = (
-            "azərbaycanca ƏLAVƏ zərər"
-            if ci.low > 0
-            else "azərbaycanca nisbətən QORUNUB"
-            if ci.high < 0
-            else "fərq sıfırdan ayırd edilmir"
-        )
+        # VERDİKT ÜÇÜN İNTERVAL TƏK BAŞINA BƏS ETMİR.
+        #
+        # Artıq zərər FƏRQ metrikidir və hər iki dil YÜKSƏLƏNDƏ də müsbət
+        # çıxa bilər. `Latın 5` (fransız) belədir: azərbaycanca 6.5%-dən
+        # 10.7%-ə qalxır, ingiliscə 28.6%-dən 38.8%-ə. İnterval sıfırı
+        # kəsmir, amma azərbaycancaya dəyən zərər YOXDUR.
+        #
+        # Simmetrik hal `Türk 1`-dir: mənfi artıq zərər "qorunub" kimi
+        # oxunurdu, halbuki azərbaycanca 10.9 bənd itirmişdi və rəqəm
+        # yalnız ingiliscənin 26.9 bənd çökməsindən mənfi idi.
+        #
+        # Ona görə hər iki verdikt öz dilinin FAKTİKİ istiqamətini tələb
+        # edir. `between_pairs.is_damaged` eyni şərti işlədir; ikisi
+        # ayrılsaydı, layihənin iki cədvəli eyni cüt haqqında bir-birinə
+        # zidd danışardı.
+        # HƏR İKİ İSTİQAMƏTDƏ AYIRICI ŞƏRT AZƏRBAYCANCANIN ÖZ İSTİQAMƏTİDİR,
+        # ingiliscənin yox. İddia azərbaycancaya nə olduğu barədədir.
+        az_fell = az.diff > 0
+        if ci.low > 0:
+            verdict = (
+                "azərbaycanca ƏLAVƏ zərər" if az_fell
+                else "hər iki dil yaxşılaşıb, ingiliscə daha çox"
+            )
+        elif ci.high < 0:
+            verdict = (
+                "ingiliscə daha çox itirib, azərbaycanca da düşüb" if az_fell
+                else "azərbaycanca nisbətən QORUNUB"
+            )
+        else:
+            verdict = "fərq sıfırdan ayırd edilmir"
         translit = compare_paired(
             column(pair.base, "az", TRANSLIT), column(pair.tuned, "az", TRANSLIT), seed=seed
         )

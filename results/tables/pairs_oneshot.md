@@ -5,7 +5,7 @@
 | Qazax 1 | qazax | kiril | 24.3% | 5.2% | +19.1pp | +10.0pp |
 | Kiril 3 (qeyri-qazax) | ukrayna | kiril | 21.4% | 20.2% | +1.2pp | +1.1pp |
 | Rus 1 (ağır) | rus | kiril | 23.9% | 15.2% | +8.6pp | -1.5pp |
-| Rus 2 (yüngül) | rus | kiril | 23.9% | 16.3% | +7.6pp | -0.8pp |
+| Rus 2 (yüngül) | rus | kiril | 23.9% | 16.7% | +7.2pp | -0.8pp |
 | Latın 3 (qeyri-türk) | norveç | latın | 21.4% | 21.5% | -0.1pp | +3.0pp |
 | SEA (qarışıq yazı) | cənub-şərqi asiya | qarışıq | 25.5% | 26.2% | -0.7pp | +0.2pp |
 
@@ -20,7 +20,7 @@ kifayət etmir: hər fine-tune bir qədər unutdurur.
 | Qazax 1 | kiril | +9.2pp | [+6.0, +12.5] | azərbaycanca ƏLAVƏ zərər |
 | Kiril 3 (qeyri-qazax) | kiril | +0.1pp | [-2.9, +3.2] | fərq sıfırdan ayırd edilmir |
 | Rus 1 (ağır) | kiril | +10.1pp | [+7.0, +13.0] | azərbaycanca ƏLAVƏ zərər |
-| Rus 2 (yüngül) | kiril | +8.3pp | [+5.4, +11.4] | azərbaycanca ƏLAVƏ zərər |
+| Rus 2 (yüngül) | kiril | +8.0pp | [+4.9, +10.9] | azərbaycanca ƏLAVƏ zərər |
 | Latın 3 (qeyri-türk) | latın | -3.1pp | [-6.0, -0.5] | azərbaycanca nisbətən QORUNUB |
 | SEA (qarışıq yazı) | qarışıq | -0.9pp | [-2.8, +1.1] | fərq sıfırdan ayırd edilmir |
 
@@ -31,7 +31,7 @@ kifayət etmir: hər fine-tune bir qədər unutdurur.
 | Qazax 1 | +19.1pp | +16.6pp | 84.9% |
 | Kiril 3 (qeyri-qazax) | +1.2pp | +0.8pp | 0.0% |
 | Rus 1 (ağır) | +8.6pp | +8.4pp | 13.8% |
-| Rus 2 (yüngül) | +7.6pp | +7.6pp | 7.7% |
+| Rus 2 (yüngül) | +7.2pp | +7.0pp | 8.1% |
 | Latın 3 (qeyri-türk) | -0.1pp | -0.6pp | 0.0% |
 | SEA (qarışıq yazı) | -0.7pp | -1.1pp | 0.2% |
 
@@ -46,7 +46,7 @@ edilmiş və hipotezi ümumiyyətlə sınamayan testlər onu cəzalandırmamalı
 Kəşfiyyatçı süpürgə silinmir: `analyze.py` cədvəllərində qalır və orada
 öz ailəsi ilə düzəldilir.
 
-Ailə 48 testdir: 11 elan edilmiş cüt, 4 zəncir, 2 dil.
+Ailə 48 testdir: 13 elan edilmiş cüt, 4 zəncir, 2 dil.
 
 | Cüt | Dil | Zəncir | Baza | Köklənmiş | Fərq | p | p (Holm) | Mənalı |
 |---|---|---|---|---|---|---|---|---|
@@ -74,10 +74,10 @@ Ailə 48 testdir: 11 elan edilmiş cüt, 4 zəncir, 2 dil.
 | Rus 1 (ağır) | EN | morph | 47.2% | 48.7% | -1.5pp | 0.2074 | 1.0000 | xeyr |
 | Rus 1 (ağır) | EN | lenient | 47.2% | 48.7% | -1.5pp | 0.2074 | 1.0000 | xeyr |
 | Rus 1 (ağır) | EN | translit | 47.2% | 48.7% | -1.5pp | 0.2074 | 1.0000 | xeyr |
-| Rus 2 (yüngül) | AZ | strict | 23.9% | 16.3% | +7.6pp | 0.0001 | 0.0048 | bəli |
-| Rus 2 (yüngül) | AZ | morph | 24.8% | 17.1% | +7.7pp | 0.0001 | 0.0048 | bəli |
-| Rus 2 (yüngül) | AZ | lenient | 25.2% | 17.2% | +8.1pp | 0.0001 | 0.0048 | bəli |
-| Rus 2 (yüngül) | AZ | translit | 25.4% | 17.9% | +7.6pp | 0.0001 | 0.0048 | bəli |
+| Rus 2 (yüngül) | AZ | strict | 23.9% | 16.7% | +7.2pp | 0.0001 | 0.0048 | bəli |
+| Rus 2 (yüngül) | AZ | morph | 24.8% | 17.7% | +7.1pp | 0.0001 | 0.0048 | bəli |
+| Rus 2 (yüngül) | AZ | lenient | 25.2% | 17.8% | +7.5pp | 0.0001 | 0.0048 | bəli |
+| Rus 2 (yüngül) | AZ | translit | 25.4% | 18.5% | +7.0pp | 0.0001 | 0.0048 | bəli |
 | Rus 2 (yüngül) | EN | strict | 47.2% | 48.0% | -0.8pp | 0.4705 | 1.0000 | xeyr |
 | Rus 2 (yüngül) | EN | morph | 47.2% | 48.1% | -0.9pp | 0.4061 | 1.0000 | xeyr |
 | Rus 2 (yüngül) | EN | lenient | 47.2% | 48.1% | -0.9pp | 0.4061 | 1.0000 | xeyr |

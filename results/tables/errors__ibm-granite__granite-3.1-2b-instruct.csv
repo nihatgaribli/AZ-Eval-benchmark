@@ -26,10 +26,10 @@ az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,Bəhruz K�
 
 ""Bəhruz Kəngərlinin v",0.0,0.0,,
 az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,"Hansı yerlər, torpağa tapşaqların üzgünüzü gözükç","Cavab: Hansı yerlər, torpağa tapşaqların üzgünüzü gözükç",0.0,0.0,,
-az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Sual: Seyid Əzim Şirvaninin dəfn yerini yaz,"Sual: Seyid Əzim Şirvaninin dəfn yerini yaz.
+az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,,"Sual: Seyid Əzim Şirvaninin dəfn yerini yaz.
 Cavab:
 
-Şirv",0.0,0.0,,
+Şirv",0.0,0.0,boş cavab,
 az-1023,culture,2,Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb?,Məkkə,"Ezir, Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb","Cavab: Ezir, Zeynalabdin Şirvani hansı yerdə torpağa tapşırılıb",0.0,0.0,,
 az-1030,culture,1,Ömər Qoçulu nə ilə məşğul olub?,memar,"Ömər Qoçulu, ilə məşğul olub, 100°C (212°F)","Ömər Qoçulu, ilə məşğul olub, 100°C (212°F)",0.0,0.0,,
 az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Əli Vəkilin fəaliyyət növünü,"Əli Vəkilin fəaliyyət növünü:
@@ -100,7 +100,7 @@ az-519,geography,—,Abşeron yarımadası harada yerləşir?,Xəzər dənizind�
 az-527,geography,—,Göygöl gölü harada yerləşir?,Kiçik Qafqazda,Göygöl gölü harada yerləşir,Göygöl gölü harada yerləşir.,0.0,0.0,,
 az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,Ekşik,Cavab: Ekşik.,0.0,0.0,,
 az-540,science,—,Neftin əsas tərkib hissəsi nədir?,Karbohidrogenlər,"Neftin əsas tərkib hissəsi, 14.7 PSI (Pounds per Square Inch) t","Neftin əsas tərkib hissəsi, 14.7 PSI (Pounds per Square Inch) t",0.0,0.0,,
-az-550,science,—,İşığın sürəti neçədir?,300.000 km/s,Sual: İşığın sürəti neçədir,"Sual: İşığın sürəti neçədir?
+az-550,science,—,İşığın sürəti neçədir?,300.000 km/s,"İşığın sürəti, bir k","Sual: İşığın sürəti neçədir?
 Cavab: İşığın sürəti, bir k",0.0,0.0,,
 az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,"İnsan bədənində sümük, hammadatlık ve hammadatlık üçün üst","İnsan bədənində sümük, hammadatlık ve hammadatlık üçün üst",0.0,0.2,qismən üst-üstə düşmə,
 az-565,science,—,Ən yungul element hansıdır?,Hidrogen,Ən yungul element hansıdır: Hydrogen (H),"Ən yungul element hansıdır: Hydrogen (H)

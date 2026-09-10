@@ -2,11 +2,13 @@
 
 | Model                                                 | Dil | STRICT | MORPH | LENIENT | TRANSLIT | morfologiya | diakritika | yazı sistemi |
 |-------------------------------------------------------|-----|--------|-------|---------|----------|-------------|------------|--------------|
-| CohereLabs/aya-expanse-8b                             | AZ  | 11.1%  | 11.7% | 11.9%   | 11.9%    | +0.6pp      | +0.2pp     | +0.0pp       |
+| CohereLabs/aya-expanse-8b                             | AZ  | 11.2%  | 11.8% | 12.0%   | 12.0%    | +0.6pp      | +0.2pp     | +0.0pp       |
 | CohereLabs/aya-expanse-8b                             | EN  | 47.4%  | 47.4% | 47.4%   | 47.4%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | GiorgiGE/Kolkha-Mini-Georgian                         | AZ  | 0.1%   | 0.1%  | 0.1%    | 0.1%     | +0.0pp      | +0.0pp     | +0.0pp       |
+| HiTZ/Latxa-Qwen3-VL-4B-Instruct                       | AZ  | 16.2%  | 16.6% | 16.9%   | 16.9%    | +0.4pp      | +0.3pp     | +0.0pp       |
+| HiTZ/Latxa-Qwen3-VL-4B-Instruct                       | EN  | 49.8%  | 49.8% | 49.8%   | 49.8%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | HuggingFaceTB/SmolLM2-1.7B-Instruct                   | AZ  | 0.0%   | 0.0%  | 0.0%    | 0.0%     | +0.0pp      | +0.0pp     | +0.0pp       |
-| HuggingFaceTB/SmolLM2-1.7B-Instruct                   | EN  | 24.6%  | 24.6% | 24.6%   | 24.6%    | +0.0pp      | +0.0pp     | +0.0pp       |
+| HuggingFaceTB/SmolLM2-1.7B-Instruct                   | EN  | 24.7%  | 24.7% | 24.7%   | 24.7%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0 (oneshot) | AZ  | 20.2%  | 21.6% | 21.9%   | 21.9%    | +1.4pp      | +0.3pp     | +0.0pp       |
 | INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0 (oneshot) | EN  | 47.0%  | 47.0% | 47.1%   | 47.1%    | +0.0pp      | +0.1pp     | +0.0pp       |
 | INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0           | AZ  | 13.7%  | 14.5% | 14.6%   | 14.6%    | +0.8pp      | +0.1pp     | +0.0pp       |
@@ -19,7 +21,7 @@
 | Qwen/Qwen3-1.7B                                       | EN  | 28.6%  | 28.6% | 28.7%   | 28.7%    | +0.0pp      | +0.1pp     | +0.0pp       |
 | Qwen/Qwen3-4B (oneshot)                               | AZ  | 23.9%  | 24.8% | 25.2%   | 25.4%    | +0.9pp      | +0.5pp     | +0.2pp       |
 | Qwen/Qwen3-4B (oneshot)                               | EN  | 47.2%  | 47.2% | 47.2%   | 47.2%    | +0.0pp      | +0.0pp     | +0.0pp       |
-| Qwen/Qwen3-4B                                         | AZ  | 20.0%  | 20.9% | 21.3%   | 21.4%    | +0.9pp      | +0.4pp     | +0.1pp       |
+| Qwen/Qwen3-4B                                         | AZ  | 20.1%  | 21.0% | 21.4%   | 21.5%    | +0.9pp      | +0.4pp     | +0.1pp       |
 | Qwen/Qwen3-4B                                         | EN  | 45.4%  | 45.5% | 45.5%   | 45.5%    | +0.1pp      | +0.0pp     | +0.0pp       |
 | Qwen/Qwen3-VL-4B-Instruct (oneshot)                   | AZ  | 25.5%  | 26.0% | 26.3%   | 26.3%    | +0.5pp      | +0.3pp     | +0.0pp       |
 | Qwen/Qwen3-VL-4B-Instruct (oneshot)                   | EN  | 55.3%  | 55.3% | 55.3%   | 55.3%    | +0.0pp      | +0.0pp     | +0.0pp       |
@@ -33,7 +35,7 @@
 | Qwen/Qwen3-VL-4B-Thinking (oneshot)                   | EN  | 55.3%  | 55.3% | 55.3%   | 55.3%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | Qwen/Qwen3-VL-4B-Thinking (plain)                     | AZ  | 23.5%  | 24.4% | 24.6%   | 24.6%    | +0.9pp      | +0.2pp     | +0.0pp       |
 | Qwen/Qwen3-VL-4B-Thinking (plain)                     | EN  | 46.6%  | 46.6% | 46.6%   | 46.6%    | +0.0pp      | +0.0pp     | +0.0pp       |
-| Qwen/Qwen3-VL-4B-Thinking (zeroshot)                  | AZ  | 5.9%   | 6.0%  | 6.0%    | 6.0%     | +0.1pp      | +0.0pp     | +0.0pp       |
+| Qwen/Qwen3-VL-4B-Thinking (zeroshot)                  | AZ  | 8.6%   | 8.8%  | 8.9%    | 8.9%     | +0.2pp      | +0.1pp     | +0.0pp       |
 | Qwen/Qwen3-VL-4B-Thinking (zeroshot)                  | EN  | 7.1%   | 7.2%  | 7.2%    | 7.2%     | +0.1pp      | +0.0pp     | +0.0pp       |
 | Qwen/Qwen3-VL-4B-Thinking                             | AZ  | 27.9%  | 29.1% | 29.6%   | 29.6%    | +1.2pp      | +0.5pp     | +0.0pp       |
 | Qwen/Qwen3-VL-4B-Thinking                             | EN  | 55.2%  | 55.2% | 55.2%   | 55.2%    | +0.0pp      | +0.0pp     | +0.0pp       |
@@ -45,7 +47,7 @@
 | RefalMachine/RuadaptQwen3-4B-Hybrid                   | EN  | 48.5%  | 48.5% | 48.5%   | 48.5%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | Trendyol/Trendyol-LLM-7b-base-v1.0                    | AZ  | 6.3%   | 6.6%  | 6.8%    | 6.8%     | +0.3pp      | +0.2pp     | +0.0pp       |
 | Trendyol/Trendyol-LLM-7b-base-v1.0                    | EN  | 25.8%  | 26.3% | 26.4%   | 26.4%    | +0.5pp      | +0.1pp     | +0.0pp       |
-| Vikhrmodels/QVikhr-3-4B-Instruction (oneshot)         | AZ  | 16.3%  | 17.1% | 17.2%   | 17.9%    | +0.8pp      | +0.1pp     | +0.7pp       |
+| Vikhrmodels/QVikhr-3-4B-Instruction (oneshot)         | AZ  | 16.7%  | 17.7% | 17.8%   | 18.5%    | +1.0pp      | +0.1pp     | +0.7pp       |
 | Vikhrmodels/QVikhr-3-4B-Instruction (oneshot)         | EN  | 48.0%  | 48.1% | 48.1%   | 48.1%    | +0.1pp      | +0.0pp     | +0.0pp       |
 | Vikhrmodels/QVikhr-3-4B-Instruction                   | AZ  | 18.3%  | 18.7% | 18.8%   | 19.5%    | +0.4pp      | +0.1pp     | +0.7pp       |
 | Vikhrmodels/QVikhr-3-4B-Instruction                   | EN  | 45.9%  | 46.0% | 46.0%   | 46.0%    | +0.1pp      | +0.0pp     | +0.0pp       |
@@ -57,6 +59,8 @@
 | aisingapore/Qwen-SEA-LION-v4-4B-VL                    | EN  | 54.8%  | 54.8% | 54.8%   | 54.8%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | bigscience/bloomz-1b7                                 | AZ  | 0.0%   | 0.0%  | 0.0%    | 0.0%     | +0.0pp      | +0.0pp     | +0.0pp       |
 | bigscience/bloomz-1b7                                 | EN  | 3.9%   | 3.9%  | 3.9%    | 3.9%     | +0.0pp      | +0.0pp     | +0.0pp       |
+| elte-nlp/Racka-4B                                     | AZ  | 10.8%  | 11.0% | 11.2%   | 11.2%    | +0.2pp      | +0.2pp     | +0.0pp       |
+| elte-nlp/Racka-4B                                     | EN  | 23.1%  | 23.1% | 23.3%   | 23.3%    | +0.0pp      | +0.2pp     | +0.0pp       |
 | google/gemma-3-4b-it (oneshot)                        | AZ  | 21.4%  | 22.5% | 22.7%   | 22.7%    | +1.1pp      | +0.2pp     | +0.0pp       |
 | google/gemma-3-4b-it (oneshot)                        | EN  | 48.1%  | 48.1% | 48.1%   | 48.1%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | google/gemma-3-4b-it                                  | AZ  | 20.5%  | 21.5% | 21.9%   | 21.9%    | +1.0pp      | +0.4pp     | +0.0pp       |
@@ -74,7 +78,9 @@
 | issai/Qolda-AVL-5B                                    | AZ  | 4.4%   | 4.4%  | 4.4%    | 9.2%     | +0.0pp      | +0.0pp     | +4.7pp       |
 | issai/Qolda-AVL-5B                                    | EN  | 41.5%  | 41.5% | 41.5%   | 41.5%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | issai/Qwen3.5-4B-Base-Kazakh                          | AZ  | 17.1%  | 17.7% | 17.9%   | 19.2%    | +0.6pp      | +0.2pp     | +1.3pp       |
-| issai/Qwen3.5-4B-Base-Kazakh                          | EN  | 50.1%  | 50.1% | 50.1%   | 50.1%    | +0.0pp      | +0.0pp     | +0.0pp       |
+| issai/Qwen3.5-4B-Base-Kazakh                          | EN  | 50.2%  | 50.2% | 50.2%   | 50.2%    | +0.0pp      | +0.0pp     | +0.0pp       |
+| kurakurai/Luth-1.7B-Instruct                          | AZ  | 10.7%  | 10.7% | 11.1%   | 11.1%    | +0.0pp      | +0.4pp     | +0.0pp       |
+| kurakurai/Luth-1.7B-Instruct                          | EN  | 39.0%  | 39.0% | 39.0%   | 39.0%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | meta-llama/Meta-Llama-3-8B                            | AZ  | 33.7%  | 34.9% | 35.1%   | 35.1%    | +1.2pp      | +0.2pp     | +0.0pp       |
 | meta-llama/Meta-Llama-3-8B                            | EN  | 52.6%  | 52.6% | 52.6%   | 52.6%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | microsoft/Phi-3.5-mini-instruct                       | AZ  | 3.1%   | 3.3%  | 3.3%    | 3.3%     | +0.2pp      | +0.0pp     | +0.0pp       |
@@ -91,7 +97,7 @@
 | openai:meta-llama/llama-4-maverick                    | EN  | 68.5%  | 68.5% | 68.6%   | 68.6%    | +0.0pp      | +0.1pp     | +0.0pp       |
 | openai:openai/gpt-4o                                  | AZ  | 66.7%  | 68.0% | 68.4%   | 68.4%    | +1.3pp      | +0.4pp     | +0.0pp       |
 | openai:openai/gpt-4o                                  | EN  | 70.4%  | 70.4% | 70.4%   | 70.4%    | +0.0pp      | +0.0pp     | +0.0pp       |
-| openai:qwen/qwen3-235b-a22b-2507                      | AZ  | 48.8%  | 49.9% | 50.4%   | 50.5%    | +1.1pp      | +0.5pp     | +0.1pp       |
+| openai:qwen/qwen3-235b-a22b-2507                      | AZ  | 49.8%  | 50.9% | 51.4%   | 51.5%    | +1.1pp      | +0.5pp     | +0.1pp       |
 | openai:qwen/qwen3-235b-a22b-2507                      | EN  | 64.0%  | 64.0% | 64.0%   | 64.0%    | +0.0pp      | +0.0pp     | +0.0pp       |
 | openai:qwen/qwen3-8b                                  | AZ  | 28.1%  | 29.2% | 29.2%   | 29.2%    | +1.1pp      | +0.0pp     | +0.0pp       |
 | openai:qwen/qwen3-8b                                  | EN  | 55.7%  | 55.7% | 55.7%   | 55.7%    | +0.0pp      | +0.0pp     | +0.0pp       |

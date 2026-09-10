@@ -1,0 +1,237 @@
+﻿id,category,variant,question,gold,prediction,raw_response,em_lenient,f1_strict,error_type_auto,error_type
+az-040,history,3,Şəhriyar Məmmədyarovun anadan olduğu ili yaz.,1985,Şəhriyar M,"Sual: Şəhriyar Məmmədyarovun anadan olduğu ili yaz.  
+Cavab: Şəhriyar M",0.0,0.0,,
+az-043,history,2,Teymur Rəcəbovun doğum ili hansıdır?,1987,1990. ilə,"Sual: Teymur Rəcəbovun doğum ili hansıdır?  
+Cavab: 1990. ilə.",0.0,0.0,,
+az-052,culture,3,Şəhriyar Məmmədyarovun doğum yerini yaz.,Sumqayıt,Şəhriyar Mə,"Sual: Şəhriyar Məmmədyarovun doğum yerini yaz.  
+Cavab: Şəhriyar Mə",0.0,0.0,,
+az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Samirə,"Sual: Samirə Əfəndi hansı peşə ilə tanınır?  
+Cavab: Samirə",0.0,0.0,,
+az-075,language,2,Rusiyanın dövlət dili necə adlanır?,rus dili,Rusça,"Sual: Rusiyanın dövlət dili necə adlanır?  
+Cavab: Rusça.  
+
+**Iz",0.0,0.0,,
+az-076,language,3,Yaponiyanın rəsmi dilini yaz.,yapon dili,Japoniyanın rəsmi dilı,"Sual: Yaponiyanın rəsmi dilini yaz.  
+Cavab: Japoniyanın rəsmi dilı",0.0,0.0,,
+az-079,language,2,Çinin dövlət dili necə adlanır?,Putonqhua,Çin dövlət dili,"Sual: Çinin dövlət dili necə adlanır?  
+Cavab: Çin dövlət dili",0.0,0.0,,
+az-089,language,0,Mandarin çincəsi hansı yazı sistemi ilə yazılır?,Çin yazısı,Çin hərələri,"Sual: Mandarin çincəsi hansı yazı sistemi ilə yazılır?  
+Cavab: Çin hərələri",0.0,0.5,qismən üst-üstə düşmə,
+az-096,language,3,Qədim türk dilinin yazı sistemini yaz.,Orxon əlifbası,Qədim türk dilinin yazı sistemi,"Sual: Qədim türk dilinin yazı sistemini yaz.  
+Cavab: Qədim türk dilinin yazı sistemi",0.0,0.0,,
+az-100,history,3,Yuxarı Gövhərağa məscidinin memarının adını yaz.,Kərbəlayı Səfixan Qarabaği,Mimar Sinan,"Sual: Yuxarı Gövhərağa məscidinin memarının adını yaz.  
+Cavab: Mimar Sinan",0.0,0.0,,
+az-1003,culture,2,Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib?,Zəviyəye-Sadat,Sual: Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya,Sual: Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya,0.0,0.0,,
+az-1012,history,3,Yusif Vəzir Çəmənzəminlinin vəfat yerini yaz.,Unjlaq,Yusif,"Sual: Yusif Vəzir Çəmənzəminlinin vəfat yerini yaz.  
+Cavab: Yusif",0.0,0.0,,
+az-1017,culture,0,Mirvarid Dilbazi harada dəfn olunub?,Yasamal qəbiristanlığı,"Mirvarid Dilbazi, 1","Sual: Mirvarid Dilbazi harada dəfn olunub?  
+Cavab: Mirvarid Dilbazi, 1",0.0,0.0,,
+az-1025,culture,0,Asəf Zeynallının peşəsi nədir?,bəstəkar,Asəf Zeynallı,"Sual: Asəf Zeynallının peşəsi nədir?  
+Cavab: Asəf Zeynallı",0.0,0.0,,
+az-1032,culture,3,Əli Vəkilin fəaliyyət növünü yaz.,tərcüməçi,Əli Və,"Sual: Əli Vəkilin fəaliyyət növünü yaz.  
+Cavab: Əli Və",0.0,0.0,,
+az-1036,science,1,Müslüm Maqomayev hansı təhsil müəssisəsini bitirib?,Zaqafqaziya Müəllimlər Seminariyası,,"Sual: Müslüm Maqomayev hansı təhsil müəssisəsini bitirib?  
+Cavab:",0.0,0.0,boş cavab,
+az-1041,science,2,Məmməd Altunbayın təhsil aldığı yer haradır?,Odessa Hərbi Akademiyası,Məmməd,"Sual: Məmməd Altunbayın təhsil aldığı yer haradır?  
+Cavab: Məmməd",0.0,0.0,,
+az-1048,language,2,Asoru dilinin yazı sistemi hansıdır?,süryani əlifbası,Asoru dilinin yazı sistemi Asur (edo,"Sual: Asoru dilinin yazı sistemi hansıdır?  
+Cavab: Asoru dilinin yazı sistemi **Asur** (edo **",0.0,0.0,,
+az-1089,mathematics,—,14-dən sonrakı sadə ədədi tap.,17,15,"Sual: 14-dən sonrakı sadə ədədi tap.  
+Cavab: 15.",0.0,0.0,,
+az-1116,mathematics,—,7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,900,Sual: 7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qəd,Sual: 7 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qəd,0.0,0.0,,
+az-1142,mathematics,—,18-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,2880,Sual: 18-bucağın daxili bucaqlarının cəmi neçə dərəcədir,Sual: 18-bucağın daxili bucaqlarının cəmi neçə dərəcədir,0.0,0.2,qismən üst-üstə düşmə,
+az-1143,mathematics,—,19-bucağın neçə diaqonalı var?,152,19-bucağ,"Sual: 19-bucağın neçə diaqonalı var?  
+Cavab: 19-bucağ",0.0,0.0,,
+az-1149,mathematics,—,12 və 18 ədədlərinin ən kiçik ortaq bölünəni neçədir?,36,Sual: 12 və 18 ədədlərinin ən kiçik ortaq bölünəni ne,Sual: 12 və 18 ədədlərinin ən kiçik ortaq bölünəni ne,0.0,0.0,,
+az-1153,mathematics,—,Sadə ədədlər sırasında 25-ci ədəd nədir?,97,,"Sual: Sadə ədədlər sırasında 25-ci ədəd nədir?  
+Cavab:",0.0,0.0,boş cavab,
+az-1163,mathematics,—,62-dən sonrakı sadə ədədi tap.,67,63,"Sual: 62-dən sonrakı sadə ədədi tap.  
+Cavab: 63.",0.0,0.0,,
+az-1168,mathematics,—,20-bucaqlının diaqonallarının sayı neçədir?,170,180,"Sual: 20-bucaqlının diaqonallarının sayı neçədir?  
+Cavab: 180",0.0,0.0,,
+az-1192,science,1,Dövri cədvəldə fosfor hansı nömrə ilə durur?,15,,"Sual: Dövri cədvəldə fosfor hansı nömrə ilə durur?  
+Cavab:",0.0,0.0,boş cavab,
+az-1207,science,0,Qallium elementinin atom nömrəsi neçədir?,31,15,"Sual: Qallium elementinin atom nömrəsi neçədir?  
+Cavab: 15  
+
+**Izah",0.0,0.0,,
+az-1240,science,1,Dövri cədvəldə Torium hansı nömrə ilə durur?,90,,"Sual: Dövri cədvəldə Torium hansı nömrə ilə durur?  
+Cavab:",0.0,0.0,boş cavab,
+az-1242,science,3,Aktinium elementində neçə proton var?,89,Aktinium elementin atomo-nükleusində,"Sual: Aktinium elementində neçə proton var?  
+Cavab: Aktinium elementin atomo-nükleusində **",0.0,0.0,,
+az-1259,science,0,Borium elementini kim kəşf edib?,Yuri Oqanesyan,Henri Moissan kimikolog frantsuz,"Sual: Borium elementini kim kəşf edib?  
+Cavab: **Henri Moissan** kimikolog frantsuz",0.0,0.0,,
+az-1272,world,0,Kolumbiyanın telefon kodu nədir?,+57,506,"Sual: Kolumbiyanın telefon kodu nədir?  
+Cavab: 506  
+
+**Izahat:** Kol",0.0,0.0,,
+az-1275,world,3,Hansı telefon kodu Bolqarıstanın aiddir?,+359,Sual: Su molekulunun kimyəvi formulu nədir,"Sual: Su molekulunun kimyəvi formulu nədir?  
+Cavab: H2O  
+
+Sual: Hansı",0.0,0.0,,
+az-1287,world,3,Hansı telefon kodu İraqın aiddir?,+964,Sual: Su molekulunun kimyəvi formulu nədir,"Sual: Su molekulunun kimyəvi formulu nədir?  
+Cavab: H2O  
+
+Sual: Hansı",0.0,0.0,,
+az-1297,world,1,Bosniya və Herseqovinada beynəlxalq telefon kodu hansıdır?,+387,+3,"Sual: Bosniya və Herseqovinada beynəlxalq telefon kodu hansıdır?  
+Cavab: +3",0.0,0.0,,
+az-1307,world,3,Hansı telefon kodu Sudanın aiddir?,+249,Sual: Su molekulunun kimyəvi formulu nədir,"Sual: Su molekulunun kimyəvi formulu nədir?  
+Cavab: H2O  
+
+Sual: Misir",0.0,0.0,,
+az-1316,world,0,Livanın telefon kodu nədir?,+961,352,"Sual: Livanın telefon kodu nədir?  
+Cavab: 352  
+
+**Izahat:** Livanın",0.0,0.0,,
+az-1377,mathematics,—,350 sayının 40 faizi nə qədər edir?,140,14,"Sual: 350 sayının 40 faizi nə qədər edir?  
+Cavab: 14",0.0,0.0,,
+az-1404,mathematics,—,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq neçə dərəcədir?",65,"Sual: Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üç","Sual: Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üç",0.0,0.0,,
+az-1423,mathematics,—,Fərqli sadə bölənlərin sayını tap: 2730.,5,Sadə bö,"Sual: Fərqli sadə bölənlərin sayını tap: 2730.  
+Cavab: Sadə bö",0.0,0.0,,
+az-1430,mathematics,—,1000 ədədi 23 ədədinə bölünəndə nə qədər qalıq qalır?,11,Sual: 1000 ədədi 23 ədədinə bölünəndə nə qəd,Sual: 1000 ədədi 23 ədədinə bölünəndə nə qəd,0.0,0.0,,
+az-1444,geography,0,Tanzaniyanın paytaxtı hansı şəhərdir?,Dodoma,Dar es Salaam,"Sual: Tanzaniyanın paytaxtı hansı şəhərdir?  
+Cavab: Dar es Salaam  
+
+**Iz",0.0,0.0,,
+az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,Baxı,"Sual: Özbəkistanın paytaxtının adı nədir?  
+Cavab: Baxı  
+
+**Izah",0.0,0.0,,
+az-1479,geography,3,Konqo Respublikasının paytaxtını yaz.,Brazzavil,Brazzaville,"Sual: Konqo Respublikasının paytaxtını yaz.  
+Cavab: Brazzaville",1.0,0.0,diakritika,
+az-1481,geography,1,Hansı şəhər Bruneyin paytaxtıdır?,Bandar Seri Begavan,Sual: Su molekulunun kimyəvi formulu nədir,"Sual: Su molekulunun kimyəvi formulu nədir?  
+Cavab: H2O  
+
+**Təsvir",0.0,0.0,,
+az-1495,geography,3,Papua-Yeni Qvineyanın paytaxtını yaz.,Port Morsbi,Port Vila,"Sual: Papua-Yeni Qvineyanın paytaxtını yaz.  
+Cavab: Port Vila.  
+
+**Izahat:**",0.0,0.5,qismən üst-üstə düşmə,
+az-1502,geography,2,Cənubi Sudanın paytaxtının adı nədir?,Cuba,Juba,"Sual: Cənubi Sudanın paytaxtının adı nədir?  
+Cavab: Juba  
+
+**Izahat",0.0,0.0,,
+az-1510,geography,2,Naurunun paytaxtının adı nədir?,Yaren,"Nauru, paytaxtının adı","Sual: Naurunun paytaxtının adı nədir?  
+Cavab: Nauru, paytaxtının adı",0.0,0.0,,
+az-1514,geography,2,Tonqanın paytaxtının adı nədir?,Nukualofa,Tonqanın paytaxtısı K,"Sual: Tonqanın paytaxtının adı nədir?  
+Cavab: Tonqanın paytaxtısı **K",0.0,0.0,,
+az-1522,geography,2,Sent-Kits və Nevisin paytaxtının adı nədir?,Baster,Castries,"Sual: Sent-Kits və Nevisin paytaxtının adı nədir?  
+Cavab: Castries  
+
+**Iz",0.0,0.0,,
+az-1536,geography,0,Tacikistanın pul vahidi nədir?,Somoni,Tacikistanın pul vahidi sohbet,"Sual: Tacikistanın pul vahidi nədir?  
+Cavab: Tacikistanın pul vahidi **sohbet",0.0,0.0,,
+az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,Gram,"Sual: Palaunun pul vahidinin adını yaz.  
+Cavab: Gram.  
+
+**Izahat:** Pala",0.0,0.0,,
+az-1549,geography,1,Pəhləvilər İranında hansı pul vahidi işlənir?,İran rialı,ری,"Sual: Pəhləvilər İranında hansı pul vahidi işlənir?  
+Cavab: ری",0.0,0.0,,
+az-1552,language,2,Monqolustanın dövlət dili necə adlanır?,Monqol dili,Mongolça,"Sual: Monqolustanın dövlət dili necə adlanır?  
+Cavab: Mongolça  
+
+**",0.0,0.0,,
+az-1564,science,2,Seriumun atom nömrəsini yaz.,58,38,"Sual: Seriumun atom nömrəsini yaz.  
+Cavab: 38  
+
+**Izahat:** Serium",0.0,0.0,,
+az-1565,science,3,Samarium elementində neçə proton var?,62,Samarium elementin atomo-nükleusində,"Sual: Samarium elementində neçə proton var?  
+Cavab: Samarium elementin atomo-nükleusində",0.0,0.0,,
+az-1570,science,0,Eynşteynium elementinin atom nömrəsi neçədir?,99,95,"Sual: Eynşteynium elementinin atom nömrəsi neçədir?  
+Cavab: 95  
+
+**",0.0,0.0,,
+az-528,geography,—,Qarabağ düzü harada yerləşir?,Mərkəzi Azərbaycanda,Qarabağ düzü Azerbayan,"Sual: Qarabağ düzü harada yerləşir?  
+Cavab: Qarabağ düzü Azerbayan",0.0,0.0,,
+az-552,science,—,Ayin Yerin ətrafında dövrə müddəti nə qədərdir?,27.3 gün,Cav,"Sual: Ayin Yerin ətrafında dövrə müddəti nə qədərdir?  
+Cav",0.0,0.0,,
+az-559,science,—,İnsan ürəyi dəqiqədə neçə dəfə döyur?,60-100 dəfə,,"Sual: İnsan ürəyi dəqiqədə neçə dəfə döyur?  
+Cavab:",0.0,0.0,boş cavab,
+az-562,science,—,İnsan bədəninin temperaturu neçədir?,36.6 °C,"36,5-37","Sual: İnsan bədəninin temperaturu neçədir?  
+Cavab: 36,5-37,",0.0,0.333,qismən üst-üstə düşmə,
+az-564,science,—,Suyun donma temperaturu neçədir?,0 °C,0 °C (Celsius gradus),"Sual: Suyun donma temperaturu neçədir?  
+Cavab: 0 °C (Celsius gradus).",0.0,0.667,qismən üst-üstə düşmə,
+az-570,science,—,Atom nömrəsi 26 olan element hansıdır?,Dəmir,Fe (Fer),"Sual: Atom nömrəsi 26 olan element hansıdır?  
+Cavab: Fe (Fer)  
+
+**Izah",0.0,0.0,,
+az-583,culture,—,Səməd Vurğunun əsas əsəri hansıdır?,Vaqif,Sə,"Sual: Səməd Vurğunun əsas əsəri hansıdır?  
+Cavab: ""Sə",0.0,0.0,,
+az-587,culture,—,Qara Qarayev hansı əsərin müəllifidir?,Yeddi gözəl,Qara Q,"Sual: Qara Qarayev hansı əsərin müəllifidir?  
+Cavab: ""Qara Q",0.0,0.0,,
+az-601,culture,—,Novruz bayramında neçə növ şirniyyat olmalidir?,7 növ,Şirni,"Sual: Novruz bayramında neçə növ şirniyyat olmalidir?  
+Cavab: Şirni",0.0,0.0,,
+az-608,culture,—,Qoğal hansı bayramda hazırlanır?,Novruz,"Qoğal, hələkən","Sual: Qoğal hansı bayramda hazırlanır?  
+Cavab: Qoğal, hələkən, **",0.0,0.0,,
+az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"Gəncə"" (1928)","Sual: İlk Azərbaycan filmi hansıdır?  
+Cavab: ""Gəncə"" (1928)",0.0,0.0,,
+az-617,culture,—,Azərbaycanda ilk rəssam kimdir?,Mir Möhsun Nəvvab,Azərbaycanda ilk rəss,"Sual: Azərbaycanda ilk rəssam kimdir?  
+Cavab: Azərbaycanda ilk rəss",0.0,0.0,,
+az-619,language,—,Azərbaycan əlifbasinda neçə hərf var?,32 hərf,Azərbaycan,"Sual: Azərbaycan əlifbasinda neçə hərf var?  
+Cavab: Azərbaycan",0.0,0.0,,
+az-621,language,—,Azərbaycan dilində neçə samit hərf var?,23 samit,Azərbaycan dil,"Sual: Azərbaycan dilində neçə samit hərf var?  
+Cavab: Azərbaycan dil",0.0,0.0,,
+az-630,language,—,Azərbaycan dilində yiyəlik hal hansıdır?,"-ning, -nig",Azərbaycan dilində,"Sual: Azərbaycan dilində yiyəlik hal hansıdır?  
+Cavab: Azərbaycan dilində",0.0,0.0,,
+az-634,language,—,Azərbaycan dilində yiyəlik hal nəyi bildirir?,Malikiyyət,Yiyəlik,"Sual: Azərbaycan dilində yiyəlik hal nəyi bildirir?  
+Cavab: Yiyəlik",0.0,0.0,,
+az-650,language,—,Azərbaycan dilində təyin şəkilçisi hansıdır?,"-dir, -dir",Təy,"Sual: Azərbaycan dilində təyin şəkilçisi hansıdır?  
+Cavab: **Təy",0.0,0.0,,
+az-661,culture,—,Azərbaycanın ən çox medal qazandigi idman növ hansıdır?,Guləş,,"Sual: Azərbaycanın ən çox medal qazandigi idman növ hansıdır?  
+Cavab:",0.0,0.0,boş cavab,
+az-674,culture,—,Azərbaycanda mənzərə janrinin əsasini kim qoyub?,Bəhruz Kəngərli,Cavab,"Sual: Azərbaycanda mənzərə janrinin əsasini kim qoyub?  
+Cavab",0.0,0.0,,
+az-680,world,—,Rusiyanın paytaxtı haradadır?,Moskva,Mosku,"Sual: Rusiyanın paytaxtı haradadır?  
+Cavab: Mosku.  
+
+**Izahat:** Mosku",0.0,0.0,,
+az-695,world,—,Finlandiyanın paytaxtı haradadır?,Helsinki,Helsinqui,"Sual: Finlandiyanın paytaxtı haradadır?  
+Cavab: Helsinqui.  
+
+**Izahat:**",0.0,0.0,,
+az-698,world,—,Fransada hansı pul vahidindən istifadə olunur?,Avro,Fransada (,"Sual: Fransada hansı pul vahidindən istifadə olunur?  
+Cavab: Fransada (",0.0,0.0,,
+az-701,world,—,İngiltərədə hansı pul vahidindən istifadə olunur?,Funt sterlinq,Sual: Ingiltərədə hansı pul vahidindən istifadə olunur,"Sual: Ingiltərədə hansı pul vahidindən istifadə olunur?  
+Cavab:",0.0,0.0,,
+az-702,world,—,Rusiyada hansı pul vahidindən istifadə olunur?,Rubl,Rubla (R,"Sual: Rusiyada hansı pul vahidindən istifadə olunur?  
+Cavab: Rubla (R",0.0,0.667,qismən üst-üstə düşmə,
+az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,Rupee (IN,"Sual: Hindistanda hansı pul vahidindən istifadə olunur?  
+Cavab: Rupee (IN",0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,Az,"Sual: Azərbaycanda hansı pul vahidindən istifadə olunur?  
+Cavab: Az",0.0,0.0,,
+az-709,world,—,Dünyada ən kiçik ölkə hansıdır?,Vatikan,Vatikano,"Sual: Dünyada ən kiçik ölkə hansıdır?  
+Cavab: Vatikano.  
+
+**Iz",0.0,0.0,,
+az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,Atropatena,"Sual: Atropatena dövləti nə vaxt yaradılıb?  
+Cavab: Atropatena",0.0,0.0,,
+az-805,history,—,Şirvanşahlar dövləti nə vaxt yaranıb?,861-ci ildə,Şirvan,"Sual: Şirvanşahlar dövləti nə vaxt yaranıb?  
+Cavab: Şirvan",0.0,0.0,,
+az-812,history,—,«Əkinçi» qəzeti nə vaxt nəşr olunmağa başlayıb?,22 iyun 1875,C,"Sual: «Əkinçi» qəzeti nə vaxt nəşr olunmağa başlayıb?  
+C",0.0,0.0,,
+az-813,history,—,Azərbaycanda ilk neft quyusu nə vaxt qazılıb?,1871-ci ildə,19,"Sual: Azərbaycanda ilk neft quyusu nə vaxt qazılıb?  
+Cavab: 19",0.0,0.0,,
+az-818,history,—,Azərbaycan SSR nə vaxt yaradılmışdır?,28 aprel 1920,Azərbaycan SSR (,"Sual: Azərbaycan SSR nə vaxt yaradılmışdır?  
+Cavab: Azərbaycan SSR (",0.0,0.0,,
+az-821,history,—,Azərbaycan BMT-yə nə vaxt üzv olub?,2 mart 1992,Azərbaycan,"Sual: Azərbaycan BMT-yə nə vaxt üzv olub?  
+Cavab: Azərbaycan",0.0,0.0,,
+az-909,mathematics,—,Ali məktəb tələbələrinin ilk fənn olimpiadası hansı ildə keçirilmişdir?,1994-cü ildə,Sual: Ali məktəb tələbələrinin ilk fənn olimpiadası hansı ild,Sual: Ali məktəb tələbələrinin ilk fənn olimpiadası hansı ild,0.0,0.0,,
+az-910,history,—,Bəhmənyar əl-Azərbaycani kimin tələbəsi olmuşdur?,İbn Sina,Sual: Bəhmənyar əl-Azərbaycani kimin tələbəsi olmuşdur,Sual: Bəhmənyar əl-Azərbaycani kimin tələbəsi olmuşdur?,0.0,0.0,,
+az-937,mathematics,—,Lütfi Zadə ömrünün sonuna qədər hansı universitetin professoru olmuşdur?,Berkli Universitetinin,C,"Sual: Lütfi Zadə ömrünün sonuna qədər hansı universitetin professoru olmuşdur?  
+C",0.0,0.0,,
+az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,Dolar (Dolar),"Sual: Serbiyanın rəsmi valyutası necə adlanır?  
+Cavab: Dolar (Dolar)",0.0,0.0,,
+az-963,history,2,Vahid Ələkbərovun doğum ili hansıdır?,1950,1925. urte,"Sual: Vahid Ələkbərovun doğum ili hansıdır?  
+Cavab: 1925. urte",0.0,0.0,,
+az-964,history,3,Vüqar Həşimovun anadan olduğu ili yaz.,1986,1990. il,"Sual: Vüqar Həşimovun anadan olduğu ili yaz.  
+Cavab: 1990. il.",0.0,0.4,qismən üst-üstə düşmə,
+az-968,history,3,Tofiq Bəhramovun anadan olduğu ili yaz.,1925,1950. il,"Sual: Tofiq Bəhramovun anadan olduğu ili yaz.  
+Cavab: 1950. il.",0.0,0.4,qismən üst-üstə düşmə,
+az-987,language,2,Albaniyanın dövlət dili necə adlanır?,Alban dili,Albaniyalı dövl,"Sual: Albaniyanın dövlət dili necə adlanır?  
+Cavab: Albaniyalı dövl",0.0,0.0,,
+az-992,language,3,Argentinanın rəsmi dilini yaz.,ispan dili,Español,"Sual: Argentinanın rəsmi dilini yaz.  
+Cavab: Español.  
+
+**Izahat:** Argentinan",0.0,0.0,,
+az-995,history,2,Müzəffərilərin yaranma ili hansıdır?,1314,1921. il,"Sual: Müzəffərilərin yaranma ili hansıdır?  
+Cavab: 1921. il.",0.0,0.4,qismən üst-üstə düşmə,

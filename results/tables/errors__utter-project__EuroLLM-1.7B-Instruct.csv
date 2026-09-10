@@ -5,7 +5,7 @@ az-055,culture,2,Toğrul Əsgərov hansı yaşayış məntəqəsində dünyaya g
 Cavab: H2O
 
 Sual: Suyun kimy",0.0,0.0,,
-az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,Sual: Radik İsayevin doğum yerini yaz,"Sual: Radik İsayevin doğum yerini yaz.
+az-060,culture,3,Radik İsayevin doğum yerini yaz.,Uxul,Cevap: İstanbul,"Sual: Radik İsayevin doğum yerini yaz.
 Cevap: İstanbul.",0.0,0.0,,
 az-078,language,1,Almaniyada hansı dil rəsmi dildir?,alman dili,"Almanca, Almanya'nın resmî dilidir. Aynı zamanda, Avusturya, Lüksemburg, İsviçre, Liechtenstein ve B","Almanca, Almanya'nın resmî dilidir. Aynı zamanda, Avusturya, Lüksemburg, İsviçre, Liechtenstein ve B",0.0,0.143,qismən üst-üstə düşmə,
 az-082,language,1,Birləşmiş Krallıqda hansı dil rəsmi dildir?,ingilis dili,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
@@ -21,7 +21,7 @@ az-1011,history,2,Əbdülqadir Marağayi hansı şəhərdə dünyasını dəyiş
 Cavab:",0.0,0.0,,
 az-1014,history,1,Gödək Əhmədin vəfat etdiyi yer haradır?,İsfahan,Sual: Gödək Əhməd'in vəfat etdiyi yer haradır,"Sual: Gödək Əhməd'in vəfat etdiyi yer haradır?
 Cevap: Gödə",0.0,0.0,,
-az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,Sual: Bəhruz Kəngərlinin vəfat yerini yaz,"Sual: Bəhruz Kəngərlinin vəfat yerini yaz.
+az-1016,history,3,Bəhruz Kəngərlinin vəfat yerini yaz.,Naxçıvan,Cevap: Bəhruz Kə,"Sual: Bəhruz Kəngərlinin vəfat yerini yaz.
 Cevap: Bəhruz Kə",0.0,0.0,,
 az-1019,culture,2,Ümgülsüm Sadıqzadə hansı yerdə torpağa tapşırılıb?,Şaxəndan,"Sual: Sadıqzadə, torpağa tapşırılıp, yurdunda torpağa tapşırılıp, yurd","Sual: Sadıqzadə, torpağa tapşırılıp, yurdunda torpağa tapşırılıp, yurd",0.0,0.0,,
 az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,"Seyid Əzim Şirvaninin dəfn yerini yazdıran şəhər, Əlişir oğlu","Seyid Əzim Şirvaninin dəfn yerini yazdıran şəhər, Əlişir oğlu",0.0,0.0,,
@@ -40,7 +40,7 @@ Sual: Xəzər d",0.0,0.0,,
 az-1055,history,1,Müqəddəs Bakirə Məryəmin Məsum Hamiləliyi kilsəsi kimin layihəsidir?,İosif Ploşko,Sual: Müqəddəs Bakirə Mərimənin Məsədəsi kilsəsi kimin layih,Sual: Müqəddəs Bakirə Mərimənin Məsədəsi kilsəsi kimin layih,0.0,0.0,,
 az-1056,history,2,Azadlıq prospekti metrostansiyasının layihəsini kim hazırlayıb?,Elbay Qasımzadə,"Azadlıq Prospekti Metro Stancisi Projesi, 1970-1974 yıllarında Azerbaycan SSC","Azadlıq Prospekti Metro Stancisi Projesi, 1970-1974 yıllarında Azerbaycan SSC",0.0,0.0,,
 az-1059,history,1,Azad qadın heykəli kimin layihəsidir?,Mikayıl Hüseynov,"Azad qadın heykəli, M.C.C.C. (M.C.C.C.C.C.C","Azad qadın heykəli, M.C.C.C. (M.C.C.C.C.C.C",0.0,0.0,,
-az-1070,mathematics,—,114-dən böyük ən kiçik sadə ədəd hansıdır?,127,Sual: 114-dən böyük ən kiçik sadə ədəd hansıdır,"Sual: 114-dən böyük ən kiçik sadə ədəd hansıdır?
+az-1070,mathematics,—,114-dən böyük ən kiçik sadə ədəd hansıdır?,127,C,"Sual: 114-dən böyük ən kiçik sadə ədəd hansıdır?
 C",0.0,0.0,,
 az-1089,mathematics,—,14-dən sonrakı sadə ədədi tap.,17,14-dən sonrakı sadə ədədi tap,"14-dən sonrakı sadə ədədi tap.
 
@@ -58,7 +58,7 @@ az-1184,mathematics,—,Diaqonallarının sayını tap: 7-bucaq.,14,7-bucaq,"7-b
 
 Sual: Suyun kimyəvi formülü nədir?
 Cavab: H2O",0.0,0.0,,
-az-1216,science,1,Dövri cədvəldə Stibium hansı nömrə ilə durur?,51,Sual: Dövri cədvəldə Stibium hansı nömrə ilə durur,"Sual: Dövri cədvəldə Stibium hansı nömrə ilə durur?
+az-1216,science,1,Dövri cədvəldə Stibium hansı nömrə ilə durur?,51,Cevap: Sti,"Sual: Dövri cədvəldə Stibium hansı nömrə ilə durur?
 Cevap: Sti",0.0,0.0,,
 az-1234,science,3,Astat elementində neçə proton var?,85,"Astat, 10 protonlu bir elementdir","Astat, 10 protonlu bir elementdir.",0.0,0.0,,
 az-1238,science,3,Rodium elementində neçə proton var?,45,Rodium elementində neçə proton var,"Rodium elementində neçə proton var?
@@ -90,25 +90,25 @@ Cavab: 105",0.0,0.0,,
 az-1323,world,3,Hansı telefon kodu Monteneqroya aiddir?,+382,Montenegro'ya aidi olan telefon kodu +385'dir,Montenegro'ya aidi olan telefon kodu +385'dir.,0.0,0.0,,
 az-1337,mathematics,—,Bir üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan bucaq nə qədərdir?,70,Bu üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan buca,Bu üçbucaqda bucaqlardan ikisi 29 və 81 dərəcədir. Qalan buca,0.0,0.167,qismən üst-üstə düşmə,
 az-1348,mathematics,—,Faizi hesabla: 120 ədədinin 25 faizi.,30,Faizi hesabla: 120 ədədinin 25 faizi. Faiz: 25 x 12,Faizi hesabla: 120 ədədinin 25 faizi. Faiz: 25 x 12,0.0,0.0,,
-az-1392,mathematics,—,3 ədədinin 5-ci dərəcəsini tap.,243,Sual: 3 ədədinin 5-ci dərəcəsini tap,"Sual: 3 ədədinin 5-ci dərəcəsini tap.
+az-1392,mathematics,—,3 ədədinin 5-ci dərəcəsini tap.,243,5,"Sual: 3 ədədinin 5-ci dərəcəsini tap.
 Cavab: 5",0.0,0.0,,
 az-1404,mathematics,—,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq neçə dərəcədir?",65,"Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq","Üçbucağın iki bucağı 55 və 60 dərəcədirsə, üçüncü bucaq",0.0,0.0,,
 az-1423,mathematics,—,Fərqli sadə bölənlərin sayını tap: 2730.,5,2730 sadə bölənlərə 2730 sadə bölənlərə 2730 sadə,2730 sadə bölənlərə 2730 sadə bölənlərə 2730 sadə,0.0,0.0,,
 az-1434,mathematics,—,İki bucağı 38 və 52 dərəcə olan üçbucağın digər bucağı neçə dərəcədir?,90,Sual: İki bucağı 38 və 52 dərəcə olan üçbucağın digər bu,Sual: İki bucağı 38 və 52 dərəcə olan üçbucağın digər bu,0.0,0.154,qismən üst-üstə düşmə,
-az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Sual: Uruqvayın paytaxtı hansı şəhərdir,"Sual: Uruqvayın paytaxtı hansı şəhərdir?
+az-1440,geography,0,Uruqvayın paytaxtı hansı şəhərdir?,Montevideo,Qahirə,"Sual: Uruqvayın paytaxtı hansı şəhərdir?
 Cavab: Qahirə",0.0,0.0,,
 az-1450,geography,2,İordaniyanın paytaxtının adı nədir?,Amman,Sual: İordaniyanın paytaxtı şəhərdir,"Sual: İordaniyanın paytaxtı şəhərdir?
 Cavab: Qahirə",0.0,0.0,,
 az-1462,geography,2,Özbəkistanın paytaxtının adı nədir?,Daşkənd,"Özbekistanın paytaxtı Qahirədir. Özbekistanın paytaxtı, Qahirədir. Ö","Özbekistanın paytaxtı Qahirədir. Özbekistanın paytaxtı, Qahirədir. Ö",0.0,0.0,,
-az-1504,geography,0,Ficinin paytaxtı hansı şəhərdir?,Suva,Sual: Ficinin paytaxtı hansı şəhərdir,"Sual: Ficinin paytaxtı hansı şəhərdir?
+az-1504,geography,0,Ficinin paytaxtı hansı şəhərdir?,Suva,Qahirə,"Sual: Ficinin paytaxtı hansı şəhərdir?
 Cavab: Qahirə",0.0,0.0,,
-az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,Sual: Belizin paytaxtının adı nədir,"Sual: Belizin paytaxtının adı nədir?
+az-1506,geography,2,Belizin paytaxtının adı nədir?,Belmopan,"Cevap: Belizin paytaxtının adı ""H2O""dır","Sual: Belizin paytaxtının adı nədir?
 Cevap: Belizin paytaxtının adı ""H2O""dır",0.0,0.0,,
 az-1520,geography,0,Kiribatinin paytaxtı hansı şəhərdir?,Cənubi Tarava,Sual: Misirin paytaxtı hansı şəhərdir,"Sual: Misirin paytaxtı hansı şəhərdir?
 Cavab: Qahirə",0.0,0.0,,
 az-1528,geography,0,Kuk adalarının paytaxtı hansı şəhərdir?,Avarua,"Kuk adalarının paytaxtı Hansı şəhərdir. Kuk adalarının paytaxtı, Hokkaidō","Kuk adalarının paytaxtı Hansı şəhərdir. Kuk adalarının paytaxtı, Hokkaidō,",0.0,0.0,,
 az-1543,geography,3,Palaunun pul vahidinin adını yaz.,ABŞ dolları,Palaun pul vahidinin adı: Palatinus pul,Palaun pul vahidinin adı: Palatinus pul.,0.0,0.0,,
-az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Sual: San-Marinoda hansı dil rəsmi dildir,"Sual: San-Marinoda hansı dil rəsmi dildir?
+az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Cevap: Sırpça ve Hırvatça,"Sual: San-Marinoda hansı dil rəsmi dildir?
 Cevap: Sırpça ve Hırvatça",0.0,0.0,,
 az-1560,language,2,Surinamın dövlət dili necə adlanır?,Niderland dili,Suralı dili,Suralı dili.,0.0,0.5,qismən üst-üstə düşmə,
 az-1565,science,3,Samarium elementində neçə proton var?,62,Sual: Suyun kimyəvi formülü nədir,"Sual: Suyun kimyəvi formülü nədir?
@@ -158,8 +158,8 @@ az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,"Muhamm
 az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub,"Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?
 Azərbay",0.0,0.0,,
 az-616,culture,—,İlk Azərbaycan filmi hansıdır?,Neft və milyonlar səltənətində,"Azərbaycanfilm. Film tarixi 1918-1929 yıllarıdır. İlk Azərbaycan filmi ""Az","Azərbaycanfilm. Film tarixi 1918-1929 yıllarıdır. İlk Azərbaycan filmi ""Az",0.0,0.0,,
-az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,Sual: Azərbaycan dilində neçə sait hərf var,"Sual: Azərbaycan dilində neçə sait hərf var?
-Cevap: Azərbaycan d",0.0,0.222,qismən üst-üstə düşmə,
+az-620,language,—,Azərbaycan dilində neçə sait hərf var?,9 sait,Cevap: Azərbaycan d,"Sual: Azərbaycan dilində neçə sait hərf var?
+Cevap: Azərbaycan d",0.0,0.0,,
 az-644,language,—,Azərbaycan dilində sual şəkilçisi hansıdır?,"-mi, -mu",Sual: Suyun kimyəvi formülü nədir,"Sual: Suyun kimyəvi formülü nədir?
 Cavab: H2O
 
@@ -187,8 +187,8 @@ Sual: Suyun kimyəvi formülü nə",0.0,0.0,,
 az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,"Azərbaycanda, pul istifadə olunur","Azərbaycanda, pul istifadə olunur.
 
 Sual: Suyun kimyəvi formülü nədir",0.0,0.0,,
-az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,Sual: Avropa qitəsində neçə ölkə var,"Sual: Avropa qitəsində neçə ölkə var?
-Cevap: Avropa qitəsində",0.0,0.25,qismən üst-üstə düşmə,
+az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,Cevap: Avropa qitəsində,"Sual: Avropa qitəsində neçə ölkə var?
+Cevap: Avropa qitəsində",0.0,0.0,,
 az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,Atropatena dövləti nə vaxt yaradılıb,"Atropatena dövləti nə vaxt yaradılıb?
 
 Sual: Qahirə məsələ",0.0,0.0,,

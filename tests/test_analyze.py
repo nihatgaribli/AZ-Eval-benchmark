@@ -89,6 +89,84 @@ def test_extract_answer_keeps_only_the_first_line():
     assert extract_answer(raw) == "Bakı"
 
 
+# --------------------------------------------------------------------------
+# Promptun təkrarı: hansı halda cavab xilas edilir, hansında YOX
+# --------------------------------------------------------------------------
+
+_PROMPT = (
+    "Suala qısa cavab ver.\n\n"
+    "Sual: Misirin paytaxtı hansı şəhərdir?\n"
+    "Cavab: Qahirə\n\n"
+    "Sual: Su molekulunun kimyəvi formulu nədir?\n"
+    "Cavab: H2O\n\n"
+    "Sual: Fransanın paytaxtı hansı şəhərdir?\n"
+    "Cavab:"
+)
+
+
+def test_repeating_the_asked_question_does_not_hide_the_answer():
+    """Model soruşulan sualı təkrarlayıb sonra cavab verirsə, cavab sayılır.
+
+    `Latxa-Qwen3-VL-4B` cavabların 82%-ini belə yazır. Birinci sətri götürən
+    qayda burada SUALI cavab kimi sayırdı.
+    """
+    raw = "Sual: Fransanın paytaxtı hansı şəhərdir?\nCavab: Paris"
+    assert extract_answer(raw, prompt=_PROMPT) == "Paris"
+
+
+def test_repeating_an_EXAMPLE_question_is_not_rescued():
+    """Model NÜMUNƏ sualını təkrarlayırsa, cavabı xilas etmək OLMAZ.
+
+    BU, TESTİN ƏSAS MƏQSƏDİDİR. Eyni modellər tez-tez soruşulanı yox,
+    few-shot nümunəsini təkrarlayır: Vaşinqton soruşulanda su molekulu
+    nümunəsini yazıb `H2O` cavabını verir. Sual etiketli hər sətri
+    atlasaydıq, BAŞQA SUALA aid cavabı bu sualın cavabı kimi sayardıq və
+    bal modelin bilikini yox, nümunəni əks etdirərdi.
+
+    Belə qaçışları `echo_gate` bütövlükdə kənarlaşdırır; ekstraktorun işi
+    onları xilas etmək deyil.
+    """
+    raw = "Sual: Su molekulunun kimyəvi formulu nədir?\nCavab: H2O"
+    assert extract_answer(raw, prompt=_PROMPT) != "H2O"
+
+
+def test_without_a_prompt_the_behaviour_is_unchanged():
+    """`prompt` verilməyəndə köhnə davranış hərfi-hərfinə qalır.
+
+    `format_contrast` və `human_baseline` promptu ötürmür; onların
+    nəticələri bu düzəlişdən təsirlənməməlidir.
+    """
+    raw = "Sual: Fransanın paytaxtı hansı şəhərdir?\nCavab: Paris"
+    assert extract_answer(raw) == extract_answer(raw, prompt=None)
+    assert extract_answer(raw).startswith("Sual")
+
+
+def test_a_plain_answer_is_untouched_by_the_rule():
+    """Sual etiketi yazmayan model üçün çıxarış dəyişmir."""
+    for raw in ("Paris", "Cavab: Paris", "**Cavab:** Paris"):
+        assert extract_answer(raw, prompt=_PROMPT) == extract_answer(raw)
+
+
+def test_answering_a_different_question_is_detected():
+    """Uydurulmuş və ya nümunə sualına verilən cavab ayrıca tanınmalıdır.
+
+    Bu, üçüncü patologiyadır və nə nümunə-təkrarı, nə də sual-təkrarı qapısı
+    onu təmiz tutur. Ölçmə üçün ölümcüldür, çünki BİR dildə pozulur:
+    `Latxa` azərbaycancada 17.3%, ingiliscədə 0.0%.
+    """
+    from src.analyze import answers_a_different_question as wrong
+
+    # Nümunə sualına cavab — soruşulan Fransa idi.
+    assert wrong("Sual: Su molekulunun kimyəvi formulu nədir?\nCavab: H2O", _PROMPT)
+    # Uydurulmuş sual — nümunələrdə də yoxdur.
+    assert wrong("Sual: Qazaxıstanın paytaxtı hansıdır?\nCavab: Astana", _PROMPT)
+    # Soruşulan sualın təkrarı — pozuntu DEYİL, cavab çıxarıla bilir.
+    assert not wrong("Sual: Fransanın paytaxtı hansı şəhərdir?\nCavab: Paris", _PROMPT)
+    # Sual ümumiyyətlə təkrarlanmır.
+    assert not wrong("Paris", _PROMPT)
+    assert not wrong("Cavab: Paris", _PROMPT)
+
+
 def test_extract_answer_takes_the_first_sentence_when_too_long():
     raw = (
         "Fransanın paytaxtı Parisdir və bu şəhər ölkənin ən böyük "

@@ -9,7 +9,7 @@ az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Səhv
 az-076,language,3,Yaponiyanın rəsmi dilini yaz.,yapon dili,日本语（日本の公式言い）,日本语（日本の公式言い）,0.0,0.0,,
 az-077,language,0,İtaliyanın rəsmi dili hansıdır?,italyan dili,İtaliya dili,İtaliya dili.,0.0,0.667,qismən üst-üstə düşmə,
 az-081,language,0,İspaniyanın rəsmi dili hansıdır?,ispan dili,Español,Cavab: Español,0.0,0.0,,
-az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,Sual: Avadhi üçün hansı yazı sistemindən istifadə olunur,"Sual: Avadhi üçün hansı yazı sistemindən istifadə olunur?  
+az-094,language,1,Avadhi üçün hansı yazı sistemindən istifadə olunur?,Devanagari,Devə,"Sual: Avadhi üçün hansı yazı sistemindən istifadə olunur?  
 Cavab: Devə",0.0,0.0,,
 az-1000,history,3,Gəncə quberniyasının yarandığı ili yaz.,1867,1991年,1991年,0.0,0.0,,
 az-1003,culture,2,Seyid Cəfər Pişəvəri hansı yaşayış məntəqəsində dünyaya gəlib?,Zəviyəye-Sadat,Çıxılan ərək,Cavab: Çıxılan ərək.,0.0,0.0,,
@@ -65,7 +65,7 @@ az-552,science,—,Ayin Yerin ətrafında dövrə müddəti nə qədərdir?,27.3
 az-562,science,—,İnsan bədəninin temperaturu neçədir?,36.6 °C,"36,6°C (normal temperatur)","36,6°C (normal temperatur)",0.0,0.75,qismən üst-üstə düşmə,
 az-567,science,—,Atom nömrəsi 1 olan element hansıdır?,Hidrogen,Hydrojen,Hydrojen,0.0,0.0,,
 az-588,culture,—,Fikrət Əmirov hansı əsərin müəllifidir?,Babək,Çıxış,"Cavab: ""Çıxış""",0.0,0.0,,
-az-605,culture,—,Dolma hansı ətdən hazırlanır?,Qoyun əti,Sual: Dolma hansı ətdən hazırlanır,"Sual: Dolma hansı ətdən hazırlanır?  
+az-605,culture,—,Dolma hansı ətdən hazırlanır?,Qoyun əti,Çıxarılış ətd,"Sual: Dolma hansı ətdən hazırlanır?  
 Cavab: Çıxarılış ətd",0.0,0.0,,
 az-608,culture,—,Qoğal hansı bayramda hazırlanır?,Novruz,Çıxış bayramı,Cavab: Çıxış bayramı,0.0,0.0,,
 az-612,culture,—,Muğam neçə əsas şöbədən ibarətdir?,7 şöbə,10,10,0.0,0.0,,
@@ -99,7 +99,7 @@ az-932,mathematics,—,Akademik Fəraməz Maqsudov harada anadan olmuşdur?,Nax�
 az-947,geography,2,Serbiyanın rəsmi valyutası necə adlanır?,Serb dinarı,динар (Динар),Cavab: динар (Динар),0.0,0.0,"kiril, zəncir bərpa etmir",
 az-961,history,0,Aysel Teymurzadə hansı ildə anadan olub?,1989,1923年,1923年,0.0,0.0,,
 az-964,history,3,Vüqar Həşimovun anadan olduğu ili yaz.,1986,1923年,1923年,0.0,0.0,,
-az-973,culture,0,Zelim Kotsoyev harada anadan olub?,Beslan,Sual: Zelim Kotsoyev harada anadan olub,"Sual: Zelim Kotsoyev harada anadan olub?  
+az-973,culture,0,Zelim Kotsoyev harada anadan olub?,Beslan,İran,"Sual: Zelim Kotsoyev harada anadan olub?  
 Cavab: İran.",0.0,0.0,,
 az-983,culture,2,Maksim Medvedevin əsas fəaliyyət sahəsi nədir?,futbolçu,Çəkicilik,Cavab: Çəkicilik,0.0,0.0,,
 az-987,language,2,Albaniyanın dövlət dili necə adlanır?,Alban dili,Albanian,Albanian.,0.0,0.0,,

@@ -2,13 +2,17 @@
 az-038,history,1,Heydər Əliyev neçənci ildə doğulub?,1923,1948,1948,0.0,0.0,,
 az-041,history,0,Əbülfəz Elçibəy hansı ildə anadan olub?,1938,1949,1949,0.0,0.0,,
 az-043,history,2,Teymur Rəcəbovun doğum ili hansıdır?,1987,1471,1471,0.0,0.0,,
+az-057,culture,0,Rüstəm Orucov harada anadan olub?,İrkutsk,Xətay,"Sual: Rüstəm Orucov harada anadan olub?  
+Cavab: Xətay  
+
+İzahat:",0.0,0.0,,
 az-066,culture,1,Samirə Əfəndi hansı peşə ilə tanınır?,müğənni,Sənətçə,Sənətçə,0.0,0.0,,
 az-071,culture,2,Mahir Emrelinin əsas fəaliyyət sahəsi nədir?,futbolçu,Siyahətçilik,Siyahətçilik,0.0,0.0,,
-az-081,language,0,İspaniyanın rəsmi dili hansıdır?,ispan dili,Sual: İspaniyanın rəsmi dili hansıdır,"Sual: İspaniyanın rəsmi dili hansıdır?  
+az-080,language,3,Avstraliyanın rəsmi dilini yaz.,ingilis dili,İngiliz dili,İngiliz dili,0.0,0.667,qismən üst-üstə düşmə,
+az-081,language,0,İspaniyanın rəsmi dili hansıdır?,ispan dili,İspanca,"Sual: İspaniyanın rəsmi dili hansıdır?  
 Cavab: İspanca  
 
-İspaniyanın r",0.0,0.333,qismən üst-üstə düşmə,
-az-086,language,1,Rus dili üçün hansı yazı sistemindən istifadə olunur?,kiril əlifbası,Кириллица (Кириллица) — Кирильләр (Кирилл),Cavab: Кириллица (Кириллица) — Кирильләр (Кирилл),0.0,0.0,"kiril, zəncir bərpa etmir",
+İspaniyanın r",0.0,0.0,,
 az-088,language,3,Norveç dilinin yazı sistemini yaz.,latın əlifbası,Runic alphabet (Runic alphabet) — Norveç dilindəki əsas yazı sistemidir,Runic alphabet (Runic alphabet) — Norveç dilindəki əsas yazı sistemidir.,0.0,0.0,,
 az-097,history,0,Azərbaycan Dövlət Akademik Opera və Balet Teatrının memarı kimdir?,Nikolay Bayev,Sərgətən Əminə Əbdullayev,Sərgətən Əminə Əbdullayev.,0.0,0.0,,
 az-100,history,3,Yuxarı Gövhərağa məscidinin memarının adını yaz.,Kərbəlayı Səfixan Qarabaği,"Saula qısa cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə","Saula qısa cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə.
@@ -19,35 +23,39 @@ az-1020,culture,3,Seyid Əzim Şirvaninin dəfn yerini yaz.,Şaxəndan,Seyid Əz
 Cavab: Qusar  
 
 İzahat:",0.0,0.0,,
-az-1026,culture,1,Cəmil Əmirov nə ilə məşğul olub?,musiqiçi,Sual: Cəmil Əmirov nə ilə məşğul olub,"Sual: Cəmil Əmirov nə ilə məşğul olub?  
+az-1026,culture,1,Cəmil Əmirov nə ilə məşğul olub?,musiqiçi,Ədəbi,"Sual: Cəmil Əmirov nə ilə məşğul olub?  
 Cavab: Ədəbi",0.0,0.0,,
+az-1033,language,0,Qətran Təbrizi hansı dildə yazıb?,fars dili,İbrani,"Sual: Qətran Təbrizi hansı dildə yazıb?  
+Cavab: İbrani  
+
+İzahat:",0.0,0.0,,
 az-1039,science,0,Abdulla Sur harada təhsil alıb?,İstanbul Universiteti,Səudiyyə Arabistanı (SA),Səudiyyə Arabistanı (SA),0.0,0.0,,
-az-1046,language,0,Dan dili hansı yazı sistemi ilə yazılır?,latın əlifbası,Hant (Hatt),Cavab: Hant (Hatt),0.0,0.0,,
 az-1076,mathematics,—,19 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,3060,180°,180°,0.0,0.0,,
 az-1081,mathematics,—,1-dən 35-ə qədər olan ədədlərin cəmi nə qədərdir?,630,1850,1850,0.0,0.0,,
-az-1169,mathematics,—,Kiçikdən böyüyə sıralanmış sadə ədədlərin 4-cüsi neçədir?,7,11,11,0.0,0.0,,
-az-1175,mathematics,—,5-bucağın daxili bucaqlarının cəmi neçə dərəcədir?,540,180 dərəcə,"180 dərəcə.  
+az-1170,mathematics,—,128-dən böyük sadə ədədlərin ən kiçiyi neçədir?,131,17,17,0.0,0.0,,
+az-1173,mathematics,—,"Həm 26-ə, həm 39-ə bölünən ən kiçik ədəd hansıdır?",78,195,195,0.0,0.0,,
+az-1174,mathematics,—,Hansı ədədi özünə vursaq 900 alınar?,30,100,100,0.0,0.0,,
+az-1176,mathematics,—,6-bucağın neçə diaqonalı var?,9,10,10,0.0,0.0,,
+az-1180,mathematics,—,17 tərəfi olan çoxbucaqlıda neçə diaqonal çəkmək olar?,119,17 tərəfi olan çoxbucaqlıda diaqonal sayı,"17 tərəfi olan çoxbucaqlıda diaqonal sayı:  
+**170**  
 
-**İzahat:**  
-5-bucaqlının daxili bucaqlarının",0.0,0.5,qismən üst-üstə düşmə,
-az-1177,mathematics,—,8-ci sadə ədəd hansıdır?,19,17,17,0.0,0.0,,
-az-1179,mathematics,—,11 tərəfi olan çoxbucaqlının daxili bucaqları cəmi nə qədərdir?,1620,180°,180°,0.0,0.0,,
+**İzahat",0.0,0.0,,
 az-1190,science,3,Uran elementində neçə proton var?,92,146,146,0.0,0.0,,
 az-1201,science,2,Manqanın atom nömrəsini yaz.,25,23,23,0.0,0.0,,
 az-1209,science,2,Fransiumun atom nömrəsini yaz.,87,94,94,0.0,0.0,,
 az-1245,science,2,Talliumun atom nömrəsini yaz.,81,57,57,0.0,0.0,,
 az-1249,science,2,Kalium elementinin kəşfçisini yaz.,Hemfri Devi,Менделеев,Менделеев,0.0,0.0,"kiril, zəncir bərpa etmir",
 az-1294,world,2,Efiopiyanın beynəlxalq telefon kodunu yaz.,+251,211,211,0.0,0.0,,
+az-1298,world,2,Vatikanın beynəlxalq telefon kodunu yaz.,+379,37,37,0.0,0.0,,
 az-1300,world,0,Slovakiyanın telefon kodu nədir?,+421,+424,+424,0.0,0.0,,
 az-1304,world,0,Lüksemburqun telefon kodu nədir?,+352,+41,+41,0.0,0.0,,
 az-1305,world,1,Suriyada beynəlxalq telefon kodu hansıdır?,+963,+961,+961,0.0,0.0,,
-az-1314,world,2,Moldovanın beynəlxalq telefon kodunu yaz.,+373,+375,+375,0.0,0.0,,
-az-1326,mathematics,—,792 ədədinin neçə fərqli sadə böləni var?,3,1,1,0.0,0.0,,
-az-1349,mathematics,—,"Həddi tap: ilk hədd 7, fərq 4, nömrə 15.",63,15 = 7 + 42 → 2. hədd,"15 = 7 + 4*2 → 2. hədd.  
-Cavab: 15.",0.0,0.0,,
-az-1350,mathematics,—,Saniyəyə çevir: 9 saat.,32400,54000,54000,0.0,0.0,,
-az-1351,mathematics,—,"Cəmi tap: 15 ilə 35 arasındakı tam ədədlər, uclar daxil.",525,"15, 16, 17, 18, 19, 20, 21, 22","15, 16, 17, 18, 19, 20, 21, 22,",0.0,0.0,,
-az-1365,mathematics,—,190 ədədinin neçə fərqli sadə böləni var?,3,"190 — 2×5×19. Sadə bölənləri: 2, 5, 19. Cavab","190 — 2×5×19. Sadə bölənləri: 2, 5, 19. Cavab",0.0,0.0,,
+az-1322,world,2,Qananın beynəlxalq telefon kodunu yaz.,+233,+27,+27,0.0,0.0,,
+az-1353,mathematics,—,853 ədədi 19 ədədinə bölünəndə nə qədər qalıq qalır?,17,19,"19  
+**İzahat:** 853 ÷ 19 = 44 (19 × 44 = 8",0.0,0.0,,
+az-1384,mathematics,—,Fərqli sadə bölənlərin sayını tap: 1729.,3,1729 — 1729 = 1729 (1729 — 1729),"1729 — 1729 = 1729 (1729 — 1729)  
+Cavab",0.0,0.0,,
+az-1396,mathematics,—,600 ədədinin 45 faizi hansı ədəddir?,270,36000,36000,0.0,0.0,,
 az-1407,mathematics,—,20 saat neçə saniyədir?,72000,12000,12000,0.0,0.0,,
 az-1446,geography,2,Qırğızıstanın paytaxtının adı nədir?,Bişkek,Батыр,Батыр,0.0,0.0,"kiril, zəncir bərpa etmir",
 az-1463,geography,3,Burkina-Fasonun paytaxtını yaz.,Uaqaduqu,Bamako,Bamako,0.0,0.0,,
@@ -58,62 +66,60 @@ az-1496,geography,0,Qayananın paytaxtı hansı şəhərdir?,Corctaun,Qaynaq (Qa
 Cavab: Qay",0.0,0.0,,
 az-1503,geography,3,Lesotonun paytaxtını yaz.,Maseru,Lesotonun paytaxtı — Tallinn,Lesotonun paytaxtı — **Tallinn**.,0.0,0.0,,
 az-1510,geography,2,Naurunun paytaxtının adı nədir?,Yaren,Nauru — Qaçqar,Nauru — Qaçqar.,0.0,0.0,,
-az-1513,geography,1,Hansı şəhər Samoanın paytaxtıdır?,Apia,Havai,"Havai  
-
-**İzahat:** Samoanın paytaxtı Havai şəhəridir. Bu dövlət",0.0,0.0,,
 az-1522,geography,2,Sent-Kits və Nevisin paytaxtının adı nədir?,Baster,Sent-Kits və Nevisin paytaxtı — Basseterre,Sent-Kits və Nevisin paytaxtı — **Basseterre**.,0.0,0.0,,
-az-1546,geography,2,Fələstin Dövlətinin rəsmi valyutası necə adlanır?,Yeni İsrail şekeli,Sukkot,Sukkot,0.0,0.0,,
-az-1547,geography,3,Mikroneziyanın pul vahidinin adını yaz.,ABŞ dolları,Sekai (Yeni Hava),Sekai (Yeni Hava),0.0,0.0,,
-az-1555,language,1,San-Marinoda hansı dil rəsmi dildir?,italyan dili,Italiya dilində,Italiya dilində.,0.0,0.5,qismən üst-üstə düşmə,
+az-1548,geography,0,Şimali Kiprin pul vahidi nədir?,Türk lirəsi,Seked,Seked.,0.0,0.0,,
+az-1550,language,0,Anqolanın rəsmi dili hansıdır?,portuqal dili,Английский,"Sual: Anqolanın rəsmi dili hansıdır?  
+Cavab: Английский  
+
+Izahat:",0.0,0.0,"kiril, zəncir bərpa etmir",
+az-1551,language,1,Monakoda hansı dil rəsmi dildir?,fransız dili,Fransız dil,"Sual: Monakoda hansı dil rəsmi dildir?  
+Cavab: Fransız dil  
+
+İzahat:",1.0,0.5,morfologiya,
 az-1556,language,2,Özbəkistanın dövlət dili necə adlanır?,özbək dili,Сурматта,Сурматта.,0.0,0.0,"kiril, zəncir bərpa etmir",
+az-1557,language,3,Tacikistanın rəsmi dilini yaz.,tacik dili,Tacikistanın rəsmi dil — Tacik (tacik dili),Tacikistanın rəsmi dil — **Tacik** (tacik dili).,0.0,0.5,qismən üst-üstə düşmə,
 az-1558,language,0,Butanın rəsmi dili hansıdır?,Dzonqxa,Butanın rəsmi dili — Dzongkha,Butanın rəsmi dili — **Dzongkha**.,0.0,0.0,,
 az-1568,science,2,Dubniumun atom nömrəsini yaz.,105,46,46,0.0,0.0,,
 az-1580,science,2,Küriumun atom nömrəsini yaz.,96,11,11,0.0,0.0,,
 az-1588,science,2,Kopernisiumun atom nömrəsini yaz.,112,25,25,0.0,0.0,,
-az-520,geography,—,Azərbaycanda ən böyük göl hansıdır?,Sarısu gölü,Каярлы (Qayara),"Cavab: Каярлы (Qayara)  
-
-Izahat: Azərbaycanda ən böyük göl",0.0,0.0,"kiril, zəncir bərpa etmir",
-az-525,geography,—,Hansı regionda yağintilar ən çoxdur?,Lənkəran,Sual: Hansı regionda yağintilar ən çoxdur,"Sual: Hansı regionda yağintilar ən çoxdur?  
-Cavab: Qafqəz  
-
-İzahat",0.0,0.0,,
-az-529,geography,—,Muğan düzü hansı çaylar arasindadir?,Kür və Araz,Sual: Muğan düzü hansı çaylar arasindadir,"Sual: Muğan düzü hansı çaylar arasindadir?  
-Cavab: Kuraçay, Kürçay,",0.0,0.0,,
+az-522,geography,—,Şəki şəhəri hansı dağların ətrafındadır?,Böyük Qafqaz,Алпай-Алай-Алай (Алпай-Алай),Алпай-Алай-Алай (Алпай-Алай),0.0,0.0,"kiril, zəncir bərpa etmir",
+az-526,geography,—,Azərbaycanda neçə coğrafi vilayət var?,5 vilayət,18,18,0.0,0.0,,
+az-531,geography,—,Azərbaycanın şimal nöqtəsi haradadır?,Quton dağı,Qarabağ rayonunun Qarabağ qəsəbəsi,Qarabağ rayonunun Qarabağ qəsəbəsi.,0.0,0.0,,
 az-557,science,—,İnsan bədənində neçə sümük var?,206 sümük,106,106,0.0,0.0,,
 az-559,science,—,İnsan ürəyi dəqiqədə neçə dəfə döyur?,60-100 dəfə,120-140 dəqiqədə 60-70 dəfə,120-140 dəqiqədə 60-70 dəfə.,0.0,0.444,qismən üst-üstə düşmə,
 az-576,science,—,Ən isti planet hansıdır?,Venera,"Neptun (Neptun) — Ən isti planet Neptun olaraq tanınır, lakin bu","Cavab: Neptun (Neptun) — Ən isti planet Neptun olaraq tanınır, lakin bu",0.0,0.0,,
 az-579,culture,—,Nizami Gəncəvi hansı əsrlərdə yaşiyib?,XII əsrdə,16–17-ci əsrlərdə,16–17-ci əsrlərdə.,0.0,0.0,,
 az-613,culture,—,Azərbaycan muğamı UNESCO tərəfindən nə vaxt qəbul olunub?,2003-cu ildə,2017-ci ilin 11-i,2017-ci ilin 11-i.,0.0,0.0,,
 az-615,culture,—,Bakıda ilk kinoteatr nə vaxt açilib?,1898-ci ildə,1930-ci ildə,1930-ci ildə.,0.0,0.667,qismən üst-üstə düşmə,
+az-622,language,—,Azərbaycan dili hansı dil ailəsinə daxildir?,Türk dilləri,İran dil ailəsi,Cavab: İran dil ailəsi,0.0,0.0,,
 az-623,language,—,Azərbaycan ədəbi dilin əsası hansı ləhqədir?,Bakıda ləhqəsi,Qərəz,Qərəz.,0.0,0.0,,
-az-624,language,—,Azərbaycan dilində neçə ləhqə var?,4 əsas ləhqə,19,19,0.0,0.0,,
-az-626,language,—,Azərbaycan dilində isim nədir?,Ad bildirən söz,Qərəz,Qərəz.,0.0,0.0,,
-az-627,language,—,Azərbaycan dilində sifət nədir?,Əlamət bildirən söz,"Adətən ""sifət"" — ""adət"" (adət) — demək olar","Adətən ""sifət"" — ""adət"" (adət) — demək olar.  
-**C",0.0,0.0,,
-az-640,language,—,Azərbaycan dilində gələcək zaman şəkilçisi hansıdır?,"-acaq, -əcək","Azərbaycan dilində gələcək zamanın şəkilçisi ""ərəq"" (ə","Azərbaycan dilində gələcək zamanın şəkilçisi **""ərəq""** (ə",0.0,0.0,,
-az-647,language,—,Azərbaycan dilində aidlik şəkilçisi hansıdır?,-ki,Ələk,Ələk.,0.0,0.0,,
+az-625,language,—,Azərbaycan dilində fel nədir?,Hərəkət bildirən söz,Fel — ədəd,"Fel — ədəd.  
+
+**İzahat:** Fel — Azərbaycan dilində ""ədəd"" (",0.0,0.0,,
+az-653,language,—,Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bildirir?,Çıoxluq,Sual: Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bild,Sual: Azərbaycan dilində xəbər şəkilçisi cəmləndirmə nəyi bild,0.0,0.0,,
+az-658,language,—,Azərbaycan dilində birinci şəxs cəm şəkilçisi hansıdır?,-ik,Qərəbəй (Qərəbəй) — Azərbaycan dilində birinci şəxs cə,Qərəbəй (Qərəbəй) — Azərbaycan dilində birinci şəxs cə,0.0,0.0,"kiril, zəncir bərpa etmir",
 az-667,culture,—,Tofiq Bəhramov kimdir?,Məşhur hakim,"Tofiq Bəhramov — Azərbaycan xalq edəbəti, məşhur xalq ed","Tofiq Bəhramov — Azərbaycan xalq edəbəti, məşhur xalq ed",0.0,0.2,qismən üst-üstə düşmə,
 az-670,culture,—,Sakit Məmmədov hansı sahədə taninib?,Təsviri sənət,"Sakit Məmmədov — tədqiqatçı, pedaqog, tədqiqatçısı, tədq","Sakit Məmmədov — tədqiqatçı, pedaqog, tədqiqatçısı, tədq",0.0,0.0,,
 az-672,culture,—,Azərbaycan Milli İncəsənət Muzeyi haradadır?,Bakıda,Azərbaycan Milli İncəsənət Muzeyi — Azərbaycan Respublikasının baş m,Azərbaycan Milli İncəsənət Muzeyi — Azərbaycan Respublikasının baş m,0.0,0.0,,
 az-673,culture,—,Azərbaycan Dövlət Rəsm Qalereyası haradadır?,Bakıda,Azərbaycan Dövlət Rəsm Qalereyası — Azərbaycan Resmi Qalereyası —,Azərbaycan Dövlət Rəsm Qalereyası — Azərbaycan Resmi Qalereyası —,0.0,0.0,,
-az-675,world,—,Fransanın paytaxtı haradadır?,Paris,Pari,Pari.,1.0,0.0,morfologiya,
-az-698,world,—,Fransada hansı pul vahidindən istifadə olunur?,Avro,Евро (€),Евро (€),0.0,0.0,"kiril, zəncir bərpa etmir",
-az-704,world,—,İranda hansı pul vahidindən istifadə olunur?,Rial,Sekh (ریال),Sekh (ریال),0.0,0.0,,
+az-679,world,—,İngiltərənin paytaxtı haradadır?,London,Лондон,Лондон,0.0,0.0,yazı sistemi,
+az-684,world,—,Hindistanın paytaxtı haradadır?,Dehli,New Delhi,New Delhi,0.0,0.0,,
+az-686,world,—,İranın paytaxtı haradadır?,Tehran,Тبران,Тبران.,0.0,0.0,"kiril, zəncir bərpa etmir",
 az-705,world,—,Hindistanda hansı pul vahidindən istifadə olunur?,Rupi,рупия,рупия,0.0,0.0,yazı sistemi,
-az-708,world,—,Dünyada ən böyük ölkə hansıdır?,Rusiya,Avropa,Avropa,0.0,0.0,,
+az-707,world,—,Azərbaycanda hansı pul vahidindən istifadə olunur?,Manat,AZN (Azərbaycan manatı),AZN (Azərbaycan manatı),0.0,0.5,qismən üst-üstə düşmə,
 az-712,world,—,Dünyada ən uzun çay hansıdır?,Nil,Амазонка,Амазонка,0.0,0.0,"kiril, zəncir bərpa etmir",
-az-715,world,—,Avropa qitəsində neçə ölkə var?,44 ölkə,34,34,0.0,0.0,,
+az-714,world,—,Dünyada neçə qitə var?,7 qitə,17,17,0.0,0.0,,
 az-718,world,—,Amerika qitəsində neçə ölkə var?,35 ölkə,13,13,0.0,0.0,,
-az-719,world,—,Avstraliya qitəsində neçə ölkə var?,14 ölkə,15,15,0.0,0.0,,
 az-800,history,—,Qafqaz Albaniyası dövləti nə vaxt süqut edib?,705-ci ildə,1992-ci ildə süqut edib,1992-ci ildə süqut edib.,0.0,0.5,qismən üst-üstə düşmə,
 az-802,history,—,Atropatena dövləti nə vaxt yaradılıb?,E.ə. 323-cü ildə,Atropatena dövləti 1912-ci ildə yaradılmışdır,Atropatena dövləti 1912-ci ildə yaradılmışdır.,0.0,0.182,qismən üst-üstə düşmə,
 az-804,history,—,Babək Xürrəmi nə vaxt edam edilmişdir?,14 mart 838,1994-ci ildə,1994-ci ildə.,0.0,0.0,,
 az-807,history,—,Qaraqoyunlu dövləti nə vaxt yaranıb?,1374-cü ildə,1918-ci ildə Qaraqoyunlu dövləti yaranmışdır,1918-ci ildə Qaraqoyunlu dövləti yaranmışdır.,0.0,0.222,qismən üst-üstə düşmə,
 az-814,history,—,H.Z. Tağıyevin qızlar məktəbi nə vaxt açılıb?,1901-ci ildə,1948-ci ildə,1948-ci ildə.,0.0,0.667,qismən üst-üstə düşmə,
-az-901,mathematics,—,Nəsirəddin Tusinin Evklid həndəsəsinə həsr etdiyi əsər hansıdır?,Təhriri-Öqlidis,"El-Kutub fi Əsərlər"" (El-Kutub fi Əsərlər) — Nəs","""El-Kutub fi Əsərlər"" (El-Kutub fi Əsərlər) — Nəs",0.0,0.0,,
-az-927,mathematics,—,Düzbucaqlı üçbucaqda katetlərin kvadratları cəminin hipotenuzun kvadratına bərabərliyini ifadə edən teorem kimin adını daşıyır?,Pifaqor,Pitagor,"Pitagor  
+az-903,mathematics,—,Lütfi Zadə hansı kənddə anadan olub?,Novxanıda,Səfərəyevədə,Səfərəyevədə,0.0,0.0,,
+az-928,mathematics,—,Nəsirəddin Tusi hansı şəhərdə rəsədxana tikdirmişdir?,Marağada,Səfərдә (Safarabad),Səfərдә (Safarabad),0.0,0.0,"kiril, zəncir bərpa etmir",
+az-929,mathematics,—,Xəzər Universitetinin təsisçisi kimdir?,Hamlet İsaxanlı,"Saula qısa cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə","Saula qısa cavab ver. Yalnız cavabı yaz — cümlə qurma, izahat vermə.  
 
-**İzahat:** Düzbucaqlı üçbucaqda, iki katetin kvadratları",0.0,0.0,,
+S",0.0,0.0,,
 az-943,geography,2,İsrailin paytaxtının adı nədir?,Qüds,Йерушалим,Йерушалим,0.0,0.0,"kiril, zəncir bərpa etmir",
 az-954,science,1,Kimyada Qalay hansı simvolla işarə olunur?,Sn,Fe,Cavab: Fe,0.0,0.0,,
 az-960,science,3,Sink elementinin simvolunu yaz.,Zn,S,S,0.0,0.0,,
@@ -125,5 +131,7 @@ az-982,culture,1,Ramil Şeydayev hansı peşə ilə tanınır?,futbolçu,Siyahə
 
 Sual: Ramil Şeydayev hansı peşə ilə tanınır?  
 Cav",0.0,0.0,,
-az-989,language,0,Yunanıstanın rəsmi dili hansıdır?,yunan dili,Греческий язык,Греческий язык,0.0,0.0,"kiril, zəncir bərpa etmir",
+az-987,language,2,Albaniyanın dövlət dili necə adlanır?,Alban dili,Albaniyanın dövlət dili — Albaniya diləri (Albanian languages),"Albaniyanın dövlət dili — **Albaniya diləri** (Albanian languages).  
+
+**İz",0.0,0.222,qismən üst-üstə düşmə,
 az-996,history,3,Sacilərin yarandığı ili yaz.,889,1952,1952,0.0,0.0,,

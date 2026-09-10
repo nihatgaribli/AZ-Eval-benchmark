@@ -29,6 +29,18 @@ qədər iş qaldığını göstərir.
 | qismən üst-üstə düşmə | 13 | 13.0% |
 | _(insan qərarı lazımdır)_ | 86 | 86.0% |
 
+## `HiTZ/Latxa-Qwen3-VL-4B-Instruct`
+
+| Avtomatik növ | n | pay |
+|---|---|---|
+| boş cavab | 6 | 6.0% |
+| yazı sistemi | 0 | 0.0% |
+| kiril, zəncir bərpa etmir | 0 | 0.0% |
+| diakritika | 1 | 1.0% |
+| morfologiya | 0 | 0.0% |
+| qismən üst-üstə düşmə | 9 | 9.0% |
+| _(insan qərarı lazımdır)_ | 84 | 84.0% |
+
 ## `HuggingFaceTB/SmolLM2-1.7B-Instruct`
 
 | Avtomatik növ | n | pay |
@@ -119,11 +131,11 @@ qədər iş qaldığını göstərir.
 |---|---|---|
 | boş cavab | 0 | 0.0% |
 | yazı sistemi | 0 | 0.0% |
-| kiril, zəncir bərpa etmir | 5 | 5.0% |
+| kiril, zəncir bərpa etmir | 3 | 3.0% |
 | diakritika | 1 | 1.0% |
 | morfologiya | 0 | 0.0% |
-| qismən üst-üstə düşmə | 17 | 17.0% |
-| _(insan qərarı lazımdır)_ | 77 | 77.0% |
+| qismən üst-üstə düşmə | 16 | 16.0% |
+| _(insan qərarı lazımdır)_ | 80 | 80.0% |
 
 ## `Qwen/Qwen3-VL-4B-Instruct (oneshot)`
 
@@ -201,13 +213,13 @@ qədər iş qaldığını göstərir.
 
 | Avtomatik növ | n | pay |
 |---|---|---|
-| boş cavab | 1 | 1.0% |
+| boş cavab | 14 | 14.0% |
 | yazı sistemi | 0 | 0.0% |
 | kiril, zəncir bərpa etmir | 0 | 0.0% |
 | diakritika | 0 | 0.0% |
-| morfologiya | 0 | 0.0% |
-| qismən üst-üstə düşmə | 14 | 14.0% |
-| _(insan qərarı lazımdır)_ | 85 | 85.0% |
+| morfologiya | 1 | 1.0% |
+| qismən üst-üstə düşmə | 18 | 18.0% |
+| _(insan qərarı lazımdır)_ | 67 | 67.0% |
 
 ## `Qwen/Qwen3-VL-4B-Thinking`
 
@@ -274,12 +286,12 @@ qədər iş qaldığını göstərir.
 | Avtomatik növ | n | pay |
 |---|---|---|
 | boş cavab | 0 | 0.0% |
-| yazı sistemi | 1 | 1.0% |
-| kiril, zəncir bərpa etmir | 12 | 12.0% |
+| yazı sistemi | 2 | 2.0% |
+| kiril, zəncir bərpa etmir | 13 | 13.0% |
 | diakritika | 0 | 0.0% |
 | morfologiya | 1 | 1.0% |
-| qismən üst-üstə düşmə | 10 | 10.0% |
-| _(insan qərarı lazımdır)_ | 76 | 76.0% |
+| qismən üst-üstə düşmə | 11 | 11.0% |
+| _(insan qərarı lazımdır)_ | 73 | 73.0% |
 
 ## `Vikhrmodels/QVikhr-3-4B-Instruction`
 
@@ -341,6 +353,18 @@ qədər iş qaldığını göstərir.
 | qismən üst-üstə düşmə | 1 | 1.0% |
 | _(insan qərarı lazımdır)_ | 19 | 19.0% |
 
+## `elte-nlp/Racka-4B`
+
+| Avtomatik növ | n | pay |
+|---|---|---|
+| boş cavab | 5 | 5.0% |
+| yazı sistemi | 0 | 0.0% |
+| kiril, zəncir bərpa etmir | 0 | 0.0% |
+| diakritika | 0 | 0.0% |
+| morfologiya | 0 | 0.0% |
+| qismən üst-üstə düşmə | 5 | 5.0% |
+| _(insan qərarı lazımdır)_ | 90 | 90.0% |
+
 ## `google/gemma-3-4b-it (oneshot)`
 
 | Avtomatik növ | n | pay |
@@ -381,13 +405,13 @@ qədər iş qaldığını göstərir.
 
 | Avtomatik növ | n | pay |
 |---|---|---|
-| boş cavab | 0 | 0.0% |
+| boş cavab | 1 | 1.0% |
 | yazı sistemi | 0 | 0.0% |
 | kiril, zəncir bərpa etmir | 0 | 0.0% |
 | diakritika | 0 | 0.0% |
 | morfologiya | 0 | 0.0% |
 | qismən üst-üstə düşmə | 6 | 6.0% |
-| _(insan qərarı lazımdır)_ | 94 | 94.0% |
+| _(insan qərarı lazımdır)_ | 93 | 93.0% |
 
 ## `issai/Qolda-AVL-5B (oneshot)`
 
@@ -460,6 +484,18 @@ qədər iş qaldığını göstərir.
 | morfologiya | 1 | 1.0% |
 | qismən üst-üstə düşmə | 17 | 17.0% |
 | _(insan qərarı lazımdır)_ | 61 | 61.0% |
+
+## `kurakurai/Luth-1.7B-Instruct`
+
+| Avtomatik növ | n | pay |
+|---|---|---|
+| boş cavab | 0 | 0.0% |
+| yazı sistemi | 0 | 0.0% |
+| kiril, zəncir bərpa etmir | 1 | 1.0% |
+| diakritika | 1 | 1.0% |
+| morfologiya | 0 | 0.0% |
+| qismən üst-üstə düşmə | 18 | 18.0% |
+| _(insan qərarı lazımdır)_ | 80 | 80.0% |
 
 ## `meta-llama/Meta-Llama-3-8B`
 
@@ -566,8 +602,8 @@ qədər iş qaldığını göstərir.
 | kiril, zəncir bərpa etmir | 0 | 0.0% |
 | diakritika | 2 | 2.0% |
 | morfologiya | 1 | 1.0% |
-| qismən üst-üstə düşmə | 25 | 25.0% |
-| _(insan qərarı lazımdır)_ | 58 | 58.0% |
+| qismən üst-üstə düşmə | 22 | 22.0% |
+| _(insan qərarı lazımdır)_ | 61 | 61.0% |
 
 ## `openai:qwen/qwen3-8b`
 
@@ -638,8 +674,8 @@ qədər iş qaldığını göstərir.
 | kiril, zəncir bərpa etmir | 0 | 0.0% |
 | diakritika | 0 | 0.0% |
 | morfologiya | 0 | 0.0% |
-| qismən üst-üstə düşmə | 9 | 9.0% |
-| _(insan qərarı lazımdır)_ | 91 | 91.0% |
+| qismən üst-üstə düşmə | 7 | 7.0% |
+| _(insan qərarı lazımdır)_ | 93 | 93.0% |
 
 ## `ytu-ce-cosmos/Turkish-Llama-8b-v0.1`
 
