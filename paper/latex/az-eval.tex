@@ -576,7 +576,8 @@ because a reader who knows that paper will otherwise think we do not.
 AZ-Eval contains 1006 short-answer items, each stated in parallel Azerbaijani
 and English. Parallelism is the property that makes the central measurement
 possible: without it there is no within-item comparison, and a language gap
-cannot be separated from a difficulty difference.
+cannot be separated from a difficulty difference. Table~\ref{tab:dataset}
+gives the set at a glance.
 
 \begin{table}[h!]
 \caption{AZ-Eval at a glance.}
@@ -681,7 +682,8 @@ A stratified sample of 200 items was re-checked by a second annotator who had
 not seen the dataset. Their file carried no trace of the first annotator's
 decision: \texttt{verified\_by}, \texttt{notes} and \texttt{source} were
 removed, because the template name and source URL would have biased the
-judgement. This is enforced by a test.
+judgement. This is enforced by a test. Table~\ref{tab:agreement} reports
+what came back.
 
 \begin{table}[h!]
 \caption{Independent re-check of a stratified sample of 200 items.}
@@ -905,7 +907,8 @@ anyone building a short-answer benchmark today, not a property of our setup.
 We evaluate 29 open models from 23 independent organisations on all 1006 items,
 under identical greedy decoding and 4-bit quantisation. Every model scores
 lower in Azerbaijani than in English, and every gap is significant at
-$p \le 0.0001$ under a paired sign-flipping permutation test.
+$p \le 0.0001$ under a paired sign-flipping permutation test
+(Table~\ref{tab:open-models}).
 
 \begin{table}[h!]
 \caption{Open models, STRICT normalisation, on the full dataset (994 to 1006
@@ -980,7 +983,8 @@ the fact in any language. We answer this with a control stratum of 708 items
 facts, chemical elements, and computed mathematics. Models demonstrably know
 these facts in English.
 
-On the control stratum the gap does not shrink. It widens.
+On the control stratum the gap does not shrink. It widens
+(Table~\ref{tab:control}).
 
 \begin{table}[h!]
 \caption{The gap on all items against the gap on the control stratum, whose
@@ -1006,7 +1010,8 @@ knowledge.
 
 Mathematics is the largest category (264 of 1006 items, 26\%), and the gap is
 widest there, so the headline number could in principle be inflated by
-composition. We tested this by removing the largest category and recomputing.
+composition. We tested this by removing the largest category and
+recomputing (Table~\ref{tab:composition}).
 
 \begin{table}[h!]
 \caption{Removing the largest category makes the gap larger, not smaller.}
@@ -1038,6 +1043,7 @@ commercial routing API under the identical protocol: same items, same prompt,
 same 32-token budget, greedy decoding. Five are substantially larger; the
 sixth, \texttt{qwen3-8b}, is deliberately the same size as the local class but
 served at full precision, which makes it the control for quantisation.
+Table~\ref{tab:api-models} reports them.
 
 \begin{table}[h!]
 \caption{Models served through a commercial routing API, under the identical
@@ -1123,7 +1129,8 @@ model.
 A benchmark that no one can solve does not measure models; it merely holds all
 of them near zero. We therefore measured a human baseline on a stratified
 sample of 50 items, answered by a speaker who had not seen the dataset, under
-the same scoring pipeline as the models and with lookup prohibited.
+the same scoring pipeline as the models and with lookup prohibited
+(Table~\ref{tab:human}).
 
 \begin{table}[h!]
 \caption{Human baseline on a stratified sample of 50 items, scored under the
@@ -1169,7 +1176,7 @@ establishes that the task is solvable; it does not establish a precise ceiling.
 The imported TUMLU-az rows exist for one measurement: the same 521 items put to
 the same models in both formats, under identical decoding. This is what
 justifies building a free-form set when multiple-choice sets for the language
-already exist.
+already exist. Table~\ref{tab:format} gives the raw contrast.
 
 \begin{table}[h!]
 \caption{The same 521 items in both formats. The raw difference overstates the
@@ -1194,7 +1201,7 @@ for guessing while free-form answering pays almost nothing.
 
 The chance-immune statistic is retention: among the items a model answers
 correctly under multiple choice, how many does it also produce correctly in
-free form?
+free form? Table~\ref{tab:retention} answers that.
 
 \begin{table}[h!]
 \caption{Retention: of the items a model recognises under multiple choice, the
@@ -1235,7 +1242,8 @@ cause is possible while both factors move together.
 We separate them with thirteen declared fine-tuning pairs, ten of which pass our
 measurement gates. Each is a base model and a variant adapted from it, and they
 cross two factors: whether the adaptation target is genealogically related to
-Azerbaijani, and whether it shares its script.
+Azerbaijani, and whether it shares its script. Table~\ref{tab:pairs-design}
+lists them.
 
 \begin{table}[h!]
 \caption{The ten pairs that pass every measurement gate. Turkish is a
@@ -1287,7 +1295,8 @@ added to attack our own design cannot help it by arriving.
 Any fine-tuning degrades other languages to some extent, so absolute
 Azerbaijani loss cannot answer the question. We report \emph{excess damage}:
 Azerbaijani loss minus English loss, paired item by item, with a bootstrap
-interval. English loss serves as the model's own measure of general forgetting.
+interval. English loss serves as the model's own measure of general
+forgetting; Table~\ref{tab:excess-default} reports it.
 
 \begin{table}[h!]
 \caption{Excess damage under the \texttt{default} prompt. Bold marks an
@@ -1319,7 +1328,8 @@ SEA & no & mixed & $-1.1$ & $+0.1$ & $-1.2$ & [$-3.3$, $+0.7$] \\
 \end{table}
 
 Six of the pairs also have a second measurement under the \texttt{oneshot}
-prompt, which is the only one valid for Cyrillic 3.
+prompt, which is the only one valid for Cyrillic 3
+(Table~\ref{tab:excess-oneshot}).
 
 \begin{table}[h!]
 \caption{Excess damage under the \texttt{oneshot} prompt, the only style in
@@ -1416,7 +1426,8 @@ Unrelated target & Russian 1, Russian 2 & Cyrillic 3, Latin 3, Latin 5, SEA \\
 \end{tabular}
 \end{table}
 
-Two of four each way among related targets, two of five among unrelated ones.
+Table~\ref{tab:by-relatedness} sorts them: two of four each way among
+related targets, two of five among unrelated ones.
 The closest relative we could find, Turkish, does no damage; a completely
 unrelated Slavic language, Russian, does. Relatedness carries no predictive
 power at all, which is a stronger statement than the one an earlier draft of
@@ -1441,7 +1452,8 @@ Mixed target & & SEA \\
 \end{tabular}
 \end{table}
 
-Every Latin-script adaptation leaves Azerbaijani intact. Four of five
+Table~\ref{tab:by-script} sorts the same pairs the other way. Every
+Latin-script adaptation leaves Azerbaijani intact. Four of five
 Cyrillic-script adaptations damage it, by 8 to 11 points of excess damage
 across three target-language and laboratory combinations.
 Figure~\ref{fig:design} puts the two factors in one frame.
@@ -1486,7 +1498,7 @@ looking at the damaged pairs, not by predicting it in advance, and we label it
 exploratory for that reason: with nine points and a continuous variable, a
 split that separates them perfectly is close to guaranteed to exist. What makes
 it worth reporting is not the separation but where the exception went, which we
-return to below.
+return to below. Table~\ref{tab:marker} gives the split.
 
 \begin{table}[h!]
 \caption{Cyrillic emission separates the damaged pairs from the undamaged ones
@@ -1551,7 +1563,7 @@ sufficient account of it. Section 7 examines what the errors actually contain.
 The strongest competing explanation in the literature holds that the tokeniser
 matters more than the script for cross-lingual transfer
 \cite{tufa2024unknown}. We measured, rather than assumed, whether the tokeniser
-is held constant inside each pair.
+is held constant inside each pair (Table~\ref{tab:tokenizer}).
 
 \begin{table}[h!]
 \caption{Tokeniser difference within each pair, measured by set difference on
@@ -1589,7 +1601,7 @@ its text tokenisation is identical to its base.
 deliberately rebuilt for Russian, which is why it adds 43\,047 pieces.
 
 The argument survives restricted to the seven controlled pairs alone, and this
-is the cleanest form of it.
+is the cleanest form of it (Table~\ref{tab:controlled}).
 
 \begin{table}[h!]
 \caption{The seven pairs in which the tokeniser is identical within the pair. The
@@ -1741,7 +1753,8 @@ extractor takes the first line, so the model was scored wrong on items it had
 in fact answered correctly: 55\% of the supposedly lost items carry the gold
 answer in the raw text.
 
-The cause is the number of examples, not their content.
+The cause is the number of examples, not their content
+(Table~\ref{tab:echo-style}).
 
 \begin{table}[h!]
 \caption{Example-echo rate by prompt style for MamayLM. The cause is the number
@@ -1841,7 +1854,7 @@ deleted, so the attempt and its reason stay in the record.
 
 ``The model is bad at Azerbaijani'' conflates at least two different events,
 and separating them is practically consequential because only one of them is
-recoverable by post-processing.
+recoverable by post-processing (Table~\ref{tab:modes}).
 
 \begin{table}[h!]
 \caption{The failure modes, and whether normalisation can repair each.}
@@ -1892,6 +1905,7 @@ Model & STRICT & MORPH & LENIENT & TRANSLIT & Recovered \\
 \end{tabular}
 \end{table}
 
+Table~\ref{tab:chains} reads the chain link by link.
 \texttt{Qolda-AVL-5B} produces 85.9\% of its Azerbaijani answers in Cyrillic;
 transliteration more than doubles its score.
 \texttt{Qwen3.5-4B-Base-Kazakh} produces 18.9\% in Cyrillic, and
@@ -1901,7 +1915,7 @@ transliteration barely moves it.
 
 The Russian-adapted models complicate the tidy two-mode picture, and the
 complication is worth stating because it bears directly on the marker in
-Section 6.4.
+Section 6.4 (Table~\ref{tab:recovery}).
 
 \begin{table}[h!]
 \caption{How much of the Azerbaijani loss transliteration recovers. A purely
@@ -1949,8 +1963,8 @@ as a marker rather than a mechanism.}
 \subsection{An automatic taxonomy, and what it leaves to a human}
 
 The chain also yields an error taxonomy without human judgement: whichever step
-repairs an error names its cause. On a stratified sample of 100 errors per
-model:
+repairs an error names its cause. Table~\ref{tab:taxonomy} applies it to a
+stratified sample of 100 errors per model.
 
 \begin{table}[h!]
 \caption{Automatic error taxonomy from the normalisation chain. The residual
@@ -1981,7 +1995,8 @@ errors would inflate the factual category, so they are reported separately.
 
 The machine is silent wherever the chain does not help, which is 87-98\% of
 errors for capability-type models. We labelled 159 of those residual errors by
-hand, across two models chosen to span the two modes.
+hand, across two models chosen to span the two modes
+(Table~\ref{tab:human-labels}).
 
 \begin{table}[h!]
 \caption{Hand labels on 159 residual errors. The Kazakh-adapted model fails by
@@ -2052,7 +2067,7 @@ asserted.
 \subsection{The results do not depend on the prompt}
 
 Four prompt styles differ structurally rather than lexically, since a
-paraphrase would make the check ceremonial.
+paraphrase would make the check ceremonial (Table~\ref{tab:styles}).
 
 \begin{table}[h!]
 \caption{The four prompt styles. They differ structurally, not lexically.}
@@ -2071,7 +2086,8 @@ Style & Examples & Labels \\
 \end{table}
 
 Both claims, the language gap and the pair difference, hold in the same
-direction with intervals excluding zero across every usable style.
+direction with intervals excluding zero across every usable style
+(Table~\ref{tab:prompts}).
 
 \begin{table}[h!]
 \caption{The Kazakh 1 pair difference in Azerbaijani across prompt styles. The
