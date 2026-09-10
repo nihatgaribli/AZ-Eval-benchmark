@@ -37,8 +37,8 @@ from pathlib import Path
 from statistics import mean
 from typing import Any, Callable, Sequence
 
+from src.analyze import load_runs
 from src.build_dataset import load_jsonl
-from src.figures import load_runs, pair_stats
 
 #: Bir cüt hər iki üslubda ölçülə bilər, ona görə "hansını götürək" sualı
 #: qaçılmazdır. CAVAB BİRDƏN ÇOXDUR və nəticə seçimdən ASILIDIR: `Rus 2`
@@ -52,7 +52,16 @@ STYLE_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
 
 
 def measure_styles(dataset, all_runs, seed: int = 0) -> dict[str, dict[str, Any]]:
-    """Üslub -> {cüt etiketi -> sətir}, yalnız qapıdan keçən cütlər."""
+    """Üslub -> {cüt etiketi -> sətir}, yalnız qapıdan keçən cütlər.
+
+    `pair_stats` FUNKSİYA DAXİLİNDƏ import olunur. O, `figures` modulundadır,
+    `figures` isə matplotlib çəkir; matplotlib `requirements.txt`-də yoxdur və
+    olmamalıdır, çünki testlər opsional paketlərsiz işləməlidir. Modul
+    səviyyəsində import etsək, bu modulun ADINI çəkən hər test təmiz mühitdə
+    yığılma mərhələsində çökür — CI-də məhz belə oldu.
+    """
+    from src.figures import pair_stats
+
     out: dict[str, dict[str, Any]] = {}
     for style in ("default", "oneshot"):
         runs = {
