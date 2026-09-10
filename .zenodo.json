@@ -1,0 +1,24 @@
+{
+  "title": "AZ-Eval: a parallel Azerbaijani-English benchmark, and what fine-tuning on a neighbouring language costs Azerbaijani",
+  "upload_type": "dataset",
+  "description": "<p>AZ-Eval is 1006 short-answer items stated in parallel Azerbaijani and English, 708 of them a control stratum whose subject matter is universal by construction. Every row was verified by a human as a build gate rather than as a label: the build refuses any row not individually checked. An independent second annotator re-checked a stratified sample of 200 items and agreed on 93.5%.</p><p>The deposit also contains the evaluation pipeline, the raw model responses for every run, and the regenerated result tables. Generation is separate from scoring, so any run can be re-scored under a changed rule without re-running a model.</p><p>Measured across 37 models, the Azerbaijani-English gap is concentrated in open models of 8B parameters or smaller (3.9 to 43.5 points) rather than in large commercial ones (3.7 to 14.2), and is explained by neither scale nor quantisation. Thirteen declared base/fine-tuned pairs, ten of which pass the measurement gates, then test what adapting a model to a neighbouring language costs a third language: relatedness predicts nothing, while the script of the adaptation target predicts nine of ten.</p><p>Licences differ by part. The dataset under <code>data/</code> and the results under <code>results/</code> are CC BY 4.0; the pipeline under <code>src/</code> is MIT. See LICENSE and LICENSE-DATA.</p>",
+  "creators": [
+    {
+      "name": "Garibli, Nihat",
+      "affiliation": "Baku State University"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "low-resource evaluation",
+    "Azerbaijani",
+    "cross-lingual transfer",
+    "catastrophic forgetting",
+    "Turkic languages",
+    "writing systems",
+    "large language models",
+    "benchmark"
+  ]
+}
