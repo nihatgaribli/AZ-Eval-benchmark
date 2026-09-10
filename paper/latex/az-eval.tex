@@ -9,7 +9,11 @@
 % The journal fills in the three dates on acceptance. Leaving their template
 % placeholder in would print a literal "DD Month YYYY" on page one of the
 % preprint, which reads as an unfinished draft.
-\pageonefooter{Preprint. Dataset, code and raw model outputs: https://doi.org/10.5281/zenodo.22695091}
+% The journal's editorial office permits an arXiv preprint while the paper is
+% under review, on the condition that the preprint says so. Submission 4060,
+% Computational Linguistics. ON ACCEPTANCE this reverts to the three editorial
+% dates the office supplies.
+\pageonefooter{Preprint. Under review at Computational Linguistics. Dataset, code and raw model outputs: https://doi.org/10.5281/zenodo.22695091}
 
 \usepackage{amsmath}
 \usepackage{booktabs}
@@ -38,7 +42,7 @@
 % \makeatletter is required: \@jyear carries an @, which is not a letter in the
 % document body, so without it the year prints as the literal text "jyear".
 \makeatletter
-\renewcommand{\footmark}{\copyright\ \@jyear\ Nihat Garibli. Preprint; not peer reviewed.}
+\renewcommand{\footmark}{\copyright\ \@jyear\ Nihat Garibli. Preprint; under review, not yet peer reviewed.}
 \makeatother
 
 \begin{document}

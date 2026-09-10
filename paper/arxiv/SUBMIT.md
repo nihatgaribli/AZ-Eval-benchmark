@@ -28,13 +28,17 @@ the older CLV2 class, and neither `clv2025.cls` nor this paper references it.
 
 **Comments**
 
-    39 pages, 6 figures, 27 tables. Benchmark, code and raw model outputs:
+    Under review at Computational Linguistics. 39 pages, 6 figures,
+    27 tables. Benchmark, code and raw model outputs:
     https://doi.org/10.5281/zenodo.22695091 and
     https://github.com/nihatgaribli/AZ-Eval-benchmark
 
-Both are live. The Zenodo identifier is the concept DOI, which always
-resolves to the newest release, so it does not go stale when the benchmark
-is updated.
+The journal's editorial office asked that the preprint state it is under
+review, so the Comments line says so and the paper repeats it on page one.
+Submission 4060, Computational Linguistics.
+
+The Zenodo identifier is the concept DOI, which always resolves to the
+newest release, so it does not go stale when the benchmark is updated.
 
 **License.** CC BY 4.0 matches the dataset licence already declared in
 `CITATION.cff`. Anything more restrictive would contradict it.
